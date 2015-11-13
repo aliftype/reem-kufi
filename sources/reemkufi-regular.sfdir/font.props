@@ -1,0 +1,75 @@
+SplineFontDB: 3.0
+FontName: ReemKufi-Regular
+FullName: Reem Kufi
+FamilyName: Reem Kufi
+Weight: Regular
+Copyright: Created by Khaled Hosny with Sorts Mill Tools 2.1.0_alpha1 <http://bitbucket.org/sortsmill/sortsmill-tools>
+UComments: "2015-11-14: Created." 
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+LayerCount: 2
+Layer: 0 0 "Back"  1
+Layer: 1 0 "Fore"  0
+XUID: [1021 253 145148371 4299179]
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1447447341
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
+DEI: 91125
+LangName: 1033 
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: AGL For New Fonts
+BeginPrivate: 0
+EndPrivate
+Grid
+-1000 800 m 0
+ 2000 800 l 0
+  Named: "800" 
+-1000 700 m 0
+ 2000 700 l 0
+  Named: "700" 
+-1000 600 m 0
+ 2000 600 l 0
+  Named: "600" 
+-1000 500 m 0
+ 2000 500 l 0
+  Named: "500" 
+-1000 400 m 0
+ 2000 400 l 0
+  Named: "400" 
+-1000 300 m 0
+ 2000 300 l 0
+  Named: "300" 
+-1000 200 m 0
+ 2000 200 l 0
+  Named: "200" 
+-1000 100 m 0
+ 2000 100 l 0
+  Named: "100" 
+-1000 -100 m 0
+ 2000 -100 l 0
+  Named: "-100" 
+-1000 -200 m 0
+ 2000 -200 l 0
+  Named: "-200" 
+EndSplineSet
+EndSplineFont
