@@ -1,0 +1,20 @@
+StartChar: arLam.init
+Encoding: 65588 -1 110
+Width: 225
+VWidth: 0
+Flags: W
+HStem: 0 100<-20 100>
+VStem: 100 100<100 778>
+LayerCount: 2
+Fore
+SplineSet
+200 800 m 25
+ 200 23 l 18
+ 200 -2 160 0 160 0 c 2
+ -20 0 l 1
+ -20 100 l 1
+ 100 100 l 9
+ 100 778 l 25
+ 200 800 l 25
+EndSplineSet
+EndChar
