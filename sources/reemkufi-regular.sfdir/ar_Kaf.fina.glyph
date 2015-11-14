@@ -1,0 +1,28 @@
+StartChar: arKaf.fina
+Encoding: 65582 -1 105
+Width: 965
+VWidth: 0
+Flags: W
+HStem: 0 100<85 765 865 985> 200 100<110 741.573>
+VStem: 85 100<300 778> 110 75<200 300> 765 100<100 173.859>
+LayerCount: 2
+Fore
+SplineSet
+110 300 m 1xd8
+ 675 300 l 2
+ 839 300 862 201 865 100 c 1
+ 985 100 l 1
+ 985 0 l 25
+ 25 0 l 1
+ 85 100 l 1xe8
+ 765 100 l 1
+ 766 156 750 200 675 200 c 2
+ 110 200 l 1
+ 110 300 l 1xd8
+85 200 m 25
+ 85 778 l 1xe8
+ 185 800 l 1
+ 185 200 l 25xd8
+ 85 200 l 25
+EndSplineSet
+EndChar
