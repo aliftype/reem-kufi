@@ -1,0 +1,17 @@
+StartChar: arAlef.isol
+Encoding: 65536 -1 59
+Width: 220
+VWidth: 0
+Flags: W
+VStem: 25 100<49.9455 778>
+LayerCount: 2
+Fore
+SplineSet
+125 800 m 25
+ 125 80 l 18
+ 125 33 195 46 220 58 c 1
+ 199 -17 25 -40 25 80 c 10
+ 25 778 l 25
+ 125 800 l 25
+EndSplineSet
+EndChar
