@@ -211,3 +211,19 @@ feature fina {
     sub uni06A1 by arFeh.fina;
     sub uni066F by arQaf.fina;
 } fina;
+
+lookup LamAlefIsol {
+  sub arLam.init by arLam.initAlef;
+  sub arAlef.fina by arAlef.finaLam;
+} LamAlefIsol;
+
+lookup LamAlefFina {
+  sub arLam.medi by arLam.mediAlef;
+  sub arAlef.fina by arAlef.finaLam;
+} LamAlefFina;
+
+feature rlig {
+  lookupflag IgnoreMarks;
+    sub arLam.init' lookup LamAlefIsol arAlef.fina' lookup LamAlefIsol;
+    sub arLam.medi' lookup LamAlefFina arAlef.fina' lookup LamAlefFina;
+} rlig;
