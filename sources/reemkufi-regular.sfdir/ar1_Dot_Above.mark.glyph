@@ -1,0 +1,15 @@
+StartChar: ar1DotAbove.mark
+Encoding: 65631 -1 153
+Width: 0
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+-58 0 m 0
+ -58 32 -32 58 0 58 c 0
+ 32 58 58 32 58 0 c 0
+ 58 -32 32 -58 0 -58 c 0
+ -32 -58 -58 -32 -58 0 c 0
+EndSplineSet
+EndChar
