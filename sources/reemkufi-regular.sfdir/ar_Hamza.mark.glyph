@@ -1,0 +1,28 @@
+StartChar: arHamza.mark
+Encoding: 65630 -1 152
+Width: 0
+VWidth: 0
+Flags: W
+HStem: 192 31<19.58 73.2656>
+VStem: -76 80<89.5 182.553>
+LayerCount: 2
+Fore
+SplineSet
+91 75 m 17
+ 66 75 l 2
+ 41 75 4 94 4 134 c 3
+ 4 161 12 183 45 192 c 0
+ 64 197 87 187 95 183 c 1
+ 82 214 40 223 22 223 c 0
+ -30 223 -58 200 -70 154 c 0
+ -75 134 -77 112 -76 87 c 2
+ -76 34 l 1
+ 92 34 l 9
+ 91 75 l 17
+131 -0 m 1
+ 176 75 l 1
+ -131 75 l 1
+ -176 -0 l 1
+ 131 -0 l 1
+EndSplineSet
+EndChar
