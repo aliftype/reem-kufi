@@ -233,3 +233,22 @@ feature rlig {
     sub arLam.init' lookup LamAlefIsol arAlef.fina' lookup LamAlefIsol;
     sub arLam.medi' lookup LamAlefFina arAlef.fina' lookup LamAlefFina;
 } rlig;
+
+lookup AboveHah {
+  sub arLam.init by arLam.initHah;
+  sub arBeh.init by arBeh.initHah;
+  sub arHah.medi by arHah.init;
+  sub arHah.fina by arHah.isol;
+} AboveHah;
+
+feature liga {
+  lookupflag IgnoreMarks;
+    sub [arLam.init arBeh.init]' lookup AboveHah [arHah.medi arHah.fina]' lookup AboveHah;
+    pos [arLam.initHah arBeh.initHah]' <80 0 80 0> [arHah.isol];
+} liga;
+
+feature liga {
+  @ar2DotBelow = [ar2DotBelow.mark];
+  lookupflag UseMarkFilteringSet @ar2DotBelow;
+    sub arBeh.initHah ar2DotBelow.mark' [arHah.isol arHah.init] by ar2HDotAbove.mark;
+} liga;
