@@ -8,6 +8,8 @@ import math
 from datetime import datetime
 from sortsmill import ffcompat as fontforge
 
+from buildencoded import build as build_encoded
+
 def generate_anchors(font):
     marks = [g.name for g in font.glyphs() if g.name.endswith(".mark")]
 
@@ -47,6 +49,8 @@ def merge(args):
         fea = feature_file.read()
         fea += generate_anchors(arabic)
         arabic.mergeFeatureString(fea)
+
+    build_encoded(arabic)
 
     auto_hint(arabic)
 
