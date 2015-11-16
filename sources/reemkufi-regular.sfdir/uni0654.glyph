@@ -2,6 +2,7 @@ StartChar: uni0654
 Encoding: 1620 1620 173
 Width: 0
 VWidth: 0
+GlyphClass: 4
 Flags: MW
 LayerCount: 2
 Colour: ff0000
