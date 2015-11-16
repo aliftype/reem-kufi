@@ -1,0 +1,27 @@
+StartChar: arMadda.mark
+Encoding: 65647 -1 170
+Width: 0
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+-72 16 m 10
+ -72 80 l 25
+ -122 72 l 25
+ -122 16 l 18
+ -122 -12 -120 -34 -150 -38 c 1
+ -136 -41 -72 -57 -72 16 c 10
+65 0 m 25
+ 165 0 l 1
+ 127 66 l 1
+ 122 55 110 50 100 50 c 2
+ 65 50 l 1
+ 65 0 l 25
+84 50 m 1
+ -104 50 l 1
+ -104 0 l 1
+ 84 0 l 25
+ 84 50 l 1
+EndSplineSet
+EndChar

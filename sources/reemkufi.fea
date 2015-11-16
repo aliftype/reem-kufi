@@ -10,7 +10,7 @@ feature ccmp {
 
 feature isol {
   lookupflag IgnoreMarks;
-    sub uni0622 by arAlef.isol uni0653;
+    sub uni0622 by arAlef.isol arMadda.mark;
     sub uni0623 by arAlef.isol arHamzaAbove.mark;
     sub uni0624 by arWaw.isol arHamzaAbove.mark;
     sub uni0625 by arAlef.isol arHamzaBelow.mark;
@@ -153,7 +153,7 @@ feature medi {
 
 feature fina {
   lookupflag IgnoreMarks;
-    sub uni0622 by arAlef.fina uni0653;
+    sub uni0622 by arAlef.fina arMadda.mark;
     sub uni0623 by arAlef.fina arHamzaAbove.mark;
     sub uni0624 by arWaw.fina arHamzaAbove.mark;
     sub uni0625 by arAlef.fina arHamzaBelow.mark;
