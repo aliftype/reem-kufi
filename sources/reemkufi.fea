@@ -8,6 +8,12 @@ feature ccmp {
     sub uni0621 by arHamza.isol;
 } ccmp;
 
+feature ccmp {
+    sub uni0653 by arMadda.mark;
+    sub uni0654 by arHamzaAbove.mark;
+    sub uni0655 by arHamzaBelow.mark;
+} ccmp;
+
 feature isol {
   lookupflag IgnoreMarks;
     sub uni0622 by arAlef.isol arMadda.mark;
