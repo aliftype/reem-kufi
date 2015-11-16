@@ -32,6 +32,12 @@ def generate_anchors(font):
     fea += "} mark;"
     return fea
 
+def auto_hint(font):
+    for glyph in font.glyphs():
+        glyph.removeOverlap()
+        glyph.correctDirection()
+        glyph.simplify(0.1)
+        glyph.autoHint()
 
 def merge(args):
     arabic = fontforge.open(args.arabicfile)
@@ -41,6 +47,8 @@ def merge(args):
         fea = feature_file.read()
         fea += generate_anchors(arabic)
         arabic.mergeFeatureString(fea)
+
+    auto_hint(arabic)
 
 #   latin = fontforge.open(args.latinfile)
 #   latin.encoding = "Unicode"
