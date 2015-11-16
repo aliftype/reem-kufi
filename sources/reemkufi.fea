@@ -37,7 +37,7 @@ feature isol {
     sub uni063A by arAin.isol ar1DotAbove.mark;
     sub uni0641 by arFeh.isol ar1DotAbove.mark;
     sub uni0642 by arQaf.isol ar2DotAbove.mark;
-    sub uni0643 by arKaf.isol arHamza.kaf;
+    sub uni0643 by arKaf.isol;
     sub uni0644 by arLam.isol;
     sub uni0645 by arMeem.isol;
     sub uni0646 by arNoon.isol ar1DotAbove.mark;
@@ -180,7 +180,7 @@ feature fina {
     sub uni063A by arAin.fina ar1DotAbove.mark;
     sub uni0641 by arFeh.fina ar1DotAbove.mark;
     sub uni0642 by arQaf.fina ar2DotAbove.mark;
-    sub uni0643 by arKaf.fina arHamza.kaf;
+    sub uni0643 by arKaf.fina;
     sub uni0644 by arLam.fina;
     sub uni0645 by arMeem.fina;
     sub uni0646 by arNoon.fina ar1DotAbove.mark;
