@@ -2,8 +2,7 @@ StartChar: arAlef.fina1Lam
 Encoding: 65618 -1 141
 Width: 0
 VWidth: 0
-Flags: W
-VStem: 25 100<350 778>
+Flags: MW
 LayerCount: 2
 Back
 SplineSet

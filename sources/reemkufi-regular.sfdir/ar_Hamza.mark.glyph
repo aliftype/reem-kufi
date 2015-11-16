@@ -2,9 +2,7 @@ StartChar: arHamza.mark
 Encoding: 65630 -1 152
 Width: 0
 VWidth: 0
-Flags: W
-HStem: 192 31<19.58 73.2656>
-VStem: -76 80<89.5 182.553>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

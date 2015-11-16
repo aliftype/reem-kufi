@@ -1,10 +1,8 @@
 StartChar: arHamza.isol
-Encoding: 65629 -1 155
+Encoding: 65629 -1 153
 Width: 520
 VWidth: 0
-Flags: W
-HStem: 237 57<284.645 367.78>
-VStem: 158 107<117.829 217.584>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

@@ -2,9 +2,7 @@ StartChar: arDal.isol
 Encoding: 65553 -1 76
 Width: 870
 VWidth: 0
-Flags: W
-HStem: 0 100<85 745> 200 100<225 715.198> 442.5 116<390.25 479.75>
-VStem: 377 116<455.75 545.25> 745 100<100 174.562>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

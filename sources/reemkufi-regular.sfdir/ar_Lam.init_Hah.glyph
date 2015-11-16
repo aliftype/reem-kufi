@@ -2,8 +2,7 @@ StartChar: arLam.initHah
 Encoding: 65552 -1 75
 Width: 0
 VWidth: 0
-Flags: W
-VStem: -365 100<201.453 778>
+Flags: MW
 LayerCount: 2
 Back
 SplineSet

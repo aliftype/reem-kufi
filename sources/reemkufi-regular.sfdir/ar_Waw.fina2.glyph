@@ -2,9 +2,7 @@ StartChar: arWaw.fina2
 Encoding: 65614 -1 137
 Width: 400
 VWidth: 0
-Flags: W
-HStem: -178 53<89.9827 152.961> 0 100<132.875 184.188 316 420>
-VStem: 25 99<108.659 190.451>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

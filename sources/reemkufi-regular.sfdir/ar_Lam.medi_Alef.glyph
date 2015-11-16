@@ -2,9 +2,7 @@ StartChar: arLam.mediAlef
 Encoding: 65619 -1 140
 Width: 425
 VWidth: 0
-Flags: W
-HStem: -200 100<133.836 216.125> 0 100<93 445>
-VStem: 25 100<-91.3412 4.95975 108.438 150> 225 99<-91.3412 -8.65877 100 778>
+Flags: MW
 LayerCount: 2
 Back
 SplineSet

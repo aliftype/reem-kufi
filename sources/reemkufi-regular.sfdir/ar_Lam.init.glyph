@@ -2,9 +2,7 @@ StartChar: arLam.init
 Encoding: 65588 -1 110
 Width: 225
 VWidth: 0
-Flags: W
-HStem: 0 100<-20 100>
-VStem: 100 100<100 778>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

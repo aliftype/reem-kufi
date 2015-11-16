@@ -2,9 +2,7 @@ StartChar: arAin.fina1
 Encoding: 65571 -1 94
 Width: 490
 VWidth: 0
-Flags: W
-HStem: 0 100<152.716 198 330 510> 300 100<202 318> 494.5 116<210.25 299.75>
-VStem: 25 101<-124.794 -25.613> 197 116<507.75 597.25>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

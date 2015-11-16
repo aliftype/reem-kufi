@@ -2,8 +2,7 @@ StartChar: arAlef.isol2
 Encoding: 65538 -1 61
 Width: 418
 VWidth: 0
-Flags: W
-VStem: 25 100<85.9707 778>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

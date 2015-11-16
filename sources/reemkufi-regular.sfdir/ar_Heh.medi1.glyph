@@ -2,10 +2,7 @@ StartChar: arHeh.medi1
 Encoding: 65605 -1 128
 Width: 487
 VWidth: 0
-Flags: W
-HStem: -200 100<203.914 286.125> 0 100<-20 507> 200 100<203.914 266.845>
-VStem: 97 98<-91.3412 -8.4375 108.438 191.341> 295 99<-91.3412 -43.555 100 378>
-CounterMasks: 1 e0
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

@@ -2,9 +2,7 @@ StartChar: arAin.medi2
 Encoding: 65573 -1 96
 Width: 460
 VWidth: 0
-Flags: W
-HStem: 0 100<-20 160 299 480> 300 100<171 287> 494.5 116<179.25 268.75>
-VStem: 166 116<507.75 597.25>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

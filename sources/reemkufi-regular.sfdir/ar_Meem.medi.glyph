@@ -2,9 +2,7 @@ StartChar: arMeem.medi
 Encoding: 65595 -1 118
 Width: 490
 VWidth: 0
-Flags: W
-HStem: 0 100<-20 -20 231.175 258.825 310 510>
-VStem: 96 99<108.659 190.706> 295 98<108.659 190.459>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

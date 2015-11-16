@@ -2,9 +2,7 @@ StartChar: arLam.isol
 Encoding: 65585 -1 108
 Width: 470
 VWidth: 0
-Flags: W
-HStem: -200 57<121.266 292.161>
-VStem: 25 30<-69.7853 59.8615> 345 100<-83.4023 778>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

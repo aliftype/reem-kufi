@@ -2,9 +2,7 @@ StartChar: arMeem.init
 Encoding: 65597 -1 120
 Width: 418
 VWidth: 0
-Flags: W
-HStem: 0 100<231.175 286.086> 200 100<203.875 286.086>
-VStem: 96 99<108.659 191.341> 295 98<108.659 191.341>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

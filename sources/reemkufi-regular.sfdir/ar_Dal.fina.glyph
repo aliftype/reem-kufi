@@ -2,9 +2,7 @@ StartChar: arDal.fina
 Encoding: 65554 -1 77
 Width: 920
 VWidth: 0
-Flags: W
-HStem: 0 100<85 720 820 940> 200 100<225 696.573> 442.5 116<390.25 479.75>
-VStem: 377 116<455.75 545.25> 720 100<100 173.859>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

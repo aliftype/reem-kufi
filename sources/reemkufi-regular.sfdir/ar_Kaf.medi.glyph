@@ -2,10 +2,7 @@ StartChar: arKaf.medi
 Encoding: 65583 -1 106
 Width: 985
 VWidth: 0
-Flags: W
-HStem: 0 100<-20 765 865 1005> 200 100<298.361 741.573>
-VStem: 765 100<100 173.859>
-DStem2: 94 200 298.361 300 0.569047 0.822305<198.522 491.364>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

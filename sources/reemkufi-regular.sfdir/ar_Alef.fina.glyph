@@ -2,9 +2,7 @@ StartChar: arAlef.fina
 Encoding: 65540 -1 63
 Width: 225
 VWidth: 0
-Flags: W
-HStem: 0 100<125 245>
-VStem: 25 100<100 778>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

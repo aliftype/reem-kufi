@@ -2,10 +2,7 @@ StartChar: arHah.fina
 Encoding: 65546 -1 69
 Width: 430
 VWidth: 0
-Flags: W
-HStem: 0 100<133.679 450> 259 100<77 122> 442.5 116<148.25 237.75>
-VStem: 25 86<-135.869 -21.8263> 135 116<455.75 545.25>
-DStem2: 194 359 122 259 0.487334 -0.873216<52.2335 551.983>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

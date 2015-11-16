@@ -2,9 +2,7 @@ StartChar: arMeem.isol1
 Encoding: 65590 -1 113
 Width: 347
 VWidth: 0
-Flags: W
-HStem: 0 100<132.875 215.086>
-VStem: 25 100<-152.037 -100 137.375 190.779> 224 98<108.659 190.008>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

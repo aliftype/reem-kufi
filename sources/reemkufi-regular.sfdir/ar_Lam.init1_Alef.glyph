@@ -2,9 +2,7 @@ StartChar: arLam.init1Alef
 Encoding: 65617 -1 142
 Width: 350
 VWidth: 0
-Flags: W
-HStem: 0 100<133.836 216.125> 200 100<93 257>
-VStem: 25 100<108.659 204.96 308.438 350> 225 99<108.659 204.96 300 778>
+Flags: MW
 LayerCount: 2
 Back
 SplineSet

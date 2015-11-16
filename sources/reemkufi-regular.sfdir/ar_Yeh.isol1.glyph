@@ -2,9 +2,7 @@ StartChar: arYeh.isol1
 Encoding: 65621 -1 144
 Width: 765
 VWidth: 0
-Flags: W
-HStem: 0 100<122.701 177 588 612>
-DStem2: 433 0 322 100 0.496139 -0.868243<-141.896 -26.2954>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

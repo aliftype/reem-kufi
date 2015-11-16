@@ -2,18 +2,16 @@ StartChar: arKaf.init
 Encoding: 65584 -1 107
 Width: 940
 VWidth: 0
-Flags: W
-HStem: 0 100<-20 815> 200 100<160 785.198>
-VStem: 115 100<300 778> 160 55<200 300> 815 100<100 174.562>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
-115 200 m 25xe8
- 115 778 l 1xe8
+115 200 m 25
+ 115 778 l 1
  215 800 l 1
- 215 200 l 25xd8
- 115 200 l 25xe8
-160 300 m 1xd8
+ 215 200 l 25
+ 115 200 l 25
+160 300 m 1
  725 300 l 2
  932 300 915 143 915 23 c 0
  915 -2 875 0 875 0 c 2
@@ -22,6 +20,6 @@ SplineSet
  815 100 l 1
  816 156 800 200 725 200 c 2
  160 200 l 1
- 160 300 l 1xd8
+ 160 300 l 1
 EndSplineSet
 EndChar

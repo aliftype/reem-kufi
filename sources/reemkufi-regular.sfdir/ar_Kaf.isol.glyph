@@ -2,9 +2,7 @@ StartChar: arKaf.isol
 Encoding: 65581 -1 104
 Width: 1010
 VWidth: 0
-Flags: W
-HStem: 0 100<85 885> 200 100<331 855.198>
-VStem: 885 100<100 174.562>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

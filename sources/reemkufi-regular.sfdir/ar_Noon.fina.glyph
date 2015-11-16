@@ -2,9 +2,7 @@ StartChar: arNoon.fina
 Encoding: 65599 -1 122
 Width: 490
 VWidth: 0
-Flags: W
-HStem: -204 68<128.591 291.71> 0 100<364 510> 342 116<186.255 275.745>
-VStem: 25 30<-62.1486 59.8615> 173 116<355.255 444.745> 364 71<0 100>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

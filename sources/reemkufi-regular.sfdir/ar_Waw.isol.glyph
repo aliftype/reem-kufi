@@ -2,9 +2,7 @@ StartChar: arWaw.isol
 Encoding: 65612 -1 135
 Width: 347
 VWidth: 0
-Flags: W
-HStem: 0 100<132.414 214.625> 200 100<132.414 192.788>
-VStem: 25 99<108.659 191.341> 222 100<-112.781 128 146.104 171.845>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet

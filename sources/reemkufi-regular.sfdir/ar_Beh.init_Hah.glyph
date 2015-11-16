@@ -2,8 +2,7 @@ StartChar: arBeh.initHah
 Encoding: 65551 -1 74
 Width: 0
 VWidth: 0
-Flags: W
-VStem: -365 100<201.453 378>
+Flags: MW
 LayerCount: 2
 Back
 SplineSet
