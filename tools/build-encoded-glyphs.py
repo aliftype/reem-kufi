@@ -4,22 +4,21 @@ import sys
 font = fontforge.open(sys.argv[1])
 font.mergeFeature(sys.argv[2])
 
-isol_subtable = None
+subtables = []
 for lookup in font.gsub_lookups:
     for feature, script in font.getLookupInfo(lookup)[2]:
-        if feature == "isol":
-            isol_subtable = font.getLookupSubtables(lookup)
-            break
-
-assert len(isol_subtable) == 1
-isol_subtable = isol_subtable[0]
+        if feature in ("isol", "ccmp"):
+            for subtable in font.getLookupSubtables(lookup):
+                subtables.append(subtable)
 
 subs = {}
 for glyph in font.glyphs():
     if glyph.unicode > 0:
-        sub = glyph.getPosSub(isol_subtable)
-        if sub:
-            subs[glyph.glyphname] = sub
+        for subtable in subtables:
+            sub = glyph.getPosSub(subtable)
+            if sub:
+                assert glyph.glyphname not in subs
+                subs[glyph.glyphname] = sub
 
 font.close()
 font = fontforge.open(sys.argv[1])
@@ -31,7 +30,7 @@ for glyph in font.glyphs():
         sub = subs[glyph.glyphname]
         assert len(sub) == 1
         sub = sub[0]
-        assert sub[1] == "MultSubs"
+        assert sub[1] in ("MultSubs", "Substitution"), sub[1]
         names = sub[2:]
         # build the composite on a temp glyph to prevent FontForge from
         # using its built-in knowledge about components of some encoded
