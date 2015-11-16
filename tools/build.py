@@ -8,10 +8,39 @@ import math
 from datetime import datetime
 from sortsmill import ffcompat as fontforge
 
+def generate_anchors(font):
+    marks = [g.name for g in font.glyphs() if g.name.endswith(".mark")]
+
+    fea = ""
+    fea += "feature mark {\n"
+    for mark in marks:
+        fea += "markClass [%s] <anchor 0 0> @%s;" % (mark, mark.upper())
+
+    for glyph in font.glyphs():
+        if glyph.name.endswith(".mark"):
+            continue
+        refs = []
+        for ref in glyph.references:
+            name = ref[0]
+            x = ref[1][-2]
+            y = ref[1][-1]
+            if name in marks:
+                fea += "position base %s <anchor %d %d> mark @%s;" % (glyph.name, x, y, name.upper())
+            else:
+                refs.append(ref)
+        glyph.references = refs
+    fea += "} mark;"
+    return fea
+
+
 def merge(args):
     arabic = fontforge.open(args.arabicfile)
     arabic.encoding = "Unicode"
-    arabic.mergeFeature(args.feature_file)
+
+    with open(args.feature_file) as feature_file:
+        fea = feature_file.read()
+        fea += generate_anchors(arabic)
+        arabic.mergeFeatureString(fea)
 
 #   latin = fontforge.open(args.latinfile)
 #   latin.encoding = "Unicode"
