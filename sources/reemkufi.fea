@@ -23,7 +23,7 @@ feature isol {
     sub uni0626 by arYeh.isol arHamzaAbove.mark;
     sub uni0627 by arAlef.isol;
     sub uni0628 by arBeh.isol ar1DotBelow.mark;
-    sub uni0629 by arHeh.isol ar2DotAbove.mark;
+    sub uni0629 by arHeh.isol ar2HDotAbove.mark;
     sub uni062A by arBeh.isol ar2DotAbove.mark;
     sub uni062B by arBeh.isol ar3DotAbove.mark;
     sub uni062C by arHah.isol ar1DotBelow.mark;
@@ -63,7 +63,7 @@ feature isol {
     sub uni06AF by arKaf.isol arSharta.mark;
     sub uni06BA by arNoon.isol;
     sub uni06BB by arNoon.isol arTah.mark;
-    sub uni06C0 by arHeh.isol arHamzaAbove.mark;
+    sub uni06C0 by arHeh.isol1 arHamzaAbove.mark;
     sub uni06C1 by arHeh.isol;
     sub uni06BE by arHeh.init;
     sub uni06D2 by arYeh.isol;
@@ -166,7 +166,7 @@ feature fina {
     sub uni0626 by arYeh.fina arHamzaAbove.mark;
     sub uni0627 by arAlef.fina;
     sub uni0628 by arBeh.fina ar1DotBelow.mark;
-    sub uni0629 by arHeh.fina ar2DotAbove.mark;
+    sub uni0629 by arHeh.fina ar2HDotAbove.mark;
     sub uni062A by arBeh.fina ar2DotAbove.mark;
     sub uni062B by arBeh.fina ar3DotAbove.mark;
     sub uni062C by arHah.fina ar1DotBelow.mark;
@@ -206,7 +206,7 @@ feature fina {
     sub uni06AF by arKaf.fina2 arSharta.mark;
     sub uni06BA by arNoon.fina;
     sub uni06BB by arNoon.fina arTah.mark;
-    sub uni06C0 by arHeh.fina arHamzaAbove.mark;
+    sub uni06C0 by arHeh.fina1 arHamzaAbove.mark;
     sub uni06C1 by arHeh.fina;
     sub uni06BE by arHeh.init;
     sub uni06D2 by arYeh.fina;

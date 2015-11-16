@@ -28,5 +28,6 @@ SplineSet
  393 -200 l 1
  507 -200 l 1
 EndSplineSet
+Refer: 152 -1 N 1 0 0 1 90 0 2
 Refer: 159 -1 N 1 0 0 1 240 -300 2
 EndChar
