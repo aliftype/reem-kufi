@@ -1,0 +1,15 @@
+StartChar: arSharta.mark
+Encoding: 65646 -1 169
+Width: 0
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+211 208 m 1
+ -211 -208 l 1
+ -210 -160 l 1
+ 211 255 l 1
+ 211 208 l 1
+EndSplineSet
+EndChar
