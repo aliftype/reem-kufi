@@ -4,8 +4,27 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: MW
-LayerCount: 2
+LayerCount: 3
 Fore
+SplineSet
+-64 16 m 10
+ -64 160 l 25
+ -114 152 l 25
+ -114 16 l 18
+ -114 -12 -112 -34 -142 -38 c 1
+ -128 -41 -64 -57 -64 16 c 10
+-96 140 m 1
+ -96 90 l 1
+ 60 90 l 2
+ 90 90 92 72 92 50 c 1
+ -96 50 l 1
+ -96 0 l 1
+ 126 0 l 2
+ 126 0 142 0 142 10 c 0
+ 142 58 149 140 66 140 c 2
+ -96 140 l 1
+EndSplineSet
+Layer: 2
 SplineSet
 -64 16 m 10
  -64 160 l 25

@@ -3,7 +3,7 @@ Encoding: 65575 -1 98
 Width: 850
 VWidth: 0
 Flags: MW
-LayerCount: 2
+LayerCount: 3
 Fore
 SplineSet
 625 300 m 0
@@ -25,6 +25,7 @@ SplineSet
  725 228 l 25
  825 300 l 25
 EndSplineSet
-Refer: 154 -1 N 1 0 0 1 675 600 2
+Layer: 2
 Refer: 153 -1 N 1 0 0 1 675 600 2
+Refer: 154 -1 N 1 0 0 1 675 600 2
 EndChar

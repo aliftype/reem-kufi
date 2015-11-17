@@ -4,8 +4,16 @@ Width: 0
 VWidth: 0
 GlyphClass: 4
 Flags: MW
-LayerCount: 2
+LayerCount: 3
 Fore
+SplineSet
+211 208 m 1
+ -211 -208 l 1
+ -210 -160 l 1
+ 211 255 l 1
+ 211 208 l 1
+EndSplineSet
+Layer: 2
 SplineSet
 211 208 m 1
  -211 -208 l 1

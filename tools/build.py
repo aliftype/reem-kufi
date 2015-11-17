@@ -21,16 +21,12 @@ def generate_anchors(font):
     for glyph in font.glyphs():
         if glyph.name.endswith(".mark"):
             continue
-        refs = []
-        for ref in glyph.references:
+        for ref in glyph.layerrefs["Marks"]:
             name = ref[0]
             x = ref[1][-2]
             y = ref[1][-1]
-            if name in marks:
-                fea += "position base %s <anchor %d %d> mark @%s;" % (glyph.name, x, y, name.upper())
-            else:
-                refs.append(ref)
-        glyph.references = refs
+            assert name in marks
+            fea += "position base %s <anchor %d %d> mark @%s;" % (glyph.name, x, y, name.upper())
     fea += "} mark;"
     return fea
 

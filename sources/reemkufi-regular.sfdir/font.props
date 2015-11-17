@@ -11,9 +11,10 @@ UnderlinePosition: -100
 UnderlineWidth: 50
 Ascent: 800
 Descent: 200
-LayerCount: 2
+LayerCount: 3
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
+Layer: 2 0 "Marks"  1
 XUID: [1021 253 145148371 4299179]
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
