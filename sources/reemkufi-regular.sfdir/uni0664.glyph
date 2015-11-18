@@ -1,0 +1,25 @@
+StartChar: uni0664
+Encoding: 1636 1636 178
+Width: 500
+VWidth: 0
+Flags: MW
+LayerCount: 3
+Fore
+SplineSet
+299 622 m 5
+ 359 542 l 5
+ 184 414 l 5
+ 349 275 l 1
+ 183 100 l 1
+ 440 100 l 1
+ 440 0 l 1
+ 111 0 l 1
+ 98 8 l 2
+ 31 53 68 125 98 155 c 2
+ 209 267 l 1
+ 121 336 l 6
+ 103 352 76 380 79 423 c 4
+ 81 456 103 479 125 494 c 6
+ 299 622 l 5
+EndSplineSet
+EndChar
