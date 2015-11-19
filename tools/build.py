@@ -91,7 +91,7 @@ CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License
 for the specific language, permissions and limitations governing your use of \
 this Font Software.')
     arabic.appendSFNTName(en, "Descriptor", "Reem Kufi is a Fatimid-style decorative Kufic typeface as seen in the historical mosques of Cairo. Reem Kufi is based on the Kufic designs of the great Arabic calligrapher Mohammed Abdul Qadir who revived this art in the 20th century and formalised its rules.")
-    arabic.appendSFNTName(en, "Sample Text", "الخط هندسة روحانية ظهرت بآلة جسمانية")
+    arabic.appendSFNTName(en, "Sample Text", "ريم على القاع بين البان و العلم   أحل سفك دمي في الأشهر الحرم")
 
     return arabic
 

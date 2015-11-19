@@ -3,9 +3,9 @@ FontName: ReemKufi-Regular
 FullName: Reem Kufi
 FamilyName: Reem Kufi
 Weight: Regular
-Copyright: Created by Khaled Hosny with Sorts Mill Tools 2.1.0_alpha1 <http://bitbucket.org/sortsmill/sortsmill-tools>
+Copyright: 
 UComments: "2015-11-14: Created." 
-Version: 001.000
+Version: 
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -16,14 +16,20 @@ Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 0 "Marks"  1
 XUID: [1021 253 145148371 4299179]
+FSType: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1447447341
+PfmFamily: 17
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 90
+VLineGap: 0
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 0
+OS2TypoLinegap: 90
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -32,7 +38,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
+OS2Vendor: 'BLQ '
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 
