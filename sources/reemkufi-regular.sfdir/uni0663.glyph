@@ -2,7 +2,7 @@ StartChar: uni0663
 Encoding: 1635 1635 177
 Width: 500
 VWidth: 0
-Flags: MW
+Flags: W
 LayerCount: 3
 Fore
 SplineSet
@@ -15,8 +15,8 @@ SplineSet
  300 400 l 1
  300 600 l 1
  200 577 l 1
- 200 399 l 1
- 50 399 l 1
+ 200 400 l 1
+ 50 400 l 1
  50 300 l 1
 120 599 m 1
  20 577 l 1
