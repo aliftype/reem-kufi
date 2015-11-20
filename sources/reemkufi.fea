@@ -250,5 +250,11 @@ feature liga {
 feature liga {
   @ar2DotBelow = [ar2DotBelow.mark];
   lookupflag UseMarkFilteringSet @ar2DotBelow;
-    sub arBeh.initHah ar2DotBelow.mark' [arHah.isol arHah.init] by ar2HDotAbove.mark;
+    sub arBeh.initHah @ar2DotBelow' [arHah.isol arHah.init] by ar2HDotAbove.mark;
 } liga;
+
+feature kern {
+  @ar23DotBelow = [ar2DotBelow.mark ar3IDotBelow.mark];
+  lookupflag UseMarkFilteringSet @ar23DotBelow;
+    pos [arReh.isol arReh.fina]' <100 0 100 0> arBeh.init @ar23DotBelow;
+} kern;
