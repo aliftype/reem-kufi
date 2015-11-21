@@ -241,17 +241,17 @@ lookup AboveHah {
   sub arHah.fina by arHah.isol;
 } AboveHah;
 
-feature liga {
+feature calt {
   lookupflag IgnoreMarks;
     sub [arLam.init arBeh.init]' lookup AboveHah [arHah.medi arHah.fina]' lookup AboveHah;
     pos [arLam.initHah arBeh.initHah]' <80 0 80 0> [arHah.isol];
-} liga;
+} calt;
 
-feature liga {
+feature calt {
   @ar2DotBelow = [ar2DotBelow.mark];
   lookupflag UseMarkFilteringSet @ar2DotBelow;
     sub arBeh.initHah @ar2DotBelow' [arHah.isol arHah.init] by ar2HDotAbove.mark;
-} liga;
+} calt;
 
 feature cv01 {
   sub arAlef.isol by arAlef.isol1;
