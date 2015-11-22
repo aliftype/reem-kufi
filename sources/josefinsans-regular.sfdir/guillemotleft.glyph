@@ -1,0 +1,68 @@
+StartChar: guillemotleft
+Encoding: 171 171 172
+Width: 454
+Flags: W
+TtInstrs:
+PUSHB_6
+ 28
+ 20
+ 8
+ 0
+ 2
+ 45
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+387 50 m 1,0,-1
+ 213 242 l 1,1,2
+ 217 246 217 246 230.5 261 c 128,-1,3
+ 244 276 244 276 262 295.5 c 128,-1,4
+ 280 315 280 315 300.5 338 c 128,-1,5
+ 321 361 321 361 338.5 380.5 c 128,-1,6
+ 356 400 356 400 369.5 415 c 128,-1,7
+ 383 430 383 430 387 434 c 1,8,-1
+ 387 330 l 1,9,10
+ 382 324 382 324 372 312 c 128,-1,11
+ 362 300 362 300 351 286 c 128,-1,12
+ 340 272 340 272 330 260 c 128,-1,13
+ 320 248 320 248 315 242 c 1,14,15
+ 320 237 320 237 330 224.5 c 128,-1,16
+ 340 212 340 212 351 198.5 c 128,-1,17
+ 362 185 362 185 372 172.5 c 128,-1,18
+ 382 160 382 160 387 155 c 1,19,-1
+ 387 50 l 1,0,-1
+213 50 m 1,20,-1
+ 40 242 l 1,21,22
+ 44 246 44 246 57.5 261 c 128,-1,23
+ 71 276 71 276 88.5 295.5 c 128,-1,24
+ 106 315 106 315 126.5 338 c 128,-1,25
+ 147 361 147 361 164.5 380.5 c 128,-1,26
+ 182 400 182 400 195.5 415 c 128,-1,27
+ 209 430 209 430 213 434 c 1,28,-1
+ 213 329 l 1,29,30
+ 208 324 208 324 198 311.5 c 128,-1,31
+ 188 299 188 299 177.5 285.5 c 128,-1,32
+ 167 272 167 272 157 260 c 128,-1,33
+ 147 248 147 248 142 242 c 1,34,35
+ 147 237 147 237 157 224.5 c 128,-1,36
+ 167 212 167 212 177.5 198.5 c 128,-1,37
+ 188 185 188 185 198 172.5 c 128,-1,38
+ 208 160 208 160 213 155 c 1,39,-1
+ 213 50 l 1,20,-1
+EndSplineSet
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" W dx=0 dy=0 dh=-42 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" V dx=0 dy=0 dh=-48 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" quotedblright dx=0 dy=0 dh=-74 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" quoteright dx=0 dy=0 dh=-74 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Tbar dx=0 dy=0 dh=-67 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uni0162 dx=0 dy=0 dh=-67 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Tcaron dx=0 dy=0 dh=-67 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" T dx=0 dy=0 dh=-67 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Ydieresis dx=0 dy=0 dh=-68 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Yacute dx=0 dy=0 dh=-68 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Y dx=0 dy=0 dh=-68 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Jcircumflex dx=0 dy=0 dh=-26 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" J dx=0 dy=0 dh=-26 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar

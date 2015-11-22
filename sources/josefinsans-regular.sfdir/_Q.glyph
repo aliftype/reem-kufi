@@ -1,0 +1,258 @@
+StartChar: Q
+Encoding: 81 81 67
+Width: 822
+Flags: W
+TtInstrs:
+NPUSHB
+ 41
+ 14
+ 1
+ 3
+ 4
+ 1
+ 71
+ 13
+ 1
+ 3
+ 1
+ 70
+ 0
+ 4
+ 4
+ 0
+ 88
+ 0
+ 0
+ 0
+ 23
+ 72
+ 0
+ 3
+ 3
+ 1
+ 88
+ 2
+ 1
+ 1
+ 1
+ 16
+ 1
+ 73
+ 40
+ 40
+ 34
+ 25
+ 36
+ 5
+ 5
+ 25
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+38 362 m 0,0,1
+ 38 437 38 437 67 504.5 c 128,-1,2
+ 96 572 96 572 146 623 c 128,-1,3
+ 196 674 196 674 263 703.5 c 128,-1,4
+ 330 733 330 733 407 733 c 0,5,6
+ 483 733 483 733 550.5 703.5 c 128,-1,7
+ 618 674 618 674 669 623 c 128,-1,8
+ 720 572 720 572 749.5 504.5 c 128,-1,9
+ 779 437 779 437 779 362 c 0,10,11
+ 779 285 779 285 752 218 c 128,-1,12
+ 725 151 725 151 677 95 c 1,13,-1
+ 802 104 l 1,14,-1
+ 802 0 l 1,15,-1
+ 485 0 l 1,16,17
+ 465 -4 465 -4 446 -6 c 128,-1,18
+ 427 -8 427 -8 407 -8 c 0,19,20
+ 330 -8 330 -8 263 21 c 128,-1,21
+ 196 50 196 50 146 100.5 c 128,-1,22
+ 96 151 96 151 67 218 c 128,-1,23
+ 38 285 38 285 38 362 c 0,0,1
+147 361 m 256,24,25
+ 147 306 147 306 167.5 257.5 c 128,-1,26
+ 188 209 188 209 223.5 173 c 128,-1,27
+ 259 137 259 137 307 116 c 128,-1,28
+ 355 95 355 95 410 95 c 0,29,30
+ 464 95 464 95 511.5 116 c 128,-1,31
+ 559 137 559 137 594.5 173 c 128,-1,32
+ 630 209 630 209 650.5 257.5 c 128,-1,33
+ 671 306 671 306 671 362 c 0,34,35
+ 671 417 671 417 650 465.5 c 128,-1,36
+ 629 514 629 514 593.5 550 c 128,-1,37
+ 558 586 558 586 510 607 c 128,-1,38
+ 462 628 462 628 408 628 c 256,39,40
+ 354 628 354 628 306 607 c 128,-1,41
+ 258 586 258 586 223 550 c 128,-1,42
+ 188 514 188 514 167.5 465 c 128,-1,43
+ 147 416 147 416 147 361 c 256,24,25
+EndSplineSet
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uni0137 dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" hcircumflex dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" hbar dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" thorn dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" k dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" h dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" b dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uni013C dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" lacute dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" lcaron dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" lslash dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" l dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" bracketright dx=0 dy=0 dh=-23 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" braceright dx=0 dy=0 dh=-23 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" parenright dx=0 dy=0 dh=-30 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" jcircumflex dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" j dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Zdotaccent dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Zcaron dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Zacute dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Z dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Scircumflex dx=0 dy=0 dh=-7 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Scedilla dx=0 dy=0 dh=-7 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Scaron dx=0 dy=0 dh=-7 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Sacute dx=0 dy=0 dh=-7 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" S dx=0 dy=0 dh=-7 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" iogonek dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" imacron dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" itilde dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" dotlessi dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" icircumflex dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" idieresis dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" igrave dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" iacute dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" i dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" X dx=0 dy=0 dh=-23 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" x dx=0 dy=0 dh=-9 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uni0146 dx=0 dy=0 dh=-14 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uni0157 dx=0 dy=0 dh=-14 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" rcaron dx=0 dy=0 dh=-14 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ncaron dx=0 dy=0 dh=-14 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" nacute dx=0 dy=0 dh=-14 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" racute dx=0 dy=0 dh=-14 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" n dx=0 dy=0 dh=-14 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ntilde dx=0 dy=0 dh=-14 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" p dx=0 dy=0 dh=-14 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" r dx=0 dy=0 dh=-14 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" m dx=0 dy=0 dh=-14 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" utilde dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uogonek dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" umacron dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ubreve dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uhungarumlaut dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uring dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ucircumflex dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ugrave dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" udieresis dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uacute dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" u dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ae dx=0 dy=0 dh=-17 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" edotaccent dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" amacron dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" omacron dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uni0123 dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" emacron dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" oe dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" gcircumflex dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" gdotaccent dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ccircumflex dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" cdotaccent dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" gbreve dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ohungarumlaut dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" dcroat dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" dcaron dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ecaron dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" eogonek dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ccaron dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" cacute dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" abreve dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" aogonek dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" a dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" d dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" g dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" eth dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ccedilla dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" otilde dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" atilde dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ocircumflex dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ecircumflex dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" acircumflex dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" o dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" oslash dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" aring dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ograve dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" egrave dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" agrave dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" odieresis dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" edieresis dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" adieresis dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" oacute dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" eacute dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" aacute dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" e dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" q dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" c dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" zdotaccent dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" zcaron dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" zacute dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" z dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" scircumflex dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" scedilla dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" scaron dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" sacute dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" s dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ellipsis dx=0 dy=0 dh=-30 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" quotesinglbase dx=0 dy=0 dh=-30 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" quotedblbase dx=0 dy=0 dh=-30 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" period dx=0 dy=0 dh=-30 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" comma dx=0 dy=0 dh=-30 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" quoteleft dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" quotedblleft dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" W dx=0 dy=0 dh=-24 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" V dx=0 dy=0 dh=-28 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" fl dx=0 dy=0 dh=-5 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" fi dx=0 dy=0 dh=-5 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" germandbls dx=0 dy=0 dh=-5 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" f dx=0 dy=0 dh=-5 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Tbar dx=0 dy=0 dh=-17 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uni0162 dx=0 dy=0 dh=-17 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Tcaron dx=0 dy=0 dh=-17 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" T dx=0 dy=0 dh=-17 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Ydieresis dx=0 dy=0 dh=-43 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Yacute dx=0 dy=0 dh=-43 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Y dx=0 dy=0 dh=-43 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Jcircumflex dx=0 dy=0 dh=-25 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" J dx=0 dy=0 dh=-25 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Amacron dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Abreve dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Aogonek dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Acircumflex dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Atilde dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Agrave dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Adieresis dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Aacute dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Aring dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" AE dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" A dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" itilde dx=0 dy=0 dh=26 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Amacron dx=0 dy=0 dh=4 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Tbar dx=0 dy=0 dh=-11 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Abreve dx=0 dy=0 dh=4 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Zdotaccent dx=0 dy=0 dh=-1 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Zcaron dx=0 dy=0 dh=1 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Zacute dx=0 dy=0 dh=-1 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Aogonek dx=0 dy=0 dh=3 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Acircumflex dx=0 dy=0 dh=4 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Atilde dx=0 dy=0 dh=4 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Agrave dx=0 dy=0 dh=4 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Adieresis dx=0 dy=0 dh=4 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Aacute dx=0 dy=0 dh=4 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Aring dx=0 dy=0 dh=4 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" AE dx=0 dy=0 dh=3 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" X dx=0 dy=0 dh=-6 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" Z dx=0 dy=0 dh=-1 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" idieresis dx=0 dy=0 dh=-6 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" A dx=0 dy=0 dh=4 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar

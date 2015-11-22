@@ -1,7 +1,7 @@
 NAME=reemkufi
 VERSION=0.1
 EXT=otf
-#LATIN=firamono
+LATIN=josefinsans
 
 SRCDIR=sources
 DOCDIR=documentation
@@ -38,12 +38,9 @@ doc: $(PDF)
 lint: $(LNT)
 check: lint # $(RUN)
 
-#$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(LATIN)-%.sfdir $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
-#	@echo "   FF	$@"
-#	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} $${FILES[0]} $${FILES[1]}
-$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
+$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(LATIN)-%.sfdir $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   FF	$@"
-	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[1]} $${FILES[0]}
+	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} $${FILES[0]} $${FILES[1]}
 ifeq ($(ttx), true)
 	@echo "   TTX	$@"
 	@pyftsubset $@ --output-file=$@ --unicodes='*' --layout-features='*' --name-IDs='*'

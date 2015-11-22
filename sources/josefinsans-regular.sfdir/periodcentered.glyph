@@ -1,0 +1,47 @@
+StartChar: periodcentered
+Encoding: 183 183 193
+Width: 222
+Flags: W
+TtInstrs:
+NPUSHB
+ 21
+ 0
+ 0
+ 1
+ 1
+ 0
+ 84
+ 0
+ 0
+ 0
+ 1
+ 88
+ 0
+ 1
+ 0
+ 1
+ 76
+ 36
+ 34
+ 2
+ 5
+ 22
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+55 286 m 0,0,1
+ 55 310 55 310 72.5 326.5 c 128,-1,2
+ 90 343 90 343 112 343 c 0,3,4
+ 132 343 132 343 149.5 326.5 c 128,-1,5
+ 167 310 167 310 167 286 c 0,6,7
+ 167 260 167 260 149.5 245 c 128,-1,8
+ 132 230 132 230 112 230 c 0,9,10
+ 90 230 90 230 72.5 245 c 128,-1,11
+ 55 260 55 260 55 286 c 0,0,1
+EndSplineSet
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" seven dx=0 dy=0 dh=-27 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" three dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" one dx=0 dy=0 dh=-11 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar

@@ -1,0 +1,33 @@
+StartChar: multiply
+Encoding: 215 215 197
+Width: 445
+Flags: W
+TtInstrs:
+PUSHB_4
+ 7
+ 0
+ 1
+ 45
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+315 0 m 1,0,-1
+ 221 92 l 1,1,-1
+ 131 1 l 1,2,3
+ 90 40 90 40 53 79 c 1,4,-1
+ 144 171 l 1,5,-1
+ 50 264 l 1,6,-1
+ 129 345 l 1,7,-1
+ 224 250 l 1,8,-1
+ 317 343 l 1,9,10
+ 336 323 336 323 354.5 303 c 128,-1,11
+ 373 283 373 283 392 264 c 1,12,-1
+ 303 173 l 1,13,-1
+ 395 79 l 1,14,-1
+ 315 0 l 1,0,-1
+EndSplineSet
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" seven dx=0 dy=0 dh=-24 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" one dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
+EndChar

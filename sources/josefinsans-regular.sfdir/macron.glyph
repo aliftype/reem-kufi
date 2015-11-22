@@ -1,0 +1,46 @@
+StartChar: macron
+Encoding: 175 175 195
+Width: 405
+Flags: W
+TtInstrs:
+NPUSHB
+ 27
+ 0
+ 0
+ 1
+ 1
+ 0
+ 82
+ 0
+ 0
+ 0
+ 1
+ 86
+ 2
+ 1
+ 1
+ 0
+ 1
+ 74
+ 0
+ 0
+ 0
+ 3
+ 0
+ 3
+ 17
+ 3
+ 5
+ 21
+CALL
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+86 483 m 1,0,-1
+ 86 541 l 1,1,-1
+ 320 541 l 1,2,-1
+ 320 483 l 1,3,-1
+ 86 483 l 1,0,-1
+EndSplineSet
+EndChar
