@@ -2,33 +2,6 @@ StartChar: quotesingle
 Encoding: 39 39 141
 Width: 240
 Flags: W
-TtInstrs:
-NPUSHB
- 22
- 2
- 1
- 1
- 1
- 0
- 86
- 0
- 0
- 0
- 15
- 1
- 73
- 0
- 0
- 0
- 3
- 0
- 3
- 17
- 3
- 5
- 21
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

@@ -2,44 +2,6 @@ StartChar: exclamdown
 Encoding: 161 161 127
 Width: 291
 Flags: W
-TtInstrs:
-NPUSHB
- 33
- 4
- 1
- 2
- 0
- 3
- 0
- 2
- 3
- 96
- 0
- 0
- 0
- 1
- 86
- 0
- 1
- 1
- 20
- 1
- 73
- 5
- 4
- 11
- 9
- 4
- 15
- 5
- 15
- 17
- 16
- 5
- 5
- 22
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

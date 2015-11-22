@@ -2,14 +2,6 @@ StartChar: product
 Encoding: 8719 8719 332
 Width: 543
 Flags: W
-TtInstrs:
-PUSHB_4
- 2
- 0
- 1
- 45
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

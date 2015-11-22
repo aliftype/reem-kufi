@@ -2,43 +2,6 @@ StartChar: z
 Encoding: 122 122 42
 Width: 484
 Flags: W
-TtInstrs:
-NPUSHB
- 32
- 0
- 3
- 0
- 1
- 4
- 3
- 1
- 97
- 0
- 2
- 2
- 18
- 72
- 0
- 4
- 4
- 0
- 86
- 0
- 0
- 0
- 16
- 0
- 73
- 17
- 35
- 19
- 33
- 16
- 5
- 5
- 25
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

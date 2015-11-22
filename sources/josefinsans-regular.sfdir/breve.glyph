@@ -2,49 +2,6 @@ StartChar: breve
 Encoding: 728 728 207
 Width: 811
 Flags: W
-TtInstrs:
-NPUSHB
- 38
- 3
- 1
- 1
- 2
- 1
- 111
- 0
- 2
- 0
- 0
- 2
- 84
- 0
- 2
- 2
- 0
- 88
- 4
- 1
- 0
- 2
- 0
- 76
- 1
- 0
- 13
- 12
- 10
- 8
- 6
- 5
- 0
- 17
- 1
- 17
- 5
- 5
- 20
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

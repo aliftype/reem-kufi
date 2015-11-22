@@ -2,27 +2,6 @@ StartChar: period
 Encoding: 46 46 31
 Width: 242
 Flags: W
-TtInstrs:
-NPUSHB
- 16
- 0
- 0
- 0
- 1
- 88
- 0
- 1
- 1
- 16
- 1
- 73
- 36
- 34
- 2
- 5
- 22
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

@@ -2,45 +2,6 @@ StartChar: logicalnot
 Encoding: 172 172 186
 Width: 539
 Flags: W
-TtInstrs:
-NPUSHB
- 34
- 3
- 1
- 2
- 0
- 0
- 2
- 100
- 0
- 1
- 0
- 0
- 1
- 82
- 0
- 1
- 1
- 0
- 86
- 0
- 0
- 1
- 0
- 74
- 0
- 0
- 0
- 5
- 0
- 5
- 17
- 17
- 4
- 5
- 22
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

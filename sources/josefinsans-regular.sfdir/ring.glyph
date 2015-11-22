@@ -2,42 +2,6 @@ StartChar: ring
 Encoding: 730 730 324
 Width: 573
 Flags: W
-TtInstrs:
-NPUSHB
- 31
- 0
- 2
- 0
- 1
- 0
- 2
- 1
- 96
- 0
- 0
- 3
- 3
- 0
- 84
- 0
- 0
- 0
- 3
- 88
- 0
- 3
- 0
- 3
- 76
- 38
- 38
- 36
- 34
- 4
- 5
- 24
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

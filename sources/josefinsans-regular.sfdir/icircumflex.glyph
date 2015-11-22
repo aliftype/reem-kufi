@@ -2,64 +2,10 @@ StartChar: icircumflex
 Encoding: 238 238 134
 Width: 226
 Flags: W
-TtInstrs:
-NPUSHB
- 29
- 13
- 4
- 2
- 2
- 69
- 3
- 1
- 2
- 1
- 2
- 111
- 0
- 1
- 1
- 0
- 86
- 0
- 0
- 0
- 16
- 0
- 73
- 26
- 20
- 17
- 16
- 4
- 5
- 24
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
-SplineSet
-160 0 m 1,0,-1
- 66 0 l 1,1,-1
- 66 461 l 1,2,-1
- 160 461 l 1,3,-1
- 160 0 l 1,0,-1
-115 738 m 1,4,5
- 148 687 148 687 181.5 637 c 128,-1,6
- 215 587 215 587 249 536 c 1,7,-1
- 179 536 l 1,8,9
- 175 543 175 543 166 554.5 c 128,-1,10
- 157 566 157 566 147 578.5 c 128,-1,11
- 137 591 137 591 128 603 c 128,-1,12
- 119 615 119 615 115 622 c 1,13,14
- 111 615 111 615 102 603 c 128,-1,15
- 93 591 93 591 83 578.5 c 128,-1,16
- 73 566 73 566 64.5 554.5 c 128,-1,17
- 56 543 56 543 52 536 c 1,18,-1
- -20 536 l 1,19,20
- 14 587 14 587 48 637 c 128,-1,21
- 82 687 82 687 115 738 c 1,4,5
-EndSplineSet
+Refer: 267 305 N 1 0 0 1 0 0 2
+Refer: 139 94 N 1 0 0 1 -87 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" parenright dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Zdotaccent dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Zcaron dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0

@@ -2,18 +2,6 @@ StartChar: infinity
 Encoding: 8734 8734 344
 Width: 561
 Flags: W
-TtInstrs:
-PUSHB_8
- 52
- 44
- 40
- 34
- 15
- 0
- 3
- 45
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

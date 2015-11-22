@@ -2,39 +2,6 @@ StartChar: ogonek
 Encoding: 731 731 203
 Width: 585
 Flags: W
-TtInstrs:
-NPUSHB
- 28
- 32
- 30
- 14
- 11
- 4
- 0
- 69
- 0
- 0
- 1
- 1
- 0
- 84
- 0
- 0
- 0
- 1
- 88
- 0
- 1
- 0
- 1
- 76
- 39
- 39
- 2
- 5
- 22
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

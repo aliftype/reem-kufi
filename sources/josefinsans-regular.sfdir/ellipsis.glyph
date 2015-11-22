@@ -2,35 +2,6 @@ StartChar: ellipsis
 Encoding: 8230 8230 318
 Width: 608
 Flags: W
-TtInstrs:
-NPUSHB
- 24
- 4
- 2
- 2
- 0
- 0
- 1
- 88
- 5
- 3
- 2
- 1
- 1
- 16
- 1
- 73
- 36
- 36
- 36
- 36
- 36
- 34
- 6
- 5
- 26
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

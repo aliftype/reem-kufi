@@ -2,14 +2,6 @@ StartChar: parenright
 Encoding: 41 41 91
 Width: 326
 Flags: W
-TtInstrs:
-PUSHB_4
- 21
- 5
- 1
- 45
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

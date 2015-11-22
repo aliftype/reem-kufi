@@ -2,16 +2,6 @@ StartChar: Delta
 Encoding: 8710 8710 342
 Width: 458
 Flags: W
-TtInstrs:
-PUSHB_6
- 5
- 3
- 1
- 0
- 2
- 45
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

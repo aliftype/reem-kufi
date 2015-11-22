@@ -2,36 +2,6 @@ StartChar: J
 Encoding: 74 74 54
 Width: 360
 Flags: W
-TtInstrs:
-NPUSHB
- 25
- 0
- 0
- 3
- 1
- 2
- 0
- 2
- 92
- 0
- 1
- 1
- 15
- 1
- 73
- 0
- 0
- 0
- 11
- 0
- 11
- 19
- 17
- 4
- 5
- 22
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

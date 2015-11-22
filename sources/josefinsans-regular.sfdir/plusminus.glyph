@@ -2,58 +2,6 @@ StartChar: plusminus
 Encoding: 177 177 162
 Width: 548
 Flags: W
-TtInstrs:
-NPUSHB
- 47
- 0
- 2
- 8
- 1
- 5
- 7
- 2
- 5
- 94
- 0
- 7
- 0
- 6
- 7
- 6
- 90
- 4
- 1
- 0
- 0
- 1
- 86
- 3
- 1
- 1
- 1
- 18
- 0
- 73
- 0
- 0
- 15
- 14
- 13
- 12
- 0
- 11
- 0
- 11
- 17
- 17
- 17
- 17
- 17
- 9
- 5
- 25
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

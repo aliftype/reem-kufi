@@ -2,27 +2,6 @@ StartChar: dotlessi
 Encoding: 305 305 267
 Width: 226
 Flags: W
-TtInstrs:
-NPUSHB
- 16
- 0
- 1
- 1
- 0
- 86
- 0
- 0
- 0
- 16
- 0
- 73
- 17
- 16
- 2
- 5
- 22
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

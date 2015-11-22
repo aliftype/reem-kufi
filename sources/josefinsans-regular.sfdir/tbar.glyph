@@ -2,61 +2,6 @@ StartChar: tbar
 Encoding: 359 359 295
 Width: 335
 Flags: W
-TtInstrs:
-NPUSHB
- 50
- 2
- 1
- 0
- 10
- 9
- 2
- 3
- 4
- 0
- 3
- 94
- 8
- 1
- 4
- 7
- 1
- 5
- 6
- 4
- 5
- 94
- 0
- 1
- 1
- 6
- 86
- 0
- 6
- 6
- 16
- 6
- 73
- 0
- 0
- 0
- 19
- 0
- 19
- 17
- 17
- 17
- 17
- 17
- 17
- 17
- 17
- 17
- 11
- 5
- 29
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

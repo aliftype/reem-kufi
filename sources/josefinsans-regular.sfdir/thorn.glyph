@@ -2,61 +2,6 @@ StartChar: thorn
 Encoding: 254 254 154
 Width: 595
 Flags: W
-TtInstrs:
-NPUSHB
- 50
- 18
- 1
- 4
- 3
- 10
- 1
- 0
- 5
- 2
- 71
- 0
- 2
- 3
- 2
- 111
- 0
- 4
- 4
- 3
- 88
- 0
- 3
- 3
- 18
- 72
- 0
- 5
- 5
- 0
- 88
- 0
- 0
- 0
- 27
- 72
- 0
- 1
- 1
- 20
- 1
- 73
- 40
- 40
- 37
- 17
- 24
- 36
- 6
- 5
- 26
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

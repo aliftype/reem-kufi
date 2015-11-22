@@ -19,7 +19,6 @@ FSType: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1276136336
-ModificationTime: 1448227311
 PfmFamily: 81
 TTFWeight: 600
 TTFWidth: 5
@@ -3160,10 +3159,6 @@ GaspTable: 1 65535 15 1
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -72
-AntiAlias: 1
-FitToEm: 0
-WinInfo: 54 18 7
 BeginPrivate: 0
 EndPrivate
 EndSplineFont

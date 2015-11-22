@@ -2,14 +2,6 @@ StartChar: Omega
 Encoding: 8486 8486 340
 Width: 739
 Flags: W
-TtInstrs:
-PUSHB_4
- 23
- 10
- 1
- 45
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

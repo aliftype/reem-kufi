@@ -2,16 +2,6 @@ StartChar: guillemotleft
 Encoding: 171 171 172
 Width: 500
 Flags: W
-TtInstrs:
-PUSHB_6
- 28
- 20
- 8
- 0
- 2
- 45
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

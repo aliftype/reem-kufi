@@ -2,45 +2,6 @@ StartChar: cedilla
 Encoding: 184 184 150
 Width: 505
 Flags: W
-TtInstrs:
-NPUSHB
- 34
- 21
- 18
- 2
- 2
- 0
- 1
- 71
- 0
- 0
- 2
- 0
- 111
- 0
- 2
- 1
- 1
- 2
- 84
- 0
- 2
- 2
- 1
- 89
- 0
- 1
- 2
- 1
- 77
- 39
- 45
- 16
- 3
- 5
- 23
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

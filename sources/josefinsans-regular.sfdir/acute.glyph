@@ -2,31 +2,6 @@ StartChar: acute
 Encoding: 180 180 151
 Width: 313
 Flags: W
-TtInstrs:
-NPUSHB
- 20
- 0
- 0
- 1
- 0
- 111
- 2
- 1
- 1
- 1
- 102
- 0
- 0
- 0
- 5
- 0
- 5
- 19
- 3
- 5
- 21
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

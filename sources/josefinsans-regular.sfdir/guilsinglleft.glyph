@@ -2,14 +2,6 @@ StartChar: guilsinglleft
 Encoding: 8249 8249 69
 Width: 309
 Flags: W
-TtInstrs:
-PUSHB_4
- 8
- 0
- 1
- 45
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

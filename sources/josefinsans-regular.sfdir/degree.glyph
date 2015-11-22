@@ -2,52 +2,6 @@ StartChar: degree
 Encoding: 176 176 145
 Width: 327
 Flags: W
-TtInstrs:
-NPUSHB
- 41
- 0
- 2
- 0
- 1
- 0
- 2
- 1
- 96
- 4
- 1
- 0
- 3
- 3
- 0
- 84
- 4
- 1
- 0
- 0
- 3
- 88
- 0
- 3
- 0
- 3
- 76
- 1
- 0
- 28
- 26
- 18
- 16
- 7
- 5
- 0
- 11
- 1
- 11
- 5
- 5
- 20
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

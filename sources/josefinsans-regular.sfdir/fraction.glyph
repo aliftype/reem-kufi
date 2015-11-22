@@ -2,33 +2,6 @@ StartChar: fraction
 Encoding: 8260 8260 325
 Width: 392
 Flags: W
-TtInstrs:
-NPUSHB
- 22
- 0
- 0
- 1
- 0
- 111
- 2
- 1
- 1
- 1
- 16
- 1
- 73
- 0
- 0
- 0
- 5
- 0
- 5
- 19
- 3
- 5
- 21
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

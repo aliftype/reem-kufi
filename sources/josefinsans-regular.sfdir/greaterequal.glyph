@@ -2,16 +2,6 @@ StartChar: greaterequal
 Encoding: 8805 8805 336
 Width: 609
 Flags: W
-TtInstrs:
-PUSHB_6
- 8
- 6
- 5
- 3
- 2
- 45
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

@@ -2,92 +2,16 @@ StartChar: hbar
 Encoding: 295 295 265
 Width: 561
 Flags: W
-TtInstrs:
-NPUSHB
- 50
- 6
- 1
- 4
- 5
- 1
- 71
- 8
- 1
- 1
- 7
- 1
- 2
- 3
- 1
- 2
- 94
- 0
- 5
- 5
- 3
- 88
- 0
- 3
- 3
- 18
- 72
- 0
- 0
- 0
- 4
- 86
- 6
- 1
- 4
- 4
- 16
- 4
- 73
- 17
- 17
- 21
- 35
- 19
- 35
- 17
- 17
- 16
- 9
- 5
- 29
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-66 857 m 1,0,-1
- 160 857 l 1,1,-1
- 160 670 l 1,2,-1
- 324 670 l 1,3,-1
- 324 606 l 1,4,-1
- 160 606 l 1,5,-1
- 160 350 l 1,6,7
- 184 405 184 405 228 438.5 c 128,-1,8
- 272 472 272 472 342 473 c 0,9,10
- 413 474 413 474 455 435.5 c 128,-1,11
- 497 397 497 397 500 335 c 1,12,-1
- 500 0 l 1,13,-1
- 405 0 l 1,14,-1
- 405 292 l 1,15,16
- 403 327 403 327 380.5 352 c 128,-1,17
- 358 377 358 377 311 379 c 1,18,19
- 278 379 278 379 250.5 367.5 c 128,-1,20
- 223 356 223 356 203 336.5 c 128,-1,21
- 183 317 183 317 171.5 289 c 128,-1,22
- 160 261 160 261 160 228 c 2,23,-1
- 160 0 l 1,24,-1
- 66 0 l 1,25,-1
- 66 606 l 1,26,-1
- -2 606 l 1,27,-1
- -2 670 l 1,28,-1
- 66 670 l 1,29,-1
- 66 857 l 1,0,-1
+324 606 m 1
+ -2 606 l 1
+ -2 670 l 1
+ 324 670 l 1
+ 324 606 l 1
 EndSplineSet
+Refer: 9 104 N 1 0 0 1 0 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" trademark dx=0 dy=0 dh=-20 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" bracketright dx=0 dy=0 dh=-36 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" backslash dx=0 dy=0 dh=-52 dv=0 dx=0 dy=0 dh=0 dv=0

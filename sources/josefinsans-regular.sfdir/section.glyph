@@ -2,45 +2,6 @@ StartChar: section
 Encoding: 167 167 192
 Width: 423
 Flags: W
-TtInstrs:
-NPUSHB
- 34
- 61
- 1
- 0
- 1
- 1
- 71
- 27
- 24
- 13
- 3
- 1
- 69
- 55
- 54
- 43
- 3
- 0
- 68
- 0
- 1
- 0
- 1
- 111
- 0
- 0
- 0
- 102
- 73
- 72
- 67
- 65
- 2
- 5
- 20
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

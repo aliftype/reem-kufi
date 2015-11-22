@@ -2,16 +2,6 @@ StartChar: lozenge
 Encoding: 9674 9674 343
 Width: 456
 Flags: W
-TtInstrs:
-PUSHB_6
- 7
- 5
- 3
- 1
- 2
- 45
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

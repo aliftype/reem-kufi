@@ -2,81 +2,10 @@ StartChar: zdotaccent
 Encoding: 380 380 227
 Width: 484
 Flags: W
-TtInstrs:
-NPUSHB
- 42
- 0
- 5
- 0
- 6
- 2
- 5
- 6
- 96
- 0
- 3
- 0
- 1
- 4
- 3
- 1
- 97
- 0
- 2
- 2
- 18
- 72
- 0
- 4
- 4
- 0
- 86
- 0
- 0
- 0
- 16
- 0
- 73
- 36
- 35
- 17
- 35
- 19
- 33
- 16
- 7
- 5
- 27
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
-SplineSet
-451 0 m 1,0,-1
- 17 0 l 1,1,-1
- 281 381 l 1,2,-1
- 127 381 l 2,3,4
- 88 381 88 381 63 401.5 c 128,-1,5
- 38 422 38 422 38 458 c 2,6,-1
- 38 505 l 1,7,-1
- 122 505 l 1,8,-1
- 122 491 l 2,9,10
- 122 472 122 472 131 466.5 c 128,-1,11
- 140 461 140 461 160 461 c 2,12,-1
- 454 461 l 1,13,-1
- 197 93 l 1,14,-1
- 451 93 l 1,15,-1
- 451 0 l 1,0,-1
-184 638 m 256,16,17
- 184 664 184 664 203.5 681.5 c 128,-1,18
- 223 699 223 699 245 699 c 256,19,20
- 267 699 267 699 285.5 681.5 c 128,-1,21
- 304 664 304 664 304 638 c 256,22,23
- 304 612 304 612 285.5 594.5 c 128,-1,24
- 267 577 267 577 245 577 c 256,25,26
- 223 577 223 577 203.5 594.5 c 128,-1,27
- 184 612 184 612 184 638 c 256,16,17
-EndSplineSet
+Refer: 206 729 N 1 0 0 1 108 0 2
+Refer: 42 122 N 1 0 0 1 0 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" trademark dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" bracketright dx=0 dy=0 dh=-31 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" backslash dx=0 dy=0 dh=-35 dv=0 dx=0 dy=0 dh=0 dv=0

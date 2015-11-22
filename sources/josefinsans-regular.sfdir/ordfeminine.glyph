@@ -2,56 +2,6 @@ StartChar: ordfeminine
 Encoding: 170 170 180
 Width: 474
 Flags: W
-TtInstrs:
-NPUSHB
- 45
- 10
- 1
- 5
- 0
- 17
- 1
- 2
- 4
- 2
- 71
- 1
- 1
- 0
- 0
- 5
- 4
- 0
- 5
- 96
- 0
- 4
- 2
- 2
- 4
- 84
- 0
- 4
- 4
- 2
- 88
- 3
- 1
- 2
- 4
- 2
- 76
- 36
- 38
- 37
- 17
- 23
- 36
- 6
- 5
- 26
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

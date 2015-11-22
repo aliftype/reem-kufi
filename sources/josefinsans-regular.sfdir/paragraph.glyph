@@ -2,42 +2,6 @@ StartChar: paragraph
 Encoding: 182 182 185
 Width: 623
 Flags: W
-TtInstrs:
-NPUSHB
- 31
- 0
- 1
- 4
- 0
- 4
- 1
- 0
- 109
- 0
- 2
- 0
- 4
- 1
- 2
- 4
- 94
- 3
- 1
- 0
- 0
- 16
- 0
- 73
- 17
- 17
- 40
- 17
- 16
- 5
- 5
- 25
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

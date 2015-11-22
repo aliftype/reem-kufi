@@ -2,32 +2,6 @@ StartChar: dotaccent
 Encoding: 729 729 206
 Width: 269
 Flags: W
-TtInstrs:
-NPUSHB
- 21
- 0
- 0
- 1
- 1
- 0
- 84
- 0
- 0
- 0
- 1
- 88
- 0
- 1
- 0
- 1
- 76
- 36
- 34
- 2
- 5
- 22
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

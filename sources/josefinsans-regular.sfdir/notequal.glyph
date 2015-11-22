@@ -2,14 +2,6 @@ StartChar: notequal
 Encoding: 8800 8800 337
 Width: 735
 Flags: W
-TtInstrs:
-PUSHB_4
- 19
- 9
- 1
- 45
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet

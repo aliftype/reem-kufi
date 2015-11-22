@@ -2,14 +2,6 @@ StartChar: integral
 Encoding: 8747 8747 331
 Width: 370
 Flags: W
-TtInstrs:
-PUSHB_4
- 18
- 4
- 1
- 45
-CALL
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
