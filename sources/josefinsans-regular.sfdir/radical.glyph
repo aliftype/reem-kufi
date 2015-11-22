@@ -1,6 +1,6 @@
 StartChar: radical
 Encoding: 8730 8730 341
-Width: 529
+Width: 583
 Flags: W
 TtInstrs:
 PUSHB_4
@@ -13,14 +13,14 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-22 350 m 1,0,-1
- 143 350 l 1,1,-1
- 240 135 l 1,2,-1
- 454 616 l 1,3,-1
- 518 616 l 1,4,-1
- 240 -4 l 1,5,-1
- 103 297 l 1,6,-1
- 21 297 l 1,7,-1
- 22 350 l 1,0,-1
+24 386 m 1,0,-1
+ 158 386 l 1,1,-1
+ 265 149 l 1,2,-1
+ 501 679 l 1,3,-1
+ 571 679 l 1,4,-1
+ 265 -4 l 1,5,-1
+ 114 328 l 1,6,-1
+ 23 328 l 1,7,-1
+ 24 386 l 1,0,-1
 EndSplineSet
 EndChar

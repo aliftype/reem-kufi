@@ -1,6 +1,6 @@
 StartChar: logicalnot
 Encoding: 172 172 186
-Width: 489
+Width: 539
 Flags: W
 TtInstrs:
 NPUSHB
@@ -44,12 +44,12 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-337 150 m 1,0,-1
- 337 186 l 1,1,-1
- 64 186 l 1,2,-1
- 64 252 l 1,3,-1
- 429 252 l 1,4,-1
- 429 150 l 1,5,-1
- 337 150 l 1,0,-1
+372 165 m 1,0,-1
+ 372 205 l 1,1,-1
+ 71 205 l 1,2,-1
+ 71 278 l 1,3,-1
+ 473 278 l 1,4,-1
+ 473 165 l 1,5,-1
+ 372 165 l 1,0,-1
 EndSplineSet
 EndChar

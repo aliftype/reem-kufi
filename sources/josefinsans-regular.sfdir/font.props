@@ -6,10 +6,10 @@ Weight: Demi
 Copyright: Copyright (c) 2010 by Typemade. All rights reserved.
 Version: 1.0
 ItalicAngle: 0
-UnderlinePosition: -50
-UnderlineWidth: 50
-Ascent: 750
-Descent: 250
+UnderlinePosition: -55.15
+UnderlineWidth: 55.15
+Ascent: 827
+Descent: 276
 sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 1 "Back"  1
@@ -19,39 +19,41 @@ FSType: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1276136336
+ModificationTime: 1448227311
 PfmFamily: 81
 TTFWeight: 600
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
 Panose: 0 0 0 0 0 0 0 0 0 0
-OS2TypoAscent: 750
+OS2TypoAscent: 827
 OS2TypoAOffset: 0
-OS2TypoDescent: -250
+OS2TypoDescent: -276
 OS2TypoDOffset: 0
 OS2TypoLinegap: 0
-OS2WinAscent: 973
+OS2WinAscent: 1073
 OS2WinAOffset: 0
-OS2WinDescent: 257
+OS2WinDescent: 283
 OS2WinDOffset: 0
-HheadAscent: 750
+HheadAscent: 827
 HheadAOffset: 0
-HheadDescent: -250
+HheadDescent: -276
 HheadDOffset: 0
-OS2SubXSize: 700
-OS2SubYSize: 650
+OS2SubXSize: 772
+OS2SubYSize: 717
 OS2SubXOff: 0
-OS2SubYOff: 140
-OS2SupXSize: 700
-OS2SupYSize: 650
+OS2SubYOff: 154
+OS2SupXSize: 772
+OS2SupYSize: 717
 OS2SupXOff: 0
-OS2SupYOff: 477
-OS2StrikeYSize: 50
-OS2StrikeYPos: 250
+OS2SupYOff: 526
+OS2StrikeYSize: 55
+OS2StrikeYPos: 276
 OS2Vendor: 'pyrs'
 OS2CodePages: 20000193.45000000
 OS2UnicodeRanges: a00000af.4000204a.00000000.00000000
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0"  "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1"  } ['kern' ('latn' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
 SVTCA[y-axis]
@@ -3158,4 +3160,10 @@ GaspTable: 1 65535 15 1
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
+DisplaySize: -72
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 54 18 7
+BeginPrivate: 0
+EndPrivate
 EndSplineFont

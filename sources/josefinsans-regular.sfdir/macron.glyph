@@ -1,6 +1,6 @@
 StartChar: macron
 Encoding: 175 175 195
-Width: 405
+Width: 446
 Flags: W
 TtInstrs:
 NPUSHB
@@ -37,10 +37,10 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-86 483 m 1,0,-1
- 86 541 l 1,1,-1
- 320 541 l 1,2,-1
- 320 483 l 1,3,-1
- 86 483 l 1,0,-1
+95 533 m 1,0,-1
+ 95 597 l 1,1,-1
+ 353 597 l 1,2,-1
+ 353 533 l 1,3,-1
+ 95 533 l 1,0,-1
 EndSplineSet
 EndChar

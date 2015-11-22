@@ -1,6 +1,6 @@
 StartChar: minus
 Encoding: 8722 8722 330
-Width: 485
+Width: 534
 Flags: W
 TtInstrs:
 PUSHB_4
@@ -13,11 +13,11 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-425 161 m 1,0,-1
- 60 161 l 1,1,-1
- 60 251 l 1,2,-1
- 425 251 l 1,3,-1
- 425 161 l 1,0,-1
+469 178 m 1,0,-1
+ 66 178 l 1,1,-1
+ 66 277 l 1,2,-1
+ 469 277 l 1,3,-1
+ 469 178 l 1,0,-1
 EndSplineSet
-PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" seven dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
+PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" seven dx=0 dy=0 dh=-17 dv=0 dx=0 dy=0 dh=0 dv=0
 EndChar
