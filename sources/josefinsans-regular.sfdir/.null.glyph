@@ -1,5 +1,5 @@
 StartChar: .null
-Encoding: 0 -1 1
+Encoding: 0 -1 0
 AltUni2: 000000.ffffffff.0
 Width: 0
 Flags: W

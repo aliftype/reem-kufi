@@ -1,11 +1,11 @@
 StartChar: umacron
-Encoding: 363 363 309
+Encoding: 363 363 308
 Width: 560
 Flags: W
 LayerCount: 2
 Fore
-Refer: 195 175 N 1 0 0 1 54 0 2
-Refer: 12 117 N 1 0 0 1 0 0 2
+Refer: 194 175 N 1 0 0 1 54 0 2
+Refer: 11 117 N 1 0 0 1 0 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" trademark dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" bracketright dx=0 dy=0 dh=-34 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" backslash dx=0 dy=0 dh=-42 dv=0 dx=0 dy=0 dh=0 dv=0

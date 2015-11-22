@@ -1,20 +1,20 @@
 StartChar: quotedblbase
-Encoding: 8222 8222 169
+Encoding: 8222 8222 168
 Width: 329
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-205 -61 m 1
- 193 -53 193 -53 180.5 -46.5 c 0
- 168 -40 168 -40 156 -33 c 1
- 179 -10 179 -10 189.5 23 c 0
- 200 56 200 56 192 95 c 1
- 254 103 l 1
- 263 57 263 57 249.5 14 c 0
- 236 -29 236 -29 205 -61 c 1
+205 -61 m 1,0,1
+ 193 -53 193 -53 180.5 -46.5 c 0,2,3
+ 168 -40 168 -40 156 -33 c 1,4,5
+ 179 -10 179 -10 189.5 23 c 0,6,7
+ 200 56 200 56 192 95 c 1,8,-1
+ 254 103 l 1,9,10
+ 263 57 263 57 249.5 14 c 0,11,12
+ 236 -29 236 -29 205 -61 c 1,0,1
 EndSplineSet
-Refer: 170 8218 S 1 0 0 1 0 0 2
+Refer: 169 8218 S 1 0 0 1 0 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Omacron dx=0 dy=0 dh=-33 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uni0122 dx=0 dy=0 dh=-33 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" OE dx=0 dy=0 dh=-33 dv=0 dx=0 dy=0 dh=0 dv=0

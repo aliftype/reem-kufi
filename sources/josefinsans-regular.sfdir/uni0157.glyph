@@ -1,18 +1,18 @@
 StartChar: uni0157
-Encoding: 343 343 292
+Encoding: 343 343 291
 Width: 343
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-235 -24 m 1
- 138 -254 l 1
- 47 -254 l 1
- 69 -197 69 -197 90 -140 c 0
- 111 -83 111 -83 133 -24 c 1
- 235 -24 l 1
+235 -24 m 1,0,-1
+ 138 -254 l 1,1,-1
+ 47 -254 l 1,2,3
+ 69 -197 69 -197 90 -140 c 0,4,5
+ 111 -83 111 -83 133 -24 c 1,6,-1
+ 235 -24 l 1,0,-1
 EndSplineSet
-Refer: 13 114 N 1 0 0 1 0 0 2
+Refer: 12 114 N 1 0 0 1 0 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" bracketright dx=0 dy=0 dh=-35 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" backslash dx=0 dy=0 dh=-23 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" braceright dx=0 dy=0 dh=-33 dv=0 dx=0 dy=0 dh=0 dv=0

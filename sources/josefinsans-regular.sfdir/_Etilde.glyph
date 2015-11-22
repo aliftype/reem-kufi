@@ -1,11 +1,11 @@
 StartChar: Etilde
-Encoding: 7868 7868 285
+Encoding: 7868 7868 284
 Width: 680
 Flags: W
 LayerCount: 2
 Fore
-Refer: 321 732 N 1 0 0 1 15 340 2
-Refer: 51 69 N 1 0 0 1 0 0 2
+Refer: 320 732 N 1 0 0 1 15 340 2
+Refer: 50 69 N 1 0 0 1 0 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uni0137 dx=0 dy=0 dh=-9 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" hcircumflex dx=0 dy=0 dh=-9 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" hbar dx=0 dy=0 dh=-9 dv=0 dx=0 dy=0 dh=0 dv=0

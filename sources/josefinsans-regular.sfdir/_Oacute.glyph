@@ -1,11 +1,11 @@
 StartChar: Oacute
-Encoding: 211 211 114
+Encoding: 211 211 113
 Width: 901
 Flags: W
 LayerCount: 2
 Fore
-Refer: 151 180 N 1 0 0 1 279 310 2
-Refer: 198 79 N 1 0 0 1 0 0 2
+Refer: 150 180 N 1 0 0 1 279 310 2
+Refer: 197 79 N 1 0 0 1 0 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uni0137 dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" hcircumflex dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" hbar dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0

@@ -1,19 +1,19 @@
 StartChar: tcaron
-Encoding: 357 357 224
+Encoding: 357 357 223
 Width: 334
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-322 632 m 1
- 272 660 l 1
- 296 682 296 682 307 715.5 c 0
- 318 749 318 749 310 788 c 1
- 372 795 l 1
- 381 749 381 749 367.5 706.5 c 0
- 354 664 354 664 322 632 c 1
+322 632 m 1,0,-1
+ 272 660 l 1,1,2
+ 296 682 296 682 307 715.5 c 0,3,4
+ 318 749 318 749 310 788 c 1,5,-1
+ 372 795 l 1,6,7
+ 381 749 381 749 367.5 706.5 c 0,8,9
+ 354 664 354 664 322 632 c 1,0,-1
 EndSplineSet
-Refer: 4 116 N 1 0 0 1 0 0 2
+Refer: 3 116 N 1 0 0 1 0 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" trademark dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" bracketright dx=0 dy=0 dh=-28 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" backslash dx=0 dy=0 dh=-21 dv=0 dx=0 dy=0 dh=0 dv=0

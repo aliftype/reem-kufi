@@ -1,12 +1,12 @@
 StartChar: iogonek
-Encoding: 303 303 317
+Encoding: 303 303 316
 Width: 226
 Flags: W
 LayerCount: 2
 Fore
-Refer: 8 105 N 1 0 0 1 0 0 2
-Refer: 203 731 N 1 0 0 1 -139 0 2
-Refer: 206 729 N 1 0 0 1 -22 0 2
+Refer: 7 105 N 1 0 0 1 0 0 2
+Refer: 202 731 N 1 0 0 1 -139 0 2
+Refer: 205 729 N 1 0 0 1 -22 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" parenright dx=0 dy=0 dh=-13 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Zdotaccent dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Zcaron dx=0 dy=0 dh=-10 dv=0 dx=0 dy=0 dh=0 dv=0

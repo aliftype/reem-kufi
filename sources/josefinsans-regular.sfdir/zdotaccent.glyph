@@ -1,11 +1,11 @@
 StartChar: zdotaccent
-Encoding: 380 380 227
+Encoding: 380 380 226
 Width: 484
 Flags: W
 LayerCount: 2
 Fore
-Refer: 206 729 N 1 0 0 1 108 0 2
-Refer: 42 122 N 1 0 0 1 0 0 2
+Refer: 205 729 N 1 0 0 1 108 0 2
+Refer: 41 122 N 1 0 0 1 0 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" trademark dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" bracketright dx=0 dy=0 dh=-31 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" backslash dx=0 dy=0 dh=-35 dv=0 dx=0 dy=0 dh=0 dv=0

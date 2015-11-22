@@ -1,18 +1,18 @@
 StartChar: uni0122
-Encoding: 290 290 290
+Encoding: 290 290 289
 Width: 755
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-481 -24 m 1
- 384 -254 l 1
- 293 -254 l 1
- 315 -197 315 -197 336 -140 c 0
- 357 -83 357 -83 379 -24 c 1
- 481 -24 l 1
+481 -24 m 1,0,-1
+ 384 -254 l 1,1,-1
+ 293 -254 l 1,2,3
+ 315 -197 315 -197 336 -140 c 0,4,5
+ 357 -83 357 -83 379 -24 c 1,6,-1
+ 481 -24 l 1,0,-1
 EndSplineSet
-Refer: 102 71 N 1 0 0 1 0 0 2
+Refer: 101 71 N 1 0 0 1 0 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" uni0137 dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" hcircumflex dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" hbar dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
