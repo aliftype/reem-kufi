@@ -12,4 +12,5 @@ SplineSet
  469 178 l 1,0,-1
 EndSplineSet
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" seven dx=0 dy=0 dh=-17 dv=0 dx=0 dy=0 dh=0 dv=0
+Colour: ff0000
 EndChar

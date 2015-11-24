@@ -152,4 +152,5 @@ PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" y dx=0 
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" backslash dx=0 dy=0 dh=-51 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" asterisk dx=0 dy=0 dh=-8 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" question dx=0 dy=0 dh=-12 dv=0 dx=0 dy=0 dh=0 dv=0
+Colour: ff0000
 EndChar

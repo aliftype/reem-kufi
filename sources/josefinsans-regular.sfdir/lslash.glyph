@@ -122,4 +122,5 @@ PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Jcircum
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" J dx=0 dy=0 dh=-32 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" lslash dx=0 dy=0 dh=-7 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" space dx=0 dy=0 dh=-25 dv=0 dx=0 dy=0 dh=0 dv=0
+Colour: ff0000
 EndChar

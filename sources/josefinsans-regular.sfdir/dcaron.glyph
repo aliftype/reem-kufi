@@ -138,4 +138,5 @@ PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" h dx=0 
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" i dx=0 dy=0 dh=56 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" l dx=0 dy=0 dh=76 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" b dx=0 dy=0 dh=77 dv=0 dx=0 dy=0 dh=0 dv=0
+Colour: ff0000
 EndChar

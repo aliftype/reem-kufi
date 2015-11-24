@@ -15,4 +15,5 @@ SplineSet
  207 741 l 1,7,-1
  207 -86 l 1,0,-1
 EndSplineSet
+Colour: ff0000
 EndChar

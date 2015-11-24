@@ -130,4 +130,5 @@ PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" Jcircum
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" J dx=0 dy=0 dh=-32 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" itilde dx=0 dy=0 dh=26 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" idieresis dx=0 dy=0 dh=8 dv=0 dx=0 dy=0 dh=0 dv=0
+Colour: ff0000
 EndChar

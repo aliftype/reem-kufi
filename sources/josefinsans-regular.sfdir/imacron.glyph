@@ -111,4 +111,5 @@ PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" J dx=0 
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" ordmasculine dx=0 dy=0 dh=18 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" ordfeminine dx=0 dy=0 dh=17 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 0" asterisk dx=0 dy=0 dh=31 dv=0 dx=0 dy=0 dh=0 dv=0
+Colour: ff0000
 EndChar
