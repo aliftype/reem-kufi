@@ -31,5 +31,7 @@ SplineSet
  445 -0 l 1
 EndSplineSet
 Layer: 2
-Refer: 156 -1 N 1 0 0 1 590 552 2
+Refer: 154 -1 N 1 0 0 1 590 550 2
+Refer: 153 -1 N 1 0 0 1 590 550 2
+Refer: 156 -1 N 1 0 0 1 590 550 2
 EndChar
