@@ -1,10 +1,7 @@
 #!/usr/bin/env python2
 # encoding: utf-8
 
-from __future__ import division
-
 import argparse
-import math
 from datetime import datetime
 from sortsmill import ffcompat as fontforge
 
