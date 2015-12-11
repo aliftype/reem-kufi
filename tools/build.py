@@ -56,8 +56,6 @@ def merge(args):
 
     latin_locl = ""
     for glyph in latin.glyphs():
-        if glyph.glyphclass == "mark":
-            glyph.width = latin["A"].width
         if glyph.color == 0xff0000:
             latin.removeGlyph(glyph)
         else:
