@@ -3,11 +3,19 @@ Reem Kufi
 
 ![Sample](documentation/sample.png)
 Reem Kufi is a Fatimid-style decorative [Kufic] [1] typeface as seen in the
-historical mosques of Cairo. Reem Kufi is based on the Kufic designs of the
-great Arabic calligrapher [Mohammed Abdul Qadir] [2] who revived this art in
-the 20th century and formalised its rules.
+historical mosques of Cairo, and is largely is based on the Kufic designs of
+the late master of Arabic calligraphy [Mohammed Abdul Qadir] [2] who revived
+this art in the 20th century and formalised its rules.
 
-Reem is an Arabic female name that literaly means “a white deer” and it so
+Reem Kufi is particularly suitable for display settings, in titles or
+decorations. Due to its unmistakable old Kufic style, it gives a feeling of
+something old, historical, or Islamic.
+
+Some glyphs in Reem Kufi has several alternate variants that can work better
+for different situations, they can be accessed with “Character Variant”
+features (`cv01`, `cv02`, and so on).
+
+Reem is an Arabic female name that literally means “a white deer” and it so
 happens to be the name of my daughter.
 
 [1]: https://en.wikipedia.org/wiki/Kufic
