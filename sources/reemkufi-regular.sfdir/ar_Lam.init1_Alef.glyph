@@ -6,11 +6,11 @@ Flags: MW
 LayerCount: 3
 Back
 SplineSet
-25 350 m 13
- 25 778 l 29
- 125 800 l 29
- 125 300 l 21
- 25 350 l 13
+25 350 m 9
+ 25 778 l 25
+ 125 800 l 25
+ 125 300 l 17
+ 25 350 l 9
 EndSplineSet
 Fore
 SplineSet

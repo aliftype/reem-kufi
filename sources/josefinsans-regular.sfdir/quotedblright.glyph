@@ -14,7 +14,7 @@ SplineSet
  152 749 152 749 139 706.5 c 0,11,12
  126 664 126 664 95 632 c 1,0,1
 EndSplineSet
-Refer: 88 8217 S 1 0 0 1 117 0 2
+Refer: 88 8217 N 1 0 0 1 117 0 2
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" ampersand dx=0 dy=0 dh=-15 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" guillemotright dx=0 dy=0 dh=-84 dv=0 dx=0 dy=0 dh=0 dv=0
 PairPos2: "'kern' Horizontal Kerning in Latin lookup 0 per glyph data 1" guilsinglright dx=0 dy=0 dh=-84 dv=0 dx=0 dy=0 dh=0 dv=0
