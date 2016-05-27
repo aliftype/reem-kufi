@@ -28,9 +28,6 @@ PDF=$(DOCDIR)/$(NAME)-table.pdf
 #RUN=$(TESTS:%=$(TESTDIR)/%.run)
 LNT=$(FONTS:%=$(TESTDIR)/$(NAME)-%.lnt)
 
-ttx?=false
-crunch?=false
-
 #all: lint otf doc
 all: otf doc
 
@@ -43,10 +40,6 @@ check: lint # $(RUN)
 $(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(LATIN)-%.ufo $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   GEN	$@"
 	@FILES=($+); $(PY3) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} --latin-subset=$(LATIN_SUBSET) $< $${FILES[1]}
-ifeq ($(crunch), true)
-	@echo "   FC	$@"
-	@font-crunch -q -j8 -o $@ $@
-endif
 
 #$(TESTDIR)/%.run: $(TESTDIR)/%.txt $(TESTDIR)/%.shp $(NAME)-Regular.$(EXT)
 #	@echo "   TST	$*"
