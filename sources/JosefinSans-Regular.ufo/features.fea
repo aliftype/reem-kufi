@@ -1,3 +1,9 @@
+feature liga {
+    script latn;
+    sub f i by fi;
+    sub f l by fl;
+} liga;
+
 feature kern { # Kerning
 
 @_KERN_t = [ t tcaron uni0163 tbar ];
