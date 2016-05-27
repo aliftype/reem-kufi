@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fraction" format="1">
-  <advance width="340"/>
+  <advance width="356"/>
   <unicode hex="2044"/>
   <outline>
     <contour>
-      <point x="0" y="0" type="line"/>
-      <point x="281" y="761" type="line"/>
-      <point x="340" y="761" type="line"/>
-      <point x="59" y="0" type="line"/>
+      <point x="-9" y="0" type="line"/>
+      <point x="62" y="192"/>
+      <point x="201" y="573"/>
+      <point x="273" y="765" type="qcurve"/>
+      <point x="365" y="765" type="line"/>
+      <point x="83" y="0" type="line"/>
     </contour>
   </outline>
 </glyph>

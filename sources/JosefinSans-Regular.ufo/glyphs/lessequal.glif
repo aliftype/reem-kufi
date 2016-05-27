@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lessequal" format="1">
-  <advance width="560"/>
+  <advance width="545"/>
   <unicode hex="2264"/>
   <outline>
     <contour>
-      <point x="489" y="297" type="qcurve"/>
-      <point x="489" y="218" type="line"/>
-      <point x="377" y="282"/>
-      <point x="159" y="409"/>
-      <point x="48" y="473" type="qcurve"/>
-      <point x="159" y="536"/>
-      <point x="377" y="664"/>
-      <point x="489" y="727" type="qcurve"/>
-      <point x="489" y="649" type="line"/>
-      <point x="412" y="605"/>
-      <point x="259" y="518"/>
-      <point x="183" y="473" type="qcurve"/>
-      <point x="259" y="428"/>
-      <point x="412" y="341"/>
+      <point x="480" y="342" type="line"/>
+      <point x="480" y="217" type="line"/>
+      <point x="37" y="473" type="line"/>
+      <point x="480" y="728" type="line"/>
+      <point x="480" y="604" type="line"/>
+      <point x="254" y="473" type="line"/>
     </contour>
     <contour>
-      <point x="450" y="74" type="line"/>
-      <point x="87" y="74" type="line"/>
-      <point x="87" y="131" type="line"/>
-      <point x="450" y="131" type="line"/>
+      <point x="441" y="57" type="line"/>
+      <point x="76" y="57" type="line"/>
+      <point x="76" y="147" type="line"/>
+      <point x="441" y="147" type="line"/>
     </contour>
   </outline>
 </glyph>
