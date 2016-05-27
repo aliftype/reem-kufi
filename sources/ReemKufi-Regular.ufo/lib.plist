@@ -5,6 +5,8 @@
 	<key>public.glyphOrder</key>
 	<array>
 		<string>space</string>
+		<string>uni060C</string>
+		<string>uni061B</string>
 		<string>uni0621</string>
 		<string>uni0622</string>
 		<string>uni0623</string>

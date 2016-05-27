@@ -234,6 +234,10 @@
 	<string>period.glif</string>
 	<key>space</key>
 	<string>space.glif</string>
+	<key>uni060C</key>
+	<string>uni060C_.glif</string>
+	<key>uni061B</key>
+	<string>uni061B_.glif</string>
 	<key>uni0621</key>
 	<string>uni0621.glif</string>
 	<key>uni0622</key>

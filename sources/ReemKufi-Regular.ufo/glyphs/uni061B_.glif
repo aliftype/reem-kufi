@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni061B" format="2">
+  <advance width="166"/>
+  <unicode hex="061B"/>
+  <outline>
+    <component base="ar1DotAbove.mark" xOffset="83.0"/>
+    <component base="uni060C" xOffset="-53.037739412532574" yOffset="130.54398710050964"/>
+  </outline>
+</glyph>
