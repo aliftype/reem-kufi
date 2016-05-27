@@ -3,7 +3,6 @@
 
 import argparse
 import math
-import os
 
 from cu2qu.ufo import font_to_quadratic
 from datetime import datetime
@@ -152,7 +151,7 @@ def merge(args):
         value = getattr(latin.info, attr)
         if value is not None:
             setattr(arabic.info, attr, getattr(latin.info, attr))
-    fea = "" #"include(../%s)\n" % (os.path.dirname(args.latinfile) + "/features")
+    fea = "include(../%s)\n" % (args.latinfile + "/features.fea")
     fea += generateArabicFeatures(arabic, args.feature_file)
     if latin_locl:
         latin_locl += "} locl;"
