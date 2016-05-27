@@ -5,6 +5,7 @@ LATIN=JosefinSans
 
 SRCDIR=sources
 DOCDIR=documentation
+LATIN_SUBSET=$(SRCDIR)/latin-subset.txt
 TOOLDIR=tools
 TESTDIR=tests
 DIST=$(NAME)-$(VERSION)
@@ -45,13 +46,9 @@ $(SRCDIR)/$(NAME)-%.ufo: $(SRCDIR)/$(NAME)-%.sfdir
 	@rm -rf $@
 	@sfd2ufo $< $@
 
-$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(LATIN)-%.sfdir $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
-	@echo "   FF	$@"
-	@FILES=($+); $(PY) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} $${FILES[0]} $${FILES[1]}
-ifeq ($(ttx), true)
-	@echo "   TTX	$@"
-	@pyftsubset $@ --output-file=$@ --unicodes='*' --layout-features='*' --name-IDs='*'
-endif
+$(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(LATIN)-%.ufo $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
+	@echo "   GEN	$@"
+	@FILES=($+); $(PY3) $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} --latin-subset=$(LATIN_SUBSET) $< $${FILES[1]}
 ifeq ($(crunch), true)
 	@echo "   FC	$@"
 	@font-crunch -q -j8 -o $@ $@
@@ -75,7 +72,6 @@ $(DOCDIR)/$(NAME)-table.pdf: $(NAME)-Regular.$(EXT)
 	@rm -f $@.tmp $@.comp $@.txt
 
 dist:
-	@make -B ttx=true crunch=false
 	@mkdir -p $(NAME)-$(VERSION)
 	@cp $(OTF) $(PDF) $(NAME)-$(VERSION)
 	@cp OFL.txt $(NAME)-$(VERSION)

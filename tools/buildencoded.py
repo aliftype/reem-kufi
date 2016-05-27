@@ -1,43 +1,62 @@
-from sortsmill import ffcompat as fontforge
 import sys
+import os
+
+from defcon import Font, Component
+from feaTools.parser import parseFeatures, FeaToolsParserSyntaxError
+from feaTools.writers.baseWriter import AbstractFeatureWriter
+
+class FeatureWriter(AbstractFeatureWriter):
+    def __init__(self):
+        super(FeatureWriter).__init__()
+        self.subs = {}
+        self.name = ""
+
+    def feature(self, name):
+        self.name = name
+        return self
+
+    def lookup(self, name):
+        self.name = ""
+        return self
+
+    def gsubType1(self, target, replacement):
+        if self.name == "isol":
+            self.subs[target] = [replacement]
+
+    def gsubType2(self, target, replacement):
+        if self.name == "isol":
+            self.subs[target] = replacement
 
 def build(font):
-    subtables = []
-    for lookup in font.gsub_lookups:
-        for feature, script in font.getLookupInfo(lookup)[2]:
-            if feature in ("isol", "ccmp"):
-                for subtable in font.getLookupSubtables(lookup):
-                    subtables.append(subtable)
+    path = os.path.splitext(font.path)
+    path = path[0].split("-")
+    path = path[0] + ".fea"
+    with open(path) as f:
+        fea = f.read()
+    writer = FeatureWriter()
+    try:
+        parseFeatures(writer, fea)
+    except FeaToolsParserSyntaxError:
+        pass
+    subs = writer.subs
 
-    subs = {}
-    for glyph in font.glyphs():
-        if glyph.unicode > 0:
-            for subtable in subtables:
-                sub = glyph.getPosSub(subtable)
-                if sub:
-                    assert glyph.glyphname not in subs
-                    subs[glyph.glyphname] = sub
-
-    temp_glyph = font.createChar(-1, "TempXXX")
-
-    for glyph in font.glyphs():
-        if glyph.glyphname in subs:
-            sub = subs[glyph.glyphname]
-            assert len(sub) == 1
-            sub = sub[0]
-            assert sub[1] in ("MultSubs", "Substitution"), sub[1]
-            names = sub[2:]
-            # build the composite on a temp glyph to prevent FontForge from
-            # using its built-in knowledge about components of some encoded
-            # glyphs.
-            temp_glyph.clear()
-            temp_glyph.addReference(names[0])
-            if len(names) > 1:
-                for name in names[1:]:
-                    temp_glyph.appendAccent(name)
-                temp_glyph.build()
-            glyph.clear()
-            glyph.references = temp_glyph.references
-            glyph.useRefsMetrics(names[0])
-            glyph.color = 0xff0000
-    font.removeGlyph(temp_glyph)
+    for name, names in subs.items():
+        base = names[0]
+        if base in font.layers["Marks"]:
+            base = font.layers["Marks"][base]
+        else:
+            base = font[base]
+        glyph = font.newGlyph(name)
+        glyph.unicode = int(name.lstrip('uni'), 16)
+        glyph.width = base.width
+        glyph.leftMargin = base.leftMargin
+        glyph.rightMargin = base.rightMargin
+        component = Component()
+        component.baseGlyph = names[0]
+        glyph.appendComponent(component)
+        for baseComponent in base.components:
+            if baseComponent.baseGlyph in names[1:]:
+                component = Component()
+                component.transformation = baseComponent.transformation
+                component.baseGlyph = baseComponent.baseGlyph
+                glyph.appendComponent(component)
