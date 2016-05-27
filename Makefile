@@ -21,7 +21,7 @@ FONTS=Regular #Bold
 UFO=$(FONTS:%=$(SRCDIR)/$(NAME)-%.ufo)
 OTF=$(FONTS:%=$(NAME)-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
-PDF=$(DOCDIR)/$(NAME)-table.pdf
+PDF=$(DOCDIR)/$(NAME)-Table.pdf
 
 #TST=$(TESTS:%=$(TESTDIR)/%.txt)
 #SHP=$(TESTS:%=$(TESTDIR)/%.shp)
@@ -51,7 +51,7 @@ $(TESTDIR)/%.lnt: $(SRCDIR)/%.sfdir $(SFDLINT)
 	@mkdir -p $(TESTDIR)
 	@$(PY) $(SFDLINT) $< $@
 
-$(DOCDIR)/$(NAME)-table.pdf: $(NAME)-Regular.otf
+$(DOCDIR)/$(NAME)-Table.pdf: $(NAME)-Regular.otf
 	@echo "   GEN	$@"
 	@mkdir -p $(DOCDIR)
 	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
