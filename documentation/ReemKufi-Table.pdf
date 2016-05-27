@@ -80,7 +80,7 @@ ET
 204.75 115.65 31.352 -43.648 re f
 392.852 115.65 31.352 -43.648 re f
 0 0 0 rg BT
-20 0 0 20 189.075 748.086719 Tm
+20 0 0 20 189.075 748.006719 Tm
 /f-2-1 1 Tf
 <0001>Tj
 0 -28.3725 Td
@@ -608,7 +608,7 @@ endobj
 /Subtype /Type0
 /Type /Font
 /DescendantFonts [26 0 R]
-/BaseFont /FFIUGQ+ReemKufi-Regular
+/BaseFont /WBNJJJ+ReemKufi-Regular
 >>
 endobj 
 11 0 obj 
@@ -621,7 +621,7 @@ endobj
 /FirstChar 32
 /LastChar 255
 /FontDescriptor 28 0 R
-/BaseFont /KIZPEZ+ReemKufi-Regular
+/BaseFont /FAWYML+ReemKufi-Regular
 >>
 endobj 
 16 0 obj 
@@ -742,7 +742,7 @@ ET
 0.5 0.5 0.5 rg 236.102 770.4 31.352 -43.648 re f
 236.102 202.951 31.352 -43.648 re f
 0 0 0 rg BT
-20 0 0 20 249.15 704.436719 Tm
+20 0 0 20 249.15 704.356719 Tm
 /f-2-0 1 Tf
 (\241)Tj
 -0.0847656 -2.1825 Td
@@ -1398,7 +1398,7 @@ ET
 392.852 159.298 31.352 -43.648 re f
 392.852 115.65 31.352 -43.648 re f
 0 0 0 rg BT
-20 0 0 20 281.070313 704.436719 Tm
+20 0 0 20 281.070313 704.356719 Tm
 /f-2-1 1 Tf
 <0003>Tj
 /f-2-0 1 Tf
@@ -1643,7 +1643,7 @@ ET
 345.824 159.298 31.352 -43.648 re f
 345.824 115.65 31.352 -43.648 re f
 0 0 0 rg BT
-20 0 0 20 262.746875 486.186719 Tm
+20 0 0 20 262.746875 486.106719 Tm
 /f-2-0 1 Tf
 (\210)Tj
 /f-2-1 1 Tf
@@ -1971,7 +1971,7 @@ ET
 518.25 159.298 31.352 -43.648 re f
 518.25 115.65 31.352 -43.648 re f
 0 0 0 rg BT
-20 0 0 20 60.932812 224.286719 Tm
+20 0 0 20 60.932812 224.206719 Tm
 /f-2-1 1 Tf
 <0005>Tj
 1.620625 2.1825 Td
@@ -2601,7 +2601,7 @@ ET
 377.176 159.298 31.352 -43.648 re f
 377.176 115.65 31.352 -43.648 re f
 0 0 0 rg BT
-20 0 0 20 231.920312 617.136719 Tm
+20 0 0 20 231.920312 617.056719 Tm
 /f-2-0 1 Tf
 (\226)Tj
 -0.101562 -2.1825 Td
@@ -2852,7 +2852,7 @@ ET
 314.477 159.298 31.352 -43.648 re f
 314.477 115.65 31.352 -43.648 re f
 BT
-20 0 0 20 262.10625 224.286719 Tm
+20 0 0 20 262.10625 224.206719 Tm
 /f-2-0 1 Tf
 (\200)Tj
 8 0 0 8 258.429688 206.439062 Tm
@@ -3261,7 +3261,7 @@ ET
 518.25 159.298 31.352 -43.648 re f
 518.25 115.65 31.352 -43.648 re f
 0 0 0 rg BT
-20 0 0 20 90.173437 660.786719 Tm
+20 0 0 20 90.173437 660.706719 Tm
 /f-2-1 1 Tf
 <0063>Tj
 8 0 0 8 86.027344 642.939062 Tm
@@ -4534,14 +4534,14 @@ endobj
 /StemV 80
 /FontFamily (Reem Kufi Regular)
 /ItalicAngle 0
-/Ascent 800
-/FontName /KIZPEZ+ReemKufi-Regular
+/Ascent 823
+/FontName /FAWYML+ReemKufi-Regular
 /Type /FontDescriptor
 /Flags 4
 /FontFile3 51 0 R
 /FontBBox [-435 -478 1265 1018]
 /CapHeight 1018
-/Descent -200
+/Descent -215
 /StemH 80
 >>
 endobj 
@@ -4925,14 +4925,14 @@ endobj
 /StemV 80
 /FontFamily (Reem Kufi Regular)
 /ItalicAngle 0
-/Ascent 800
-/FontName /FFIUGQ+ReemKufi-Regular
+/Ascent 823
+/FontName /WBNJJJ+ReemKufi-Regular
 /Type /FontDescriptor
 /Flags 4
 /FontFile3 52 0 R
 /FontBBox [-435 -478 1265 1018]
 /CapHeight 1018
-/Descent -200
+/Descent -215
 /StemH 80
 >>
 endobj 
@@ -4948,7 +4948,7 @@ endobj
 /Type /Font
 /W [0 [300 0 300 205 520 241 166 474 520 220 220 347 220 725 220 850 347 850 850 515 515 515 870 870 225 225 870 870 1170 1170 1010 1010 370 370 300 850 515 1010 470 613 460 347 347 725 725 0 0 0 0 0 0 0 0 0 0 0 500 500 500 500 500 500 500 500 500 500 850 515 220 850 850 515 870 870 225 225 850 850 1010 1010 460 460 419 347 347 725 725 725 500 500 500 500 500 500 500 500 500 500 356 485]]
 /FontDescriptor 53 0 R
-/BaseFont /FFIUGQ+ReemKufi-Regular
+/BaseFont /WBNJJJ+ReemKufi-Regular
 >>
 endobj 
 54 0 obj 
