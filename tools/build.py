@@ -157,6 +157,18 @@ def merge(args):
         latin_locl += "} locl;"
         fea += latin_locl
 
+    for ch in [(ord(u'؟'), "question")]:
+        arGlyph = arabic.newGlyph("uni%04X" %ch[0])
+        arGlyph.unicode = ch[0]
+        enGlyph = arabic[ch[1]]
+        component = Component()
+        component.transformation = tuple(Transform().scale(-1, 1))
+        component.baseGlyph = enGlyph.name
+        arGlyph.appendComponent(component)
+        arGlyph.leftMargin = enGlyph.rightMargin
+        arGlyph.rightMargin = enGlyph.leftMargin
+        unicodes.append(arGlyph.unicode)
+
     arabic.lib[MADA_UNICODES] = unicodes
 
     # Set metadata
