@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arKaf.fina1" format="2">
+  <advance width="1085"/>
+  <outline>
+    <component base="arSharta.mark" xOffset="374.0" yOffset="467.0"/>
+  </outline>
+</glyph>

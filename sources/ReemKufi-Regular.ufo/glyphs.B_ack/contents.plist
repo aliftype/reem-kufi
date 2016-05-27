@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arAlef.fina1Lam</key>
+	<string>arA_lef.fina1L_am.glif</string>
+	<key>arAlef.finaLam</key>
+	<string>arA_lef.finaL_am.glif</string>
+	<key>arBeh.initHah</key>
+	<string>arB_eh.initH_ah.glif</string>
+	<key>arLam.init1Alef</key>
+	<string>arL_am.init1A_lef.glif</string>
+	<key>arLam.initAlef</key>
+	<string>arL_am.initA_lef.glif</string>
+	<key>arLam.initHah</key>
+	<string>arL_am.initH_ah.glif</string>
+	<key>arLam.mediAlef</key>
+	<string>arL_am.mediA_lef.glif</string>
+</dict>
+</plist>

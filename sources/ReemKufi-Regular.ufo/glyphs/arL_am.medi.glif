@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arLam.medi" format="2">
+  <advance width="300"/>
+  <outline>
+    <contour>
+      <point x="200.0" y="800.0" type="line"/>
+      <point x="200.0" y="100.0" type="line"/>
+      <point x="320.0" y="100.0" type="line"/>
+      <point x="320.0" y="0.0" type="line"/>
+      <point x="-20.0" y="0.0" type="line"/>
+      <point x="-20.0" y="100.0" type="line"/>
+      <point x="100.0" y="100.0" type="line"/>
+      <point x="100.0" y="778.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

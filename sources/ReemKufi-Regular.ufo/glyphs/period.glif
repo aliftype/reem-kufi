@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period" format="2">
+  <advance width="166"/>
+  <unicode hex="002E"/>
+  <outline>
+    <component base="ar1DotAbove.mark" xOffset="83.0"/>
+  </outline>
+</glyph>

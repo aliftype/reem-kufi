@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arHah.fina" format="2">
+  <advance width="430"/>
+  <outline>
+    <component base="ar2DotAbove.mark" xOffset="190.0" yOffset="500.0"/>
+    <component base="ar1DotAbove.mark" xOffset="190.0" yOffset="500.0"/>
+    <component base="ar3DotAbove.mark" xOffset="190.0" yOffset="500.0"/>
+    <component base="ar3IDotBelow.mark" xOffset="181.0" yOffset="-260.0"/>
+    <component base="ar1DotBelow.mark" xOffset="215.0" yOffset="-85.0"/>
+  </outline>
+</glyph>

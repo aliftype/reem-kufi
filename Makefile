@@ -19,7 +19,6 @@ SFDLINT=$(TOOLDIR)/sfdlint.py
 FONTS=Regular #Bold
 #TESTS=wb yeh-ragaa
 
-SFD=$(FONTS:%=$(SRCDIR)/$(NAME)-%.sfdir)
 UFO=$(FONTS:%=$(SRCDIR)/$(NAME)-%.ufo)
 OTF=$(FONTS:%=$(NAME)-%.$(EXT))
 PDF=$(DOCDIR)/$(NAME)-table.pdf
@@ -40,11 +39,6 @@ ufo: $(UFO)
 doc: $(PDF)
 lint: $(LNT)
 check: lint # $(RUN)
-
-$(SRCDIR)/$(NAME)-%.ufo: $(SRCDIR)/$(NAME)-%.sfdir
-	@echo "   GEN	$@"
-	@rm -rf $@
-	@sfd2ufo $< $@
 
 $(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(LATIN)-%.ufo $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   GEN	$@"

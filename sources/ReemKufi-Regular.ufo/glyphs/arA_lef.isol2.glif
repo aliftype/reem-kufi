@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arAlef.isol2" format="2">
+  <advance width="418"/>
+  <outline>
+    <contour>
+      <point x="125.0" y="800.0" type="line"/>
+      <point x="125.0" y="120.0" type="line" smooth="yes"/>
+      <point x="125.0" y="43.0"/>
+      <point x="294.0" y="40.0"/>
+      <point x="418.0" y="101.0" type="curve"/>
+      <point x="340.0" y="-7.0"/>
+      <point x="25.0" y="-78.0"/>
+      <point x="25.0" y="120.0" type="curve" smooth="yes"/>
+      <point x="25.0" y="778.0" type="line"/>
+    </contour>
+  </outline>
+</glyph>

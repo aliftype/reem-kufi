@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arAlef.fina1Lam" format="2">
+  <outline>
+    <component base="arHamzaAbove.mark" xOffset="90.0" yOffset="850.0"/>
+    <component base="arHamzaBelow.mark" xOffset="90.0" yOffset="-50.0"/>
+    <component base="arSad.mark" xOffset="90.0" yOffset="850.0"/>
+    <component base="arMadda.mark" xOffset="90.0" yOffset="850.0"/>
+  </outline>
+</glyph>

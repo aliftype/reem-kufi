@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arQaf.fina" format="2">
+  <advance width="600"/>
+  <outline>
+    <component base="ar2DotAbove.mark" xOffset="340.0" yOffset="500.0"/>
+    <component base="ar1DotAbove.mark" xOffset="340.0" yOffset="500.0"/>
+    <component base="ar3DotAbove.mark" xOffset="340.0" yOffset="500.0"/>
+  </outline>
+</glyph>

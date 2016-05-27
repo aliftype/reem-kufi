@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ar3DotBelow.mark" format="2">
+  <outline>
+    <component base="ar1DotAbove.mark" xOffset="90.0" yOffset="-150.0"/>
+    <component base="ar1DotAbove.mark" xOffset="-83.0" yOffset="-150.0"/>
+    <component base="ar1DotAbove.mark"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.fontforge.glyphclass</key>
+      <string>mark</string>
+    </dict>
+  </lib>
+</glyph>

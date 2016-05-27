@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arHah.isol" format="2">
+  <advance width="515"/>
+  <outline>
+    <component base="ar2DotAbove.mark" xOffset="150.0" yOffset="500.0"/>
+    <component base="ar1DotAbove.mark" xOffset="150.0" yOffset="500.0"/>
+    <component base="ar3DotAbove.mark" xOffset="150.0" yOffset="500.0"/>
+    <component base="ar3IDotBelow.mark" xOffset="201.0" yOffset="-270.0"/>
+    <component base="ar1DotBelow.mark" xOffset="225.0" yOffset="-80.0"/>
+  </outline>
+</glyph>

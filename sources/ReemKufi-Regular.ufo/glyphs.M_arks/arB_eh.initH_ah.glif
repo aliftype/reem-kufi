@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arBeh.initHah" format="2">
+  <outline>
+    <component base="ar2DotAbove.mark" xOffset="-307.0" yOffset="558.0"/>
+    <component base="ar1DotAbove.mark" xOffset="-307.0" yOffset="558.0"/>
+    <component base="ar3DotAbove.mark" xOffset="-307.0" yOffset="558.0"/>
+    <component base="arTah.mark" xOffset="-315.0" yOffset="500.0"/>
+    <component base="arHamzaAbove.mark" xOffset="-315.0" yOffset="500.0"/>
+    <component base="ar1DotBelow.mark" xOffset="-148.0" yOffset="-98.0"/>
+    <component base="ar3IDotBelow.mark" xOffset="-148.0" yOffset="-98.0"/>
+    <component base="ar2DotBelow.mark" xOffset="-148.0" yOffset="-98.0"/>
+    <component base="ar2HDotAbove.mark" xOffset="-157.0" yOffset="208.0"/>
+  </outline>
+</glyph>
