@@ -19,6 +19,7 @@ FONTS=Regular #Bold
 #TESTS=wb yeh-ragaa
 
 SFD=$(FONTS:%=$(SRCDIR)/$(NAME)-%.sfdir)
+UFO=$(FONTS:%=$(SRCDIR)/$(NAME)-%.ufo)
 OTF=$(FONTS:%=$(NAME)-%.$(EXT))
 PDF=$(DOCDIR)/$(NAME)-table.pdf
 
@@ -34,9 +35,15 @@ crunch?=false
 all: otf doc
 
 otf: $(OTF)
+ufo: $(UFO)
 doc: $(PDF)
 lint: $(LNT)
 check: lint # $(RUN)
+
+$(SRCDIR)/$(NAME)-%.ufo: $(SRCDIR)/$(NAME)-%.sfdir
+	@echo "   GEN	$@"
+	@rm -rf $@
+	@sfd2ufo $< $@
 
 $(NAME)-%.$(EXT): $(SRCDIR)/$(NAME)-%.sfdir $(SRCDIR)/$(LATIN)-%.sfdir $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
 	@echo "   FF	$@"
