@@ -15,8 +15,7 @@ feature ccmp {
 } ccmp;
 
 feature isol {
-  lookup isol0 {
-    lookupflag IgnoreMarks;
+  lookupflag IgnoreMarks;
     sub uni0622 by arAlef.isol arMadda.mark;
     sub uni0623 by arAlef.isol arHamzaAbove.mark;
     sub uni0624 by arWaw.isol arHamzaAbove.mark;
@@ -51,10 +50,7 @@ feature isol {
     sub uni06C0 by arHeh.isol1 arHamzaAbove.mark;
     sub uni06D3 by arYeh.isol arHamzaAbove.mark;
     sub uni0688 by arDal.isol arTah.mark;
-  } isol0;
 
-  lookup isol1 {
-    lookupflag IgnoreMarks;
     sub uni0627 by arAlef.isol;
     sub uni062D by arHah.isol;
     sub uni062F by arDal.isol;
@@ -78,12 +74,10 @@ feature isol {
     sub uni066E by arBeh.isol;
     sub uni06A1 by arFeh.isol;
     sub uni066F by arQaf.isol;
-  } isol1;
 } isol;
 
 feature init {
-  lookup init0 {
-    lookupflag IgnoreMarks;
+  lookupflag IgnoreMarks;
     sub uni0626 by arBeh.init arHamzaAbove.mark;
     sub uni0628 by arBeh.init ar1DotBelow.mark;
     sub uni062A by arBeh.init ar2DotAbove.mark;
@@ -104,10 +98,7 @@ feature init {
     sub uni0686 by arHah.init ar3IDotBelow.mark;
     sub uni06AF by arKaf.init1 arSharta.mark;
     sub uni06CC by arBeh.init ar2DotBelow.mark;
-  } init0;
 
-  lookup init1 {
-    lookupflag IgnoreMarks;
     sub uni062D by arHah.init;
     sub uni0633 by arSeen.init;
     sub uni0635 by arSad.init;
@@ -125,12 +116,10 @@ feature init {
     sub uni066E by arBeh.init;
     sub uni06A1 by arFeh.init;
     sub uni066F by arFeh.init;
-  } init1;
 } init;
 
 feature medi {
-  lookup medi0 {
-    lookupflag IgnoreMarks;
+  lookupflag IgnoreMarks;
     sub uni0626 by arBeh.medi arHamzaAbove.mark;
     sub uni0628 by arBeh.medi ar1DotBelow.mark;
     sub uni062A by arBeh.medi ar2DotAbove.mark;
@@ -151,10 +140,7 @@ feature medi {
     sub uni0686 by arHah.medi ar3IDotBelow.mark;
     sub uni06AF by arKaf.medi1 arSharta.mark;
     sub uni06CC by arBeh.medi ar2DotBelow.mark;
-  } medi0;
 
-  lookup medi1 {
-    lookupflag IgnoreMarks;
     sub uni062D by arHah.medi;
     sub uni0633 by arSeen.medi;
     sub uni0635 by arSad.medi;
@@ -172,12 +158,10 @@ feature medi {
     sub uni066E by arBeh.medi;
     sub uni06A1 by arFeh.medi;
     sub uni066F by arFeh.medi;
-  } medi1;
 } medi;
 
 feature fina {
-  lookup fina0 {
-    lookupflag IgnoreMarks;
+  lookupflag IgnoreMarks;
     sub uni0622 by arAlef.fina arMadda.mark;
     sub uni0623 by arAlef.fina arHamzaAbove.mark;
     sub uni0624 by arWaw.fina arHamzaAbove.mark;
@@ -212,10 +196,7 @@ feature fina {
     sub uni06C0 by arHeh.fina1 arHamzaAbove.mark;
     sub uni06D3 by arYeh.fina arHamzaAbove.mark;
     sub uni0688 by arDal.fina arTah.mark;
-  } fina0;
 
-  lookup fina1 {
-    lookupflag IgnoreMarks;
     sub uni0627 by arAlef.fina;
     sub uni062D by arHah.fina;
     sub uni062F by arDal.fina;
@@ -239,7 +220,6 @@ feature fina {
     sub uni066E by arBeh.fina;
     sub uni06A1 by arFeh.fina;
     sub uni066F by arQaf.fina;
-  } fina1;
 } fina;
 
 lookup LamAlefIsol {
