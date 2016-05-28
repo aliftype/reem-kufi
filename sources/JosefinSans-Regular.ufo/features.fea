@@ -5,6 +5,7 @@ feature liga {
 } liga;
 
 feature kern { # Kerning
+script latn;
 
 @_KERN_t = [ t tcaron uni0163 tbar ];
 @_KERN_j = [ j jcircumflex ];
