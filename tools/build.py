@@ -172,7 +172,7 @@ def merge(args):
     arabic.lib[MADA_UNICODES] = unicodes
 
     # Set metadata
-    arabic.versionMajor, arabic.versionMinor = map(int, args.version.split("."))
+    arabic.info.versionMajor, arabic.info.versionMinor = map(int, args.version.split("."))
 
     copyright = 'Copyright © 2015-%s The Reem Kufi Project Authors.' % datetime.now().year
 
