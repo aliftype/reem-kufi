@@ -6,26 +6,39 @@ from feaTools.parser import parseFeatures, FeaToolsParserSyntaxError
 from feaTools.writers.baseWriter import AbstractFeatureWriter
 
 class FeatureWriter(AbstractFeatureWriter):
-    def __init__(self):
+    def __init__(self, name=""):
         super(FeatureWriter).__init__()
-        self.subs = {}
-        self.name = ""
+        self.name = name
+        self._features = []
+        self._lookups = []
+        self._subs = {}
+
+    def subs(self):
+        s = {}
+        if not self.name:
+            for f in self._features:
+                s.update(f.subs())
+        elif self.name in ("ccmp", "isol"):
+            s.update(self._subs)
+            for l in self._lookups:
+                s.update(l._subs)
+        return s
 
     def feature(self, name):
-        self.name = name
-        return self
+        f = FeatureWriter(name)
+        self._features.append(f)
+        return f
 
     def lookup(self, name):
-        self.name = ""
-        return self
+        l = FeatureWriter()
+        self._lookups.append(l)
+        return l
 
     def gsubType1(self, target, replacement):
-        if self.name in ("ccmp", "isol"):
-            self.subs[target] = [replacement]
+        self._subs[target] = [replacement]
 
     def gsubType2(self, target, replacement):
-        if self.name in ("ccmp", "isol"):
-            self.subs[target] = replacement
+        self._subs[target] = replacement
 
 def build(font):
     path = os.path.splitext(font.path)
@@ -38,7 +51,7 @@ def build(font):
         parseFeatures(writer, fea)
     except FeaToolsParserSyntaxError:
         pass
-    subs = writer.subs
+    subs = writer.subs()
 
     for name, names in subs.items():
         base = names[0]
