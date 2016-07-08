@@ -26,9 +26,9 @@ ttf: $(TTF)
 ufo: $(UFO)
 doc: $(PDF)
 
-$(NAME)-%.otf $(NAME)-%.ttf: $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(LATIN)-%.ufo $(SRCDIR)/$(NAME).fea Makefile $(BUILD)
+$(NAME)-%.otf $(NAME)-%.ttf: $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(LATIN)-%.ufo Makefile $(BUILD)
 	@echo "   GEN	$@"
-	@FILES=($+); python $(BUILD) --version=$(VERSION) --out-file=$@ --feature-file=$${FILES[2]} --latin-subset=$(LATIN_SUBSET) $< $${FILES[1]}
+	@FILES=($+); python $(BUILD) --version=$(VERSION) --out-file=$@ --latin-subset=$(LATIN_SUBSET) $< $${FILES[1]}
 
 $(DOCDIR)/$(NAME)-Table.pdf: $(NAME)-Regular.otf
 	@echo "   GEN	$@"

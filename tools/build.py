@@ -108,12 +108,10 @@ def generateGlyphclasses(font):
 
     return fea
 
-def generateArabicFeatures(font, feafilename):
-    fea = ""
-    with open(feafilename) as feafile:
-        fea += feafile.read()
-        fea += generateAnchors(font)
-        fea += generateGlyphclasses(font)
+def generateArabicFeatures(font):
+    fea = font.features.text
+    fea += generateAnchors(font)
+    fea += generateGlyphclasses(font)
 
     return fea
 
@@ -142,8 +140,6 @@ def merge(args):
             name = glyph.name
             glyph.unicode = None
             glyph.name = name + ".latn"
-            if not latin_locl:
-                latin_locl = "feature locl {lookupflag IgnoreMarks; script latn;"
             latin_locl += "sub %s by %s;" % (name, glyph.name)
         arabic.insertGlyph(glyph)
 
@@ -151,12 +147,19 @@ def merge(args):
         value = getattr(latin.info, attr)
         if value is not None:
             setattr(arabic.info, attr, getattr(latin.info, attr))
-    fea = ""
-    fea += generateArabicFeatures(arabic, args.feature_file)
-    fea += "include(../%s)\n" % (args.latinfile + "/features.fea")
+    fea = generateArabicFeatures(arabic)
+    fea += latin.features.text
+
     if latin_locl:
-        latin_locl += "} locl;"
-        fea += latin_locl
+        fea += """
+feature locl {
+  lookupflag IgnoreMarks;
+  script latn;
+  %s
+} locl;
+""" % latin_locl
+
+    arabic.features.text = fea
 
     for ch in [(ord(u'؟'), "question")]:
         arGlyph = arabic.newGlyph("uni%04X" %ch[0])
@@ -185,11 +188,12 @@ def merge(args):
     arabic.info.openTypeNameDescription = "Reem Kufi is a Fatimid-style decorative Kufic typeface as seen in the historical mosques of Cairo. Reem Kufi is based on the Kufic designs of the great Arabic calligrapher Mohammed Abdul Qadir who revived this art in the 20th century and formalised its rules."
     arabic.info.openTypeNameSampleText = "ريم على القاع بين البان و العلم   أحل سفك دمي في الأشهر الحرم"
 
-    return arabic, fea
+    return arabic
 
-def applyFeatures(otf, fea, feafilename):
+def applyFeatures(otf, ufo):
+    fea = ufo.features.text
     try:
-        feabuilder.addOpenTypeFeaturesFromString(otf, fea, feafilename)
+        feabuilder.addOpenTypeFeaturesFromString(otf, fea, None)
     except:
         with NamedTemporaryFile(delete=False) as feafile:
             feafile.write(fea.encode("utf-8"))
@@ -211,7 +215,7 @@ def subsetGlyphs(otf, ufo):
     return otf
 
 def build(args):
-    ufo, fea = merge(args)
+    ufo = merge(args)
     if args.out_file.endswith(".ttf"):
         font_to_quadratic(ufo)
         otfCompiler = TTFCompiler(ufo)
@@ -219,7 +223,7 @@ def build(args):
         otfCompiler = OTFCompiler(ufo)
     otf = otfCompiler.compile()
 
-    otf = applyFeatures(otf, fea, args.feature_file)
+    otf = applyFeatures(otf, ufo)
     otf = postProcess(otf, ufo)
     otf = subsetGlyphs(otf, ufo)
 
@@ -230,7 +234,6 @@ def main():
     parser.add_argument("arabicfile", metavar="FILE", help="input font to process")
     parser.add_argument("latinfile", metavar="FILE", help="input font to process")
     parser.add_argument("--out-file", metavar="FILE", help="output font to write", required=True)
-    parser.add_argument("--feature-file", metavar="FILE", help="output font to write", required=True)
     parser.add_argument("--latin-subset", metavar="FILE", help="file containing Latin code points to keep", required=True)
     parser.add_argument("--version", metavar="version", help="version number", required=True)
 

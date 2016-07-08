@@ -41,11 +41,7 @@ class FeatureWriter(AbstractFeatureWriter):
         self._subs[target] = replacement
 
 def build(font):
-    path = os.path.splitext(font.path)
-    path = path[0].split("-")
-    path = path[0] + ".fea"
-    with open(path) as f:
-        fea = f.read()
+    fea = font.features.text
     writer = FeatureWriter()
     try:
         parseFeatures(writer, fea)
