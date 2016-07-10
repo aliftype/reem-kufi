@@ -9,6 +9,6 @@
     <component base="ar1DotBelow.mark" xOffset="-148.0" yOffset="-98.0"/>
     <component base="ar3IDotBelow.mark" xOffset="-148.0" yOffset="-98.0"/>
     <component base="ar2DotBelow.mark" xOffset="-148.0" yOffset="-98.0"/>
-    <component base="ar2HDotAbove.mark" xOffset="-157.0" yOffset="208.0"/>
+    <component base="ar2VDotAbove.mark" xOffset="-157.0" yOffset="208.0"/>
   </outline>
 </glyph>

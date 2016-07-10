@@ -22,7 +22,7 @@ feature isol {
     sub uni0625 by arAlef.isol arHamzaBelow.mark;
     sub uni0626 by arYeh.isol arHamzaAbove.mark;
     sub uni0628 by arBeh.isol ar1DotBelow.mark;
-    sub uni0629 by arHeh.isol ar2HDotAbove.mark;
+    sub uni0629 by arHeh.isol ar2VDotAbove.mark;
     sub uni062A by arBeh.isol ar2DotAbove.mark;
     sub uni062B by arBeh.isol ar3DotAbove.mark;
     sub uni062C by arHah.isol ar1DotBelow.mark;
@@ -168,7 +168,7 @@ feature fina {
     sub uni0625 by arAlef.fina arHamzaBelow.mark;
     sub uni0626 by arYeh.fina arHamzaAbove.mark;
     sub uni0628 by arBeh.fina ar1DotBelow.mark;
-    sub uni0629 by arHeh.fina ar2HDotAbove.mark;
+    sub uni0629 by arHeh.fina ar2VDotAbove.mark;
     sub uni062A by arBeh.fina ar2DotAbove.mark;
     sub uni062B by arBeh.fina ar3DotAbove.mark;
     sub uni062C by arHah.fina ar1DotBelow.mark;
@@ -254,7 +254,7 @@ feature calt {
 feature calt {
   @ar2DotBelow = [ar2DotBelow.mark];
   lookupflag UseMarkFilteringSet @ar2DotBelow;
-    sub arBeh.initHah @ar2DotBelow' [arHah.isol arHah.init] by ar2HDotAbove.mark;
+    sub arBeh.initHah @ar2DotBelow' [arHah.isol arHah.init] by ar2VDotAbove.mark;
 } calt;
 
 feature cv01 {
@@ -303,7 +303,7 @@ feature cv03 {
 } cv03;
 
 feature calt {
-  sub [arHeh.isol1 arHeh.fina1] ar2HDotAbove.mark' by ar2DotAbove.mark;
+  sub [arHeh.isol1 arHeh.fina1] ar2VDotAbove.mark' by ar2DotAbove.mark;
 } calt;
 
 feature kern {

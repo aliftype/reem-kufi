@@ -10,8 +10,8 @@
 	<string>ar2D_otA_bove.mark.glif</string>
 	<key>ar2DotBelow.mark</key>
 	<string>ar2D_otB_elow.mark.glif</string>
-	<key>ar2HDotAbove.mark</key>
-	<string>ar2H_D_otA_bove.mark.glif</string>
+	<key>ar2VDotAbove.mark</key>
+	<string>ar2V_D_otA_bove.mark.glif</string>
 	<key>ar3DotAbove.mark</key>
 	<string>ar3D_otA_bove.mark.glif</string>
 	<key>ar3DotBelow.mark</key>
