@@ -302,6 +302,10 @@ feature cv03 {
   sub arHeh.init by arHeh.init3;
 } cv03;
 
+feature calt {
+  sub [arHeh.isol1 arHeh.fina1] ar2HDotAbove.mark' by ar2DotAbove.mark;
+} calt;
+
 feature kern {
   @ar23DotBelow = [ar2DotBelow.mark ar3IDotBelow.mark];
   lookupflag UseMarkFilteringSet @ar23DotBelow;
