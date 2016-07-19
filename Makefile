@@ -26,6 +26,8 @@ ttf: $(TTF)
 ufo: $(UFO)
 doc: $(PDF)
 
+SHELL=/usr/bin/env bash
+
 $(NAME)-%.otf $(NAME)-%.ttf: $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(LATIN)-%.ufo Makefile $(BUILD)
 	@echo "   GEN	$@"
 	@FILES=($+); python $(BUILD) --version=$(VERSION) --out-file=$@ --latin-subset=$(LATIN_SUBSET) $< $${FILES[1]}
