@@ -4,6 +4,7 @@
 import argparse
 import math
 
+from booleanOperations import BooleanOperationManager
 from cu2qu.ufo import font_to_quadratic
 from datetime import datetime
 from defcon import Font, Component
@@ -214,8 +215,18 @@ def subsetGlyphs(otf, ufo):
     subsetter.subset(otf)
     return otf
 
+def removeOverlap(ufo):
+    manager = BooleanOperationManager()
+    for glyph in ufo:
+        contours = list(glyph)
+        glyph.clearContours()
+        manager.union(contours, glyph.getPointPen())
+    return ufo
+
 def build(args):
     ufo = merge(args)
+    ufo = removeOverlap(ufo)
+
     if args.out_file.endswith(".ttf"):
         font_to_quadratic(ufo)
         otfCompiler = TTFCompiler(ufo)
