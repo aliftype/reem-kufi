@@ -5,17 +5,12 @@ import argparse
 import math
 
 from booleanOperations import BooleanOperationManager
-from cu2qu.ufo import font_to_quadratic
 from datetime import datetime
 from defcon import Font, Component
 from fontTools import subset
-from fontTools.feaLib import builder as feabuilder
 from fontTools.misc.transform import Transform
 from fontTools.ttLib import TTFont
-from tempfile import NamedTemporaryFile
-from ufo2ft.outlineOTF import OutlineOTFCompiler as OTFCompiler
-from ufo2ft.outlineOTF import OutlineTTFCompiler as TTFCompiler
-from ufo2ft.otfPostProcessor import OTFPostProcessor
+from ufo2ft import compileOTF, compileTTF
 
 from buildencoded import build as buildEncoded
 
@@ -191,22 +186,6 @@ feature locl {
 
     return arabic
 
-def applyFeatures(otf, ufo):
-    fea = ufo.features.text
-    try:
-        feabuilder.addOpenTypeFeaturesFromString(otf, fea, None)
-    except:
-        with NamedTemporaryFile(delete=False) as feafile:
-            feafile.write(fea.encode("utf-8"))
-            print("Failed to apply features, saved to %s" % feafile.name)
-        raise
-    return otf
-
-def postProcess(otf, ufo):
-    postProcessor = OTFPostProcessor(otf, ufo)
-    otf = postProcessor.process(optimizeCff=True)
-    return otf
-
 def subsetGlyphs(otf, ufo):
     options = subset.Options()
     options.set(layout_features='*', name_IDs='*', notdef_outline=True)
@@ -228,14 +207,10 @@ def build(args):
     ufo = removeOverlap(ufo)
 
     if args.out_file.endswith(".ttf"):
-        font_to_quadratic(ufo)
-        otfCompiler = TTFCompiler(ufo)
+        otf = compileTTF(ufo)
     else:
-        otfCompiler = OTFCompiler(ufo)
-    otf = otfCompiler.compile()
+        otf = compileOTF(ufo)
 
-    otf = applyFeatures(otf, ufo)
-    otf = postProcess(otf, ufo)
     otf = subsetGlyphs(otf, ufo)
 
     return otf
