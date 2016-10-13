@@ -3,7 +3,7 @@ Reem Kufi
 
 ![Sample](documentation/sample.png)
 Reem Kufi is a Fatimid-style decorative [Kufic] [1] typeface as seen in the
-historical mosques of Cairo, and is largely is based on the Kufic designs of
+historical mosques of Cairo, and is largely based on the Kufic designs of
 the late master of Arabic calligraphy [Mohammed Abdul Qadir] [2] who revived
 this art in the 20th century and formalised its rules.
 
