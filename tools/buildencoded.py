@@ -2,54 +2,31 @@ import sys
 import os
 
 from defcon import Font, Component
-from feaTools.parser import parseFeatures, FeaToolsParserSyntaxError
-from feaTools.writers.baseWriter import AbstractFeatureWriter
+from fontTools.misc.py23 import *
+from fontTools.feaLib.parser import Parser
 
-class FeatureWriter(AbstractFeatureWriter):
-    def __init__(self, name=""):
-        super(FeatureWriter).__init__()
-        self.name = name
-        self._features = []
-        self._lookups = []
-        self._subs = {}
+def parse(features):
+    subs = {}
+    featurefile = UnicodeIO(tounicode(features))
+    fea = Parser(featurefile).parse()
+    for statement in fea.statements:
+        if getattr(statement, "name", None) in ("isol", "ccmp"):
+            for substatement in statement.statements:
+                if hasattr(substatement, "mapping"):
+                    # Single
+                    subs.update(substatement.mapping)
+                elif hasattr(substatement, "glyph"):
+                    # Multiple
+                    subs[substatement.glyph] = substatement.replacement
 
-    def subs(self):
-        s = {}
-        if not self.name:
-            for f in self._features:
-                s.update(f.subs())
-        elif self.name in ("ccmp", "isol"):
-            s.update(self._subs)
-            for l in self._lookups:
-                s.update(l._subs)
-        return s
-
-    def feature(self, name):
-        f = FeatureWriter(name)
-        self._features.append(f)
-        return f
-
-    def lookup(self, name):
-        l = FeatureWriter()
-        self._lookups.append(l)
-        return l
-
-    def gsubType1(self, target, replacement):
-        self._subs[target] = [replacement]
-
-    def gsubType2(self, target, replacement):
-        self._subs[target] = replacement
+    return subs
 
 def build(font):
-    fea = font.features.text
-    writer = FeatureWriter()
-    try:
-        parseFeatures(writer, fea)
-    except FeaToolsParserSyntaxError:
-        pass
-    subs = writer.subs()
+    subs = parse(font.features.text)
 
     for name, names in subs.items():
+        if isinstance(names, (str, unicode)):
+            names = [names]
         base = names[0]
         if base in font.layers["Marks"]:
             base = font.layers["Marks"][base]
