@@ -16,6 +16,7 @@ UFO=$(FONTS:%=$(SRCDIR)/$(NAME)-%.ufo)
 OTF=$(FONTS:%=$(NAME)-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
 PDF=$(DOCDIR)/$(NAME)-Table.pdf
+PNG=$(DOCDIR)/$(NAME)-Sample.png
 
 LATIN_SUBSET=$(SRCDIR)/latin-subset.txt
 
@@ -24,7 +25,7 @@ all: otf doc
 otf: $(OTF)
 ttf: $(TTF)
 ufo: $(UFO)
-doc: $(PDF)
+doc: $(PDF) $(PNG)
 
 SHELL=/usr/bin/env bash
 
@@ -39,6 +40,13 @@ $(DOCDIR)/$(NAME)-Table.pdf: $(NAME)-Regular.otf
 	@pdfoutline $@.tmp $@.txt $@.comp
 	@pdftk $@.comp output $@ uncompress
 	@rm -f $@.tmp $@.comp $@.txt
+
+$(PNG): $(NAME)-Regular.otf
+	@echo "   GEN	$@"
+	@hb-view --font-file=$< \
+		 --output-file=$@ \
+		 --text="ريم على القاع بين البان و العلم   أحل سفك دمي في الأشهر الحرم" \
+		 --features="+cv01,-cv01[6:7],-cv01[28:31]"
 
 dist: ttf
 	@mkdir -p $(NAME)-$(VERSION)/ttf
