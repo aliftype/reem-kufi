@@ -174,15 +174,15 @@ feature locl {
     # Set metadata
     arabic.info.versionMajor, arabic.info.versionMinor = map(int, args.version.split("."))
 
-    copyright = 'Copyright © 2015-%s The Reem Kufi Project Authors.' % datetime.now().year
+    copyright = u"Copyright © 2015-%s The Reem Kufi Project Authors." % datetime.now().year
 
     arabic.info.copyright = copyright
 
-    arabic.info.openTypeNameDesigner = "Khaled Hosny"
-    arabic.info.openTypeNameLicenseURL = "http://scripts.sil.org/OFL"
-    arabic.info.openTypeNameLicense = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
-    arabic.info.openTypeNameDescription = "Reem Kufi is a Fatimid-style decorative Kufic typeface as seen in the historical mosques of Cairo. Reem Kufi is based on the Kufic designs of the great Arabic calligrapher Mohammed Abdul Qadir who revived this art in the 20th century and formalised its rules."
-    arabic.info.openTypeNameSampleText = "ريم على القاع بين البان و العلم   أحل سفك دمي في الأشهر الحرم"
+    arabic.info.openTypeNameDesigner = u"Khaled Hosny"
+    arabic.info.openTypeNameLicenseURL = u"http://scripts.sil.org/OFL"
+    arabic.info.openTypeNameLicense = u"This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL"
+    arabic.info.openTypeNameDescription = u"Reem Kufi is a Fatimid-style decorative Kufic typeface as seen in the historical mosques of Cairo. Reem Kufi is based on the Kufic designs of the great Arabic calligrapher Mohammed Abdul Qadir who revived this art in the 20th century and formalised its rules."
+    arabic.info.openTypeNameSampleText = u"ريم على القاع بين البان و العلم   أحل سفك دمي في الأشهر الحرم"
 
     return arabic
 
