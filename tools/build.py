@@ -194,6 +194,14 @@ def subsetGlyphs(otf, ufo):
     subsetter.subset(otf)
     return otf
 
+def decomposeGlyphs(ufo, isTTF):
+    for glyph in ufo:
+        if not glyph.components or (isTTF and not bool(glyph)):
+            continue
+        glyph.decomposeAllComponents()
+
+    return ufo
+
 def removeOverlap(ufo):
     manager = BooleanOperationManager()
     for glyph in ufo:
@@ -203,14 +211,12 @@ def removeOverlap(ufo):
     return ufo
 
 def build(args):
+    isTTF = args.out_file.endswith(".ttf")
     ufo = merge(args)
+    ufo = decomposeGlyphs(ufo, isTTF)
     ufo = removeOverlap(ufo)
 
-    if args.out_file.endswith(".ttf"):
-        otf = compileTTF(ufo)
-    else:
-        otf = compileOTF(ufo)
-
+    otf = compileTTF(ufo) if isTTF else compileOTF(ufo)
     otf = subsetGlyphs(otf, ufo)
 
     return otf
