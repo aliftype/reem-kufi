@@ -33,7 +33,7 @@ $(NAME)-%.otf $(NAME)-%.ttf: $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(LATIN)-%.ufo Ma
 	@echo "   GEN	$@"
 	@FILES=($+); python $(BUILD) --version=$(VERSION) --out-file=$@ --latin-subset=$(LATIN_SUBSET) $< $${FILES[1]}
 
-$(DOCDIR)/$(NAME)-Table.pdf: $(NAME)-Regular.otf
+$(PDF): $(NAME)-Regular.otf
 	@echo "   GEN	$@"
 	@mkdir -p $(DOCDIR)
 	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
