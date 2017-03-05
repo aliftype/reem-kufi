@@ -8,13 +8,15 @@ from fontTools.feaLib.parser import Parser
 def parse(features):
     subs = {}
     featurefile = UnicodeIO(tounicode(features))
-    fea = Parser(featurefile).parse()
+    fea = Parser(featurefile, []).parse()
     for statement in fea.statements:
         if getattr(statement, "name", None) in ("isol", "ccmp"):
             for substatement in statement.statements:
-                if hasattr(substatement, "mapping"):
+                if hasattr(substatement, "glyphs"):
                     # Single
-                    subs.update(substatement.mapping)
+                    originals = substatement.glyphs[0].glyphSet()
+                    replacements = substatement.replacements[0].glyphSet()
+                    subs.update(dict(zip(originals, replacements)))
                 elif hasattr(substatement, "glyph"):
                     # Multiple
                     subs[substatement.glyph] = substatement.replacement
