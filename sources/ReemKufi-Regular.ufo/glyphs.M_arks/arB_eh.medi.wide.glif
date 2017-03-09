@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arBeh.medi.wide" format="2">
+  <advance width="325.0"/>
+  <outline>
+    <component base="ar2DotAbove.mark" xOffset="83.0" yOffset="483.0"/>
+    <component base="ar1DotBelow.mark" xOffset="83.0" yOffset="-150.0"/>
+    <component base="ar3IDotBelow.mark" xOffset="83.0" yOffset="-150.0"/>
+    <component base="ar1DotAbove.mark" xOffset="83.0" yOffset="483.0"/>
+    <component base="ar3DotAbove.mark" xOffset="83.0" yOffset="483.0"/>
+    <component base="ar2DotBelow.mark" xOffset="83.0" yOffset="-150.0"/>
+    <component base="arTah.mark" xOffset="75.0" yOffset="422.0"/>
+    <component base="arHamzaAbove.mark" xOffset="75.0" yOffset="422.0"/>
+  </outline>
+</glyph>

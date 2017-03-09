@@ -306,6 +306,11 @@ feature calt {
   sub [arHeh.isol1 arHeh.fina1] ar2VDotAbove.mark' by ar2DotAbove.mark;
 } calt;
 
+feature calt {
+  @ar23DotAbove = [ar2DotAbove.mark ar3DotAbove.mark arHamzaAbove.mark arTah.mark];
+  sub [arBeh.init arBeh.medi] @ar23DotAbove arBeh.medi' @ar23DotAbove by arBeh.medi.wide;
+} calt;
+
 feature kern {
   @ar23DotBelow = [ar2DotBelow.mark ar3IDotBelow.mark];
   lookupflag UseMarkFilteringSet @ar23DotBelow;

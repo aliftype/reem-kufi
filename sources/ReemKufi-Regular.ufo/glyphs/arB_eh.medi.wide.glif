@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arBeh.medi.wide" format="2">
+  <advance width="400.0"/>
+  <outline>
+    <contour>
+      <point x="109.0" y="100.0" type="line"/>
+      <point x="109.0" y="0.0" type="line"/>
+      <point x="-20.0" y="0.0" type="line"/>
+      <point x="-20.0" y="100.0" type="line"/>
+    </contour>
+    <component base="arBeh.medi" xOffset="100"/>
+  </outline>
+</glyph>
