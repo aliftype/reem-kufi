@@ -309,7 +309,9 @@ feature rclt {
 
 feature rclt {
   @ar23DotAbove = [ar2DotAbove.mark ar3DotAbove.mark arHamzaAbove.mark arTah.mark];
+  @ar23DotBelow = [ar2DotBelow.mark ar3IDotBelow.mark arHamzaBelow.mark];
   sub [arBeh.init arBeh.medi] @ar23DotAbove arBeh.medi' @ar23DotAbove by arBeh.medi.wide;
+  sub [arBeh.init arBeh.medi] @ar23DotBelow arBeh.medi' @ar23DotBelow by arBeh.medi.wide;
 } rclt;
 
 feature rclt {
