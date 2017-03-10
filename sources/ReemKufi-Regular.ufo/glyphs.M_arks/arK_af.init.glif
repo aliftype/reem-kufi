@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="arKaf.init1" format="2">
+<glyph name="arKaf.init" format="2">
   <advance width="910"/>
   <outline>
     <component base="arSharta.mark" xOffset="274.0" yOffset="467.0"/>

@@ -94,14 +94,14 @@
 	<string>arH_eh.isol.glif</string>
 	<key>arHeh.isol1</key>
 	<string>arH_eh.isol1.glif</string>
-	<key>arKaf.fina1</key>
-	<string>arK_af.fina1.glif</string>
-	<key>arKaf.init1</key>
-	<string>arK_af.init1.glif</string>
+	<key>arKaf.fina</key>
+	<string>arK_af.fina.glif</string>
+	<key>arKaf.init</key>
+	<string>arK_af.init.glif</string>
 	<key>arKaf.isol</key>
 	<string>arK_af.isol.glif</string>
-	<key>arKaf.medi1</key>
-	<string>arK_af.medi1.glif</string>
+	<key>arKaf.medi</key>
+	<string>arK_af.medi.glif</string>
 	<key>arMadda.mark</key>
 	<string>arM_adda.mark.glif</string>
 	<key>arNoon.fina</key>
