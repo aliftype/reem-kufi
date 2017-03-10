@@ -245,17 +245,17 @@ lookup AboveHah {
   sub arHah.fina by arHah.isol;
 } AboveHah;
 
-feature calt {
+feature rclt {
   lookupflag IgnoreMarks;
     sub [arLam.init arBeh.init]' lookup AboveHah [arHah.medi arHah.fina]' lookup AboveHah;
     pos [arLam.initHah arBeh.initHah]' <80 0 80 0> [arHah.isol];
-} calt;
+} rclt;
 
-feature calt {
+feature rclt {
   @ar2DotBelow = [ar2DotBelow.mark];
   lookupflag UseMarkFilteringSet @ar2DotBelow;
     sub arBeh.initHah @ar2DotBelow' [arHah.isol arHah.init] by ar2VDotAbove.mark;
-} calt;
+} rclt;
 
 feature cv01 {
   sub arAlef.isol by arAlef.isol1;
@@ -303,17 +303,17 @@ feature cv03 {
   sub arHeh.init by arHeh.init3;
 } cv03;
 
-feature calt {
+feature rclt {
   sub [arHeh.isol1 arHeh.fina1] ar2VDotAbove.mark' by ar2DotAbove.mark;
-} calt;
+} rclt;
 
-feature calt {
+feature rclt {
   @ar23DotAbove = [ar2DotAbove.mark ar3DotAbove.mark arHamzaAbove.mark arTah.mark];
   sub [arBeh.init arBeh.medi] @ar23DotAbove arBeh.medi' @ar23DotAbove by arBeh.medi.wide;
-} calt;
+} rclt;
 
-feature kern {
+feature rclt {
   @ar23DotBelow = [ar2DotBelow.mark ar3IDotBelow.mark];
   lookupflag UseMarkFilteringSet @ar23DotBelow;
     pos [arReh.isol arReh.fina]' <100 0 100 0> arBeh.init @ar23DotBelow;
-} kern;
+} rclt;
