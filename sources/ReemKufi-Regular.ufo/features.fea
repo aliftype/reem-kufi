@@ -269,8 +269,6 @@ feature cv01 {
   sub arKaf.init by arKaf.init1;
   sub arKaf.fina by arKaf.fina1;
 
-  sub arKaf.medi by arKaf.medi2;
-
   sub arMeem.isol by arMeem.isol1;
   sub arMeem.fina by arMeem.fina1;
   sub arMeem.medi by arMeem.medi1;
@@ -288,6 +286,8 @@ feature cv01 {
 
 feature cv02 {
   sub arAlef.isol by arAlef.isol2;
+
+  sub arKaf.medi by arKaf.medi2;
 
   sub arMeem.isol by arMeem.isol2;
   sub arMeem.fina by arMeem.fina2;
