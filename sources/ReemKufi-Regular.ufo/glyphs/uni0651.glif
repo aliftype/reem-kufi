@@ -6,8 +6,6 @@
   </outline>
   <lib>
     <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>mark</string>
       <key>public.markColor</key>
       <string>0,1,1,1</string>
     </dict>

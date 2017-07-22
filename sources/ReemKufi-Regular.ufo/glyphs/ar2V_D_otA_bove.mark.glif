@@ -6,10 +6,4 @@
     <component base="ar1DotAbove.mark" yOffset="170.0"/>
     <component base="ar1DotAbove.mark"/>
   </outline>
-  <lib>
-    <dict>
-      <key>org.fontforge.glyphclass</key>
-      <string>mark</string>
-    </dict>
-  </lib>
 </glyph>

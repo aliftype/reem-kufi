@@ -15,34 +15,6 @@ from ufo2ft import compileOTF, compileTTF
 from buildencoded import build as buildEncoded
 
 MADA_UNICODES = "org.mada.subsetUnicodes"
-FONTFORGE_GLYPHCLASS = "org.fontforge.glyphclass"
-
-def generateGlyphclasses(font):
-    marks = []
-    bases = []
-    for glyph in font:
-        glyphClass = glyph.lib.get(FONTFORGE_GLYPHCLASS)
-        if glyphClass == "mark":
-            marks.append(glyph.name)
-        elif glyphClass == "baseglyph":
-            bases.append(glyph.name)
-
-    fea = ""
-    fea += "table GDEF {"
-    fea += "GlyphClassDef "
-    fea += "[%s]," % " ".join(bases)
-    fea += ","
-    fea += "[%s]," % " ".join(marks)
-    fea += ";"
-    fea += "} GDEF;"
-
-    return fea
-
-def generateArabicFeatures(font):
-    fea = font.features.text
-    fea += generateGlyphclasses(font)
-
-    return fea
 
 def parseSubset(filename):
     unicodes = []
@@ -76,19 +48,17 @@ def merge(args):
         value = getattr(latin.info, attr)
         if value is not None:
             setattr(arabic.info, attr, getattr(latin.info, attr))
-    fea = generateArabicFeatures(arabic)
-    fea += latin.features.text
+
+    arabic.features.text += latin.features.text
 
     if latin_locl:
-        fea += """
+        arabic.features.text += """
 feature locl {
   lookupflag IgnoreMarks;
   script latn;
   %s
 } locl;
 """ % latin_locl
-
-    arabic.features.text = fea
 
     for ch in [(ord(u'؟'), "question")]:
         arGlyph = arabic.newGlyph("uni%04X" %ch[0])
