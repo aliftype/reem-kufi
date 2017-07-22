@@ -2,7 +2,6 @@
 # encoding: utf-8
 
 import argparse
-import math
 
 from booleanOperations import BooleanOperationManager
 from datetime import datetime
