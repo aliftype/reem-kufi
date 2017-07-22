@@ -1,25 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four" format="2">
-  <advance width="527"/>
+  <advance width="538"/>
   <unicode hex="0034"/>
   <outline>
     <contour>
-      <point x="0" y="170" type="line"/>
-      <point x="123" y="330"/>
-      <point x="269" y="507"/>
-      <point x="393" y="667" type="curve"/>
-      <point x="393" y="259" type="line"/>
-      <point x="491" y="259" type="line"/>
-      <point x="491" y="170" type="line"/>
-      <point x="393" y="170" type="line"/>
-      <point x="393" y="0" type="line"/>
-      <point x="300" y="0" type="line"/>
-      <point x="300" y="170" type="line"/>
+      <point x="12" y="157" type="line"/>
+      <point x="313" y="157" type="line"/>
+      <point x="313" y="0" type="line"/>
+      <point x="418" y="0" type="line"/>
+      <point x="418" y="157" type="line"/>
+      <point x="502" y="157" type="line"/>
+      <point x="502" y="237" type="line"/>
+      <point x="418" y="237" type="line"/>
+      <point x="418" y="667" type="line"/>
+      <point x="417" y="667" type="line"/>
+      <point x="12" y="158" type="line"/>
     </contour>
     <contour>
-      <point x="300" y="418" type="line"/>
-      <point x="178" y="259" type="line"/>
-      <point x="300" y="259" type="line"/>
+      <point x="319" y="432" type="line"/>
+      <point x="313" y="448" type="line"/>
+      <point x="313" y="237" type="line"/>
+      <point x="150" y="237" type="line"/>
+      <point x="165" y="232" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{0, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{658, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -1,33 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="A" format="2">
-  <advance width="647"/>
+  <advance width="700"/>
   <unicode hex="0041"/>
+  <anchor x="350" y="0" name="bottom"/>
+  <anchor x="623" y="10" name="ogonek"/>
+  <anchor x="350" y="752" name="top"/>
   <outline>
     <contour>
-      <point x="646" y="0" type="line"/>
-      <point x="615" y="73"/>
-      <point x="354" y="685"/>
-      <point x="324" y="759" type="curve"/>
-      <point x="1" y="0" type="line"/>
-      <point x="109" y="0" type="line"/>
-      <point x="195" y="208" type="line"/>
-      <point x="451" y="208" type="line"/>
-      <point x="489" y="115"/>
-      <point x="525" y="30"/>
-      <point x="538" y="0" type="curve"/>
+      <point x="28" y="0" type="line"/>
+      <point x="132" y="0" type="line"/>
+      <point x="394" y="640" type="line"/>
+      <point x="319" y="590" type="line"/>
+      <point x="551" y="0" type="line"/>
+      <point x="672" y="0" type="line"/>
+      <point x="353" y="755" type="line"/>
+      <point x="347" y="755" type="line"/>
     </contour>
     <contour>
-      <point x="313" y="494" type="line"/>
-      <point x="314" y="497"/>
-      <point x="321" y="517"/>
-      <point x="324" y="530" type="curve"/>
-      <point x="327" y="517"/>
-      <point x="333" y="497"/>
-      <point x="334" y="494" type="curve"/>
-      <point x="345" y="466"/>
-      <point x="378" y="387"/>
-      <point x="414" y="300" type="curve"/>
-      <point x="233" y="300" type="line"/>
+      <point x="221" y="272" type="line"/>
+      <point x="190" y="182" type="line"/>
+      <point x="517" y="182" type="line"/>
+      <point x="481" y="272" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{36, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{768, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

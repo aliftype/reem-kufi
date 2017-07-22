@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotesingle" format="2">
-  <advance width="218"/>
+  <advance width="166"/>
   <unicode hex="0027"/>
   <outline>
     <contour>
-      <point x="64" y="478" type="line"/>
-      <point x="64" y="730" type="line"/>
-      <point x="156" y="730" type="line"/>
-      <point x="152" y="478" type="line"/>
+      <point x="131" y="730" type="curve"/>
+      <point x="40" y="730" type="line"/>
+      <point x="40" y="478" type="line"/>
+      <point x="127" y="478" type="line"/>
+      <point x="128" y="563"/>
+      <point x="130" y="646"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{472, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{720, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

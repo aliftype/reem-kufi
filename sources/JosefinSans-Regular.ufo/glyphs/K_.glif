@@ -1,39 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="K" format="2">
-  <advance width="647"/>
+  <advance width="683"/>
   <unicode hex="004B"/>
+  <anchor x="322" y="0" name="bottom"/>
+  <anchor x="356" y="725" name="top"/>
   <outline>
     <contour>
-      <point x="519" y="0" type="line"/>
-      <point x="425" y="119"/>
-      <point x="353" y="217"/>
-      <point x="260" y="338" type="curve"/>
-      <point x="243" y="320"/>
-      <point x="227" y="305"/>
-      <point x="209" y="289" type="curve"/>
-      <point x="209" y="186"/>
-      <point x="210" y="103"/>
-      <point x="210" y="0" type="curve"/>
-      <point x="89" y="0" type="line"/>
-      <point x="89" y="725" type="line"/>
-      <point x="210" y="725" type="line"/>
-      <point x="210" y="454" type="line" smooth="yes"/>
-      <point x="210" y="442"/>
-      <point x="207" y="431"/>
-      <point x="207" y="419" type="curve"/>
-      <point x="213" y="428"/>
-      <point x="220" y="435"/>
-      <point x="227" y="445" type="curve"/>
-      <point x="321" y="534"/>
-      <point x="407" y="635"/>
-      <point x="501" y="725" type="curve"/>
-      <point x="640" y="725" type="line"/>
-      <point x="541" y="622"/>
-      <point x="442" y="515"/>
-      <point x="343" y="411" type="curve"/>
-      <point x="456" y="268"/>
-      <point x="544" y="144"/>
-      <point x="654" y="0" type="curve"/>
+      <point x="209" y="439" type="line"/>
+      <point x="209" y="725" type="line"/>
+      <point x="103" y="725" type="line"/>
+      <point x="103" y="0" type="line"/>
+      <point x="209" y="0" type="line"/>
+      <point x="208" y="290" type="line"/>
+      <point x="265" y="345" type="line"/>
+      <point x="523" y="0" type="line"/>
+      <point x="656" y="0" type="line"/>
+      <point x="342" y="411" type="line"/>
+      <point x="642" y="725" type="line"/>
+      <point x="506" y="725" type="line"/>
+      <point x="220" y="423" type="line"/>
+      <point x="206" y="403" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{36, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{737, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{736, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

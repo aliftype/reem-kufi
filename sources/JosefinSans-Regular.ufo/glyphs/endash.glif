@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endash" format="2">
-  <advance width="418"/>
+  <advance width="516"/>
   <unicode hex="2013"/>
   <outline>
     <contour>
-      <point x="56" y="169" type="line"/>
-      <point x="56" y="258" type="line"/>
-      <point x="362" y="258" type="line"/>
-      <point x="362" y="169" type="line"/>
+      <point x="102" y="257" type="line"/>
+      <point x="102" y="169" type="line"/>
+      <point x="406" y="169" type="line"/>
+      <point x="406" y="257" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{179, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{193, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb" format="2">
+  <unicode hex="0303"/>
+  <anchor x="225" y="418" name="_top"/>
+  <anchor x="235" y="607" name="top"/>
+  <outline>
+    <component base="tilde" xScale="0.878954" yScale="0.878954" xOffset="29" yOffset="60"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>384</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedi" format="2">
+  <advance width="695"/>
+  <unicode hex="20B5"/>
+  <anchor x="397" y="742" name="top"/>
+  <anchor x="404" y="0" name="bottom"/>
+  <outline>
+    <component base="C"/>
+    <component base="bar" xOffset="266" yOffset="109"/>
+  </outline>
+</glyph>

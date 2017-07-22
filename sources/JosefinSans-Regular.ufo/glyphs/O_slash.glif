@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oslash" format="2">
+  <advance width="858"/>
+  <unicode hex="00D8"/>
+  <anchor x="429" y="0" name="bottom"/>
+  <anchor x="429" y="725" name="top"/>
+  <anchor x="428" y="363" name="center"/>
+  <anchor x="511" y="835" name="topright"/>
+  <anchor x="22" y="725" name="topleft"/>
+  <anchor x="575" y="10" name="ogonek"/>
+  <outline>
+    <contour>
+      <point x="756" y="685" type="line"/>
+      <point x="691" y="746" type="line"/>
+      <point x="90" y="44" type="line"/>
+      <point x="156" y="-16" type="line"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{28, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{744, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

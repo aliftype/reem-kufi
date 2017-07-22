@@ -1,19 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven" format="2">
-  <advance width="457"/>
+  <advance width="492"/>
   <unicode hex="0037"/>
   <outline>
     <contour>
-      <point x="30" y="569" type="line"/>
-      <point x="30" y="659" type="line"/>
-      <point x="450" y="659" type="line"/>
-      <point x="358" y="429"/>
-      <point x="275" y="220"/>
-      <point x="189" y="0" type="curve"/>
-      <point x="85" y="0" type="line"/>
-      <point x="153" y="174"/>
-      <point x="231" y="377"/>
-      <point x="307" y="569" type="curve"/>
+      <point x="466" y="659" type="line"/>
+      <point x="32" y="659" type="line"/>
+      <point x="32" y="558" type="line"/>
+      <point x="355" y="558" type="line"/>
+      <point x="319" y="573" type="line"/>
+      <point x="87" y="0" type="line"/>
+      <point x="205" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{0, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{650, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="underscore" format="2">
-  <advance width="516"/>
+  <advance width="608"/>
   <unicode hex="005F"/>
   <outline>
     <contour>
-      <point x="461" y="0" type="line"/>
-      <point x="55" y="0" type="line"/>
-      <point x="55" y="89" type="line"/>
-      <point x="461" y="89" type="line"/>
+      <point x="102" y="88" type="line"/>
+      <point x="102" y="0" type="line"/>
+      <point x="507" y="0" type="line"/>
+      <point x="507" y="88" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{14, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{0, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

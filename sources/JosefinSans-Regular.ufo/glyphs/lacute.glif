@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lacute" format="2">
-  <advance width="207"/>
+  <advance width="259"/>
   <unicode hex="013A"/>
+  <anchor x="240" y="418" name="topright"/>
+  <anchor x="196" y="1016" name="top"/>
+  <anchor x="130" y="0" name="bottom"/>
+  <anchor x="130" y="209" name="center"/>
   <outline>
-    <contour>
-      <point x="146" y="0" type="line"/>
-      <point x="61" y="0" type="line"/>
-      <point x="61" y="777" type="line"/>
-      <point x="146" y="777" type="line"/>
-    </contour>
-    <contour>
-      <point x="62" y="794" type="line"/>
-      <point x="93" y="838"/>
-      <point x="123" y="884"/>
-      <point x="154" y="928" type="curve"/>
-      <point x="246" y="928" type="line"/>
-      <point x="127" y="794" type="line"/>
-    </contour>
+    <component base="l"/>
+    <component base="acutecomb.case" xOffset="89" yOffset="269"/>
   </outline>
 </glyph>

@@ -5,109 +5,39 @@
 	<key>ascender</key>
 	<integer>750</integer>
 	<key>capHeight</key>
-	<integer>700</integer>
+	<integer>725</integer>
 	<key>copyright</key>
-	<string>Copyright (c) 2010 by Typemade. All rights reserved.</string>
+	<string>Copyright 2010 The Josefin Sans Project Authors (hi@typemade.mx), with Reserved Font Name "Josefin Sans".</string>
 	<key>descender</key>
-	<integer>-250</integer>
+	<integer>-201</integer>
 	<key>familyName</key>
 	<string>Josefin Sans</string>
 	<key>guidelines</key>
 	<array/>
-	<key>italicAngle</key>
-	<integer>0</integer>
-	<key>macintoshFONDFamilyID</key>
-	<integer>128</integer>
-	<key>macintoshFONDName</key>
-	<string>Josefin Sans SemiBold</string>
 	<key>openTypeHeadCreated</key>
-	<string>2076/06/10 04:18:55</string>
-	<key>openTypeHeadFlags</key>
-	<array>
-		<integer>0</integer>
-		<integer>3</integer>
-		<integer>4</integer>
-	</array>
+	<string>2016/08/26 16:01:20</string>
 	<key>openTypeHheaAscender</key>
 	<integer>750</integer>
 	<key>openTypeHheaDescender</key>
 	<integer>-250</integer>
 	<key>openTypeHheaLineGap</key>
 	<integer>0</integer>
-	<key>openTypeNameDescription</key>
-	<string>Copyright (c) 2010 by Typemade. All rights reserved.</string>
 	<key>openTypeNameDesigner</key>
 	<string>Santiago Orozco</string>
 	<key>openTypeNameDesignerURL</key>
-	<string>www.typemade.mx</string>
+	<string>http://www.typemade.mx</string>
 	<key>openTypeNameLicense</key>
-	<string>Copyright (c) 2010, Santiago Orozco (hi@typemade.mx), with Reserved Font Name Josefin. This Font Software is licensed under the Apache License, Version 2.0. This license is available with a FAQ at: http://www.apache.org/licenses/LICENSE-2.0</string>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
 	<key>openTypeNameLicenseURL</key>
-	<string>http://www.apache.org/licenses/LICENSE-2.0</string>
+	<string>http://scripts.sil.org/OFL</string>
 	<key>openTypeNameManufacturer</key>
 	<string>Typemade</string>
 	<key>openTypeNameManufacturerURL</key>
-	<string></string>
-	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>SemiBold</string>
-	<key>openTypeNameSampleText</key>
-	<string></string>
-	<key>openTypeNameUniqueID</key>
-	<string>1.000;pyrs;JosefinSans-SemiBold</string>
-	<key>openTypeNameVersion</key>
-	<string></string>
-	<key>openTypeOS2CodePageRanges</key>
-	<array>
-		<integer>0</integer>
-		<integer>1</integer>
-		<integer>4</integer>
-		<integer>7</integer>
-		<integer>8</integer>
-		<integer>29</integer>
-		<integer>56</integer>
-		<integer>58</integer>
-		<integer>62</integer>
-	</array>
-	<key>openTypeOS2FamilyClass</key>
-	<array>
-		<integer>0</integer>
-		<integer>0</integer>
-	</array>
-	<key>openTypeOS2Panose</key>
-	<array>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-	</array>
+	<string>http://www.typemade.mx</string>
 	<key>openTypeOS2Selection</key>
-	<array/>
-	<key>openTypeOS2StrikeoutPosition</key>
-	<integer>250</integer>
-	<key>openTypeOS2StrikeoutSize</key>
-	<integer>50</integer>
-	<key>openTypeOS2SubscriptXOffset</key>
-	<integer>0</integer>
-	<key>openTypeOS2SubscriptXSize</key>
-	<integer>700</integer>
-	<key>openTypeOS2SubscriptYOffset</key>
-	<integer>140</integer>
-	<key>openTypeOS2SubscriptYSize</key>
-	<integer>650</integer>
-	<key>openTypeOS2SuperscriptXOffset</key>
-	<integer>0</integer>
-	<key>openTypeOS2SuperscriptXSize</key>
-	<integer>700</integer>
-	<key>openTypeOS2SuperscriptYOffset</key>
-	<integer>477</integer>
-	<key>openTypeOS2SuperscriptYSize</key>
-	<integer>650</integer>
+	<array>
+		<integer>7</integer>
+	</array>
 	<key>openTypeOS2Type</key>
 	<array/>
 	<key>openTypeOS2TypoAscender</key>
@@ -116,86 +46,60 @@
 	<integer>-250</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>0</integer>
-	<key>openTypeOS2UnicodeRanges</key>
-	<array>
-		<integer>0</integer>
-		<integer>1</integer>
-		<integer>2</integer>
-		<integer>3</integer>
-		<integer>5</integer>
-		<integer>7</integer>
-		<integer>29</integer>
-		<integer>31</integer>
-		<integer>33</integer>
-		<integer>35</integer>
-		<integer>38</integer>
-		<integer>45</integer>
-		<integer>62</integer>
-	</array>
-	<key>openTypeOS2VendorID</key>
-	<string>pyrs</string>
 	<key>openTypeOS2WeightClass</key>
-	<integer>600</integer>
+	<integer>574</integer>
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
-	<integer>973</integer>
+	<integer>1258</integer>
 	<key>openTypeOS2WinDescent</key>
-	<integer>257</integer>
-	<key>postscriptBlueFuzz</key>
-	<integer>1</integer>
-	<key>postscriptBlueScale</key>
-	<real>0.039625</real>
-	<key>postscriptBlueShift</key>
-	<integer>7</integer>
+	<integer>271</integer>
 	<key>postscriptBlueValues</key>
 	<array>
-		<integer>-20</integer>
+		<integer>-250</integer>
+		<integer>-250</integer>
+		<integer>-9</integer>
 		<integer>0</integer>
+		<integer>375</integer>
+		<integer>383</integer>
+		<integer>700</integer>
+		<integer>732</integer>
 	</array>
 	<key>postscriptFamilyBlues</key>
 	<array/>
 	<key>postscriptFamilyOtherBlues</key>
 	<array/>
-	<key>postscriptFontName</key>
-	<string>JosefinSans-SemiBold</string>
-	<key>postscriptForceBold</key>
-	<false/>
-	<key>postscriptFullName</key>
-	<string>Josefin Sans SemiBold</string>
-	<key>postscriptIsFixedPitch</key>
-	<false/>
 	<key>postscriptOtherBlues</key>
 	<array/>
 	<key>postscriptStemSnapH</key>
-	<array/>
+	<array>
+		<integer>84</integer>
+		<integer>63</integer>
+		<integer>242</integer>
+	</array>
 	<key>postscriptStemSnapV</key>
-	<array/>
+	<array>
+		<integer>245</integer>
+		<integer>84</integer>
+		<integer>225</integer>
+	</array>
 	<key>postscriptUnderlinePosition</key>
-	<integer>-75</integer>
+	<integer>-100</integer>
 	<key>postscriptUnderlineThickness</key>
 	<integer>50</integer>
-	<key>postscriptUniqueID</key>
-	<integer>-1</integer>
 	<key>postscriptWeightName</key>
-	<string>Demibold</string>
-	<key>styleMapFamilyName</key>
-	<string>Josefin Sans</string>
-	<key>styleMapStyleName</key>
-	<string>regular</string>
+	<string>Semi-bold</string>
 	<key>styleName</key>
-	<string>SemiBold</string>
+	<string>Medium</string>
 	<key>trademark</key>
-	<string>Josefin Sans SemiBold is a trademark of Typemade.</string>
+	<string>Josefin Sans is a trademark of Typemade.</string>
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
 	<key>versionMajor</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>versionMinor</key>
 	<integer>0</integer>
 	<key>xHeight</key>
-	<integer>462</integer>
-	<key>year</key>
-	<integer>2010</integer>
+	<integer>418</integer>
 </dict>
 </plist>

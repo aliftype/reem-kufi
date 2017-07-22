@@ -1,33 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yacute" format="2">
-  <advance width="478"/>
+  <advance width="500"/>
   <unicode hex="00FD"/>
+  <anchor x="335" y="614" name="top"/>
+  <anchor x="402" y="-7" name="bottom"/>
   <outline>
-    <contour>
-      <point x="175" y="-201" type="line"/>
-      <point x="89" y="-201" type="line"/>
-      <point x="127" y="-124"/>
-      <point x="153" y="-62"/>
-      <point x="195" y="29" type="curve"/>
-      <point x="134" y="149"/>
-      <point x="67" y="297"/>
-      <point x="6" y="418" type="curve"/>
-      <point x="99" y="418" type="line"/>
-      <point x="195" y="230"/>
-      <point x="220" y="164"/>
-      <point x="239" y="107" type="curve"/>
-      <point x="260" y="164"/>
-      <point x="284" y="230"/>
-      <point x="380" y="418" type="curve"/>
-      <point x="473" y="418" type="line"/>
-    </contour>
-    <contour>
-      <point x="204" y="486" type="line"/>
-      <point x="235" y="530"/>
-      <point x="265" y="576"/>
-      <point x="296" y="620" type="curve"/>
-      <point x="388" y="620" type="line"/>
-      <point x="269" y="486" type="line"/>
-    </contour>
+    <component base="y"/>
+    <component base="acutecomb" xOffset="219" yOffset="-6"/>
   </outline>
 </glyph>

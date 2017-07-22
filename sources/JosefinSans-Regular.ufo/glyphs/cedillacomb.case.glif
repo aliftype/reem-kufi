@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedillacomb.case" format="2">
+  <advance width="361"/>
+  <anchor x="153" y="0" name="_bottom"/>
+  <anchor x="155" y="-228" name="bottom"/>
+  <outline>
+    <component base="cedilla" xOffset="-37"/>
+  </outline>
+</glyph>

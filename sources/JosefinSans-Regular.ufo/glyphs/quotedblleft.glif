@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblleft" format="2">
-  <advance width="284.9935874633169"/>
+  <advance width="299"/>
   <unicode hex="201C"/>
   <outline>
-    <contour>
-      <point x="243.99358746331689" y="598" type="curve"/>
-      <point x="198.99358746331689" y="573" type="line"/>
-      <point x="160.99358746331689" y="611"/>
-      <point x="142.99358746331689" y="665"/>
-      <point x="153.99358746331689" y="721" type="curve"/>
-      <point x="209.99358746331689" y="714" type="line"/>
-      <point x="200.99358746331689" y="667"/>
-      <point x="215.99358746331689" y="625"/>
-    </contour>
-    <contour>
-      <point x="138.99358746331689" y="598" type="curve"/>
-      <point x="122.99358746331689" y="590"/>
-      <point x="108.99358746331689" y="581"/>
-      <point x="93.99358746331689" y="573" type="curve"/>
-      <point x="55.993587463316885" y="611"/>
-      <point x="37.993587463316885" y="665"/>
-      <point x="48.993587463316885" y="721" type="curve"/>
-      <point x="104.99358746331689" y="714" type="line"/>
-      <point x="95.99358746331689" y="667"/>
-      <point x="110.99358746331689" y="625"/>
-    </contour>
+    <component base="quoteleft" xOffset="131"/>
+    <component base="quoteleft" xOffset="4"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{711, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{572, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

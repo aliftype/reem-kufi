@@ -1,29 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tbar" format="2">
-  <advance width="304"/>
+  <advance width="365"/>
   <unicode hex="0167"/>
+  <anchor x="343" y="418" name="topright"/>
+  <anchor x="176" y="418" name="top"/>
+  <anchor x="165" y="0" name="bottom"/>
+  <anchor x="176" y="195" name="center"/>
   <outline>
-    <contour>
-      <point x="36" y="483" type="line"/>
-      <point x="36" y="541" type="line"/>
-      <point x="96" y="541" type="line"/>
-      <point x="96" y="602" type="line"/>
-      <point x="181" y="602" type="line"/>
-      <point x="181" y="541" type="line"/>
-      <point x="270" y="541" type="line"/>
-      <point x="270" y="483" type="line"/>
-      <point x="181" y="483" type="line"/>
-      <point x="181" y="417" type="line"/>
-      <point x="293" y="417" type="line"/>
-      <point x="293" y="341" type="line"/>
-      <point x="181" y="341" type="line"/>
-      <point x="181" y="0" type="line"/>
-      <point x="96" y="0" type="line"/>
-      <point x="96" y="341" type="line"/>
-      <point x="21" y="341" type="line"/>
-      <point x="21" y="417" type="line"/>
-      <point x="96" y="417" type="line"/>
-      <point x="96" y="483" type="line"/>
-    </contour>
+    <component base="t"/>
+    <component base="strokeshortcomb" xOffset="-12" yOffset="-137"/>
   </outline>
 </glyph>

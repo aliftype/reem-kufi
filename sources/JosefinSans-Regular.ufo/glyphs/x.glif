@@ -1,37 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="x" format="2">
-  <advance width="434"/>
+  <advance width="475"/>
   <unicode hex="0078"/>
+  <anchor x="233" y="0" name="bottom"/>
+  <anchor x="233" y="418" name="top"/>
   <outline>
     <contour>
-      <point x="164" y="221" type="curve"/>
-      <point x="118" y="287"/>
-      <point x="65" y="353"/>
-      <point x="20" y="418" type="curve"/>
-      <point x="125" y="418" type="line"/>
-      <point x="158" y="366"/>
-      <point x="185" y="336"/>
-      <point x="219" y="286" type="curve"/>
-      <point x="252" y="336"/>
-      <point x="280" y="367"/>
-      <point x="314" y="418" type="curve"/>
-      <point x="409" y="418" type="line"/>
-      <point x="360" y="343"/>
-      <point x="321" y="297"/>
-      <point x="269" y="217" type="curve"/>
-      <point x="316" y="152"/>
-      <point x="382" y="65"/>
-      <point x="427" y="0" type="curve"/>
-      <point x="318" y="0" type="line"/>
-      <point x="281" y="52"/>
-      <point x="245" y="92"/>
-      <point x="208" y="143" type="curve"/>
-      <point x="174" y="92"/>
-      <point x="141" y="52"/>
-      <point x="106" y="0" type="curve"/>
-      <point x="11" y="0" type="line"/>
-      <point x="61" y="75"/>
-      <point x="115" y="148"/>
+      <point x="242" y="266" type="line"/>
+      <point x="279" y="193" type="line"/>
+      <point x="440" y="418" type="line"/>
+      <point x="339" y="418" type="line"/>
+    </contour>
+    <contour>
+      <point x="458" y="0" type="line"/>
+      <point x="142" y="418" type="line"/>
+      <point x="18" y="418" type="line"/>
+      <point x="336" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="231" y="152" type="line"/>
+      <point x="183" y="219" type="line"/>
+      <point x="23" y="0" type="line"/>
+      <point x="124" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{25, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{399, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{400, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

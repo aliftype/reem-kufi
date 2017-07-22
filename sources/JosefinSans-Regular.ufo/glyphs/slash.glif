@@ -1,15 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="slash" format="2">
-  <advance width="437"/>
+  <advance width="390"/>
   <unicode hex="002F"/>
   <outline>
     <contour>
-      <point x="31" y="-19" type="line"/>
-      <point x="313" y="746" type="line"/>
-      <point x="406" y="746" type="line"/>
-      <point x="311" y="491"/>
-      <point x="218" y="236"/>
-      <point x="123" y="-19" type="curve"/>
+      <point x="390" y="746" type="curve"/>
+      <point x="299" y="746" type="line"/>
+      <point x="205" y="491"/>
+      <point x="112" y="236"/>
+      <point x="17" y="-19" type="curve"/>
+      <point x="109" y="-19" type="line"/>
+      <point x="203" y="236"/>
+      <point x="296" y="491"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{-19, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{736, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

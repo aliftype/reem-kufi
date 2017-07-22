@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fraction" format="2">
-  <advance width="356"/>
+  <advance width="569"/>
   <unicode hex="2044"/>
   <outline>
     <contour>
-      <point x="-9" y="0" type="line"/>
-      <point x="85" y="255"/>
-      <point x="178" y="510"/>
-      <point x="273" y="765" type="curve"/>
-      <point x="365" y="765" type="line"/>
-      <point x="83" y="0" type="line"/>
+      <point x="512" y="687" type="line"/>
+      <point x="417" y="687" type="line"/>
+      <point x="10" y="0" type="line"/>
+      <point x="105" y="0" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{306, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{1061, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

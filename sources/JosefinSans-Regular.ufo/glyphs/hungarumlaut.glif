@@ -1,23 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlaut" format="2">
-  <advance width="516"/>
+  <advance width="438"/>
   <unicode hex="02DD"/>
   <outline>
-    <contour>
-      <point x="66" y="486" type="line"/>
-      <point x="97" y="530"/>
-      <point x="127" y="576"/>
-      <point x="158" y="620" type="curve"/>
-      <point x="250" y="620" type="line"/>
-      <point x="131" y="486" type="line"/>
-    </contour>
-    <contour>
-      <point x="287" y="486" type="line"/>
-      <point x="318" y="530"/>
-      <point x="348" y="576"/>
-      <point x="379" y="620" type="curve"/>
-      <point x="471" y="620" type="line"/>
-      <point x="351" y="486" type="line"/>
-    </contour>
+    <component base="acute"/>
+    <component base="acute" xOffset="155" yOffset="-2"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{479, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{612, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{479, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{612, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

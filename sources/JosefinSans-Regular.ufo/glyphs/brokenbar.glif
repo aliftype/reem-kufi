@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="brokenbar" format="2">
-  <advance width="265"/>
+  <advance width="218"/>
   <unicode hex="00A6"/>
   <outline>
     <contour>
-      <point x="179" y="-237" type="line"/>
-      <point x="86" y="-237" type="line"/>
-      <point x="86" y="118" type="line"/>
-      <point x="179" y="118" type="line"/>
+      <point x="67" y="710" type="line"/>
+      <point x="67" y="355" type="line"/>
+      <point x="158" y="355" type="line"/>
+      <point x="158" y="710" type="line"/>
     </contour>
     <contour>
-      <point x="179" y="355" type="line"/>
-      <point x="86" y="355" type="line"/>
-      <point x="86" y="710" type="line"/>
-      <point x="179" y="710" type="line"/>
+      <point x="67" y="119" type="line"/>
+      <point x="67" y="-236" type="line"/>
+      <point x="158" y="-236" type="line"/>
+      <point x="158" y="119" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{700, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{-233, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

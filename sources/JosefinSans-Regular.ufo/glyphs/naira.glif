@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="naira" format="2">
+  <advance width="840"/>
+  <unicode hex="20A6"/>
+  <anchor x="421" y="0" name="bottom"/>
+  <anchor x="407" y="725" name="top"/>
+  <outline>
+    <contour>
+      <point x="438" y="412" type="line"/>
+      <point x="438" y="341" type="line"/>
+      <point x="822" y="341" type="line"/>
+      <point x="822" y="412" type="line"/>
+    </contour>
+    <contour>
+      <point x="418" y="341" type="line"/>
+      <point x="418" y="412" type="line"/>
+      <point x="15" y="412" type="line"/>
+      <point x="15" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="734" y="-25" type="line"/>
+      <point x="737" y="-25" type="line"/>
+      <point x="737" y="725" type="line"/>
+      <point x="632" y="725" type="line"/>
+      <point x="634" y="196" type="line"/>
+      <point x="659" y="186" type="line"/>
+      <point x="107" y="748" type="line"/>
+      <point x="103" y="748" type="line"/>
+      <point x="103" y="0" type="line"/>
+      <point x="209" y="0" type="line"/>
+      <point x="207" y="523" type="line"/>
+      <point x="175" y="537" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{768, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{4, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,17 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quoteleft" format="2">
-  <advance width="179.99358746331689"/>
+  <advance width="183"/>
   <unicode hex="2018"/>
   <outline>
     <contour>
-      <point x="138.99358746331689" y="598" type="curve"/>
-      <point x="93.99358746331689" y="573" type="line"/>
-      <point x="55.993587463316885" y="611"/>
-      <point x="37.993587463316885" y="665"/>
-      <point x="48.993587463316885" y="721" type="curve"/>
-      <point x="104.99358746331689" y="714" type="line"/>
-      <point x="95.99358746331689" y="667"/>
-      <point x="110.99358746331689" y="625"/>
+      <point x="102" y="734" type="line"/>
+      <point x="56" y="703"/>
+      <point x="20" y="645"/>
+      <point x="34" y="577" type="curve"/>
+      <point x="113" y="584" type="line"/>
+      <point x="105" y="628"/>
+      <point x="125" y="679"/>
+      <point x="154" y="709" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{711, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{572, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

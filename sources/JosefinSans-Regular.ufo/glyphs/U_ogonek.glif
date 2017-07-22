@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uogonek" format="2">
+  <advance width="735"/>
+  <unicode hex="0172"/>
+  <outline>
+    <contour>
+      <point x="471" y="-218" type="curve"/>
+      <point x="514" y="-218"/>
+      <point x="563" y="-189"/>
+      <point x="588" y="-149" type="curve"/>
+      <point x="549" y="-98" type="line"/>
+      <point x="530" y="-128"/>
+      <point x="508" y="-146"/>
+      <point x="481" y="-146" type="curve"/>
+      <point x="456" y="-146"/>
+      <point x="433" y="-133"/>
+      <point x="433" y="-98" type="curve"/>
+      <point x="433" y="-49"/>
+      <point x="471" y="-12"/>
+      <point x="519" y="27" type="curve"/>
+      <point x="581" y="74"/>
+      <point x="643" y="137"/>
+      <point x="643" y="250" type="curve"/>
+      <point x="643" y="725" type="line"/>
+      <point x="540" y="725" type="line"/>
+      <point x="540" y="259" type="line"/>
+      <point x="540" y="166"/>
+      <point x="466" y="94"/>
+      <point x="367" y="94" type="curve"/>
+      <point x="272" y="94"/>
+      <point x="197" y="166"/>
+      <point x="197" y="259" type="curve"/>
+      <point x="197" y="725" type="line"/>
+      <point x="92" y="725" type="line"/>
+      <point x="92" y="256" type="line"/>
+      <point x="92" y="98"/>
+      <point x="202" y="-8"/>
+      <point x="367" y="-8" type="curve"/>
+      <point x="404" y="-8"/>
+      <point x="438" y="-2"/>
+      <point x="468" y="9" type="curve"/>
+      <point x="458" y="51" type="line"/>
+      <point x="428" y="10" type="line"/>
+      <point x="379" y="-14"/>
+      <point x="349" y="-62"/>
+      <point x="349" y="-106" type="curve"/>
+      <point x="349" y="-173"/>
+      <point x="404" y="-218"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>U</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>U</string>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{28, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{736, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

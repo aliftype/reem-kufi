@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="less" format="2">
-  <advance width="554"/>
+  <advance width="594"/>
   <unicode hex="003C"/>
   <outline>
     <contour>
-      <point x="475" y="111" type="line"/>
-      <point x="475" y="-14" type="line"/>
-      <point x="32" y="241" type="line"/>
-      <point x="475" y="497" type="line"/>
-      <point x="475" y="372" type="line"/>
-      <point x="249" y="241" type="line"/>
+      <point x="499" y="386" type="line"/>
+      <point x="499" y="496" type="line"/>
+      <point x="56" y="241" type="line"/>
+      <point x="499" y="-14" type="line"/>
+      <point x="499" y="95" type="line"/>
+      <point x="250" y="241" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{491, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{-15, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

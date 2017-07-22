@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblbase" format="2">
-  <advance width="299.00111060358046"/>
+  <advance width="308"/>
   <unicode hex="201E"/>
   <outline>
-    <contour>
-      <point x="80" y="-55" type="curve"/>
-      <point x="65" y="-46"/>
-      <point x="51" y="-38"/>
-      <point x="35" y="-30" type="curve"/>
-      <point x="64" y="-2"/>
-      <point x="78" y="40"/>
-      <point x="69" y="86" type="curve"/>
-      <point x="125" y="93" type="line"/>
-      <point x="136" y="38"/>
-      <point x="118" y="-17"/>
-    </contour>
-    <contour>
-      <point x="186" y="-55" type="curve"/>
-      <point x="171" y="-46"/>
-      <point x="156" y="-38"/>
-      <point x="141" y="-30" type="curve"/>
-      <point x="169" y="-2"/>
-      <point x="183" y="40"/>
-      <point x="174" y="86" type="curve"/>
-      <point x="230" y="93" type="line"/>
-      <point x="241" y="38"/>
-      <point x="223" y="-17"/>
-    </contour>
+    <component base="quotedblright" yOffset="-643"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{-47, 21}</string>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <string>1</string>
+          <key>place</key>
+          <string>{92, -20}</string>
+          <key>target</key>
+          <string>down</string>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

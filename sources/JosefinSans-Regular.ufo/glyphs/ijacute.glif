@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ijacute" format="2">
+  <advance width="535"/>
+  <anchor x="131" y="418" name="top_1"/>
+  <anchor x="400" y="418" name="top_2"/>
+  <anchor x="261" y="10" name="ogonek"/>
+  <anchor x="121" y="0" name="bottom_1"/>
+  <anchor x="398" y="0" name="bottom_2"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dotlessj" xOffset="259"/>
+    <component base="acutecomb" xOffset="81" yOffset="-5"/>
+    <component base="acutecomb" xOffset="347" yOffset="-5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>n</string>
+    </dict>
+  </lib>
+</glyph>

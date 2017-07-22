@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tcaron" format="2">
-  <advance width="303"/>
+  <advance width="365"/>
   <unicode hex="0165"/>
+  <anchor x="343" y="418" name="topright"/>
+  <anchor x="176" y="418" name="top"/>
+  <anchor x="326" y="505" name="bottom"/>
+  <anchor x="176" y="195" name="center"/>
   <outline>
-    <contour>
-      <point x="96" y="602" type="line"/>
-      <point x="181" y="602" type="line"/>
-      <point x="181" y="417" type="line"/>
-      <point x="293" y="417" type="line"/>
-      <point x="293" y="341" type="line"/>
-      <point x="181" y="341" type="line"/>
-      <point x="181" y="0" type="line"/>
-      <point x="96" y="0" type="line"/>
-      <point x="96" y="341" type="line"/>
-      <point x="21" y="341" type="line"/>
-      <point x="21" y="417" type="line"/>
-      <point x="96" y="417" type="line"/>
-    </contour>
-    <contour>
-      <point x="292" y="573" type="curve"/>
-      <point x="247" y="598" type="line"/>
-      <point x="276" y="625"/>
-      <point x="290" y="667"/>
-      <point x="281" y="714" type="curve"/>
-      <point x="337" y="721" type="line"/>
-      <point x="348" y="665"/>
-      <point x="330" y="611"/>
-    </contour>
+    <component base="t"/>
+    <component base="commaaccentcomb" xOffset="204" yOffset="694"/>
   </outline>
 </glyph>

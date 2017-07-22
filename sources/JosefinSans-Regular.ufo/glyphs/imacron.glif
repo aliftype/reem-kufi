@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="imacron" format="2">
-  <advance width="205"/>
+  <advance width="259"/>
   <unicode hex="012B"/>
+  <anchor x="261" y="10" name="ogonek"/>
+  <anchor x="131" y="547" name="top"/>
+  <anchor x="121" y="0" name="bottom"/>
   <outline>
-    <contour>
-      <point x="145" y="0" type="line"/>
-      <point x="60" y="0" type="line"/>
-      <point x="60" y="418" type="line"/>
-      <point x="145" y="418" type="line"/>
-    </contour>
-    <contour>
-      <point x="-14" y="483" type="line"/>
-      <point x="-14" y="541" type="line"/>
-      <point x="220" y="541" type="line"/>
-      <point x="220" y="483" type="line"/>
-    </contour>
+    <component base="idotless"/>
+    <component base="macroncomb" xOffset="-35" yOffset="7"/>
   </outline>
 </glyph>

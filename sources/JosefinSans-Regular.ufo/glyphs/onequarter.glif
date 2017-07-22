@@ -1,41 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onequarter" format="2">
-  <advance width="802"/>
+  <advance width="819"/>
   <unicode hex="00BC"/>
   <outline>
-    <contour>
-      <point x="184" y="-19" type="line"/>
-      <point x="466" y="746" type="line"/>
-      <point x="559" y="746" type="line"/>
-      <point x="464" y="491"/>
-      <point x="371" y="236"/>
-      <point x="276" y="-19" type="curve"/>
-    </contour>
-    <contour>
-      <point x="402" y="127" type="line"/>
-      <point x="493" y="246"/>
-      <point x="602" y="378"/>
-      <point x="694" y="497" type="curve"/>
-      <point x="694" y="193" type="line"/>
-      <point x="767" y="193" type="line"/>
-      <point x="767" y="127" type="line"/>
-      <point x="694" y="127" type="line"/>
-      <point x="694" y="0" type="line"/>
-      <point x="625" y="0" type="line"/>
-      <point x="625" y="127" type="line"/>
-    </contour>
-    <contour>
-      <point x="43" y="638" type="line"/>
-      <point x="43" y="702" type="line"/>
-      <point x="154" y="702" type="line"/>
-      <point x="154" y="234" type="line"/>
-      <point x="88" y="234" type="line"/>
-      <point x="88" y="638" type="line"/>
-    </contour>
-    <contour>
-      <point x="625" y="311" type="line"/>
-      <point x="534" y="193" type="line"/>
-      <point x="625" y="193" type="line"/>
-    </contour>
+    <component base="onesuperior" xOffset="3"/>
+    <component base="fraction" yScale="0.99958" xOffset="134"/>
+    <component base="foursuperior" xOffset="445" yOffset="-291"/>
   </outline>
 </glyph>
