@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="arWaw.fina" format="2">
-  <advance width="400"/>
-  <outline>
-    <component base="arHamzaAbove.mark" xOffset="174.0" yOffset="400.0"/>
-  </outline>
-</glyph>

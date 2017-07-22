@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="arHeh.fina" format="2">
-  <advance width="415"/>
-  <outline>
-    <component base="ar2VDotAbove.mark" xOffset="104.0" yOffset="450.0"/>
-  </outline>
-</glyph>

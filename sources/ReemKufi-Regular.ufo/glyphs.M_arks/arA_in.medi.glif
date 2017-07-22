@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="arAin.medi" format="2">
-  <advance width="350"/>
-  <outline>
-    <component base="ar2DotAbove.mark" xOffset="85.0" yOffset="550.0"/>
-    <component base="ar1DotAbove.mark" xOffset="85.0" yOffset="550.0"/>
-    <component base="ar3DotAbove.mark" xOffset="85.0" yOffset="550.0"/>
-  </outline>
-</glyph>
