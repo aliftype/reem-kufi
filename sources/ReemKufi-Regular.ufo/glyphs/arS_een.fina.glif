@@ -2,6 +2,7 @@
 <glyph name="arSeen.fina" format="2">
   <advance width="945"/>
   <anchor x="590.0" y="550.0" name="dotAbove"/>
+  <anchor x="590.0" y="550.0" name="markAbove"/>
   <outline>
     <contour>
       <point x="445.0" y="-0.0" type="line"/>

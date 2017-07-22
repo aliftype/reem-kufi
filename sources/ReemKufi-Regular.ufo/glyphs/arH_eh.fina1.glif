@@ -3,6 +3,7 @@
   <advance width="415"/>
   <anchor x="180.0" y="500.0" name="dotAbove"/>
   <anchor x="174.0" y="450.0" name="hamzaAbove"/>
+  <anchor x="180.0" y="500.0" name="markAbove"/>
   <outline>
     <contour>
       <point x="322.0" y="150.0" type="line"/>

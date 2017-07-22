@@ -4,6 +4,8 @@
   <anchor x="190.0" y="500.0" name="dotAbove"/>
   <anchor x="181.0" y="-260.0" name="dotBelow"/>
   <anchor x="215.0" y="-85.0" name="dotBelow.alt"/>
+  <anchor x="190.0" y="500.0" name="markAbove"/>
+  <anchor x="215.0" y="-85.0" name="markBelow"/>
   <outline>
     <contour>
       <point x="122.0" y="259.0" type="curve"/>
