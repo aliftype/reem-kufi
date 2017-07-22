@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arHah.fina" format="2">
   <advance width="430"/>
+  <anchor x="190.0" y="500.0" name="dotAbove"/>
+  <anchor x="181.0" y="-260.0" name="dotBelow"/>
+  <anchor x="215.0" y="-85.0" name="dotBelow.alt"/>
   <outline>
     <contour>
       <point x="122.0" y="259.0" type="curve"/>

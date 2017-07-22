@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arAin.init" format="2">
   <advance width="535"/>
+  <anchor x="155.0" y="500.0" name="dotAbove"/>
   <outline>
     <contour>
       <point x="96.0" y="100.0" type="line"/>

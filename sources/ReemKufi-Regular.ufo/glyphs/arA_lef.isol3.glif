@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arAlef.isol3" format="2">
   <advance width="175"/>
+  <anchor x="90.0" y="-50.0" name="hamzaBelow"/>
+  <anchor x="90.0" y="850.0" name="hamzaAbove"/>
   <outline>
     <contour>
       <point x="150.0" y="80.0" type="line" smooth="yes"/>

@@ -23,28 +23,34 @@ def parse(features):
 
     return subs
 
+def addComponent(glyph, name, xoff=0, yoff=0):
+    component = glyph.instantiateComponent()
+    component.baseGlyph = name
+    component.move((xoff, yoff))
+    glyph.appendComponent(component)
+
 def build(font):
     subs = parse(font.features.text)
 
     for name, names in subs.items():
         if isinstance(names, (str, unicode)):
             names = [names]
-        base = names[0]
-        if base in font.layers["Marks"]:
-            base = font.layers["Marks"][base]
-        else:
-            base = font[base]
+        baseGlyph = font[names[0]]
         glyph = font.newGlyph(name)
         glyph.unicode = int(name.lstrip('uni'), 16)
-        glyph.width = base.width
-        glyph.leftMargin = base.leftMargin
-        glyph.rightMargin = base.rightMargin
-        component = Component()
-        component.baseGlyph = names[0]
-        glyph.appendComponent(component)
-        for baseComponent in base.components:
-            if baseComponent.baseGlyph in names[1:]:
-                component = Component()
-                component.transformation = baseComponent.transformation
-                component.baseGlyph = baseComponent.baseGlyph
-                glyph.appendComponent(component)
+        glyph.width = baseGlyph.width
+        glyph.leftMargin = baseGlyph.leftMargin
+        glyph.rightMargin = baseGlyph.rightMargin
+        addComponent(glyph, baseGlyph.name)
+        for partName in names[1:]:
+            partGlyph = font[partName]
+            partAnchors = [a.name.replace("_", "", 1) for a in partGlyph.anchors if a.name.startswith("_")]
+            baseAnchors = [a.name for a in baseGlyph.anchors if not a.name.startswith("_")]
+            anchorName = set(baseAnchors).intersection(partAnchors)
+            assert len(anchorName) > 0, (names[0], partName, partAnchors, baseAnchors)
+            anchorName = list(anchorName)[0]
+            partAnchor = [a for a in partGlyph.anchors if a.name == "_" + anchorName][0]
+            baseAnchor = [a for a in baseGlyph.anchors if a.name == anchorName][0]
+            xoff = baseAnchor.x - partAnchor.x
+            yoff = baseAnchor.y - partAnchor.y
+            addComponent(glyph, partName, xoff, yoff)

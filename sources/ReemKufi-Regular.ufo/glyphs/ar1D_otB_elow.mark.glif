@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ar1DotBelow.mark" format="2">
+  <anchor x="0" y="0" name="_dotBelow.alt"/>
+  <anchor x="0" y="0" name="_dotBelow"/>
   <outline>
     <component base="ar1DotAbove.mark"/>
   </outline>

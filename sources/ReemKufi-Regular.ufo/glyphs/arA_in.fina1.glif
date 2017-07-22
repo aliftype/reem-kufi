@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arAin.fina1" format="2">
   <advance width="490"/>
+  <anchor x="255.0" y="550.0" name="dotAbove"/>
   <outline>
     <contour>
       <point x="318.0" y="300.0" type="line"/>

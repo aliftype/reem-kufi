@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arTah.mark" format="2">
+  <anchor x="0" y="0" name="_hamzaAbove"/>
   <outline>
     <contour>
       <point x="-86.0" y="20.0" type="line"/>

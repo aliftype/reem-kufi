@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arFeh.init" format="2">
   <advance width="425"/>
+  <anchor x="250.0" y="600.0" name="dotAbove"/>
   <outline>
     <contour>
       <point x="200.0" y="300.0" type="curve" smooth="yes"/>

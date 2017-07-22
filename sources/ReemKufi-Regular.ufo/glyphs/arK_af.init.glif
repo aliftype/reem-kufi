@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arKaf.init" format="2">
   <advance width="910"/>
+  <anchor x="274.0" y="467.0" name="gafAbove"/>
   <outline>
     <contour>
       <point x="486.0322265625" y="451.2265625" type="line"/>

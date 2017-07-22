@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arQaf.fina" format="2">
   <advance width="600"/>
+  <anchor x="340.0" y="500.0" name="dotAbove"/>
   <outline>
     <contour>
       <point x="292.0" y="150.0" type="curve" smooth="yes"/>

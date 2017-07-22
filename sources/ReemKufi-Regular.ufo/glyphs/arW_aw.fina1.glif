@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arWaw.fina1" format="2">
   <advance width="400"/>
+  <anchor x="174.0" y="400.0" name="hamzaAbove"/>
   <outline>
     <contour>
       <point x="420.0" y="100.0" type="line"/>

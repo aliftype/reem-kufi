@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arSeen.medi" format="2">
   <advance width="700"/>
+  <anchor x="345.0" y="550.0" name="dotAbove"/>
   <outline>
     <contour>
       <point x="720.0" y="100.0" type="line"/>

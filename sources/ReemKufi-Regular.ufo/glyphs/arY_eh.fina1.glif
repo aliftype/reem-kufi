@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arYeh.fina1" format="2">
   <advance width="720"/>
+  <anchor x="240.0" y="-150.0" name="dotBelow"/>
+  <anchor x="40.0" y="200.0" name="hamzaAbove"/>
   <outline>
     <contour>
       <point x="740.0" y="100.0" type="line"/>

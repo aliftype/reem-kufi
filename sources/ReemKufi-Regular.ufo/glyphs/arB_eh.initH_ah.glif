@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arBeh.initHah" format="2">
+  <anchor x="-307.0" y="558.0" name="dotAbove"/>
+  <anchor x="-315.0" y="500.0" name="hamzaAbove"/>
+  <anchor x="-148.0" y="-98.0" name="dotBelow"/>
+  <anchor x="-157.0" y="208.0" name="dotAbove.alt"/>
   <outline>
     <contour>
       <point x="-265.0" y="300.0" type="line" smooth="yes"/>

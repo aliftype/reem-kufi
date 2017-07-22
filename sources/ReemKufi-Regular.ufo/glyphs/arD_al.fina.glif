@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arDal.fina" format="2">
   <advance width="920"/>
+  <anchor x="435.0" y="500.0" name="dotAbove"/>
+  <anchor x="435.0" y="440.0" name="hamzaAbove"/>
   <outline>
     <contour>
       <point x="940.0" y="100.0" type="line"/>

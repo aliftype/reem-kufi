@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arSad.isol" format="2">
   <advance width="1170"/>
+  <anchor x="695.0" y="550.0" name="dotAbove"/>
   <outline>
     <contour>
       <point x="445.0" y="-0.0" type="line"/>

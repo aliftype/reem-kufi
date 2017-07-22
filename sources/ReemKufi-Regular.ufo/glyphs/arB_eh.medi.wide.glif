@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arBeh.medi.wide" format="2">
   <advance width="400.0"/>
+  <anchor x="83.0" y="483.0" name="dotAbove"/>
+  <anchor x="83.0" y="-150.0" name="dotBelow"/>
+  <anchor x="75.0" y="422.0" name="hamzaAbove"/>
   <outline>
     <contour>
       <point x="109.0" y="100.0" type="line"/>
