@@ -36,10 +36,9 @@ $(NAME)-%.otf $(NAME)-%.ttf: $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(LATIN)-%.ufo Ma
 $(PDF): $(NAME)-Regular.otf
 	@echo "   GEN	$@"
 	@mkdir -p $(DOCDIR)
-	@fntsample --font-file $< --output-file $@.tmp --print-outline > $@.txt
-	@pdfoutline $@.tmp $@.txt $@.comp
-	@mutool clean -d -i -f -a $@.comp $@
-	@rm -f $@.tmp $@.comp $@.txt
+	@fntsample --font-file $< --output-file $@.tmp --write-outline
+	@mutool clean -d -i -f -a $@.tmp $@
+	@rm -f $@.tmp
 
 $(PNG): $(NAME)-Regular.otf
 	@echo "   GEN	$@"

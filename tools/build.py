@@ -11,7 +11,7 @@ from fontTools.misc.transform import Transform
 from fontTools.ttLib import TTFont
 from ufo2ft import compileOTF, compileTTF
 
-from buildencoded import build as buildEncoded
+from placeholders import build as addPlaceHolders
 
 MADA_UNICODES = "org.mada.subsetUnicodes"
 
@@ -28,7 +28,7 @@ def merge(args):
 
     latin = Font(args.latinfile)
 
-    buildEncoded(arabic)
+    addPlaceHolders(arabic)
 
     unicodes = parseSubset(args.latin_subset)
     for glyph in arabic:
