@@ -24,6 +24,7 @@ LATIN_SUBSET=$(SRCDIR)/latin-subset.txt
 define generate_fonts
 echo "   MAKE  $(1)"
 mkdir -p $(BLDDIR)
+export SOURCE_DATE_EPOCH=$(EPOCH);                                             \
 pushd $(BLDDIR) 1>/dev/null;                                                   \
 fontmake --ufo $(abspath $(2))                                                 \
          --autohint                                                            \
@@ -31,6 +32,14 @@ fontmake --ufo $(abspath $(2))                                                 \
          --verbose WARNING                                                     \
          ;                                                                     \
 popd 1>/dev/null
+endef
+
+EPOCH = 0
+define update_epoch
+if [ `stat -c "%Y" $(1)` -gt $(EPOCH) ]; then                                  \
+    true;                                                                      \
+    $(eval EPOCH := $(shell stat -c "%Y" $(1)))                                \
+fi
 endef
 
 define get_unicodes
@@ -79,6 +88,7 @@ $(BLDDIR)/master_ttf/$(NAME)-%.ttf: $(UFO)
 $(BLDDIR)/$(NAME)-%.ufo: $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(LATIN)-%.ufo Makefile $(PREPARE)
 	@echo "   GEN	$@"
 	@python $(PREPARE) --version=$(VERSION) --latin-subset=$(LATIN_SUBSET) --out-file=$@ $< $(word 2,$+)
+	@$(call update_epoch,$<)
 
 $(PDF): $(NAME)-Regular.otf
 	@echo "   GEN	$@"

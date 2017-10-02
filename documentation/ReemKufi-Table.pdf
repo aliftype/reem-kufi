@@ -657,7 +657,7 @@ endobj
 <<
   /Type /Font
   /Subtype /Type1
-  /BaseFont /FPMRNY+ReemKufi-Regular
+  /BaseFont /LHJNYQ+ReemKufi-Regular
   /FirstChar 32
   /LastChar 255
   /FontDescriptor 75 0 R
@@ -1306,7 +1306,7 @@ endobj
 <<
   /Type /Font
   /Subtype /Type0
-  /BaseFont /ALXARE+ReemKufi-Regular
+  /BaseFont /DPOIDK+ReemKufi-Regular
   /Encoding /Identity-H
   /DescendantFonts [ 81 0 R ]
   /ToUnicode 78 0 R
@@ -4985,7 +4985,7 @@ endobj
 75 0 obj
 <<
   /Type /FontDescriptor
-  /FontName /FPMRNY+ReemKufi-Regular
+  /FontName /LHJNYQ+ReemKufi-Regular
   /FontFamily (Reem Kufi Regular)
   /Flags 4
   /FontBBox [ -435 -239 1361 1192 ]
@@ -5209,7 +5209,7 @@ endobj
 80 0 obj
 <<
   /Type /FontDescriptor
-  /FontName /ALXARE+ReemKufi-Regular
+  /FontName /DPOIDK+ReemKufi-Regular
   /FontFamily (Reem Kufi Regular)
   /Flags 4
   /FontBBox [ -435 -239 1361 1192 ]
@@ -5227,7 +5227,7 @@ endobj
 <<
   /Type /Font
   /Subtype /CIDFontType0
-  /BaseFont /ALXARE+ReemKufi-Regular
+  /BaseFont /DPOIDK+ReemKufi-Regular
   /CIDSystemInfo <<
     /Registry (Adobe)
     /Ordering (Identity)
