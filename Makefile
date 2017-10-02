@@ -44,8 +44,8 @@ $(PNG): $(NAME)-Regular.otf
 	@echo "   GEN	$@"
 	@hb-view --font-file=$< \
 		 --output-file=$@ \
-		 --text="ريم على القاع بين البان و العلم   أحل سفك دمي في الأشهر الحرم" \
-		 --features="+cv01,-cv01[6:7],-cv01[28:31],-cv01[40:42]"
+		 --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
+		 --features="+cv01,-cv01[6],-cv01[32:36],-cv01[45]"
 
 dist: ttf
 	@mkdir -p $(NAME)-$(VERSION)/ttf
