@@ -3,13 +3,9 @@
 
 import argparse
 
-from booleanOperations import BooleanOperationManager
 from datetime import datetime
 from defcon import Font, Component
-from fontTools import subset
 from fontTools.misc.transform import Transform
-from fontTools.ttLib import TTFont
-from ufo2ft import compileOTF, compileTTF
 
 from placeholders import build as addPlaceHolders
 
@@ -88,41 +84,6 @@ feature locl {
 
     return arabic
 
-def subsetGlyphs(otf, ufo):
-    options = subset.Options()
-    options.set(layout_features='*', name_IDs='*', notdef_outline=True)
-    subsetter = subset.Subsetter(options=options)
-    subsetter.populate(unicodes=ufo.lib.get(MADA_UNICODES))
-    subsetter.subset(otf)
-    return otf
-
-def decomposeGlyphs(ufo, isTTF):
-    for glyph in ufo:
-        if not glyph.components or (isTTF and not bool(glyph)):
-            continue
-        glyph.decomposeAllComponents()
-
-    return ufo
-
-def removeOverlap(ufo):
-    manager = BooleanOperationManager()
-    for glyph in ufo:
-        contours = list(glyph)
-        glyph.clearContours()
-        manager.union(contours, glyph.getPointPen())
-    return ufo
-
-def build(args):
-    isTTF = args.out_file.endswith(".ttf")
-    ufo = merge(args)
-    ufo = decomposeGlyphs(ufo, isTTF)
-    ufo = removeOverlap(ufo)
-
-    otf = compileTTF(ufo) if isTTF else compileOTF(ufo)
-    otf = subsetGlyphs(otf, ufo)
-
-    return otf
-
 def main():
     parser = argparse.ArgumentParser(description="Build Reem Kufi fonts.")
     parser.add_argument("arabicfile", metavar="FILE", help="input font to process")
@@ -133,8 +94,8 @@ def main():
 
     args = parser.parse_args()
 
-    otf = build(args)
-    otf.save(args.out_file)
+    ufo = merge(args)
+    ufo.save(args.out_file)
 
 if __name__ == "__main__":
     main()
