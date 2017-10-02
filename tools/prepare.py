@@ -31,9 +31,9 @@ def merge(args):
         unicodes.extend(glyph.unicodes)
 
     latin_locl = ""
-    for glyph in latin:
-        if glyph.name in arabic:
-            name = glyph.name
+    for name in latin.glyphOrder:
+        glyph = latin[name]
+        if name in arabic:
             glyph.unicode = None
             glyph.name = name + ".latn"
             latin_locl += "sub %s by %s;" % (name, glyph.name)
