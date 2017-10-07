@@ -32,6 +32,8 @@ def merge(args):
 
     latin_locl = ""
     for name in latin.glyphOrder:
+        if name in ("space", "nbspace"):
+            continue
         glyph = latin[name]
         if name in arabic:
             glyph.unicode = None
@@ -68,6 +70,12 @@ feature locl {
         unicodes.append(arGlyph.unicode)
 
     arabic.lib[MADA_UNICODES] = unicodes
+
+    glyphOrder = arabic.glyphOrder + latin.glyphOrder
+
+    # Make sure we have a fixed glyph order by using the original Arabic and
+    # Latin glyph order, not whatever we end up with after adding glyphs.
+    arabic.glyphOrder = sorted(arabic.glyphOrder, key=glyphOrder.index)
 
     # Set metadata
     arabic.info.versionMajor, arabic.info.versionMinor = map(int, args.version.split("."))
