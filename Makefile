@@ -85,7 +85,7 @@ $(BLDDIR)/master_otf/$(NAME)-%.otf: $(UFO)
 $(BLDDIR)/master_ttf/$(NAME)-%.ttf: $(UFO)
 	@$(call generate_fonts,ttf,$<)
 
-$(BLDDIR)/$(NAME)-%.ufo: $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(LATIN)-%.ufo Makefile $(PREPARE)
+$(BLDDIR)/$(NAME)-%.ufo: $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(LATIN)-%.ufo
 	@echo "   GEN	$@"
 	@python $(PREPARE) --version=$(VERSION) --latin-subset=$(LATIN_SUBSET) --out-file=$@ $< $(word 2,$+)
 	@$(call update_epoch,$<)
