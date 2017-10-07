@@ -32,7 +32,7 @@ def merge(args):
 
     latin_locl = ""
     for name in latin.glyphOrder:
-        if name in ("space", "nbspace"):
+        if name in ("space", "nbspace", "CR", "NULL", ".notdef"):
             continue
         glyph = latin[name]
         if name in arabic:
