@@ -287,6 +287,9 @@ feature cv01 {
 feature cv02 {
   sub arAlef.isol by arAlef.isol2;
 
+  sub arHah.init by arHah.init2;
+  sub arHah.medi by arHah.medi2;
+
   sub arKaf.medi by arKaf.medi2;
 
   sub arMeem.isol by arMeem.isol2;
@@ -294,6 +297,18 @@ feature cv02 {
 
   sub arHeh.medi by arHeh.medi2;
   sub arHeh.init by arHeh.init2;
+} cv02;
+
+# Undo the rclt above
+lookup ReverseAboveHah {
+  sub arLam.initHah by arLam.init;
+  sub arBeh.initHah by arBeh.init;
+  sub arHah.init2 by arHah.medi2;
+} ReverseAboveHah;
+
+feature cv02 {
+  lookupflag IgnoreMarks;
+    sub [arLam.initHah arBeh.initHah]' lookup ReverseAboveHah arHah.init2' lookup ReverseAboveHah;
 } cv02;
 
 feature cv03 {

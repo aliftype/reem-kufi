@@ -76,12 +76,16 @@
 	<string>arH_ah.fina1.glif</string>
 	<key>arHah.init</key>
 	<string>arH_ah.init.glif</string>
+	<key>arHah.init2</key>
+	<string>arH_ah.init2.glif</string>
 	<key>arHah.isol</key>
 	<string>arH_ah.isol.glif</string>
 	<key>arHah.medi</key>
 	<string>arH_ah.medi.glif</string>
 	<key>arHah.medi1</key>
 	<string>arH_ah.medi1.glif</string>
+	<key>arHah.medi2</key>
+	<string>arH_ah.medi2.glif</string>
 	<key>arHamza.isol</key>
 	<string>arH_amza.isol.glif</string>
 	<key>arHamzaAbove.mark</key>
