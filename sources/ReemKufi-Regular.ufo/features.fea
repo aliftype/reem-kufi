@@ -318,9 +318,9 @@ feature cv03 {
   sub arHeh.init by arHeh.init3;
 } cv03;
 
-feature rclt {
+feature cv01 {
   sub [arHeh.isol1 arHeh.fina1] ar2VDotAbove.mark' by ar2DotAbove.mark;
-} rclt;
+} cv01;
 
 feature rclt {
   @ar23DotAbove = [ar2DotAbove.mark ar3DotAbove.mark arHamzaAbove.mark arTah.mark];
