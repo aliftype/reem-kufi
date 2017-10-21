@@ -41,11 +41,16 @@ def merge(args):
             latin_locl += "sub %s by %s;" % (name, glyph.name)
         arabic.insertGlyph(glyph)
 
+    # Copy kerning and groups.
+    arabic.groups.update(latin.groups)
+    arabic.kerning.update(latin.kerning)
+
     for attr in ("xHeight", "capHeight"):
         value = getattr(latin.info, attr)
         if value is not None:
             setattr(arabic.info, attr, getattr(latin.info, attr))
 
+    arabic.features.text = arabic.features.text.replace("#{languagesystems}", "languagesystem latn dflt;")
     arabic.features.text += latin.features.text
 
     if latin_locl:
