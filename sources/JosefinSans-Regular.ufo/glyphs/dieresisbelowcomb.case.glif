@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dieresisbelowcomb.case" format="2">
-  <advance width="433"/>
-  <anchor x="210" y="0" name="_bottom"/>
-  <anchor x="210" y="-152" name="bottom"/>
-  <outline>
-    <component base="dieresis" xOffset="13" yOffset="-626"/>
-  </outline>
-</glyph>

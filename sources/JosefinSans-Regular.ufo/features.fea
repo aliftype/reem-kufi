@@ -1,5 +1,0 @@
-feature liga {
-    script latn;
-    sub f i by fi;
-    sub f l by fl;
-} liga;

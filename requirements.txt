@@ -1,1 +1,2 @@
+git+https://github.com/LettError/designSpaceDocument@12383a1
 fontmake==1.3.0

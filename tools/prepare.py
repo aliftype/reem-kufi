@@ -51,7 +51,8 @@ def merge(args):
             setattr(arabic.info, attr, getattr(latin.info, attr))
 
     arabic.features.text = arabic.features.text.replace("#{languagesystems}", "languagesystem latn dflt;")
-    arabic.features.text += latin.features.text
+    # XXX
+    #arabic.features.text += latin.features.text
 
     if latin_locl:
         arabic.features.text += """

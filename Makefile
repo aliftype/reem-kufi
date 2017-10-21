@@ -10,6 +10,7 @@ DOCDIR=documentation
 TOOLDIR=tools
 
 PREPARE=$(TOOLDIR)/prepare.py
+MKLATIN=$(TOOLDIR)/mklatin.py
 
 FONTS=Regular
 
@@ -85,7 +86,11 @@ $(BLDDIR)/master_otf/$(NAME)-%.otf: $(UFO)
 $(BLDDIR)/master_ttf/$(NAME)-%.ttf: $(UFO)
 	@$(call generate_fonts,ttf,$<)
 
-$(BLDDIR)/$(NAME)-%.ufo: $(SRCDIR)/$(NAME)-%.ufo $(SRCDIR)/$(LATIN)-%.ufo
+$(BLDDIR)/$(LATIN)-%.ufo: $(SRCDIR)/$(LATIN).glyphs
+	@echo "   GEN	$@"
+	@python $(MKLATIN) --out-file=$@ $<
+
+$(BLDDIR)/$(NAME)-%.ufo: $(SRCDIR)/$(NAME)-%.ufo $(BLDDIR)/$(LATIN)-%.ufo
 	@echo "   GEN	$@"
 	@python $(PREPARE) --version=$(VERSION) --latin-subset=$(LATIN_SUBSET) --out-file=$@ $< $(word 2,$+)
 	@$(call update_epoch,$<)

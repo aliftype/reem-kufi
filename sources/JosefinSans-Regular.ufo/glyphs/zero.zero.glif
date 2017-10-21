@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="zero.zero" format="2">
-  <advance width="624"/>
-  <outline>
-    <component base="zero"/>
-    <component base="periodcentered" xOffset="225" yOffset="45"/>
-  </outline>
-</glyph>
