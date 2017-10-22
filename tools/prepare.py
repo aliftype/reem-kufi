@@ -4,7 +4,11 @@
 import argparse
 
 from datetime import datetime
+from operator import attrgetter
+
 from defcon import Font, Component
+from fontTools.feaLib import ast, parser
+from fontTools.misc.py23 import *
 from fontTools.misc.transform import Transform
 
 from placeholders import build as addPlaceHolders
@@ -36,9 +40,20 @@ def merge(args):
         if value is not None:
             setattr(arabic.info, attr, getattr(latin.info, attr))
 
-    arabic.features.text = arabic.features.text.replace("#{languagesystems}", "languagesystem latn dflt;")
-    # XXX
-    #arabic.features.text += latin.features.text
+    # Merge Arabic and Latin features, making sure languagesystem statements
+    # come first.
+    langsys = []
+    statements = []
+    for font in (arabic, latin):
+        featurefile = UnicodeIO(tounicode(font.features.text))
+        fea = parser.Parser(featurefile, []).parse()
+        langsys += [s for s in fea.statements if isinstance(s, ast.LanguageSystemStatement)]
+        statements += [s for s in fea.statements if not isinstance(s, ast.LanguageSystemStatement)]
+    # Make sure DFLT is the first.
+    langsys = sorted(langsys, key=attrgetter("script"))
+    fea.statements = langsys + statements
+    arabic.features.text = fea.asFea()
+
 
     if latin_locl:
         arabic.features.text += """

@@ -1,8 +1,4 @@
 languagesystem arab dflt;
-#languagesystem arab ARA;
-languagesystem arab FAR;
-languagesystem arab URD;
-#{languagesystems}
 
 feature ccmp {
   lookupflag IgnoreMarks;
