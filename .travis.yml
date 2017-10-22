@@ -6,6 +6,11 @@ sudo: false
 os:
   - linux
 
+addons:
+  apt:
+    packages:
+      - ttfautohint
+
 install:
   - pip install -r requirements.txt
 
