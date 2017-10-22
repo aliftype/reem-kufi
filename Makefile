@@ -9,6 +9,8 @@ BLDDIR=build
 DOCDIR=documentation
 TOOLDIR=tools
 
+PYTHON ?= python3
+
 PREPARE=$(TOOLDIR)/prepare.py
 MKLATIN=$(TOOLDIR)/mklatin.py
 
@@ -64,11 +66,11 @@ $(BLDDIR)/master_ttf/$(NAME)-%.ttf: $(UFO)
 
 $(BLDDIR)/$(LATIN)-%.ufo: $(SRCDIR)/$(LATIN).glyphs
 	@echo "   GEN	$@"
-	@python $(MKLATIN) --out-file=$@ $<
+	@$(PYTHON) $(MKLATIN) --out-file=$@ $<
 
 $(BLDDIR)/$(NAME)-%.ufo: $(SRCDIR)/$(NAME)-%.ufo $(BLDDIR)/$(LATIN)-%.ufo
 	@echo "   GEN	$@"
-	@python $(PREPARE) --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
+	@$(PYTHON) $(PREPARE) --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
 	@$(call update_epoch,$<)
 
 $(PDF): $(NAME)-Regular.otf
