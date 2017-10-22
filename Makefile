@@ -52,6 +52,8 @@ doc: $(PDF) $(PNG)
 
 SHELL=/usr/bin/env bash
 
+.PRECIOUS: $(BLDDIR)/master_otf/$(NAME)-%.otf $(BLDDIR)/master_ttf/$(NAME)-%.ttf $(BLDDIR)/$(LATIN)-%.ufo
+
 $(NAME)-%.otf: $(BLDDIR)/master_otf/$(NAME)-%.otf
 	@cp $< $@
 
