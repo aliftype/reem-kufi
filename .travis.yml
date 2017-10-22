@@ -1,10 +1,6 @@
+os: linux
+dist: trusty
 language: python
-python:
-  - "3.4"
-
-sudo: false
-os:
-  - linux
 
 addons:
   apt:
@@ -12,7 +8,7 @@ addons:
       - ttfautohint
 
 install:
-  - pip install -r requirements.txt
+  - pip3 install -r requirements.txt
 
 script:
   - make -j otf
