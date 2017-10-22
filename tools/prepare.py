@@ -9,26 +9,12 @@ from fontTools.misc.transform import Transform
 
 from placeholders import build as addPlaceHolders
 
-MADA_UNICODES = "org.mada.subsetUnicodes"
-
-def parseSubset(filename):
-    unicodes = []
-    with open(filename) as f:
-        lines = f.read()
-        lines = lines.split()
-        unicodes = [int(c.lstrip('U+'), 16) for c in lines if c]
-    return unicodes
-
 def merge(args):
     arabic = Font(args.arabicfile)
 
     latin = Font(args.latinfile)
 
     addPlaceHolders(arabic)
-
-    unicodes = parseSubset(args.latin_subset)
-    for glyph in arabic:
-        unicodes.extend(glyph.unicodes)
 
     latin_locl = ""
     for name in latin.glyphOrder:
@@ -73,9 +59,6 @@ feature locl {
         arGlyph.appendComponent(component)
         arGlyph.leftMargin = enGlyph.rightMargin
         arGlyph.rightMargin = enGlyph.leftMargin
-        unicodes.append(arGlyph.unicode)
-
-    arabic.lib[MADA_UNICODES] = unicodes
 
     glyphOrder = arabic.glyphOrder + latin.glyphOrder
 
@@ -103,7 +86,6 @@ def main():
     parser.add_argument("arabicfile", metavar="FILE", help="input font to process")
     parser.add_argument("latinfile", metavar="FILE", help="input font to process")
     parser.add_argument("--out-file", metavar="FILE", help="output font to write", required=True)
-    parser.add_argument("--latin-subset", metavar="FILE", help="file containing Latin code points to keep", required=True)
     parser.add_argument("--version", metavar="version", help="version number", required=True)
 
     args = parser.parse_args()
