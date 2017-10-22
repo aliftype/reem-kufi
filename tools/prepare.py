@@ -20,15 +20,16 @@ def merge(args):
 
     addPlaceHolders(arabic)
 
-    latin_locl = ""
+    unicodes = []
+    for glyph in arabic:
+        unicodes.extend(glyph.unicodes)
+
     for name in latin.glyphOrder:
         if name in ("space", "nbspace", "CR", "NULL", ".notdef"):
             continue
         glyph = latin[name]
-        if name in arabic:
-            glyph.unicode = None
-            glyph.name = name + ".latn"
-            latin_locl += "sub %s by %s;" % (name, glyph.name)
+        assert glyph.name not in arabic, glyph.name
+        assert glyph.unicode not in unicodes
         arabic.insertGlyph(glyph)
 
     # Copy kerning and groups.
@@ -53,16 +54,6 @@ def merge(args):
     langsys = sorted(langsys, key=attrgetter("script"))
     fea.statements = langsys + statements
     arabic.features.text = fea.asFea()
-
-
-    if latin_locl:
-        arabic.features.text += """
-feature locl {
-  lookupflag IgnoreMarks;
-  script latn;
-  %s
-} locl;
-""" % latin_locl
 
     for ch in [(ord(u'؟'), "question")]:
         arGlyph = arabic.newGlyph("uni%04X" %ch[0])
