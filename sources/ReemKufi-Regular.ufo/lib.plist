@@ -57,8 +57,11 @@
 		<string>arQaf.fina</string>
 		<string>arKaf.isol</string>
 		<string>arKaf.fina</string>
+		<string>arKaf.fina1</string>
 		<string>arKaf.medi</string>
+		<string>arKaf.medi2</string>
 		<string>arKaf.init</string>
+		<string>arKaf.init1</string>
 		<string>arLam.isol</string>
 		<string>arLam.medi</string>
 		<string>arLam.init</string>
@@ -98,11 +101,11 @@
 		<string>arYeh.isol1</string>
 		<string>arYehBarree.isol</string>
 		<string>arYeh.fina</string>
+		<string>arYeh.fina1</string>
+		<string>arYehBarree.fina</string>
 		<string>arHehOpen.init</string>
 		<string>arHehOpen.medi</string>
 		<string>arHehOpen.fina</string>
-		<string>arYeh.fina1</string>
-		<string>arYehBarree.fina</string>
 		<string>arHamzaAbove.mark</string>
 		<string>ar1DotAbove.mark</string>
 		<string>ar2DotAbove.mark</string>
@@ -117,9 +120,6 @@
 		<string>arHamzaBelow.mark</string>
 		<string>arTah.mark</string>
 		<string>arSad.mark</string>
-		<string>arKaf.fina1</string>
-		<string>arKaf.init1</string>
-		<string>arKaf.medi2</string>
 		<string>arSharta.mark</string>
 		<string>arMadda.mark</string>
 		<string>uni0661</string>
