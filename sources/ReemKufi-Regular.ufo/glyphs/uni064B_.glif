@@ -4,16 +4,16 @@
   <anchor x="0" y="0" name="_markAbove"/>
   <outline>
     <contour>
-      <point x="-130" y="82" type="line"/>
-      <point x="130" y="82" type="line"/>
-      <point x="130" y="116" type="line"/>
-      <point x="-130" y="116" type="line"/>
+      <point x="-87.0" y="64.0" type="line"/>
+      <point x="138.0" y="194.0" type="line"/>
+      <point x="121.0" y="223.0" type="line"/>
+      <point x="-104.0" y="93.0" type="line"/>
     </contour>
     <contour>
-      <point x="-130" y="149" type="line"/>
-      <point x="130" y="149" type="line"/>
-      <point x="130" y="183" type="line"/>
-      <point x="-130" y="183" type="line"/>
+      <point x="-121.0" y="122.0" type="line"/>
+      <point x="104.0" y="252.0" type="line"/>
+      <point x="87.0" y="281.0" type="line"/>
+      <point x="-138.0" y="151.0" type="line"/>
     </contour>
   </outline>
 </glyph>
