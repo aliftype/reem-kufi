@@ -16,6 +16,7 @@
 		<string>arBeh.fina</string>
 		<string>arBeh.init</string>
 		<string>arBeh.medi</string>
+		<string>arBeh.mediWide</string>
 		<string>arHah.isol</string>
 		<string>arHah.fina</string>
 		<string>arHah.fina1</string>
@@ -150,7 +151,6 @@
 		<string>uni06F8</string>
 		<string>uni06F9</string>
 		<string>uni0640</string>
-		<string>arBeh.medi.wide</string>
 	</array>
 </dict>
 </plist>
