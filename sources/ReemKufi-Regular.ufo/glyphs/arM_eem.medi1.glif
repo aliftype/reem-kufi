@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arMeem.medi1" format="2">
   <advance width="490"/>
+  <anchor x="260.0" y="550.0" name="markAbove"/>
   <outline>
     <contour>
       <point x="96.0" y="50.0" type="curve" smooth="yes"/>

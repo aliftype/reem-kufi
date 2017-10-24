@@ -4,7 +4,7 @@
   <anchor x="83.0" y="483.0" name="dotAbove"/>
   <anchor x="83.0" y="-150.0" name="dotBelow"/>
   <anchor x="75.0" y="422.0" name="hamzaAbove"/>
-  <anchor x="83.0" y="483.0" name="markAbove"/>
+  <anchor x="83.0" y="550.0" name="markAbove"/>
   <anchor x="83.0" y="-150.0" name="markBelow"/>
   <outline>
     <contour>

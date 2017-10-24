@@ -2,6 +2,7 @@
 <glyph name="ar2VDotAbove.mark" format="2">
   <anchor x="0" y="0" name="_dotAbove.alt"/>
   <anchor x="0" y="0" name="_dotAbove"/>
+  <anchor x="0" y="319.0" name="markAbove"/>
   <outline>
     <component base="ar1DotAbove.mark" yOffset="170.0"/>
     <component base="ar1DotAbove.mark"/>

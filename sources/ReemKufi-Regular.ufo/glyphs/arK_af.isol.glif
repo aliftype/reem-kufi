@@ -2,6 +2,7 @@
 <glyph name="arKaf.isol" format="2">
   <advance width="1010"/>
   <anchor x="374.0" y="467.0" name="gafAbove"/>
+  <anchor x="370.0" y="550.0" name="markAbove"/>
   <outline>
     <contour>
       <point x="586.0322265625" y="451.2265625" type="line"/>

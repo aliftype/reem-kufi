@@ -2,6 +2,7 @@
 <glyph name="arWaw.fina1" format="2">
   <advance width="400"/>
   <anchor x="174.0" y="400.0" name="hamzaAbove"/>
+  <anchor x="174.0" y="550.0" name="markAbove"/>
   <outline>
     <contour>
       <point x="420.0" y="100.0" type="line"/>

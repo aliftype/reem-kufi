@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # encoding: utf-8
 
+from fontTools.misc.py23 import *
+
 import argparse
 
 from datetime import datetime
@@ -8,13 +10,15 @@ from operator import attrgetter
 
 from defcon import Font, Component
 from fontTools.feaLib import ast, parser
-from fontTools.misc.py23 import *
 from fontTools.misc.transform import Transform
+from glyphsLib.anchors import propagate_font_anchors
 
 from placeholders import build as addPlaceHolders
 
 def merge(args):
     arabic = Font(args.arabicfile)
+
+    propagate_font_anchors(arabic)
 
     latin = Font(args.latinfile)
 

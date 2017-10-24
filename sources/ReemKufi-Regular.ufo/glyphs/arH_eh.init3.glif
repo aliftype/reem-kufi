@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arHeh.init3" format="2">
   <advance width="419"/>
+  <anchor x="225.0" y="550.0" name="markAbove"/>
   <outline>
     <contour>
       <point x="394.0" y="554.0" type="line"/>

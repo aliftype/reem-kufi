@@ -2,7 +2,7 @@
 <glyph name="arHeh.isol" format="2">
   <advance width="347"/>
   <anchor x="104.0" y="450.0" name="dotAbove"/>
-  <anchor x="104.0" y="450.0" name="markAbove"/>
+  <anchor x="104.0" y="550.0" name="markAbove"/>
   <outline>
     <contour>
       <point x="322.0" y="150.0" type="line"/>

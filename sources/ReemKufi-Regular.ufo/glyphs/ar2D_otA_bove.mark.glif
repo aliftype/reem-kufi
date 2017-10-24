@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ar2DotAbove.mark" format="2">
   <anchor x="0" y="0" name="_dotAbove"/>
+  <anchor x="0" y="150.0" name="markAbove"/>
   <outline>
     <component base="ar1DotAbove.mark" xOffset="90.0"/>
     <component base="ar1DotAbove.mark" xOffset="-83.0"/>

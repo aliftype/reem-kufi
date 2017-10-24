@@ -2,6 +2,7 @@
 <glyph name="arHamzaAbove.mark" format="2">
   <anchor x="0" y="0" name="_hamzaAbove.alt"/>
   <anchor x="0" y="0" name="_hamzaAbove"/>
+  <anchor x="0.0" y="250.0" name="markAbove"/>
   <outline>
     <contour>
       <point x="88.0" y="50.0" type="line"/>
