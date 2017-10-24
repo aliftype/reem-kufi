@@ -50,6 +50,8 @@ def merge(args):
         fea = parser.Parser(featurefile, []).parse()
         langsys += [s for s in fea.statements if isinstance(s, ast.LanguageSystemStatement)]
         statements += [s for s in fea.statements if not isinstance(s, ast.LanguageSystemStatement)]
+    # Drop GDEF table, we want to generate one based on final features.
+    statements = [s for s in statements if not isinstance(s, ast.TableBlock)]
     # Make sure DFLT is the first.
     langsys = sorted(langsys, key=attrgetter("script"))
     fea.statements = langsys + statements
