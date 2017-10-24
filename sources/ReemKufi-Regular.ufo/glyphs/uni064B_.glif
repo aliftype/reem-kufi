@@ -3,11 +3,17 @@
   <unicode hex="064B"/>
   <anchor x="0" y="0" name="_markAbove"/>
   <outline>
+    <contour>
+      <point x="-130" y="82" type="line"/>
+      <point x="130" y="82" type="line"/>
+      <point x="130" y="116" type="line"/>
+      <point x="-130" y="116" type="line"/>
+    </contour>
+    <contour>
+      <point x="-130" y="149" type="line"/>
+      <point x="130" y="149" type="line"/>
+      <point x="130" y="183" type="line"/>
+      <point x="-130" y="183" type="line"/>
+    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0,1,1,1</string>
-    </dict>
-  </lib>
 </glyph>
