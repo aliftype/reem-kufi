@@ -29,6 +29,7 @@ feature ccmp {
 
 feature ccmp {
     sub uni0653 by arMadda.mark;
+    sub uni06E4 by arMadda.mark;
     sub uni0654 by arHamzaAbove.mark;
     sub uni0655 by arHamzaBelow.mark;
 } ccmp;

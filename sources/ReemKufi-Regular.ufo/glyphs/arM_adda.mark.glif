@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arMadda.mark" format="2">
   <anchor x="0" y="0" name="_hamzaAbove"/>
+  <anchor x="0" y="-50.0" name="_markAbove"/>
   <outline>
     <contour>
       <point x="-72.0" y="16.0" type="curve" smooth="yes"/>
