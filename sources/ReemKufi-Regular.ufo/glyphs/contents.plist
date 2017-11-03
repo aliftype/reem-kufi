@@ -226,6 +226,8 @@
 	<string>arY_ehB_arree.fina.glif</string>
 	<key>arYehBarree.isol</key>
 	<string>arY_ehB_arree.isol.glif</string>
+	<key>circledotted</key>
+	<string>circledotted.glif</string>
 	<key>space</key>
 	<string>space.glif</string>
 	<key>uni060C</key>
