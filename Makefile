@@ -78,7 +78,7 @@ $(BLDDIR)/$(NAME)-%.ufo: $(SRCDIR)/$(NAME)-%.ufo $(BLDDIR)/$(LATIN)-%.ufo
 $(PDF): $(NAME)-Regular.otf
 	@echo "   GEN	$@"
 	@mkdir -p $(DOCDIR)
-	@fntsample --font-file $< --output-file $@.tmp --write-outline
+	@fntsample --font-file $< --output-file $@.tmp --write-outline --use-pango
 	@mutool clean -d -i -f -a $@.tmp $@
 	@rm -f $@.tmp
 
