@@ -5,7 +5,7 @@
   <anchor x="-148.0" y="-98.0" name="dotBelow"/>
   <anchor x="-157.0" y="208.0" name="dotAbove.alt"/>
   <anchor x="-307.0" y="558.0" name="markAbove"/>
-  <anchor x="-148.0" y="-98.0" name="markBelow"/>
+  <anchor x="-148.0" y="-150.0" name="markBelow"/>
   <outline>
     <contour>
       <point x="-265.0" y="300.0" type="line" smooth="yes"/>

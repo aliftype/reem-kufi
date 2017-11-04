@@ -2,6 +2,7 @@
 <glyph name="arMeem.isol1" format="2">
   <advance width="347"/>
   <anchor x="190.0" y="550.0" name="markAbove"/>
+  <anchor x="230.0" y="-150.0" name="markBelow"/>
   <outline>
     <contour>
       <point x="125.0" y="-100.0" type="line" smooth="yes"/>

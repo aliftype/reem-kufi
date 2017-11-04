@@ -2,6 +2,7 @@
 <glyph name="arKaf.medi2" format="2">
   <advance width="985"/>
   <anchor x="670.0" y="550.0" name="markAbove"/>
+  <anchor x="440.0" y="-150.0" name="markBelow"/>
   <outline>
     <contour>
       <point x="345.01397705078125" y="560.63671875" type="curve"/>

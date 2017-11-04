@@ -2,6 +2,7 @@
 <glyph name="arLam.isol" format="2">
   <advance width="470"/>
   <anchor x="100.0" y="550.0" name="markAbove"/>
+  <anchor x="215.0" y="-270.0" name="markBelow"/>
   <outline>
     <contour>
       <point x="445.0" y="-0.0" type="line" smooth="yes"/>

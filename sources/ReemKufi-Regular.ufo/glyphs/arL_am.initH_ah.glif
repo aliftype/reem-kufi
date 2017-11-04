@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="arLam.initHah" format="2">
   <anchor x="-320.0" y="830.0" name="markAbove"/>
+  <anchor x="-148.0" y="-150.0" name="markBelow"/>
   <outline>
     <contour>
       <point x="-265.0" y="300.0" type="line" smooth="yes"/>
