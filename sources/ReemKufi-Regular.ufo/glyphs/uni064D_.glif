@@ -3,17 +3,6 @@
   <unicode hex="064D"/>
   <anchor x="0" y="200" name="_markBelow"/>
   <outline>
-    <contour>
-      <point x="-87.0" y="-17.0" type="line"/>
-      <point x="138.0" y="113.0" type="line"/>
-      <point x="121.0" y="142.0" type="line"/>
-      <point x="-104.0" y="12.0" type="line"/>
-    </contour>
-    <contour>
-      <point x="-121.0" y="41.0" type="line"/>
-      <point x="104.0" y="171.0" type="line"/>
-      <point x="87.0" y="200.0" type="line"/>
-      <point x="-138.0" y="70.0" type="line"/>
-    </contour>
+    <component base="uni064B" yOffset="-81"/>
   </outline>
 </glyph>
