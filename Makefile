@@ -87,7 +87,7 @@ $(PNG): $(NAME)-Regular.otf
 	@hb-view --font-file=$< \
 		 --output-file=$@ \
 		 --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
-		 --features="+cv01,-cv01[6],-cv01[32:36],-cv01[45]"
+		 --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]"
 
 dist: ttf
 	@mkdir -p $(NAME)-$(VERSION)/ttf
