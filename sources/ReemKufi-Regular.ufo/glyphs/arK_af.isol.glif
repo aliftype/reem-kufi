@@ -4,6 +4,7 @@
   <anchor x="374.0" y="467.0" name="gafAbove"/>
   <anchor x="370.0" y="550.0" name="markAbove"/>
   <anchor x="505.0" y="-150.0" name="markBelow"/>
+  <anchor x="200.0" y="500" name="dotAbove"/>
   <outline>
     <contour>
       <point x="586.0322265625" y="451.2265625" type="line"/>

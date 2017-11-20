@@ -3,6 +3,7 @@
   <advance width="985"/>
   <anchor x="670.0" y="550.0" name="markAbove"/>
   <anchor x="440.0" y="-150.0" name="markBelow"/>
+  <anchor x="670.0" y="500" name="dotAbove"/>
   <outline>
     <contour>
       <point x="345.01397705078125" y="560.63671875" type="curve"/>
