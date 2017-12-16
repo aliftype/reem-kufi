@@ -32,7 +32,7 @@ def merge(args):
             continue
         glyph = latin[name]
         assert glyph.name not in arabic, glyph.name
-        assert glyph.unicode not in unicodes
+        assert glyph.unicodes not in unicodes, glyph.unicodes
         arabic.insertGlyph(glyph)
 
     # Copy kerning and groups.
