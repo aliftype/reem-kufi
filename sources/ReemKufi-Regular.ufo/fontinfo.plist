@@ -87,18 +87,22 @@
 	<integer>-400</integer>
 	<key>openTypeHheaLineGap</key>
 	<integer>0</integer>
+	<key>openTypeNameDescription</key>
+	<string>Reem Kufi is a Fatimid-style decorative Kufic typeface as seen in the historical mosques of Cairo. Reem Kufi is based on the Kufic designs of the great Arabic calligrapher Mohammed Abdul Qadir who revived this art in the 20th century and formalised its rules.</string>
 	<key>openTypeNameDesigner</key>
-	<string></string>
+	<string>Khaled Hosny</string>
 	<key>openTypeNameDesignerURL</key>
-	<string></string>
+	<string>https://github.com/alif-type</string>
 	<key>openTypeNameLicense</key>
-	<string></string>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
 	<key>openTypeNameLicenseURL</key>
-	<string></string>
+	<string>http://scripts.sil.org/OFL</string>
 	<key>openTypeNameManufacturer</key>
 	<string></string>
 	<key>openTypeNameManufacturerURL</key>
 	<string></string>
+	<key>openTypeNameSampleText</key>
+	<string>ريم على القاع بين البان و العلم   أحل سفك دمي في الأشهر الحرم</string>
 	<key>openTypeOS2Type</key>
 	<array/>
 	<key>openTypeOS2TypoAscender</key>
