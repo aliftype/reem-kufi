@@ -114,7 +114,7 @@
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
-	<integer>1000</integer>
+	<integer>1400</integer>
 	<key>openTypeOS2WinDescent</key>
 	<integer>500</integer>
 	<key>postscriptBlueValues</key>
