@@ -10,7 +10,6 @@ from operator import attrgetter
 
 from defcon import Font, Component
 from fontTools.feaLib import ast, parser
-from fontTools.misc.transform import Transform
 from glyphsLib.builder.anchors import to_ufo_propagate_font_anchors
 
 from placeholders import build as addPlaceHolders
@@ -60,17 +59,6 @@ def merge(args):
     langsys = sorted(langsys, key=attrgetter("script"))
     fea.statements = langsys + statements
     arabic.features.text = fea.asFea()
-
-    for ch in [(ord(u'؟'), "question")]:
-        arGlyph = arabic.newGlyph("uni%04X" %ch[0])
-        arGlyph.unicode = ch[0]
-        enGlyph = arabic[ch[1]]
-        component = Component()
-        component.transformation = tuple(Transform().scale(-1, 1))
-        component.baseGlyph = enGlyph.name
-        arGlyph.appendComponent(component)
-        arGlyph.leftMargin = enGlyph.rightMargin
-        arGlyph.rightMargin = enGlyph.leftMargin
 
     glyphOrder = arabic.glyphOrder + latin.glyphOrder
 
