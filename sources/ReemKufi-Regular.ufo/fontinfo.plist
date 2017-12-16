@@ -99,19 +99,6 @@
 	<string></string>
 	<key>openTypeNameManufacturerURL</key>
 	<string></string>
-	<key>openTypeOS2Panose</key>
-	<array>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-		<integer>0</integer>
-	</array>
 	<key>openTypeOS2Type</key>
 	<array/>
 	<key>openTypeOS2TypoAscender</key>
