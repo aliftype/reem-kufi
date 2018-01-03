@@ -19,8 +19,8 @@ FONTS=Regular
 UFO=$(FONTS:%=$(BLDDIR)/$(NAME)-%.ufo)
 OTF=$(FONTS:%=$(NAME)-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
-PDF=$(DOCDIR)/$(NAME)-Table.pdf
-PNG=$(DOCDIR)/$(NAME)-Sample.png
+PDF=$(DOCDIR)/FontTable.pdf
+PNG=$(DOCDIR)/FontSample.png
 
 define generate_fonts
 echo "   MAKE  $(1)"
