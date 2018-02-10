@@ -33,6 +33,10 @@ def merge(args):
         glyph = latin[name]
         assert glyph.name not in arabic, glyph.name
         assert glyph.unicodes not in unicodes, glyph.unicodes
+        # Strip anchors from f_ ligatures, there are broken.
+        # See https://github.com/googlei18n/glyphsLib/issues/313
+        if name.startswith("f_"):
+            glyph.anchors = {}
         arabic.insertGlyph(glyph)
 
     # Copy kerning and groups.
