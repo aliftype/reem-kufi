@@ -1,5 +1,5 @@
 {
-.appVersion = "983";
+.appVersion = "1075";
 DisplayStrings = (
 /naira
 );
@@ -26375,10 +26375,9 @@ nodes = (
 "55 77 OFFCURVE",
 "141 -6 OFFCURVE",
 "249 -6 CURVE",
-"279 -6 OFFCURVE",
-"302 0 OFFCURVE",
-"321 7 CURVE",
-"326 11 LINE",
+"283 -6 OFFCURVE",
+"299 -2 OFFCURVE",
+"326 11 CURVE",
 "317 11 LINE",
 "288 -17 OFFCURVE",
 "262 -57 OFFCURVE",
@@ -26549,32 +26548,6 @@ nodes = (
 width = 579;
 },
 {
-anchors = (
-{
-name = _ogonek;
-position = "{441, 10}";
-},
-{
-name = bottom;
-position = "{260, 0}";
-},
-{
-name = center;
-position = "{260, 196}";
-},
-{
-name = ogonek;
-position = "{441, 10}";
-},
-{
-name = top;
-position = "{260, 397}";
-},
-{
-name = topright;
-position = "{373, 391}";
-}
-);
 hints = (
 {
 horizontal = 1;
@@ -26594,16 +26567,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"317 -8 OFFCURVE",
-"362 13 OFFCURVE",
-"399 48 CURVE",
-"356 37 LINE",
-"303 5 OFFCURVE",
-"261 -35 OFFCURVE",
-"261 -99 CURVE",
-"261 -159 OFFCURVE",
-"302 -198 OFFCURVE",
-"350 -198 CURVE",
 "387 -198 OFFCURVE",
 "422 -172 OFFCURVE",
 "440 -139 CURVE",
@@ -26628,12 +26591,25 @@ nodes = (
 "51 198 CURVE",
 "51 77 OFFCURVE",
 "141 -8 OFFCURVE",
-"259 -8 CURVE SMOOTH"
+"259 -8 CURVE SMOOTH",
+"317 -8 OFFCURVE",
+"362 13 OFFCURVE",
+"399 48 CURVE",
+"356 37 LINE",
+"303 5 OFFCURVE",
+"261 -35 OFFCURVE",
+"261 -99 CURVE",
+"261 -159 OFFCURVE",
+"302 -198 OFFCURVE",
+"350 -198 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
+"169 32 OFFCURVE",
+"98 105 OFFCURVE",
+"98 197 CURVE",
 "98 283 OFFCURVE",
 "166 363 OFFCURVE",
 "259 363 CURVE SMOOTH",
@@ -26642,10 +26618,7 @@ nodes = (
 "420 197 CURVE SMOOTH",
 "420 105 OFFCURVE",
 "349 32 OFFCURVE",
-"259 32 CURVE SMOOTH",
-"169 32 OFFCURVE",
-"98 105 OFFCURVE",
-"98 197 CURVE"
+"259 32 CURVE SMOOTH"
 );
 }
 );
@@ -56567,8 +56540,8 @@ instances = (
 {
 interpolationWeight = 20;
 instanceInterpolations = {
-UUID0 = 0.833333;
-"4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9" = 0.166667;
+"4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9" = 0.16667;
+UUID0 = 0.83333;
 };
 name = Thin;
 weightClass = Thin;
@@ -56583,16 +56556,16 @@ weightClass = Light;
 },
 {
 instanceInterpolations = {
-UUID1 = 0.5;
 "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9" = 0.5;
+UUID1 = 0.5;
 };
 name = Regular;
 },
 {
 interpolationWeight = 120;
 instanceInterpolations = {
-UUID1 = 0.7;
 "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9" = 0.3;
+UUID1 = 0.7;
 };
 name = SemiBold;
 weightClass = SemiBold;
