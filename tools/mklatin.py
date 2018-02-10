@@ -1,6 +1,6 @@
 import argparse
 
-from designSpaceDocument import DesignSpaceDocument
+from fontTools.designspaceLib import DesignSpaceDocument
 from glyphsLib import build_masters
 from mutatorMath.ufo import build
 from tempfile import TemporaryDirectory
