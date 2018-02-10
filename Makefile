@@ -22,10 +22,12 @@ TTF=$(FONTS:%=$(NAME)-%.ttf)
 PDF=$(DOCDIR)/FontTable.pdf
 PNG=$(DOCDIR)/FontSample.png
 
+SOURCE_DATE_EPOCH ?= 0
+
 define generate_fonts
 echo "   MAKE  $(1)"
 mkdir -p $(BLDDIR)
-export SOURCE_DATE_EPOCH=$(EPOCH);                                             \
+export SOURCE_DATE_EPOCH=$(SOURCE_DATE_EPOCH);                                 \
 pushd $(BLDDIR) 1>/dev/null;                                                   \
 fontmake --ufo $(abspath $(2))                                                 \
          --autohint                                                            \
@@ -33,14 +35,6 @@ fontmake --ufo $(abspath $(2))                                                 \
          --verbose WARNING                                                     \
          ;                                                                     \
 popd 1>/dev/null
-endef
-
-EPOCH = 0
-define update_epoch
-if [ `stat -c "%Y" $(1)` -gt $(EPOCH) ]; then                                  \
-    true;                                                                      \
-    $(eval EPOCH := $(shell stat -c "%Y" $(1)))                                \
-fi
 endef
 
 all: otf doc
