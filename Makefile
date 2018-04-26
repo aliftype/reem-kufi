@@ -25,7 +25,6 @@ PNG=$(DOCDIR)/FontSample.png
 SOURCE_DATE_EPOCH ?= 0
 
 define generate_fonts
-echo "   MAKE  $(1)"
 mkdir -p $(BLDDIR)
 export SOURCE_DATE_EPOCH=$(SOURCE_DATE_EPOCH);                                 \
 pushd $(BLDDIR) 1>/dev/null;                                                   \
@@ -55,22 +54,24 @@ $(NAME)-%.ttf: $(BLDDIR)/master_ttf/$(NAME)-%.ttf
 	@cp $< $@
 
 $(BLDDIR)/master_otf/$(NAME)-%.otf: $(UFO)
+	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,otf,$<)
 
 $(BLDDIR)/master_ttf/$(NAME)-%.ttf: $(UFO)
+	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,ttf,$<)
 
 $(BLDDIR)/$(LATIN)-%.ufo: $(SRCDIR)/$(LATIN).glyphs
-	@echo "   GEN	$@"
+	@echo "   GEN	$(@F)"
 	@$(PYTHON) $(MKLATIN) --out-file=$@ $<
 
 $(BLDDIR)/$(NAME)-%.ufo: $(SRCDIR)/$(NAME)-%.ufo $(BLDDIR)/$(LATIN)-%.ufo
-	@echo "   GEN	$@"
+	@echo "   GEN	$(@F)"
 	@$(PYTHON) $(PREPARE) --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
 	@$(call update_epoch,$<)
 
 $(PDF): $(NAME)-Regular.otf
-	@echo "   GEN	$@"
+	@echo "   GEN	$(@F)"
 	@mkdir -p $(DOCDIR)
 	@fntsample --font-file $< --output-file $@.tmp                         \
 		   --write-outline --use-pango                                 \
@@ -82,7 +83,7 @@ $(PDF): $(NAME)-Regular.otf
 	@rm -f $@.tmp
 
 $(PNG): $(NAME)-Regular.otf
-	@echo "   GEN	$@"
+	@echo "   GEN	$(@F)"
 	@hb-view --font-file=$< \
 		 --output-file=$@ \
 		 --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
