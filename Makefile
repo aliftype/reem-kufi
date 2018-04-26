@@ -4,9 +4,7 @@ LATIN=JosefinSans
 
 DIST=$(NAME)-$(VERSION)
 
-SRCDIR=sources
-BLDDIR=build
-DOCDIR=documentation
+BUILDDIR=build
 TOOLDIR=tools
 
 PYTHON ?= python3
@@ -16,18 +14,18 @@ MKLATIN=$(TOOLDIR)/mklatin.py
 
 FONTS=Regular
 
-UFO=$(FONTS:%=$(BLDDIR)/$(NAME)-%.ufo)
+UFO=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.ufo)
 OTF=$(FONTS:%=$(NAME)-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
-PDF=$(DOCDIR)/FontTable.pdf
-PNG=$(DOCDIR)/FontSample.png
+PDF=$(NAME)-Table.pdf
+PNG=$(NAME)-Sample.png
 
 SOURCE_DATE_EPOCH ?= 0
 
 define generate_fonts
-mkdir -p $(BLDDIR)
+mkdir -p $(BUILDDIR)
 export SOURCE_DATE_EPOCH=$(SOURCE_DATE_EPOCH);                                 \
-pushd $(BLDDIR) 1>/dev/null;                                                   \
+pushd $(BUILDDIR) 1>/dev/null;                                                   \
 fontmake --ufo $(abspath $(2))                                                 \
          --autohint                                                            \
          --output $(1)                                                         \
@@ -45,34 +43,33 @@ doc: $(PDF) $(PNG)
 
 SHELL=/usr/bin/env bash
 
-.PRECIOUS: $(BLDDIR)/master_otf/$(NAME)-%.otf $(BLDDIR)/master_ttf/$(NAME)-%.ttf $(BLDDIR)/$(LATIN)-%.ufo
+.PRECIOUS: $(BUILDDIR)/master_otf/$(NAME)-%.otf $(BUILDDIR)/master_ttf/$(NAME)-%.ttf $(BUILDDIR)/$(LATIN)-%.ufo
 
-$(NAME)-%.otf: $(BLDDIR)/master_otf/$(NAME)-%.otf
+$(NAME)-%.otf: $(BUILDDIR)/master_otf/$(NAME)-%.otf
 	@cp $< $@
 
-$(NAME)-%.ttf: $(BLDDIR)/master_ttf/$(NAME)-%.ttf
+$(NAME)-%.ttf: $(BUILDDIR)/master_ttf/$(NAME)-%.ttf
 	@cp $< $@
 
-$(BLDDIR)/master_otf/$(NAME)-%.otf: $(UFO)
+$(BUILDDIR)/master_otf/$(NAME)-%.otf: $(UFO)
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,otf,$<)
 
-$(BLDDIR)/master_ttf/$(NAME)-%.ttf: $(UFO)
+$(BUILDDIR)/master_ttf/$(NAME)-%.ttf: $(UFO)
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,ttf,$<)
 
-$(BLDDIR)/$(LATIN)-%.ufo: $(SRCDIR)/$(LATIN).glyphs
+$(BUILDDIR)/$(LATIN)-%.ufo: $(LATIN).glyphs
 	@echo "   GEN	$(@F)"
 	@$(PYTHON) $(MKLATIN) --out-file=$@ $<
 
-$(BLDDIR)/$(NAME)-%.ufo: $(SRCDIR)/$(NAME)-%.ufo $(BLDDIR)/$(LATIN)-%.ufo
+$(BUILDDIR)/$(NAME)-%.ufo: $(NAME)-%.ufo $(BUILDDIR)/$(LATIN)-%.ufo
 	@echo "   GEN	$(@F)"
 	@$(PYTHON) $(PREPARE) --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
 	@$(call update_epoch,$<)
 
 $(PDF): $(NAME)-Regular.otf
 	@echo "   GEN	$(@F)"
-	@mkdir -p $(DOCDIR)
 	@fntsample --font-file $< --output-file $@.tmp                         \
 		   --write-outline --use-pango                                 \
 		   --style="header-font: Noto Sans Bold 12"                    \
@@ -98,4 +95,4 @@ dist: ttf
 	@zip -r $(NAME)-$(VERSION).zip $(NAME)-$(VERSION)
 
 clean:
-	@rm -rf $(OTF) $(TTF) $(PDF) $(PNG) $(BLDDIR) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
+	@rm -rf $(OTF) $(TTF) $(PDF) $(PNG) $(BUILDDIR) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
