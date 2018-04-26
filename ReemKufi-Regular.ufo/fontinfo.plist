@@ -143,6 +143,10 @@
 	<real>50.0</real>
 	<key>postscriptWeightName</key>
 	<string>Regular</string>
+	<key>styleMapFamilyName</key>
+	<string>Reem Kufi</string>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
 	<key>styleName</key>
 	<string>Regular</string>
 	<key>trademark</key>
