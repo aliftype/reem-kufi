@@ -103,6 +103,10 @@
 	<string></string>
 	<key>openTypeNameSampleText</key>
 	<string>ريم على القاع بين البان و العلم   أحل سفك دمي في الأشهر الحرم</string>
+	<key>openTypeOS2Selection</key>
+	<array>
+		<integer>7</integer>
+	</array>
 	<key>openTypeOS2Type</key>
 	<array/>
 	<key>openTypeOS2TypoAscender</key>
