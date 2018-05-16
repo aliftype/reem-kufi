@@ -20,7 +20,7 @@ def main():
         doc.instances = [i for i in doc.instances if i.styleName == "Regular"]
         assert len(doc.instances) == 1
         instance = doc.instances[0]
-        instance.location = dict(weight=108)
+        instance.location = dict(Weight=108)
         instance.path = args.out_file
         doc.write(designspace)
 
