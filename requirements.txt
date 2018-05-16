@@ -1,2 +1,1 @@
 fontmake==1.4.0
-fonttools==3.22.0
