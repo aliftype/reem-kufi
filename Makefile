@@ -20,11 +20,10 @@ TTF=$(FONTS:%=$(NAME)-%.ttf)
 PDF=$(NAME)-Table.pdf
 PNG=$(NAME)-Sample.png
 
-SOURCE_DATE_EPOCH ?= 0
+export SOURCE_DATE_EPOCH ?= 0
 
 define generate_fonts
 mkdir -p $(BUILDDIR)
-export SOURCE_DATE_EPOCH=$(SOURCE_DATE_EPOCH);                                 \
 pushd $(BUILDDIR) 1>/dev/null;                                                   \
 fontmake --ufo $(abspath $(2))                                                 \
          --autohint                                                            \
