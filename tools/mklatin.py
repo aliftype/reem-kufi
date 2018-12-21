@@ -13,7 +13,7 @@ def main():
     args = parser.parse_args()
 
     with TemporaryDirectory() as tempdir:
-        ufos, designspace, _ = build_masters(args.file, tempdir, tempdir)
+        ufos, designspace = build_masters(args.file, tempdir, tempdir)
         
         doc = DesignSpaceDocument()
         doc.read(designspace)
