@@ -1,16 +1,8 @@
-os: linux
-dist: trusty
 language: python
 python: 3.5
-
-addons:
-  apt:
-    packages:
-      - ttfautohint
 
 install:
   - pip3 install -r requirements.txt
 
 script:
-  - make -j otf
-  - make -j ttf
+  - make -j otf ttf
