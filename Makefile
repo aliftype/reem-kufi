@@ -26,7 +26,6 @@ define generate_fonts
 mkdir -p $(BUILDDIR)
 pushd $(BUILDDIR) 1>/dev/null;                                                   \
 fontmake --ufo $(abspath $(2))                                                 \
-         --autohint                                                            \
          --output $(1)                                                         \
          --verbose WARNING                                                     \
          ;                                                                     \
