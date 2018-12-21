@@ -5,7 +5,6 @@
   <anchor x="140.0" y="440.0" name="hamzaAbove"/>
   <anchor x="150.0" y="500.0" name="markAbove"/>
   <anchor x="110" y="-270.0" name="markBelow"/>
-  <anchor x="110" y="-270.0" name="markBelow"/>
   <outline>
     <contour>
       <point x="200.0" y="-60.0" type="line" smooth="yes"/>
