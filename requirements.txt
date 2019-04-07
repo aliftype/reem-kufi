@@ -1,1 +1,2 @@
-fontmake==1.8.0
+fontmake==1.4.0
+ufo2ft==1.1.0
