@@ -1,3 +1,1 @@
-fontmake==1.4.0
-ufo2ft==1.1.0
-fonttools[ufo]
+fontmake

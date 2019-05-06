@@ -24,10 +24,14 @@ export SOURCE_DATE_EPOCH ?= 0
 
 define generate_fonts
 mkdir -p $(BUILDDIR)
-pushd $(BUILDDIR) 1>/dev/null;                                                   \
+pushd $(BUILDDIR) 1>/dev/null;                                                 \
+PYTHONPATH=$(3):${PYTHONMATH}                                                  \
 fontmake --ufo $(abspath $(2))                                                 \
          --output $(1)                                                         \
          --verbose WARNING                                                     \
+         --feature-writer KernFeatureWriter                                    \
+         --feature-writer markFeatureWriter::MarkFeatureWriter                 \
+         --production-names                                                    \
          ;                                                                     \
 popd 1>/dev/null
 endef
@@ -51,11 +55,11 @@ $(NAME)-%.ttf: $(BUILDDIR)/master_ttf/$(NAME)-%.ttf
 
 $(BUILDDIR)/master_otf/$(NAME)-%.otf: $(UFO)
 	@echo "   MAKE	$(@F)"
-	@$(call generate_fonts,otf,$<)
+	@$(call generate_fonts,otf,$<,$(abspath $(TOOLDIR)))
 
 $(BUILDDIR)/master_ttf/$(NAME)-%.ttf: $(UFO)
 	@echo "   MAKE	$(@F)"
-	@$(call generate_fonts,ttf,$<)
+	@$(call generate_fonts,ttf,$<,$(abspath $(TOOLDIR)))
 
 $(BUILDDIR)/$(LATIN)-%.ufo: $(LATIN).glyphs
 	@echo "   GEN	$(@F)"
