@@ -7,7 +7,7 @@ from __future__ import (
 import logging
 from collections import OrderedDict
 
-from fontTools.misc.py23 import round
+from fontTools.misc.fixedTools import otRound
 from ufo2ft.featureWriters import BaseFeatureWriter, ast
 
 
@@ -24,7 +24,6 @@ class MarkFeatureWriter(BaseFeatureWriter):
 
     tableTag = "GPOS"
     features = frozenset(["mark", "mkmk"])
-    _SUPPORTED_MODES = frozenset(["skip"])
 
     def setContext(self, font, feaFile, compiler=None):
         ctx = super(MarkFeatureWriter, self).setContext(
@@ -134,7 +133,7 @@ class MarkFeatureWriter(BaseFeatureWriter):
 
     @staticmethod
     def _makeAnchorFormatA(x, y):
-        return ast.Anchor(x=round(x), y=round(y))
+        return ast.Anchor(x=otRound(x), y=otRound(y))
 
     def _createAccentGlyphList(self, accentAnchorName):
         """ Return a list of <name, x, y> tuples for glyphs containing an anchor
