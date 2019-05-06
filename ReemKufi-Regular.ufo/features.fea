@@ -25,6 +25,7 @@ feature locl {
 feature ccmp {
   lookupflag IgnoreMarks;
     sub uni0621 by arHamza.isol;
+    sub uni0674 by arHighHamza.isol;
 } ccmp;
 
 feature ccmp {
