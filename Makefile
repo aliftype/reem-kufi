@@ -17,7 +17,6 @@ FONTS=Regular
 UFO=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.ufo)
 OTF=$(FONTS:%=$(NAME)-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
-PDF=$(NAME)-Table.pdf
 PNG=$(NAME)-Sample.png
 
 export SOURCE_DATE_EPOCH ?= 0
@@ -41,7 +40,7 @@ all: otf doc
 otf: $(OTF)
 ttf: $(TTF)
 ufo: $(UFO)
-doc: $(PDF) $(PNG)
+doc: $(PNG)
 
 SHELL=/usr/bin/env bash
 
@@ -70,17 +69,6 @@ $(BUILDDIR)/$(NAME)-%.ufo: $(NAME)-%.ufo $(BUILDDIR)/$(LATIN)-%.ufo
 	@$(PYTHON) $(PREPARE) --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
 	@$(call update_epoch,$<)
 
-$(PDF): $(NAME)-Regular.otf
-	@echo "   GEN	$(@F)"
-	@fntsample --font-file $< --output-file $@.tmp                         \
-		   --write-outline --use-pango                                 \
-		   --style="header-font: Noto Sans Bold 12"                    \
-		   --style="font-name-font: Noto Serif Bold 12"                \
-		   --style="table-numbers-font: Noto Sans 10"                  \
-		   --style="cell-numbers-font:Noto Sans Mono 8"
-	@mutool clean -d -i -f -a $@.tmp $@
-	@rm -f $@.tmp
-
 $(PNG): $(NAME)-Regular.otf
 	@echo "   GEN	$(@F)"
 	@hb-view --font-file=$< \
@@ -90,11 +78,11 @@ $(PNG): $(NAME)-Regular.otf
 
 dist: ttf
 	@mkdir -p $(NAME)-$(VERSION)/ttf
-	@cp $(OTF) $(PDF) $(NAME)-$(VERSION)
+	@cp $(OTF) $(NAME)-$(VERSION)
 	@cp $(TTF) $(NAME)-$(VERSION)/ttf
 	@cp OFL.txt $(NAME)-$(VERSION)
 	@sed -e "/^!\[Sample\].*./d" README.md > $(NAME)-$(VERSION)/README.txt
 	@zip -r $(NAME)-$(VERSION).zip $(NAME)-$(VERSION)
 
 clean:
-	@rm -rf $(OTF) $(TTF) $(PDF) $(PNG) $(BUILDDIR) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
+	@rm -rf $(OTF) $(TTF) $(PNG) $(BUILDDIR) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
