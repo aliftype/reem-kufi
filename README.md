@@ -1,7 +1,7 @@
 Reem Kufi
 =========
 
-![Sample](ReemKufi-Sample.png)
+![Sample](ReemKufi-Sample.svg)
 
 Reem Kufi is a [Kufic][1] typeface based on early Kific (Mushafi) modeles, but
 retrofitted to the Fatimid Kufic grid and with borrowing from its forms. Reem

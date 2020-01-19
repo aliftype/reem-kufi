@@ -17,7 +17,7 @@ FONTS=Regular
 UFO=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.ufo)
 OTF=$(FONTS:%=$(NAME)-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
-PNG=$(NAME)-Sample.png
+SVG=$(NAME)-Sample.svg
 
 export SOURCE_DATE_EPOCH ?= 0
 
@@ -40,7 +40,7 @@ all: otf doc
 otf: $(OTF)
 ttf: $(TTF)
 ufo: $(UFO)
-doc: $(PNG)
+doc: $(SVG)
 
 SHELL=/usr/bin/env bash
 
@@ -69,7 +69,7 @@ $(BUILDDIR)/$(NAME)-%.ufo: $(NAME)-%.ufo $(BUILDDIR)/$(LATIN)-%.ufo
 	@$(PYTHON) $(PREPARE) --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
 	@$(call update_epoch,$<)
 
-$(PNG): $(NAME)-Regular.otf
+$(SVG): $(NAME)-Regular.otf
 	@echo "   GEN	$(@F)"
 	@hb-view --font-file=$< \
 		 --output-file=$@ \
@@ -85,4 +85,4 @@ dist: ttf
 	@zip -r $(NAME)-$(VERSION).zip $(NAME)-$(VERSION)
 
 clean:
-	@rm -rf $(OTF) $(TTF) $(PNG) $(BUILDDIR) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
+	@rm -rf $(OTF) $(TTF) $(SVG) $(BUILDDIR) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
