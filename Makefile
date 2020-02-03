@@ -67,7 +67,6 @@ $(BUILDDIR)/$(LATIN)-%.ufo: $(LATIN).glyphs
 $(BUILDDIR)/$(NAME)-%.ufo: $(NAME)-%.ufo $(BUILDDIR)/$(LATIN)-%.ufo
 	@echo "   GEN	$(@F)"
 	@$(PYTHON) $(PREPARE) --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
-	@$(call update_epoch,$<)
 
 $(SVG): $(NAME)-Regular.otf
 	@echo "   GEN	$(@F)"
