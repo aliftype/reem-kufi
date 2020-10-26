@@ -1571,16 +1571,16 @@ layers = (
 {
 anchors = (
 {
+name = center;
+position = "{225, -80}";
+},
+{
 name = dotAbove;
 position = "{150, 500}";
 },
 {
 name = dotBelow;
 position = "{201, -270}";
-},
-{
-name = dotBelow.alt;
-position = "{225, -80}";
 },
 {
 name = markAbove;
@@ -1635,16 +1635,16 @@ layers = (
 {
 anchors = (
 {
+name = center;
+position = "{215, -85}";
+},
+{
 name = dotAbove;
 position = "{190, 500}";
 },
 {
 name = dotBelow;
 position = "{181, -260}";
-},
-{
-name = dotBelow.alt;
-position = "{215, -85}";
 },
 {
 name = markAbove;
@@ -1704,16 +1704,16 @@ layers = (
 {
 anchors = (
 {
+name = center;
+position = "{215, -85}";
+},
+{
 name = dotAbove;
 position = "{190, 500}";
 },
 {
 name = dotBelow;
 position = "{181, -260}";
-},
-{
-name = dotBelow.alt;
-position = "{215, -85}";
 },
 {
 name = markAbove;
@@ -1769,16 +1769,16 @@ layers = (
 {
 anchors = (
 {
+name = center;
+position = "{140, -150}";
+},
+{
 name = dotAbove;
 position = "{140, 500}";
 },
 {
 name = dotBelow;
 position = "{141, -210}";
-},
-{
-name = dotBelow.alt;
-position = "{140, -150}";
 },
 {
 name = markAbove;
@@ -1824,16 +1824,16 @@ layers = (
 {
 anchors = (
 {
+name = center;
+position = "{140, -150}";
+},
+{
 name = dotAbove;
 position = "{140, 500}";
 },
 {
 name = dotBelow;
 position = "{141, -210}";
-},
-{
-name = dotBelow.alt;
-position = "{140, -150}";
 },
 {
 name = markAbove;
@@ -1901,15 +1901,15 @@ layers = (
 {
 anchors = (
 {
+name = center;
+position = "{240, -150}";
+},
+{
 name = dotAbove;
 position = "{170, 450}";
 },
 {
 name = dotBelow;
-position = "{240, -150}";
-},
-{
-name = dotBelow.alt;
 position = "{240, -150}";
 },
 {
@@ -8170,7 +8170,7 @@ layers = (
 {
 anchors = (
 {
-name = _dotBelow.alt;
+name = _center;
 position = "{58, 0}";
 }
 );
