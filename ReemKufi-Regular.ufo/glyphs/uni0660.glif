@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="uni0660" format="2">
-  <advance width="500"/>
-  <unicode hex="0660"/>
-  <outline>
-    <component base="ar1DotAbove.mark" xOffset="250.0" yOffset="300.0"/>
-  </outline>
-</glyph>
