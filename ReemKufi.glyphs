@@ -5677,6 +5677,15 @@ nodes = (
 "238 100 LINE",
 "173 0 LINE"
 );
+},
+{
+closed = 1;
+nodes = (
+"322 0 LINE",
+"322 200 LINE",
+"278 200 LINE",
+"278 0 LINE"
+);
 }
 );
 width = 415;
@@ -5701,6 +5710,15 @@ nodes = (
 "435 100 LINE",
 "238 100 LINE",
 "173 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"322 0 LINE",
+"322 200 LINE",
+"278 200 LINE",
+"278 0 LINE"
 );
 }
 );
