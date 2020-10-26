@@ -59,8 +59,6 @@ def merge(args):
 
     glyphOrder = arabic.glyphOrder + latin.glyphOrder
 
-    arabic.lib.clear()
-
     # Make sure we have a fixed glyph order by using the original Arabic and
     # Latin glyph order, not whatever we end up with after adding glyphs.
     arabic.glyphOrder = sorted(arabic.glyphOrder, key=glyphOrder.index)
@@ -69,7 +67,8 @@ def merge(args):
     arabic.info.versionMajor, arabic.info.versionMinor = map(int, args.version.split("."))
     arabic.info.copyright = u"Copyright © 2015-%s The Reem Kufi Project Authors." % datetime.now().year
 
-    #arabic.lib['public.postscriptNames'].update(latin.lib['public.postscriptNames'])
+    # Merge production names
+    arabic.lib['public.postscriptNames'].update(latin.lib['public.postscriptNames'])
 
     return arabic
 
