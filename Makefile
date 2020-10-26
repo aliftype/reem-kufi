@@ -10,7 +10,7 @@ TOOLDIR=tools
 PYTHON ?= python3
 
 PREPARE=$(TOOLDIR)/prepare.py
-MKLATIN=$(TOOLDIR)/mklatin.py
+MKUFO=$(TOOLDIR)/mkufo.py
 
 FONTS=Regular
 
@@ -62,9 +62,13 @@ $(BUILDDIR)/master_ttf/$(NAME)-%.ttf: $(UFO)
 
 $(BUILDDIR)/$(LATIN)-%.ufo: $(LATIN).glyphs
 	@echo "   GEN	$(@F)"
-	@$(PYTHON) $(MKLATIN) --out-file=$@ $<
+	@$(PYTHON) $(MKUFO) --out-file=$@ $<
 
-$(BUILDDIR)/$(NAME)-%.ufo: $(NAME)-%.ufo $(BUILDDIR)/$(LATIN)-%.ufo
+$(BUILDDIR)/$(NAME)-%.pre.ufo: $(NAME).glyphs
+	@echo "   GEN	$(@F)"
+	@$(PYTHON) $(MKUFO) --out-file=$@ $<
+
+$(BUILDDIR)/$(NAME)-%.ufo: $(BUILDDIR)/$(NAME)-%.pre.ufo $(BUILDDIR)/$(LATIN)-%.ufo
 	@echo "   GEN	$(@F)"
 	@$(PYTHON) $(PREPARE) --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
 
