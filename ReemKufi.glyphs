@@ -1156,10 +1156,6 @@ name = dotAbove;
 position = "{83, 483}";
 },
 {
-name = dotAbove.alt;
-position = "{143, 483}";
-},
-{
 name = dotBelow;
 position = "{83, -150}";
 },
@@ -1252,10 +1248,6 @@ anchors = (
 {
 name = dotAbove;
 position = "{83, 483}";
-},
-{
-name = dotAbove.alt;
-position = "{143, 483}";
 },
 {
 name = dotBelow;
@@ -8191,10 +8183,6 @@ layers = (
 anchors = (
 {
 name = _dotAbove;
-position = "{58, 0}";
-},
-{
-name = _dotAbove.alt;
 position = "{58, 0}";
 },
 {
