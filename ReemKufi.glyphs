@@ -140,7 +140,7 @@ feature init {
     sub behDotless-ar by behDotless-ar.init;
     sub qafDotless-ar by fehDotless-ar.init;
     sub fehDotless-ar by fehDotless-ar.init;
-    sub keheh-ar by kaf-ar.init;
+    sub keheh-ar by kaf-ar.init.1;
     sub noonghunna-ar by behDotless-ar.init;
     sub hehDoachashmee-ar by heh-ar.init;
     sub hehgoal-ar by heh-ar.init.2;
@@ -163,7 +163,7 @@ feature medi {
     sub behDotless-ar by behDotless-ar.medi;
     sub qafDotless-ar by fehDotless-ar.medi;
     sub fehDotless-ar by fehDotless-ar.medi;
-    sub keheh-ar by kaf-ar.medi;
+    sub keheh-ar by kaf-ar.medi.1;
     sub noonghunna-ar by behDotless-ar.medi;
     sub hehDoachashmee-ar by heh-ar.medi;
     sub hehgoal-ar by heh-ar.medi.2;
@@ -201,7 +201,7 @@ feature fina {
     sub hehDoachashmee-ar by heh-ar.medi;
     sub yeh-farsi by alefMaksura-ar.fina;
     sub hehHamzaabove-ar by heh-ar.fina.1 hamzaabove-ar;
-    sub keheh-ar by kaf-ar.fina;
+    sub keheh-ar by kaf-ar.fina.1;
     sub noonThreedotsabove-ar by noonghunna-ar.fina threedotsupabove-ar;
 } fina;
 
@@ -248,6 +248,7 @@ feature cv01 {
   sub ain-ar.medi  by ain-ar.medi.1;
 
   sub kaf-ar.init  by kaf-ar.init.1;
+  sub kaf-ar.medi  by kaf-ar.medi.1;
   sub kaf-ar.fina  by kaf-ar.fina.1;
 
   sub meem-ar      by meem-ar.1;
@@ -274,8 +275,6 @@ feature cv02 {
 
   sub hah-ar.init by hah-ar.init.2;
   sub hah-ar.medi by hah-ar.medi.2;
-
-  sub kaf-ar.medi by kaf-ar.medi.2;
 
   sub meem-ar by meem-ar.2;
   sub meem-ar.fina by meem-ar.fina.2;
@@ -3918,31 +3917,6 @@ unicode = 0643;
 glyphname = "kaf-ar.fina";
 layers = (
 {
-components = (
-{
-name = "kaf-ar";
-}
-);
-layerId = master01;
-paths = (
-{
-closed = 1;
-nodes = (
-"1105 0 LINE",
-"1105 100 LINE",
-"909 100 LINE",
-"909 0 LINE"
-);
-}
-);
-width = 1085;
-}
-);
-},
-{
-glyphname = "kaf-ar.fina.1";
-layers = (
-{
 anchors = (
 {
 name = dotAbove;
@@ -3993,12 +3967,12 @@ width = 965;
 );
 },
 {
-glyphname = "kaf-ar.medi";
+glyphname = "kaf-ar.fina.1";
 layers = (
 {
 components = (
 {
-name = "kaf-ar.init";
+name = "kaf-ar";
 }
 );
 layerId = master01;
@@ -4006,19 +3980,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1005 0 LINE",
-"1005 100 LINE",
-"809 100 LINE",
-"809 0 LINE"
+"1105 0 LINE",
+"1105 100 LINE",
+"909 100 LINE",
+"909 0 LINE"
 );
 }
 );
-width = 985;
+width = 1085;
 }
 );
 },
 {
-glyphname = "kaf-ar.medi.2";
+glyphname = "kaf-ar.medi";
 layers = (
 {
 anchors = (
@@ -4084,23 +4058,32 @@ width = 985;
 );
 },
 {
-glyphname = "kaf-ar.init";
+glyphname = "kaf-ar.medi.1";
 layers = (
 {
 components = (
 {
-alignment = -1;
-name = "kaf-ar";
-transform = "{1, 0, 0, 1, -85, 0}";
+name = "kaf-ar.init.1";
 }
 );
 layerId = master01;
-width = 925;
+paths = (
+{
+closed = 1;
+nodes = (
+"1005 0 LINE",
+"1005 100 LINE",
+"809 100 LINE",
+"809 0 LINE"
+);
+}
+);
+width = 985;
 }
 );
 },
 {
-glyphname = "kaf-ar.init.1";
+glyphname = "kaf-ar.init";
 layers = (
 {
 anchors = (
@@ -4150,6 +4133,22 @@ nodes = (
 }
 );
 width = 940;
+}
+);
+},
+{
+glyphname = "kaf-ar.init.1";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = "kaf-ar";
+transform = "{1, 0, 0, 1, -85, 0}";
+}
+);
+layerId = master01;
+width = 925;
 }
 );
 },
