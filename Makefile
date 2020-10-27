@@ -30,6 +30,7 @@ fontmake --ufo $(abspath $(2))                                                 \
          --verbose WARNING                                                     \
          --feature-writer KernFeatureWriter                                    \
          --feature-writer markFeatureWriter::MarkFeatureWriter                 \
+         --subroutinizer cffsubr                                               \
          ;                                                                     \
 popd 1>/dev/null
 endef
