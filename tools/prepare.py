@@ -8,7 +8,7 @@ import argparse
 from datetime import datetime
 from operator import attrgetter
 
-from defcon import Font, Component
+from ufoLib2 import Font
 from fontTools.feaLib import ast, parser
 
 
@@ -30,7 +30,7 @@ def merge(args):
         # See https://github.com/googlei18n/glyphsLib/issues/313
         if name.startswith("f_"):
             glyph.anchors = {}
-        arabic.insertGlyph(glyph)
+        arabic.addGlyph(glyph)
 
     # Copy kerning and groups.
     arabic.groups.update(latin.groups)
@@ -61,7 +61,7 @@ def merge(args):
 
     # Make sure we have a fixed glyph order by using the original Arabic and
     # Latin glyph order, not whatever we end up with after adding glyphs.
-    arabic.glyphOrder = sorted(arabic.glyphOrder, key=glyphOrder.index)
+    arabic.glyphOrder = sorted(glyphOrder, key=glyphOrder.index)
 
     # Set metadata
     arabic.info.versionMajor, arabic.info.versionMinor = map(int, args.version.split("."))
@@ -82,7 +82,7 @@ def main():
     args = parser.parse_args()
 
     ufo = merge(args)
-    ufo.save(args.out_file)
+    ufo.save(args.out_file, overwrite=True)
 
 if __name__ == "__main__":
     main()

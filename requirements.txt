@@ -1,6 +1,6 @@
-defcon==0.7.2
 fonttools[ufo,lxml]==4.16.1
 fontmake==2.2.1
 glyphsLib==5.2.0
 MutatorMath==3.0.1
 ufo2ft==2.16.0
+ufoLib2==0.8.0
