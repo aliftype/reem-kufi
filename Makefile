@@ -17,7 +17,7 @@ FONTS=Regular
 UFO=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.ufo)
 OTF=$(FONTS:%=$(NAME)-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
-SVG=$(NAME)-Sample.svg
+SVG=Sample.svg
 
 export SOURCE_DATE_EPOCH ?= 0
 
