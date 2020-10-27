@@ -31,6 +31,7 @@ fontmake --ufo $(abspath $(2))                                                 \
          --feature-writer KernFeatureWriter                                    \
          --feature-writer markFeatureWriter::MarkFeatureWriter                 \
          --subroutinizer cffsubr                                               \
+         --overlaps-backend pathops                                            \
          ;                                                                     \
 popd 1>/dev/null
 endef
