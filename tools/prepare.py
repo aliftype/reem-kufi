@@ -21,7 +21,9 @@ def merge(args):
             continue
         glyph = latin[name]
         assert glyph.name not in arabic, glyph.name
-        assert not (glyph.unicodes and set(glyph.unicodes).issubset(unicodes)), glyph.unicodes
+        assert not (
+            glyph.unicodes and set(glyph.unicodes).issubset(unicodes)
+        ), glyph.unicodes
         # Strip anchors from f_ ligatures, there are broken.
         # See https://github.com/googlei18n/glyphsLib/issues/313
         if name.startswith("f_"):
@@ -44,8 +46,12 @@ def merge(args):
     for font in (arabic, latin):
         featurefile = StringIO(font.features.text)
         fea = parser.Parser(featurefile, font.glyphOrder).parse()
-        langsys += [s for s in fea.statements if isinstance(s, ast.LanguageSystemStatement)]
-        statements += [s for s in fea.statements if not isinstance(s, ast.LanguageSystemStatement)]
+        langsys += [
+            s for s in fea.statements if isinstance(s, ast.LanguageSystemStatement)
+        ]
+        statements += [
+            s for s in fea.statements if not isinstance(s, ast.LanguageSystemStatement)
+        ]
     # Drop GDEF table, we want to generate one based on final features.
     statements = [s for s in statements if not isinstance(s, ast.TableBlock)]
     # Make sure DFLT is the first.
@@ -60,25 +66,35 @@ def merge(args):
     arabic.glyphOrder = sorted(glyphOrder, key=glyphOrder.index)
 
     # Set metadata
-    arabic.info.versionMajor, arabic.info.versionMinor = map(int, args.version.split("."))
-    arabic.info.copyright = u"Copyright © 2015-%s The Reem Kufi Project Authors." % datetime.now().year
+    arabic.info.versionMajor, arabic.info.versionMinor = map(
+        int, args.version.split(".")
+    )
+    arabic.info.copyright = (
+        u"Copyright © 2015-%s The Reem Kufi Project Authors." % datetime.now().year
+    )
 
     # Merge production names
-    arabic.lib['public.postscriptNames'].update(latin.lib['public.postscriptNames'])
+    arabic.lib["public.postscriptNames"].update(latin.lib["public.postscriptNames"])
 
     return arabic
+
 
 def main():
     parser = argparse.ArgumentParser(description="Build Reem Kufi fonts.")
     parser.add_argument("arabicfile", metavar="FILE", help="input font to process")
     parser.add_argument("latinfile", metavar="FILE", help="input font to process")
-    parser.add_argument("--out-file", metavar="FILE", help="output font to write", required=True)
-    parser.add_argument("--version", metavar="version", help="version number", required=True)
+    parser.add_argument(
+        "--out-file", metavar="FILE", help="output font to write", required=True
+    )
+    parser.add_argument(
+        "--version", metavar="version", help="version number", required=True
+    )
 
     args = parser.parse_args()
 
     ufo = merge(args)
     ufo.save(args.out_file, overwrite=True)
+
 
 if __name__ == "__main__":
     main()
