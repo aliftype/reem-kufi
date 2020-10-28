@@ -46,14 +46,11 @@ def merge(args):
     for font in (arabic, latin):
         featurefile = StringIO(font.features.text)
         fea = parser.Parser(featurefile, font.glyphOrder).parse()
-        langsys += [
-            s for s in fea.statements if isinstance(s, ast.LanguageSystemStatement)
-        ]
-        statements += [
-            s for s in fea.statements if not isinstance(s, ast.LanguageSystemStatement)
-        ]
-    # Drop GDEF table, we want to generate one based on final features.
-    statements = [s for s in statements if not isinstance(s, ast.TableBlock)]
+        for statement in fea.statements:
+            if isinstance(statement, ast.LanguageSystemStatement):
+                langsys.append(statement)
+            elif not isinstance(statement, ast.TableBlock):
+                statements.append(statement)
     # Make sure DFLT is the first.
     langsys = sorted(langsys, key=attrgetter("script"))
     fea.statements = langsys + statements
