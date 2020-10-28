@@ -1,11 +1,7 @@
-#!/usr/bin/env python
-# encoding: utf-8
-
-from fontTools.misc.py23 import *
-
 import argparse
 
 from datetime import datetime
+from io import StringIO
 from operator import attrgetter
 
 from ufoLib2 import Font
@@ -46,7 +42,7 @@ def merge(args):
     langsys = []
     statements = []
     for font in (arabic, latin):
-        featurefile = UnicodeIO(tounicode(font.features.text))
+        featurefile = StringIO(font.features.text)
         fea = parser.Parser(featurefile, font.glyphOrder).parse()
         langsys += [s for s in fea.statements if isinstance(s, ast.LanguageSystemStatement)]
         statements += [s for s in fea.statements if not isinstance(s, ast.LanguageSystemStatement)]
