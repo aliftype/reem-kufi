@@ -11,7 +11,7 @@ PYTHON ?= python3
 
 PREPARE=$(TOOLDIR)/prepare.py
 
-FONTS=Regular
+FONTS=Regular Medium Semibold Bold
 
 OTF=$(FONTS:%=$(NAME)-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
@@ -20,18 +20,19 @@ SVG=Sample.svg
 export SOURCE_DATE_EPOCH ?= 0
 
 define generate_fonts
-mkdir -p $(BUILDDIR)
-pushd $(BUILDDIR) 1>/dev/null;                                                 \
-PYTHONPATH=$(3):${PYTHONMATH}                                                  \
-fontmake --glyphs $(abspath $(2))                                              \
+PYTHONPATH=$(5):${PYTHONMATH}                                                  \
+fontmake --glyphs $(2)                                                         \
          --output $(1)                                                         \
+         --output-path $(3)                                                    \
+         --interpolate '.* $(4)'                                               \
          --verbose WARNING                                                     \
          --feature-writer KernFeatureWriter                                    \
          --feature-writer markFeatureWriter::MarkFeatureWriter                 \
          --subroutinizer cffsubr                                               \
          --overlaps-backend pathops                                            \
-         ;                                                                     \
-popd 1>/dev/null
+         --master-dir '{tmp}'                                                  \
+         --instance-dir '{tmp}'                                                \
+         ;
 endef
 
 all: otf doc
@@ -47,19 +48,13 @@ SHELL=/usr/bin/env bash
 $(BUILDDIR):
 	@mkdir -p $(BUILDDIR)
 
-$(NAME)-%.otf: $(BUILDDIR)/master_otf/$(NAME)-%.otf
-	@cp $< $@
-
-$(NAME)-%.ttf: $(BUILDDIR)/master_ttf/$(NAME)-%.ttf
-	@cp $< $@
-
-$(BUILDDIR)/master_otf/$(NAME)-%.otf: $(BUILDDIR)/$(NAME).glyphs $(BUILDDIR)
+$(NAME)-%.otf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
-	@$(call generate_fonts,otf,$<,$(abspath $(TOOLDIR)))
+	@$(call generate_fonts,otf,$<,$@,$*,$(abspath $(TOOLDIR)))
 
-$(BUILDDIR)/master_ttf/$(NAME)-%.ttf: $(BUILDDIR)/$(NAME).glyphs $(BUILDDIR)
+$(NAME)-%.ttf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
-	@$(call generate_fonts,ttf,$<,$(abspath $(TOOLDIR)))
+	@$(call generate_fonts,ttf,$<,$@,$*,$(abspath $(TOOLDIR)))
 
 $(BUILDDIR)/$(NAME).glyphs: $(NAME).glyphs $(LATIN).glyphs $(BUILDDIR)
 	@echo "   GEN	$(@F)"
