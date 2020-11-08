@@ -1,9 +1,7 @@
 import argparse
 
-from fontTools.designspaceLib import DesignSpaceDocument
-from glyphsLib import build_masters
-from mutatorMath.ufo import build
-from tempfile import TemporaryDirectory
+from glyphsLib import to_designspace
+from glyphsLib.classes import GSFont
 
 
 def main():
@@ -15,19 +13,11 @@ def main():
 
     args = parser.parse_args()
 
-    with TemporaryDirectory() as tempdir:
-        ufos, designspace = build_masters(args.file, tempdir, tempdir)
-
-        doc = DesignSpaceDocument()
-        doc.read(designspace)
-        doc.instances = [i for i in doc.instances if i.styleName == "Regular"]
-        assert len(doc.instances) == 1
-        instance = doc.instances[0]
-        instance.location = dict(Weight=108)
-        instance.path = args.out_file
-        doc.write(designspace)
-
-        build(designspace, outputUFOFormatVersion=3)
+    font = GSFont(args.file)
+    designspace = to_designspace(font)
+    for source in designspace.sources:
+        if source.font.info.styleName == "Regular":
+            source.font.save(args.out_file, overwrite=True)
 
 
 if __name__ == "__main__":
