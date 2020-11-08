@@ -18,6 +18,10 @@ def merge(args):
         name = glyph.name
         if name in ("space", "nbspace", "CR", "NULL", ".notdef"):
             continue
+
+        # We don’t want the ligatures, they are useless in this design.
+        if name.startswith("f_") or name in {"fi", "fl"}:
+            continue
         assert glyph.name not in arabic.glyphs, glyph.name
         assert not (
             glyph.unicodes and set(glyph.unicodes).issubset(unicodes)
@@ -57,6 +61,8 @@ def merge(args):
             continue
         arabic.featurePrefixes.append(prefix)
     for feature in latin.features:
+        if feature.name in {"liga", "dlig"}:
+            continue
         arabic.features.append(feature)
 
     # Set metadata
