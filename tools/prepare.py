@@ -1,77 +1,68 @@
 import argparse
 
 from datetime import datetime
-from io import StringIO
-from operator import attrgetter
-
-from ufoLib2 import Font
-from fontTools.feaLib import ast, parser
+from glyphsLib.classes import GSFont
 
 
 def merge(args):
-    arabic = Font(args.arabicfile)
-    latin = Font(args.latinfile)
+    arabic = GSFont(args.arabicfile)
+    latin = GSFont(args.latinfile)
 
     unicodes = set()
-    for glyph in arabic:
+    for glyph in arabic.glyphs:
         unicodes.update(glyph.unicodes)
 
-    for name in latin.glyphOrder:
+    masters = {m.name: m for m in arabic.masters}
+
+    for glyph in latin.glyphs:
+        name = glyph.name
         if name in ("space", "nbspace", "CR", "NULL", ".notdef"):
             continue
-        glyph = latin[name]
-        assert glyph.name not in arabic, glyph.name
+        assert glyph.name not in arabic.glyphs, glyph.name
         assert not (
             glyph.unicodes and set(glyph.unicodes).issubset(unicodes)
         ), glyph.unicodes
-        # Strip anchors from f_ ligatures, there are broken.
-        # See https://github.com/googlei18n/glyphsLib/issues/313
-        if name.startswith("f_"):
-            glyph.anchors = {}
-        arabic.addGlyph(glyph)
+        for layer in glyph.layers:
+            if (
+                layer.master.name in masters
+                and layer.layerId == layer.associatedMasterId
+            ):
+                layer.layerId = masters[layer.master.name].id
+                layer.associatedMasterId = layer.layerId
+
+        arabic.glyphs.append(glyph)
 
     # Copy kerning and groups.
-    arabic.groups.update(latin.groups)
-    arabic.kerning.update(latin.kerning)
-
-    for attr in ("xHeight", "capHeight"):
-        value = getattr(latin.info, attr)
-        if value is not None:
-            setattr(arabic.info, attr, getattr(latin.info, attr))
+    for master in arabic.masters:
+        for other in latin.masters:
+            if master.name == other.name:
+                if master.id in arabic.kerning:
+                    arabic.kerning[master.id].update(latin.kerning[other.id])
+                else:
+                    arabic.kerning[master.id] = latin.kerning[other.id]
+                master.xHeight = other.xHeight
+                master.capHeight = other.capHeight
+                continue
 
     # Merge Arabic and Latin features, making sure languagesystem statements
     # come first.
-    langsys = []
-    statements = []
-    for font in (arabic, latin):
-        featurefile = StringIO(font.features.text)
-        fea = parser.Parser(featurefile, font.glyphOrder).parse()
-        for statement in fea.statements:
-            if isinstance(statement, ast.LanguageSystemStatement):
-                langsys.append(statement)
-            elif not isinstance(statement, ast.TableBlock):
-                statements.append(statement)
-    # Make sure DFLT is the first.
-    langsys = sorted(langsys, key=attrgetter("script"))
-    fea.statements = langsys + statements
-    arabic.features.text = fea.asFea()
-
-    glyphOrder = arabic.glyphOrder + latin.glyphOrder
-
-    # Make sure we have a fixed glyph order by using the original Arabic and
-    # Latin glyph order, not whatever we end up with after adding glyphs.
-    arabic.glyphOrder = sorted(glyphOrder, key=glyphOrder.index)
+    for klass in latin.classes:
+        arabic.classes.append(klass)
+    for prefix in latin.featurePrefixes:
+        if prefix.name == "Languagesystems":
+            arabic.featurePrefixes[prefix.name].code += prefix.code
+            arabic.featurePrefixes[prefix.name].code = "\n".join(
+                sorted(arabic.featurePrefixes[prefix.name].code.split("\n"))
+            )
+            continue
+        arabic.featurePrefixes.append(prefix)
+    for feature in latin.features:
+        arabic.features.append(feature)
 
     # Set metadata
-    arabic.info.versionMajor, arabic.info.versionMinor = map(
-        int, args.version.split(".")
-    )
-    arabic.info.copyright = (
-        u"Copyright © 2015-%s The Reem Kufi Project Authors." % datetime.now().year
-    )
-
-    # Merge production names
-    arabic.lib["public.postscriptNames"].update(latin.lib["public.postscriptNames"])
+    arabic.versionMajor, arabic.versionMinor = map(int, args.version.split("."))
+    year = datetime.now().year
+    arabic.copyright = f"Copyright © 2015-{year} The Reem Kufi Project Authors."
 
     return arabic
 
@@ -89,8 +80,8 @@ def main():
 
     args = parser.parse_args()
 
-    ufo = merge(args)
-    ufo.save(args.out_file, overwrite=True)
+    font = merge(args)
+    font.save(args.out_file)
 
 
 if __name__ == "__main__":

@@ -10,11 +10,9 @@ TOOLDIR=tools
 PYTHON ?= python3
 
 PREPARE=$(TOOLDIR)/prepare.py
-MKUFO=$(TOOLDIR)/mkufo.py
 
 FONTS=Regular
 
-UFO=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.ufo)
 OTF=$(FONTS:%=$(NAME)-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
 SVG=Sample.svg
@@ -25,7 +23,7 @@ define generate_fonts
 mkdir -p $(BUILDDIR)
 pushd $(BUILDDIR) 1>/dev/null;                                                 \
 PYTHONPATH=$(3):${PYTHONMATH}                                                  \
-fontmake --ufo $(abspath $(2))                                                 \
+fontmake --glyphs $(abspath $(2))                                              \
          --output $(1)                                                         \
          --verbose WARNING                                                     \
          --feature-writer KernFeatureWriter                                    \
@@ -40,12 +38,14 @@ all: otf doc
 
 otf: $(OTF)
 ttf: $(TTF)
-ufo: $(UFO)
 doc: $(SVG)
 
 SHELL=/usr/bin/env bash
 
-.PRECIOUS: $(BUILDDIR)/master_otf/$(NAME)-%.otf $(BUILDDIR)/master_ttf/$(NAME)-%.ttf $(BUILDDIR)/$(LATIN)-%.ufo
+.PRECIOUS: $(BUILDDIR)/master_otf/$(NAME)-%.otf $(BUILDDIR)/master_ttf/$(NAME)-%.ttf
+
+$(BUILDDIR):
+	@mkdir -p $(BUILDDIR)
 
 $(NAME)-%.otf: $(BUILDDIR)/master_otf/$(NAME)-%.otf
 	@cp $< $@
@@ -53,23 +53,15 @@ $(NAME)-%.otf: $(BUILDDIR)/master_otf/$(NAME)-%.otf
 $(NAME)-%.ttf: $(BUILDDIR)/master_ttf/$(NAME)-%.ttf
 	@cp $< $@
 
-$(BUILDDIR)/master_otf/$(NAME)-%.otf: $(UFO)
+$(BUILDDIR)/master_otf/$(NAME)-%.otf: $(BUILDDIR)/$(NAME).glyphs $(BUILDDIR)
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,otf,$<,$(abspath $(TOOLDIR)))
 
-$(BUILDDIR)/master_ttf/$(NAME)-%.ttf: $(UFO)
+$(BUILDDIR)/master_ttf/$(NAME)-%.ttf: $(BUILDDIR)/$(NAME).glyphs $(BUILDDIR)
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,ttf,$<,$(abspath $(TOOLDIR)))
 
-$(BUILDDIR)/$(LATIN)-%.ufo: $(LATIN).glyphs
-	@echo "   GEN	$(@F)"
-	@$(PYTHON) $(MKUFO) --out-file=$@ $<
-
-$(BUILDDIR)/$(NAME)-%.pre.ufo: $(NAME).glyphs
-	@echo "   GEN	$(@F)"
-	@$(PYTHON) $(MKUFO) --out-file=$@ $<
-
-$(BUILDDIR)/$(NAME)-%.ufo: $(BUILDDIR)/$(NAME)-%.pre.ufo $(BUILDDIR)/$(LATIN)-%.ufo
+$(BUILDDIR)/$(NAME).glyphs: $(NAME).glyphs $(LATIN).glyphs $(BUILDDIR)
 	@echo "   GEN	$(@F)"
 	@$(PYTHON) $(PREPARE) --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
 
