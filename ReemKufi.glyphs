@@ -1,5 +1,5 @@
 {
-.appVersion = "1348";
+.appVersion = "1349";
 customParameters = (
 {
 name = description;
@@ -8110,6 +8110,8 @@ width = 300;
 }
 );
 unicode = 0615;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "dotabove-ar";
@@ -8148,6 +8150,8 @@ nodes = (
 width = 116;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "dotbelow-ar";
@@ -8172,6 +8176,8 @@ layerId = master01;
 width = 116;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "dotcenter-ar";
@@ -8192,6 +8198,8 @@ layerId = master01;
 width = 116;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "twodotsverticalabove-ar";
@@ -8220,6 +8228,8 @@ layerId = master01;
 width = 116;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "twodotsverticalabove-ar.alt";
@@ -8244,6 +8254,8 @@ layerId = master01;
 width = 116;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "twodotshorizontalabove-ar";
@@ -8272,6 +8284,8 @@ layerId = master01;
 width = 289;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "twodotshorizontalbelow-ar";
@@ -8296,6 +8310,8 @@ layerId = master01;
 width = 289;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "threedotsdownabove-ar";
@@ -8325,6 +8341,8 @@ layerId = master01;
 width = 289;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "threedotsdownbelow-ar";
@@ -8350,6 +8368,8 @@ layerId = master01;
 width = 289;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "threedotsupabove-ar";
@@ -8378,6 +8398,8 @@ layerId = master01;
 width = 289;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "threedotsupbelow-ar";
@@ -8403,6 +8425,8 @@ layerId = master01;
 width = 289;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "wasla-ar";
@@ -8454,6 +8478,8 @@ nodes = (
 width = 284;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "gafsarkashabove-ar";
@@ -8480,6 +8506,8 @@ nodes = (
 width = 422;
 }
 );
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "alefabove-ar";
@@ -8510,6 +8538,8 @@ width = 69;
 }
 );
 unicode = 0670;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "alefbelow-ar";
@@ -8532,6 +8562,8 @@ width = 69;
 }
 );
 unicode = 0656;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "hamzaabove-ar";
@@ -8594,6 +8626,8 @@ width = 270;
 }
 );
 unicode = 0654;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "hamzabelow-ar";
@@ -8620,6 +8654,8 @@ width = 270;
 }
 );
 unicode = 0655;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "fathatan-ar";
@@ -8646,6 +8682,8 @@ width = 276;
 }
 );
 unicode = 064B;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "dammatan-ar";
@@ -8679,6 +8717,8 @@ width = 250;
 }
 );
 unicode = 064C;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "kasratan-ar";
@@ -8701,6 +8741,8 @@ width = 276;
 }
 );
 unicode = 064D;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "fatha-ar";
@@ -8728,6 +8770,8 @@ width = 242;
 }
 );
 unicode = 064E;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "damma-ar";
@@ -8789,6 +8833,8 @@ width = 210;
 }
 );
 unicode = 064F;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "kasra-ar";
@@ -8811,6 +8857,8 @@ width = 242;
 }
 );
 unicode = 0650;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "shadda-ar";
@@ -8898,6 +8946,8 @@ width = 260;
 }
 );
 unicode = 0651;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "sukun-ar";
@@ -8950,6 +9000,8 @@ width = 198;
 }
 );
 unicode = 0652;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "madda-ar";
@@ -9007,6 +9059,8 @@ width = 315;
 }
 );
 unicode = "0653,06E4";
+category = Mark;
+subCategory = Nonspacing;
 }
 );
 instances = (
