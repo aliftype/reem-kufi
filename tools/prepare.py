@@ -54,10 +54,9 @@ def merge(args):
         arabic.classes.append(klass)
     for prefix in latin.featurePrefixes:
         if prefix.name == "Languagesystems":
-            arabic.featurePrefixes[prefix.name].code += prefix.code
-            arabic.featurePrefixes[prefix.name].code = "\n".join(
-                sorted(arabic.featurePrefixes[prefix.name].code.split("\n"))
-            )
+            aprefix = arabic.featurePrefixes[prefix.name]
+            aprefix.code += prefix.code
+            aprefix.code = "\n".join(sorted(aprefix.code.split("\n")))
             continue
         arabic.featurePrefixes.append(prefix)
     for feature in latin.features:
