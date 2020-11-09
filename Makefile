@@ -15,7 +15,7 @@ FONTS=Regular Medium Semibold Bold
 
 OTF=$(FONTS:%=$(NAME)-%.otf)
 TTF=$(FONTS:%=$(NAME)-%.ttf)
-SVG=Sample.svg
+SAMPLE=Sample.svg
 
 export SOURCE_DATE_EPOCH ?= 0
 
@@ -39,11 +39,9 @@ all: otf doc
 
 otf: $(OTF)
 ttf: $(TTF)
-doc: $(SVG)
+doc: $(SAMPLE)
 
 SHELL=/usr/bin/env bash
-
-.PRECIOUS: $(BUILDDIR)/master_otf/$(NAME)-%.otf $(BUILDDIR)/master_ttf/$(NAME)-%.ttf
 
 $(BUILDDIR):
 	@mkdir -p $(BUILDDIR)
@@ -60,7 +58,7 @@ $(BUILDDIR)/$(NAME).glyphs: $(NAME).glyphs $(LATIN).glyphs $(BUILDDIR)
 	@echo "   GEN	$(@F)"
 	@$(PYTHON) $(PREPARE) --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
 
-$(SVG): $(NAME)-Regular.otf
+$(SAMPLE): $(NAME)-Regular.otf
 	@echo "   GEN	$(@F)"
 	@hb-view --font-file=$< \
 		 --output-file=$@ \
@@ -76,4 +74,4 @@ dist: ttf
 	@zip -r $(NAME)-$(VERSION).zip $(NAME)-$(VERSION)
 
 clean:
-	@rm -rf $(OTF) $(TTF) $(SVG) $(BUILDDIR) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
+	@rm -rf $(OTF) $(TTF) $(SAMPLE) $(BUILDDIR) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
