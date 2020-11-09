@@ -1014,6 +1014,7 @@ width = 215;
 },
 {
 glyphname = "alef-ar.fina";
+production = uni0627.fina;
 layers = (
 {
 anchors = (
@@ -1095,6 +1096,7 @@ width = 225;
 },
 {
 glyphname = "alef-ar.fina.Lam";
+production = uni0627.fina.Lam;
 layers = (
 {
 anchors = (
@@ -1306,6 +1308,7 @@ width = 0;
 },
 {
 glyphname = "alef-ar.fina.Lam.1";
+production = uni0627.fina.Lam.1;
 layers = (
 {
 anchors = (
@@ -3016,6 +3019,7 @@ width = 515;
 },
 {
 glyphname = "hah-ar.fina";
+production = uni062D.fina;
 layers = (
 {
 components = (
@@ -3050,6 +3054,7 @@ width = 428;
 },
 {
 glyphname = "hah-ar.fina.1";
+production = uni062D.fina.1;
 layers = (
 {
 components = (
@@ -3083,6 +3088,7 @@ width = 428;
 },
 {
 glyphname = "hah-ar.fina.alt";
+production = uni062D.fina.alt;
 layers = (
 {
 components = (
@@ -3118,6 +3124,7 @@ width = 583;
 },
 {
 glyphname = "hah-ar.fina.alt.1";
+production = uni062D.fina.alt.1;
 layers = (
 {
 components = (
@@ -3153,6 +3160,7 @@ width = 583;
 },
 {
 glyphname = "hah-ar.medi";
+production = uni062D.medi;
 layers = (
 {
 anchors = (
@@ -3226,6 +3234,7 @@ width = 418;
 },
 {
 glyphname = "hah-ar.medi.1";
+production = uni062D.medi.1;
 layers = (
 {
 anchors = (
@@ -3299,6 +3308,7 @@ width = 378;
 },
 {
 glyphname = "hah-ar.medi.2";
+production = uni062D.medi.2;
 layers = (
 {
 components = (
@@ -3346,6 +3356,7 @@ width = 480;
 },
 {
 glyphname = "hah-ar.init";
+production = uni062D.init;
 layers = (
 {
 anchors = (
@@ -3441,6 +3452,7 @@ width = 685;
 },
 {
 glyphname = "hah-ar.init.2";
+production = uni062D.init.2;
 layers = (
 {
 anchors = (
@@ -3825,6 +3837,7 @@ unicode = 062F;
 },
 {
 glyphname = "dal-ar.fina";
+production = uni062F.fina;
 layers = (
 {
 anchors = (
@@ -4101,6 +4114,7 @@ unicode = 0631;
 },
 {
 glyphname = "reh-ar.fina";
+production = uni0631.fina;
 layers = (
 {
 components = (
@@ -4337,6 +4351,7 @@ unicode = 0633;
 },
 {
 glyphname = "seen-ar.fina";
+production = uni0633.fina;
 layers = (
 {
 components = (
@@ -4436,6 +4451,7 @@ width = 945;
 },
 {
 glyphname = "seen-ar.medi";
+production = uni0633.medi;
 layers = (
 {
 anchors = (
@@ -4523,6 +4539,7 @@ width = 700;
 },
 {
 glyphname = "seen-ar.init";
+production = uni0633.init;
 layers = (
 {
 anchors = (
@@ -4699,6 +4716,7 @@ unicode = 0635;
 },
 {
 glyphname = "sad-ar.fina";
+production = uni0635.fina;
 layers = (
 {
 components = (
@@ -4744,6 +4762,7 @@ width = 1245;
 },
 {
 glyphname = "sad-ar.medi";
+production = uni0635.medi;
 layers = (
 {
 components = (
@@ -4789,6 +4808,7 @@ width = 1015;
 },
 {
 glyphname = "sad-ar.init";
+production = uni0635.init;
 layers = (
 {
 components = (
@@ -4951,6 +4971,7 @@ unicode = 0637;
 },
 {
 glyphname = "tah-ar.fina";
+production = uni0637.fina;
 layers = (
 {
 components = (
@@ -4996,6 +5017,7 @@ width = 1085;
 },
 {
 glyphname = "tah-ar.medi";
+production = uni0637.medi;
 layers = (
 {
 components = (
@@ -5061,6 +5083,7 @@ width = 1015;
 },
 {
 glyphname = "tah-ar.init";
+production = uni0637.init;
 layers = (
 {
 components = (
@@ -5329,6 +5352,7 @@ unicode = 0639;
 },
 {
 glyphname = "ain-ar.fina";
+production = uni0639.fina;
 layers = (
 {
 anchors = (
@@ -5374,6 +5398,7 @@ width = 430;
 },
 {
 glyphname = "ain-ar.fina.1";
+production = uni0639.fina.1;
 layers = (
 {
 anchors = (
@@ -5437,6 +5462,7 @@ width = 490;
 },
 {
 glyphname = "ain-ar.medi";
+production = uni0639.medi;
 layers = (
 {
 anchors = (
@@ -5494,6 +5520,7 @@ width = 369;
 },
 {
 glyphname = "ain-ar.medi.1";
+production = uni0639.medi.1;
 layers = (
 {
 anchors = (
@@ -5552,6 +5579,7 @@ width = 525;
 },
 {
 glyphname = "ain-ar.init";
+production = uni0639.init;
 layers = (
 {
 anchors = (
@@ -6396,6 +6424,7 @@ unicode = 0643;
 },
 {
 glyphname = "kaf-ar.fina";
+production = uni0643.fina;
 layers = (
 {
 anchors = (
@@ -6517,6 +6546,7 @@ width = 965;
 },
 {
 glyphname = "kaf-ar.fina.1";
+production = uni0643.fina.1;
 layers = (
 {
 components = (
@@ -6562,6 +6592,7 @@ width = 1085;
 },
 {
 glyphname = "kaf-ar.medi";
+production = uni0643.medi;
 layers = (
 {
 anchors = (
@@ -6689,6 +6720,7 @@ width = 985;
 },
 {
 glyphname = "kaf-ar.medi.1";
+production = uni0643.medi.1;
 layers = (
 {
 components = (
@@ -6734,6 +6766,7 @@ width = 985;
 },
 {
 glyphname = "kaf-ar.init";
+production = uni0643.init;
 layers = (
 {
 anchors = (
@@ -6837,6 +6870,7 @@ width = 940;
 },
 {
 glyphname = "kaf-ar.init.1";
+production = uni0643.init.1;
 layers = (
 {
 components = (
@@ -7054,6 +7088,7 @@ unicode = 0644;
 },
 {
 glyphname = "lam-ar.fina";
+production = uni0644.fina;
 layers = (
 {
 components = (
@@ -7099,6 +7134,7 @@ width = 545;
 },
 {
 glyphname = "lam-ar.medi";
+production = uni0644.medi;
 layers = (
 {
 anchors = (
@@ -7156,6 +7192,7 @@ width = 300;
 },
 {
 glyphname = "lam-ar.medi.Alef";
+production = uni0644.medi.Alef;
 layers = (
 {
 components = (
@@ -7235,6 +7272,7 @@ width = 425;
 },
 {
 glyphname = "lam-ar.init";
+production = uni0644.init;
 layers = (
 {
 anchors = (
@@ -7300,6 +7338,7 @@ width = 225;
 },
 {
 glyphname = "lam-ar.init.Alef";
+production = uni0644.init.Alef;
 layers = (
 {
 anchors = (
@@ -7437,6 +7476,7 @@ width = 350;
 },
 {
 glyphname = "lam-ar.init.Alef.1";
+production = uni0644.init.Alef.1;
 layers = (
 {
 anchors = (
@@ -7576,6 +7616,7 @@ width = 350;
 },
 {
 glyphname = "lam-ar.init.Hah";
+production = uni0644.init.Hah;
 layers = (
 {
 anchors = (
@@ -7936,6 +7977,7 @@ width = 479;
 },
 {
 glyphname = "meem-ar.fina";
+production = uni0645.fina;
 layers = (
 {
 components = (
@@ -7971,6 +8013,7 @@ width = 685;
 },
 {
 glyphname = "meem-ar.fina.1";
+production = uni0645.fina.1;
 layers = (
 {
 anchors = (
@@ -8058,6 +8101,7 @@ width = 419;
 },
 {
 glyphname = "meem-ar.fina.2";
+production = uni0645.fina.2;
 layers = (
 {
 components = (
@@ -8127,6 +8171,7 @@ width = 507;
 },
 {
 glyphname = "meem-ar.medi";
+production = uni0645.medi;
 layers = (
 {
 components = (
@@ -8190,6 +8235,7 @@ width = 490;
 },
 {
 glyphname = "meem-ar.medi.1";
+production = uni0645.medi.1;
 layers = (
 {
 anchors = (
@@ -8275,6 +8321,7 @@ width = 490;
 },
 {
 glyphname = "meem-ar.init";
+production = uni0645.init;
 layers = (
 {
 anchors = (
@@ -8569,6 +8616,7 @@ unicode = 06BA;
 },
 {
 glyphname = "noonghunna-ar.fina";
+production = uni06BA.fina;
 layers = (
 {
 components = (
@@ -8861,6 +8909,7 @@ width = 390;
 },
 {
 glyphname = "heh-ar.fina";
+production = uni0647.fina;
 layers = (
 {
 components = (
@@ -8924,6 +8973,7 @@ width = 415;
 },
 {
 glyphname = "heh-ar.fina.1";
+production = uni0647.fina.1;
 layers = (
 {
 components = (
@@ -8987,6 +9037,7 @@ width = 415;
 },
 {
 glyphname = "heh-ar.medi";
+production = uni0647.medi;
 layers = (
 {
 components = (
@@ -9032,6 +9083,7 @@ width = 487;
 },
 {
 glyphname = "heh-ar.medi.1";
+production = uni0647.medi.1;
 layers = (
 {
 components = (
@@ -9077,6 +9129,7 @@ width = 487;
 },
 {
 glyphname = "heh-ar.medi.2";
+production = uni0647.medi.2;
 layers = (
 {
 components = (
@@ -9122,6 +9175,7 @@ width = 487;
 },
 {
 glyphname = "heh-ar.medi.3";
+production = uni0647.medi.3;
 layers = (
 {
 components = (
@@ -9167,6 +9221,7 @@ width = 487;
 },
 {
 glyphname = "heh-ar.init";
+production = uni0647.init;
 layers = (
 {
 anchors = (
@@ -9278,6 +9333,7 @@ width = 419;
 },
 {
 glyphname = "heh-ar.init.1";
+production = uni0647.init.1;
 layers = (
 {
 components = (
@@ -9323,6 +9379,7 @@ width = 419;
 },
 {
 glyphname = "heh-ar.init.2";
+production = uni0647.init.2;
 layers = (
 {
 anchors = (
@@ -9738,6 +9795,7 @@ width = 419;
 },
 {
 glyphname = "heh-ar.init.3";
+production = uni0647.init.3;
 layers = (
 {
 components = (
@@ -10049,6 +10107,7 @@ unicode = 0648;
 },
 {
 glyphname = "waw-ar.fina";
+production = uni0648.fina;
 layers = (
 {
 components = (
@@ -10094,6 +10153,7 @@ width = 400;
 },
 {
 glyphname = "waw-ar.fina.1";
+production = uni0648.fina.1;
 layers = (
 {
 anchors = (
@@ -10549,6 +10609,7 @@ width = 765;
 },
 {
 glyphname = "alefMaksura-ar.fina";
+production = uni0649.fina;
 layers = (
 {
 anchors = (
@@ -10672,6 +10733,7 @@ width = 680;
 },
 {
 glyphname = "alefMaksura-ar.fina.1";
+production = uni0649.fina.1;
 layers = (
 {
 anchors = (
@@ -11026,6 +11088,7 @@ unicode = 06D2;
 },
 {
 glyphname = "yehbarree-ar.fina";
+production = uni06D2.fina;
 layers = (
 {
 anchors = (
