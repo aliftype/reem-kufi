@@ -5,11 +5,8 @@ LATIN=JosefinSans
 DIST=$(NAME)-$(VERSION)
 
 BUILDDIR=build
-TOOLDIR=tools
 
 PYTHON ?= python3
-
-PREPARE=$(TOOLDIR)/prepare.py
 
 FONTS=Regular Medium Semibold Bold
 
@@ -45,23 +42,23 @@ $(BUILDDIR):
 
 $(NAME)-%.otf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
-	@$(call generate_fonts,otf,$<,$@,$*,$(abspath $(TOOLDIR)))
+	@$(call generate_fonts,otf,$<,$@,$*)
 
 $(NAME)-VF.otf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
-	@$(call generate_fonts,variable-cff2,$<,$@,,$(abspath $(TOOLDIR)))
+	@$(call generate_fonts,variable-cff2,$<,$@)
 
 $(NAME)-%.ttf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
-	@$(call generate_fonts,ttf,$<,$@,$*,$(abspath $(TOOLDIR)))
+	@$(call generate_fonts,ttf,$<,$@,$*)
 
 $(NAME)-VF.ttf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
-	@$(call generate_fonts,variable,$<,$@,,$(abspath $(TOOLDIR)))
+	@$(call generate_fonts,variable,$<,$@)
 
 $(BUILDDIR)/$(NAME).glyphs: $(NAME).glyphs $(LATIN).glyphs $(BUILDDIR)
 	@echo "   GEN	$(@F)"
-	@$(PYTHON) $(PREPARE) --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
+	@$(PYTHON) prepare.py --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
 
 $(SAMPLE): $(NAME)-Regular.otf
 	@echo "   GEN	$(@F)"
