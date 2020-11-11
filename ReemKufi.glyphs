@@ -53,7 +53,6 @@ code = "languagesystem arab dflt;
 languagesystem arab URD;
 languagesystem arab KSH;
 languagesystem arab SND;
-
 ";
 name = Languagesystems;
 },
@@ -233,6 +232,10 @@ lookup AboveHah {
 
 feature rclt {
   lookupflag IgnoreMarks;
+    sub [behDotless-ar.init behDotless-ar.medi] behDotless-ar.medi' [behDotless-ar.medi behDotless-ar.fina] by behDotless-ar.medi.high;
+    sub [seen-ar.init seen-ar.medi] behDotless-ar.medi' by behDotless-ar.medi.high;
+    sub behDotless-ar.init behDotless-ar.medi' noonghunna-ar.fina by behDotless-ar.medi.high;
+
     sub [lam-ar.init behDotless-ar.init]' lookup AboveHah [hah-ar.medi hah-ar.fina]' lookup AboveHah;
     pos [lam-ar.init.Hah behDotless-ar.init.Hah]' <80 0 80 0> [hah-ar];
 
@@ -1982,6 +1985,113 @@ nodes = (
 }
 );
 width = 400;
+}
+);
+},
+{
+glyphname = "behDotless-ar.medi.high";
+layers = (
+{
+anchors = (
+{
+name = dotAbove;
+position = "{83, 483}";
+},
+{
+name = dotBelow;
+position = "{83, -150}";
+},
+{
+name = hamzaAbove;
+position = "{75, 422}";
+},
+{
+name = markAbove;
+position = "{83, 550}";
+},
+{
+name = markBelow;
+position = "{83, -150}";
+}
+);
+components = (
+{
+name = "behDotless-ar.init";
+}
+);
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"320 0 LINE",
+"320 100 LINE",
+"100 100 LINE",
+"100 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"200 190 LINE",
+"200 350 LINE",
+"100 328 LINE",
+"100 190 LINE"
+);
+}
+);
+width = 300;
+},
+{
+anchors = (
+{
+name = dotAbove;
+position = "{83, 493}";
+},
+{
+name = dotBelow;
+position = "{83, -150}";
+},
+{
+name = hamzaAbove;
+position = "{75, 432}";
+},
+{
+name = markAbove;
+position = "{83, 560}";
+},
+{
+name = markBelow;
+position = "{83, -150}";
+}
+);
+components = (
+{
+name = "behDotless-ar.init";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+paths = (
+{
+closed = 1;
+nodes = (
+"320 0 LINE",
+"320 140 LINE",
+"100 140 LINE",
+"100 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"200 190 LINE",
+"200 390 LINE",
+"60 359 LINE",
+"60 190 LINE"
+);
+}
+);
+width = 300;
 }
 );
 },
