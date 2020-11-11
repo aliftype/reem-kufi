@@ -415,6 +415,13 @@ position = "{0, -200}";
 }
 );
 id = master01;
+userData = {
+GSOffsetHorizontal = 17.5;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 0;
+GSOffsetProportional = 1;
+GSOffsetVertical = 35;
+};
 visible = 1;
 weightValue = 108;
 xHeight = 0;
@@ -15201,6 +15208,141 @@ width = 315;
 unicode = "0653,06E4";
 category = Mark;
 subCategory = Nonspacing;
+},
+{
+glyphname = "hahabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _markAbove;
+position = "{129, 0}";
+}
+);
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"229 239 LINE",
+"229 274 LINE",
+"31 274 LINE",
+"31 239 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"62 259 LINE",
+"31 274 LINE",
+"0 211 LINE",
+"31 196 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"115 91 OFFCURVE",
+"195 164 OFFCURVE",
+"229 239 CURVE",
+"197 253 LINE",
+"165 183 OFFCURVE",
+"92 123 OFFCURVE",
+"27 112 CURVE",
+"33 77 LINE"
+);
+}
+);
+width = 229;
+},
+{
+anchors = (
+{
+name = _markAbove;
+position = "{129, 0}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+paths = (
+{
+closed = 1;
+nodes = (
+"229 239 LINE",
+"229 274 LINE",
+"31 274 LINE",
+"31 239 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"62 259 LINE",
+"31 274 LINE",
+"0 211 LINE",
+"31 196 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"115 91 OFFCURVE",
+"195 164 OFFCURVE",
+"229 239 CURVE",
+"197 253 LINE",
+"165 183 OFFCURVE",
+"92 123 OFFCURVE",
+"27 112 CURVE",
+"33 77 LINE"
+);
+}
+);
+width = 229;
+},
+{
+associatedMasterId = master01;
+layerId = "EC91252F-3242-49C3-B29E-4240540A89DE";
+name = "Nov 12 20, 01:14";
+paths = (
+{
+closed = 1;
+nodes = (
+"153 74 OFFCURVE",
+"198 119 OFFCURVE",
+"198 174 CURVE SMOOTH",
+"198 229 OFFCURVE",
+"153 274 OFFCURVE",
+"98 274 CURVE SMOOTH",
+"44 274 OFFCURVE",
+"0 229 OFFCURVE",
+"0 174 CURVE SMOOTH",
+"0 119 OFFCURVE",
+"44 74 OFFCURVE",
+"98 74 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"61 109 OFFCURVE",
+"33 138 OFFCURVE",
+"33 175 CURVE SMOOTH",
+"33 212 OFFCURVE",
+"61 243 OFFCURVE",
+"99 242 CURVE SMOOTH",
+"137 241 OFFCURVE",
+"165 212 OFFCURVE",
+"165 175 CURVE SMOOTH",
+"165 138 OFFCURVE",
+"136 109 OFFCURVE",
+"99 109 CURVE SMOOTH"
+);
+}
+);
+visible = 1;
+width = 198;
+}
+);
+unicode = 06E1;
 },
 {
 export = 0;
