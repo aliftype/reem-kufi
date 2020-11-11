@@ -13,8 +13,8 @@ PREPARE=$(TOOLDIR)/prepare.py
 
 FONTS=Regular Medium Semibold Bold
 
-OTF=$(FONTS:%=$(NAME)-%.otf)
-TTF=$(FONTS:%=$(NAME)-%.ttf)
+OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME)-VF.otf
+TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME)-VF.ttf
 SAMPLE=Sample.svg
 
 export SOURCE_DATE_EPOCH ?= 0
@@ -24,7 +24,7 @@ PYTHONPATH=$(5):${PYTHONMATH}                                                  \
 fontmake --glyphs $(2)                                                         \
          --output $(1)                                                         \
          --output-path $(3)                                                    \
-         --interpolate '.* $(4)'                                               \
+         $(if $(4),--interpolate '.* $(4)',)                                   \
          --verbose WARNING                                                     \
          --feature-writer KernFeatureWriter                                    \
          --feature-writer markFeatureWriter::MarkFeatureWriter                 \
@@ -50,9 +50,17 @@ $(NAME)-%.otf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,otf,$<,$@,$*,$(abspath $(TOOLDIR)))
 
+$(NAME)-VF.otf: $(BUILDDIR)/$(NAME).glyphs
+	@echo "   MAKE	$(@F)"
+	@$(call generate_fonts,variable-cff2,$<,$@,,$(abspath $(TOOLDIR)))
+
 $(NAME)-%.ttf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,ttf,$<,$@,$*,$(abspath $(TOOLDIR)))
+
+$(NAME)-VF.ttf: $(BUILDDIR)/$(NAME).glyphs
+	@echo "   MAKE	$(@F)"
+	@$(call generate_fonts,variable,$<,$@,,$(abspath $(TOOLDIR)))
 
 $(BUILDDIR)/$(NAME).glyphs: $(NAME).glyphs $(LATIN).glyphs $(BUILDDIR)
 	@echo "   GEN	$(@F)"

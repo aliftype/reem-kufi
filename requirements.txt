@@ -5,5 +5,6 @@ fontmake==2.2.1
 git+git://github.com/khaledhosny/glyphsLib@proxy#egg=glyphsLib
 MutatorMath==3.0.1
 skia-pathops==0.5.1
-ufo2ft[cffsubr,pathops]==2.16.0
+#ufo2ft[cffsubr,pathops]==2.16.0
+git+git://github.com/khaledhosny/ufo2ft@cff2-charset#egg=ufo2ft[cffsubr,pathops]
 ufoLib2==0.8.0
