@@ -20,14 +20,11 @@ SAMPLE=Sample.svg
 export SOURCE_DATE_EPOCH ?= 0
 
 define generate_fonts
-PYTHONPATH=$(5):${PYTHONMATH}                                                  \
 fontmake --glyphs $(2)                                                         \
          --output $(1)                                                         \
          --output-path $(3)                                                    \
          $(if $(4),--interpolate '.* $(4)',)                                   \
          --verbose WARNING                                                     \
-         --feature-writer KernFeatureWriter                                    \
-         --feature-writer markFeatureWriter::MarkFeatureWriter                 \
          --subroutinizer cffsubr                                               \
          --overlaps-backend pathops                                            \
          --master-dir '{tmp}'                                                  \
