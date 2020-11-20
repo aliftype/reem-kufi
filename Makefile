@@ -12,6 +12,7 @@ FONTS=Regular Medium Semibold Bold
 
 OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME)-VF.otf
 TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME)-VF.ttf
+SVG=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.svg)
 SAMPLE=Sample.svg
 
 export SOURCE_DATE_EPOCH ?= 0
@@ -60,12 +61,16 @@ $(BUILDDIR)/$(NAME).glyphs: $(NAME).glyphs $(LATIN).glyphs $(BUILDDIR)
 	@echo "   GEN	$(@F)"
 	@$(PYTHON) prepare.py --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
 
-$(SAMPLE): $(NAME)-Regular.otf
+$(BUILDDIR)/$(NAME)-%.svg: $(NAME)-%.otf $(BUILDDIR)
 	@echo "   GEN	$(@F)"
 	@hb-view --font-file=$< \
 		 --output-file=$@ \
 		 --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
 		 --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]"
+
+$(SAMPLE): $(SVG)
+	@echo "   SAMPLE    $(@F)"
+	@$(PYTHON) mksample.py -o $@ $+
 
 dist: ttf
 	@mkdir -p $(NAME)-$(VERSION)/ttf
