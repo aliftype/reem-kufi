@@ -1,0 +1,10 @@
+cffsubr
+fonttools[ufo,lxml]
+fontmake
+#glyphsLib
+git+git://github.com/khaledhosny/glyphsLib@proxy#egg=glyphsLib
+MutatorMath
+skia-pathops
+#ufo2ft[cffsubr,pathops]
+git+git://github.com/khaledhosny/ufo2ft@fork#egg=ufo2ft[cffsubr,pathops]
+ufoLib2
