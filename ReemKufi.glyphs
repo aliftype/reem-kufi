@@ -770,10 +770,6 @@ layers = (
 anchors = (
 {
 name = hamzaAbove;
-position = "{90, 850}";
-},
-{
-name = hamzaAbove.alt;
 position = "{140, 850}";
 },
 {
@@ -812,10 +808,6 @@ width = 313;
 anchors = (
 {
 name = hamzaAbove;
-position = "{110, 850}";
-},
-{
-name = hamzaAbove.alt;
 position = "{160, 850}";
 },
 {
@@ -859,11 +851,7 @@ layers = (
 anchors = (
 {
 name = hamzaAbove;
-position = "{90, 850}";
-},
-{
-name = hamzaAbove.alt;
-position = "{320, 560}";
+position = "{320, 632}";
 },
 {
 name = hamzaBelow;
@@ -901,11 +889,7 @@ width = 418;
 anchors = (
 {
 name = hamzaAbove;
-position = "{90, 850}";
-},
-{
-name = hamzaAbove.alt;
-position = "{320, 560}";
+position = "{320, 632}";
 },
 {
 name = hamzaBelow;
@@ -3574,6 +3558,10 @@ layers = (
 {
 anchors = (
 {
+name = center;
+position = "{240, -150}";
+},
+{
 name = dotAbove;
 position = "{370, 250}";
 },
@@ -3697,6 +3685,10 @@ width = 0;
 },
 {
 anchors = (
+{
+name = center;
+position = "{240, -150}";
+},
 {
 name = dotAbove;
 position = "{370, 230}";
@@ -14329,10 +14321,6 @@ name = _hamzaAbove;
 position = "{135, 0}";
 },
 {
-name = _hamzaAbove.alt;
-position = "{135, 0}";
-},
-{
 name = markAbove;
 position = "{135, 250}";
 }
@@ -14382,10 +14370,6 @@ width = 270;
 anchors = (
 {
 name = _hamzaAbove;
-position = "{135, 0}";
-},
-{
-name = _hamzaAbove.alt;
 position = "{135, 0}";
 },
 {
