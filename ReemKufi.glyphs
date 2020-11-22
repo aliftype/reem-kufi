@@ -6968,8 +6968,8 @@ paths = (
 closed = 1;
 nodes = (
 "1005 0 LINE",
-"1005 100 LINE",
-"809 100 LINE",
+"1005 140 LINE",
+"809 140 LINE",
 "809 0 LINE"
 );
 }
@@ -10474,8 +10474,8 @@ nodes = (
 closed = 1;
 nodes = (
 "442 0 LINE",
-"442 100 LINE",
-"246 100 LINE",
+"442 140 LINE",
+"246 140 LINE",
 "196 0 LINE"
 );
 }
@@ -12646,10 +12646,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"166 0 LINE",
 "407 42 LINE",
 "412 143 LINE",
-"149 97 LINE",
-"166 0 LINE"
+"149 97 LINE"
 );
 }
 );
