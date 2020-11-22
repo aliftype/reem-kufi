@@ -232,10 +232,6 @@ lookup AboveHah {
 
 feature rclt {
   lookupflag IgnoreMarks;
-    sub [behDotless-ar.init behDotless-ar.medi] behDotless-ar.medi' [behDotless-ar.medi behDotless-ar.fina] by behDotless-ar.medi.high;
-    sub [seen-ar.init seen-ar.medi] behDotless-ar.medi' by behDotless-ar.medi.high;
-    sub behDotless-ar.init behDotless-ar.medi' noonghunna-ar.fina by behDotless-ar.medi.high;
-
     sub [lam-ar.init behDotless-ar.init]' lookup AboveHah [hah-ar.medi hah-ar.fina]' lookup AboveHah;
     pos [lam-ar.init.Hah behDotless-ar.init.Hah]' <80 0 80 0> [hah-ar];
 
@@ -310,10 +306,28 @@ feature cv03 {
 } cv03;
 
 feature rclt {
+  lookupflag IgnoreMarks;
+    sub [behDotless-ar.init behDotless-ar.medi]
+         behDotless-ar.medi'
+        [behDotless-ar.medi behDotless-ar.fina]
+     by  behDotless-ar.medi.high;
+    sub [seen-ar.init seen-ar.medi]
+         behDotless-ar.medi'
+     by  behDotless-ar.medi.high;
+    sub  behDotless-ar.init
+         behDotless-ar.medi'
+         noonghunna-ar.fina
+     by  behDotless-ar.medi.high;
+
   @ar23DotAbove = [twodotshorizontalabove-ar threedotsupabove-ar hamzaabove-ar tahabove-ar];
   @ar23DotBelow = [twodotshorizontalbelow-ar threedotsdownbelow-ar hamzabelow-ar];
-  sub [behDotless-ar.init behDotless-ar.medi] @ar23DotAbove behDotless-ar.medi' @ar23DotAbove by behDotless-ar.medi.Wide;
-  sub [behDotless-ar.init behDotless-ar.medi] @ar23DotBelow behDotless-ar.medi' @ar23DotBelow by behDotless-ar.medi.Wide;
+  lookupflag UseMarkFilteringSet [@ar23DotAbove @ar23DotBelow];
+    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high] @ar23DotAbove
+        [behDotless-ar.medi behDotless-ar.medi.high]' @ar23DotAbove
+     by [behDotless-ar.medi.wide behDotless-ar.medi.high.wide];
+    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high] @ar23DotBelow
+        [behDotless-ar.medi behDotless-ar.medi.high]' @ar23DotBelow
+     by [behDotless-ar.medi.wide behDotless-ar.medi.high.wide];
 } rclt;
 
 feature rclt {
@@ -1889,97 +1903,6 @@ width = 300;
 );
 },
 {
-glyphname = "behDotless-ar.medi.Wide";
-layers = (
-{
-anchors = (
-{
-name = dotAbove;
-position = "{83, 483}";
-},
-{
-name = dotBelow;
-position = "{83, -150}";
-},
-{
-name = hamzaAbove;
-position = "{75, 422}";
-},
-{
-name = markAbove;
-position = "{83, 550}";
-},
-{
-name = markBelow;
-position = "{83, -150}";
-}
-);
-components = (
-{
-name = "behDotless-ar.medi";
-transform = "{1, 0, 0, 1, 100, 0}";
-}
-);
-layerId = master01;
-paths = (
-{
-closed = 1;
-nodes = (
-"109 0 LINE",
-"109 100 LINE",
-"-20 100 LINE",
-"-20 0 LINE"
-);
-}
-);
-width = 400;
-},
-{
-anchors = (
-{
-name = dotAbove;
-position = "{83, 483}";
-},
-{
-name = dotBelow;
-position = "{83, -150}";
-},
-{
-name = hamzaAbove;
-position = "{75, 422}";
-},
-{
-name = markAbove;
-position = "{83, 550}";
-},
-{
-name = markBelow;
-position = "{83, -150}";
-}
-);
-components = (
-{
-name = "behDotless-ar.medi";
-transform = "{1, 0, 0, 1, 100, 0}";
-}
-);
-layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
-paths = (
-{
-closed = 1;
-nodes = (
-"109 0 LINE",
-"109 140 LINE",
-"-20 140 LINE",
-"-20 0 LINE"
-);
-}
-);
-width = 400;
-}
-);
-},
-{
 glyphname = "behDotless-ar.medi.high";
 layers = (
 {
@@ -2083,6 +2006,188 @@ nodes = (
 }
 );
 width = 300;
+}
+);
+},
+{
+glyphname = "behDotless-ar.medi.high.wide";
+layers = (
+{
+anchors = (
+{
+name = dotAbove;
+position = "{133, 483}";
+},
+{
+name = dotBelow;
+position = "{133, -150}";
+},
+{
+name = hamzaAbove;
+position = "{125, 422}";
+},
+{
+name = markAbove;
+position = "{133, 550}";
+},
+{
+name = markBelow;
+position = "{133, -150}";
+}
+);
+components = (
+{
+name = "behDotless-ar.medi.high";
+transform = "{1, 0, 0, 1, 100, 0}";
+}
+);
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"109 0 LINE",
+"109 100 LINE",
+"-20 100 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 400;
+},
+{
+anchors = (
+{
+name = dotAbove;
+position = "{133, 483}";
+},
+{
+name = dotBelow;
+position = "{133, -150}";
+},
+{
+name = hamzaAbove;
+position = "{125, 422}";
+},
+{
+name = markAbove;
+position = "{133, 550}";
+},
+{
+name = markBelow;
+position = "{133, -150}";
+}
+);
+components = (
+{
+name = "behDotless-ar.medi.high";
+transform = "{1, 0, 0, 1, 100, 0}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+paths = (
+{
+closed = 1;
+nodes = (
+"109 0 LINE",
+"109 140 LINE",
+"-20 140 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 400;
+}
+);
+},
+{
+glyphname = "behDotless-ar.medi.wide";
+layers = (
+{
+anchors = (
+{
+name = dotAbove;
+position = "{133, 483}";
+},
+{
+name = dotBelow;
+position = "{133, -150}";
+},
+{
+name = hamzaAbove;
+position = "{125, 422}";
+},
+{
+name = markAbove;
+position = "{133, 550}";
+},
+{
+name = markBelow;
+position = "{133, -150}";
+}
+);
+components = (
+{
+name = "behDotless-ar.medi";
+transform = "{1, 0, 0, 1, 100, 0}";
+}
+);
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"109 0 LINE",
+"109 100 LINE",
+"-20 100 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 400;
+},
+{
+anchors = (
+{
+name = dotAbove;
+position = "{133, 483}";
+},
+{
+name = dotBelow;
+position = "{133, -150}";
+},
+{
+name = hamzaAbove;
+position = "{125, 422}";
+},
+{
+name = markAbove;
+position = "{133, 550}";
+},
+{
+name = markBelow;
+position = "{133, -150}";
+}
+);
+components = (
+{
+name = "behDotless-ar.medi";
+transform = "{1, 0, 0, 1, 100, 0}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+paths = (
+{
+closed = 1;
+nodes = (
+"109 0 LINE",
+"109 140 LINE",
+"-20 140 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 400;
 }
 );
 },
