@@ -10,8 +10,8 @@ PYTHON ?= python3
 
 FONTS=Regular Medium Semibold Bold
 
-OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME)-VF.otf
-TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME)-VF.ttf
+OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf
+TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf
 SVG=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.svg)
 SAMPLE=Sample.svg
 
@@ -45,7 +45,7 @@ $(NAME)-%.otf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,otf,$<,$@,$*)
 
-$(NAME)-VF.otf: $(BUILDDIR)/$(NAME).glyphs
+$(NAME).otf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,variable-cff2,$<,$@)
 
@@ -53,7 +53,7 @@ $(NAME)-%.ttf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,ttf,$<,$@,$*)
 
-$(NAME)-VF.ttf: $(BUILDDIR)/$(NAME).glyphs
+$(NAME).ttf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,variable,$<,$@)
 
