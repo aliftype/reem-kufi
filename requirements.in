@@ -1,8 +1,7 @@
 cffsubr
 fonttools[ufo,lxml]
 fontmake
-#glyphsLib
-git+git://github.com/khaledhosny/glyphsLib@proxy#egg=glyphsLib
+git+git://github.com/alif-type/glyphsObj@main#egg=glyphsObj
 MutatorMath
 skia-pathops
 #ufo2ft[cffsubr,pathops]
