@@ -4,7 +4,6 @@ fontmake
 git+git://github.com/alif-type/glyphsObj@main#egg=glyphsObj
 MutatorMath
 skia-pathops
-#ufo2ft[cffsubr,pathops]
-git+git://github.com/khaledhosny/ufo2ft@fork#egg=ufo2ft[cffsubr,pathops]
+ufo2ft[cffsubr,pathops]
 ufoLib2
 svgutils
