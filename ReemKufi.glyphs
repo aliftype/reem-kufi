@@ -382,7 +382,7 @@ value = 50;
 },
 {
 name = underlinePosition;
-value = -100;
+value = -300;
 }
 );
 descender = -200;
@@ -482,7 +482,7 @@ value = 50;
 },
 {
 name = underlinePosition;
-value = -100;
+value = -300;
 }
 );
 descender = -200;
