@@ -18,7 +18,7 @@ cffsubr==0.2.7
     # via
     #   -r requirements.in
     #   ufo2ft
-compreffor==0.5.0
+compreffor==0.5.1
     # via ufo2ft
 cu2qu==1.6.7
     # via
@@ -26,13 +26,13 @@ cu2qu==1.6.7
     #   ufo2ft
 defcon==0.7.2
     # via mutatormath
-fontmake==2.2.1
+fontmake==2.3.0
     # via -r requirements.in
 fontmath==0.6.0
     # via
     #   fontmake
     #   mutatormath
-fonttools[lxml,ufo,unicode]==4.17.1
+fonttools[lxml,ufo,unicode]==4.19.1
     # via
     #   -r requirements.in
     #   booleanoperations
@@ -47,35 +47,35 @@ fonttools[lxml,ufo,unicode]==4.17.1
     #   mutatormath
     #   ufo2ft
     #   ufolib2
-fs==2.4.11
+fs==2.4.12
     # via fonttools
-glyphslib==5.2.0
+glyphslib==5.3.2
     # via fontmake
 git+git://github.com/alif-type/glyphsObj@main#egg=glyphsObj
     # via -r requirements.in
-lxml==4.6.1
+lxml==4.6.2
     # via
     #   fonttools
     #   svgutils
 mutatormath==3.0.1
     # via -r requirements.in
-pyclipper==1.2.0
+pyclipper==1.2.1
     # via booleanoperations
-pytz==2020.4
+pytz==2021.1
     # via fs
 six==1.15.0
     # via fs
-skia-pathops==0.5.1.post1
+skia-pathops==0.6.0.post1
     # via
     #   -r requirements.in
     #   ufo2ft
-svgutils==0.3.1
+svgutils==0.3.2
     # via -r requirements.in
-ufo2ft[cffsubr,pathops]==2.18.1
+ufo2ft[cffsubr,pathops]==2.19.1
     # via
     #   -r requirements.in
     #   fontmake
-ufolib2==0.8.0
+ufolib2==0.11.1
     # via
     #   -r requirements.in
     #   fontmake

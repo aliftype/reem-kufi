@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='ASCII' standalone='yes'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="5916.375" viewBox="0 0 5916.375 1664.0" height="1664.0">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="5916.375px" viewBox="0 0 5916.375 1664.0" height="1664.0px">
   <g>
-    <g transform="translate(51.625, 0) scale(1) "><defs>
+    <g transform="translate(51.625, 0) scale(1 1) "><defs>
 <g>
 <symbol overflow="visible" id="glyph0-0">
 <path style="stroke:none;" d="M 12.796875 51.203125 L 115.203125 51.203125 L 115.203125 -204.796875 L 12.796875 -204.796875 Z M 25.59375 38.40625 L 25.59375 -192 L 102.40625 -192 L 102.40625 38.40625 Z M 25.59375 38.40625 "/>
@@ -217,7 +217,7 @@
 </g>
 </g>
 </g>
-    <g transform="translate(34.7265625, 416.0) scale(1) "><defs>
+    <g transform="translate(34.7265625, 416.0) scale(1 1) "><defs>
 <g>
 <symbol overflow="visible" id="glyph1-0">
 <path style="stroke:none;" d="M 12.796875 51.203125 L 115.203125 51.203125 L 115.203125 -204.796875 L 12.796875 -204.796875 Z M 25.59375 38.40625 L 25.59375 -192 L 102.40625 -192 L 102.40625 38.40625 Z M 25.59375 38.40625 "/>
@@ -433,7 +433,7 @@
 </g>
 </g>
 </g>
-    <g transform="translate(16.90625, 832.0) scale(1) "><defs>
+    <g transform="translate(16.90625, 832.0) scale(1 1) "><defs>
 <g>
 <symbol overflow="visible" id="glyph2-0">
 <path style="stroke:none;" d="M 12.796875 51.203125 L 115.203125 51.203125 L 115.203125 -204.796875 L 12.796875 -204.796875 Z M 25.59375 38.40625 L 25.59375 -192 L 102.40625 -192 L 102.40625 38.40625 Z M 25.59375 38.40625 "/>
@@ -649,7 +649,7 @@
 </g>
 </g>
 </g>
-    <g transform="translate(0.0, 1248.0) scale(1) "><defs>
+    <g transform="translate(0.0, 1248.0) scale(1 1) "><defs>
 <g>
 <symbol overflow="visible" id="glyph3-0">
 <path style="stroke:none;" d="M 12.796875 51.203125 L 115.203125 51.203125 L 115.203125 -204.796875 L 12.796875 -204.796875 Z M 25.59375 38.40625 L 25.59375 -192 L 102.40625 -192 L 102.40625 38.40625 Z M 25.59375 38.40625 "/>

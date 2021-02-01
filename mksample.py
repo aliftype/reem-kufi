@@ -1,5 +1,6 @@
 import argparse
 
+import svgutils.compose as sc
 import svgutils.transform as sg
 import xml.etree.ElementTree as ET
 from io import BytesIO
@@ -51,7 +52,7 @@ def main(args=None):
 
         elems.append(root)
 
-    fig = sg.SVGFigure(w, h)
+    fig = sg.SVGFigure(sc.Unit(f"{w}"), sc.Unit(f"{h}"))
     fig.append(elems)
     fig.save(options.output)
 
