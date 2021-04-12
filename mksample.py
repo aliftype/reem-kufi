@@ -9,6 +9,7 @@ HREF = "{http://www.w3.org/1999/xlink}href"
 SYMBOL = "{http://www.w3.org/2000/svg}symbol"
 USE = "{http://www.w3.org/2000/svg}use"
 GROUP = "{http://www.w3.org/2000/svg}g"
+RECT = "{http://www.w3.org/2000/svg}rect"
 
 
 def fixid(value, i):
@@ -32,6 +33,9 @@ def main(args=None):
             elem.set("id", fixid(elem.get("id"), i))
         for elem in xml.iter(USE):
             elem.set(HREF, fixid(elem.get(HREF), i))
+        for elem in xml.findall(f".//{RECT}/.."):
+            for rect in xml.iter(RECT):
+                elem.remove(rect)
 
         f = BytesIO()
         xml.write(f)
