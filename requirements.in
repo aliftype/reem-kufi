@@ -1,9 +1,4 @@
-cffsubr
-fonttools[ufo,lxml]
 fontmake
-git+git://github.com/alif-type/glyphsObj@main#egg=glyphsObj
-MutatorMath
+glyphsLib
 skia-pathops
-ufo2ft[cffsubr,pathops]
-ufoLib2
 svgutils

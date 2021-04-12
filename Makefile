@@ -23,7 +23,6 @@ fontmake --glyphs $(2)                                                         \
          --output-path $(3)                                                    \
          $(if $(4),--interpolate '.* $(4)',)                                   \
          --verbose WARNING                                                     \
-         --subroutinizer cffsubr                                               \
          --overlaps-backend pathops                                            \
          --master-dir '{tmp}'                                                  \
          --instance-dir '{tmp}'                                                \

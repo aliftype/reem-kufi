@@ -1,7 +1,7 @@
 import argparse
 
 from datetime import datetime
-from glyphsObj.classes import GSFont
+from glyphsLib.classes import GSFont
 
 
 def merge(args):
