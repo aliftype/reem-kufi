@@ -1,6 +1,31 @@
 {
-.appVersion = "1350";
+.appVersion = "3078";
 customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Don't use Production Names";
+value = 0;
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
+},
 {
 name = description;
 value = "Reem Kufi is a Kufic typeface based on early Kufic (Mushafi) modeles, but retrofitted to the Fatimid Kufic grid and with borrowing from its forms. Reem Kufi is largely based on the Kufic designs of the late master of Arabic calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and formalised its rules.";
@@ -14,33 +39,21 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
 {
-name = openTypeNameSampleText;
+name = sampleText;
 value = "ريم على القاع بين البان و العلم   أحل سفك دمي في الأشهر الحرم";
-},
-{
-name = fsType;
-value = (
-);
 },
 {
 name = vendorID;
 value = ALIF;
 },
 {
-name = "Use Typo Metrics";
-value = 1;
-},
+name = Axes;
+value = (
 {
-name = "Use Line Breaks";
-value = 1;
-},
-{
-name = "Disable Last Change";
-value = 1;
-},
-{
-name = "Don't use Production Names";
-value = 0;
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2015-11-13 18:42:21 +0000";
