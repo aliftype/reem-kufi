@@ -344,9 +344,9 @@ feature rclt {
 } rclt;
 
 feature rclt {
-  @ar23DotBelow = [twodotshorizontalbelow-ar threedotsdownbelow-ar];
-  lookupflag UseMarkFilteringSet @ar23DotBelow;
-    pos [reh-ar reh-ar.fina]' <100 0 100 0> behDotless-ar.init @ar23DotBelow;
+  @ar23DotBelow2 = [twodotshorizontalbelow-ar threedotsdownbelow-ar];
+  lookupflag UseMarkFilteringSet @ar23DotBelow2;
+    pos [reh-ar reh-ar.fina]' <100 0 100 0> behDotless-ar.init @ar23DotBelow2;
 } rclt;
 ";
 name = Features;
