@@ -24,6 +24,7 @@ fontmake --glyphs $(2)                                                         \
          $(if $(4),--interpolate '.* $(4)',)                                   \
          --verbose WARNING                                                     \
          --overlaps-backend pathops                                            \
+         --flatten-components                                                  \
          --master-dir '{tmp}'                                                  \
          --instance-dir '{tmp}'                                                \
          ;
