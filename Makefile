@@ -8,7 +8,7 @@ BUILDDIR=build
 
 PYTHON ?= python3
 
-FONTS=Regular Medium Semibold Bold
+FONTS=Regular Medium SemiBold Bold
 
 OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf
 TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf
