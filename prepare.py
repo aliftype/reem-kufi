@@ -11,6 +11,10 @@ def merge(args):
     unicodes = set()
     for glyph in arabic.glyphs:
         unicodes.update(glyph.unicodes)
+        if glyph.color == 0:
+            for layer in glyph.layers:
+                layer.components = []
+                layer.width = arabic.upm
 
     masters = {m.name: m for m in arabic.masters}
 
@@ -63,6 +67,11 @@ def merge(args):
         if feature.name in {"liga", "dlig"}:
             continue
         arabic.features.append(feature)
+
+    # Put blank glyphs last to save a few bytes in hmtx table.
+    glyphOrder = [g.name for g in arabic.glyphs if g.color != 0]
+    glyphOrder += [g.name for g in arabic.glyphs if g.color == 0]
+    arabic.customParameters['glyphOrder'] = glyphOrder
 
     # Set metadata
     arabic.versionMajor, arabic.versionMinor = map(int, args.version.split("."))
