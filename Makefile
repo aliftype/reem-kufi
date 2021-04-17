@@ -15,7 +15,7 @@ TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf
 SVG=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.svg)
 SAMPLE=Sample.svg
 
-export SOURCE_DATE_EPOCH ?= 0
+export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" $(NAME).glyphs)
 
 define generate_fonts
 fontmake --glyphs $(2)                                                         \
