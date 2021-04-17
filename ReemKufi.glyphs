@@ -12022,7 +12022,7 @@ nodes = (
 width = 500;
 }
 );
-unicode = 0660;
+unicode = "0660,06F0";
 },
 {
 glyphname = "one-ar";
@@ -12058,7 +12058,7 @@ nodes = (
 width = 500;
 }
 );
-unicode = 0661;
+unicode = "0661,06F1";
 },
 {
 glyphname = "two-ar";
@@ -12174,7 +12174,7 @@ nodes = (
 width = 500;
 }
 );
-unicode = 0663;
+unicode = "0663,06F3";
 },
 {
 glyphname = "four-ar";
@@ -12378,7 +12378,7 @@ nodes = (
 width = 500;
 }
 );
-unicode = 0665;
+unicode = "0665,06F5";
 },
 {
 glyphname = "six-ar";
@@ -12568,7 +12568,7 @@ nodes = (
 width = 500;
 }
 );
-unicode = 0668;
+unicode = "0668,06F8";
 },
 {
 glyphname = "nine-ar";
@@ -12662,55 +12662,7 @@ nodes = (
 width = 500;
 }
 );
-unicode = 0669;
-},
-{
-glyphname = "zero-persian";
-layers = (
-{
-components = (
-{
-name = "zero-ar";
-}
-);
-layerId = master01;
-width = 500;
-},
-{
-components = (
-{
-name = "zero-ar";
-}
-);
-layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
-width = 500;
-}
-);
-unicode = 06F0;
-},
-{
-glyphname = "one-persian";
-layers = (
-{
-components = (
-{
-name = "one-ar";
-}
-);
-layerId = master01;
-width = 500;
-},
-{
-components = (
-{
-name = "one-ar";
-}
-);
-layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
-width = 500;
-}
-);
-unicode = 06F1;
+unicode = "0669,06F9";
 },
 {
 glyphname = "two-persian";
@@ -12769,30 +12721,6 @@ width = 500;
 }
 );
 unicode = 06F2;
-},
-{
-glyphname = "three-persian";
-layers = (
-{
-components = (
-{
-name = "three-ar";
-}
-);
-layerId = master01;
-width = 500;
-},
-{
-components = (
-{
-name = "three-ar";
-}
-);
-layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
-width = 500;
-}
-);
-unicode = 06F3;
 },
 {
 glyphname = "four-persian";
@@ -12972,30 +12900,6 @@ width = 500;
 );
 },
 {
-glyphname = "five-persian";
-layers = (
-{
-components = (
-{
-name = "five-ar";
-}
-);
-layerId = master01;
-width = 500;
-},
-{
-components = (
-{
-name = "five-ar";
-}
-);
-layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
-width = 500;
-}
-);
-unicode = 06F5;
-},
-{
 glyphname = "six-persian";
 layers = (
 {
@@ -13151,54 +13055,6 @@ com.schriftgestaltung.Glyphs.lastChange = "2017-10-25 19:17:40 +0000";
 width = 500;
 }
 );
-},
-{
-glyphname = "eight-persian";
-layers = (
-{
-components = (
-{
-name = "eight-ar";
-}
-);
-layerId = master01;
-width = 500;
-},
-{
-components = (
-{
-name = "eight-ar";
-}
-);
-layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
-width = 500;
-}
-);
-unicode = 06F8;
-},
-{
-glyphname = "nine-persian";
-layers = (
-{
-components = (
-{
-name = "nine-ar";
-}
-);
-layerId = master01;
-width = 500;
-},
-{
-components = (
-{
-name = "nine-ar";
-}
-);
-layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
-width = 500;
-}
-);
-unicode = 06F9;
 },
 {
 glyphname = space;
