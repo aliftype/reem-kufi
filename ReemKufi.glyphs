@@ -1,5 +1,5 @@
 {
-.appVersion = "3078";
+.appVersion = "3079";
 classes = (
 {
 automatic = 1;
@@ -146,6 +146,7 @@ feature isol {
     sub keheh-ar by kaf-ar;
     sub hehDoachashmee-ar by heh-ar.init;
     sub hehHamzaabove-ar by heh-ar.1 hamzaabove-ar;
+    sub hehgoalHamzaabove-ar by heh-ar.1 hamzaabove-ar;
     sub hehgoal-ar by heh-ar;
     sub yeh-farsi by alefMaksura-ar;
     sub noonThreedotsabove-ar by noonghunna-ar threedotsupabove-ar;
@@ -234,8 +235,11 @@ feature fina {
 } fina;
 
 feature rlig {
-  lookupflag IgnoreMarks;
+  @hehMarks = [twodotsverticalabove-ar];
+  lookupflag UseMarkFilteringSet @hehMarks;
     ignore sub @ArabicLetters heh-ar';
+    ignore sub @hehMarks heh-ar';
+    ignore sub heh-ar' @hehMarks;
     sub heh-ar' by heh-ar.isol;
 } rlig;
 
