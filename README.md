@@ -3,7 +3,7 @@ Reem Kufi
 
 ![Sample](Sample.svg)
 
-Reem Kufi is a [Kufic][1] typeface based on early Kufic (Mushafi) models, but
+Reem Kufi (كوفي ريم) is a [Kufic][1] typeface based on early Kufic (Mushafi) models, but
 retrofitted to the Fatimid Kufic grid and with borrowing from its forms. Reem
 Kufi is largely based on the Kufic designs of the late master of Arabic
 calligraphy [Mohammad Abdul Qadir][2] who revived this art in the 20th century
