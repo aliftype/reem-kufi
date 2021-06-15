@@ -76,7 +76,7 @@ def merge(args):
     # Set metadata
     arabic.versionMajor, arabic.versionMinor = map(int, args.version.split("."))
     year = datetime.now().year
-    arabic.copyright = f"Copyright 2015-{year} The Reem Kufi Project Authors (https://github.com/alif-type/reem-kufi)."
+    arabic.copyright = f"Copyright 2015-{year} The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi)."
 
     return arabic
 
