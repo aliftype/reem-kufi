@@ -1,5 +1,5 @@
 {
-.appVersion = "3091";
+.appVersion = "3094";
 classes = (
 {
 automatic = 1;
@@ -385,7 +385,7 @@ name = Features;
 );
 fontMaster = (
 {
-ascender = 800;
+ascender = 1100;
 capHeight = 0;
 customParameters = (
 {
@@ -418,7 +418,7 @@ value = 1400;
 },
 {
 name = winDescent;
-value = 500;
+value = 400;
 },
 {
 name = underlineThickness;
@@ -429,7 +429,7 @@ name = underlinePosition;
 value = -300;
 }
 );
-descender = -200;
+descender = -400;
 guideLines = (
 {
 name = "800";
@@ -485,7 +485,7 @@ weightValue = 108;
 xHeight = 0;
 },
 {
-ascender = 800;
+ascender = 1100;
 capHeight = 0;
 customParameters = (
 {
@@ -518,7 +518,7 @@ value = 1400;
 },
 {
 name = winDescent;
-value = 500;
+value = 400;
 },
 {
 name = underlineThickness;
@@ -529,7 +529,7 @@ name = underlinePosition;
 value = -300;
 }
 );
-descender = -200;
+descender = -400;
 guideLines = (
 {
 name = "800";
