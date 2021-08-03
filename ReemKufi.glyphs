@@ -1,5 +1,5 @@
 {
-.appVersion = "3094";
+.appVersion = "3095";
 classes = (
 {
 automatic = 1;
@@ -131,13 +131,21 @@ feature ccmp {
     sub dul-ar by dal-ar threedotsupabove-ar;
     sub rreh-ar by reh-ar tahabove-ar;
     sub jeh-ar by reh-ar threedotsupabove-ar;
+    sub rehVbelow-ar by reh-ar vbelow-ar;
     sub ainThreedots-ar by ain-ar threedotsupabove-ar;
     sub veh-ar by fehDotless-ar threedotsupabove-ar;
     sub kafDotabove-ar by kaf-ar dotabove-ar;
+    sub lamVabove-ar by lam-ar vabove-ar;
     sub rnoon-ar by noonghunna-ar tahabove-ar;
+    sub noonRing-ar by noonghunna-ar dotabove-ar ringbelow-ar;
     sub yehbarreeHamzaabove-ar by yehbarree-ar hamzaabove-ar;
     sub kehehDotabove-ar by keheh-ar dotabove-ar;
     sub wawDotabove-ar by waw-ar dotabove-ar;
+    sub wawTwodots-ar by waw-ar twodotshorizontalabove-ar;
+    sub oe-ar by waw-ar vabove-ar;
+    sub ve-ar by waw-ar threedotsupabove-ar;
+    sub yehVabove-ar by alefMaksura-ar vabove-ar;
+    sub e-ar by alefMaksura-ar.1 twodotsverticalbelow-ar;
     sub gaf-ar by keheh-ar gafsarkashabove-ar;
 } ccmp;
 
@@ -163,7 +171,7 @@ feature init {
     sub lam-ar by lam-ar.init;
     sub meem-ar by meem-ar.init;
     sub heh-ar by heh-ar.init;
-    sub alefMaksura-ar by behDotless-ar.init;
+    sub [alefMaksura-ar alefMaksura-ar.1] by behDotless-ar.init;
     sub behDotless-ar by behDotless-ar.init;
     sub qafDotless-ar by fehDotless-ar.init;
     sub fehDotless-ar by fehDotless-ar.init;
@@ -187,7 +195,7 @@ feature medi {
     sub lam-ar by lam-ar.medi;
     sub meem-ar by meem-ar.medi;
     sub heh-ar by heh-ar.medi;
-    sub alefMaksura-ar by behDotless-ar.medi;
+    sub [alefMaksura-ar alefMaksura-ar.1] by behDotless-ar.medi;
     sub behDotless-ar by behDotless-ar.medi;
     sub qafDotless-ar by fehDotless-ar.medi;
     sub fehDotless-ar by fehDotless-ar.medi;
@@ -218,8 +226,10 @@ feature fina {
     sub meem-ar by meem-ar.fina;
     sub noonghunna-ar by noonghunna-ar.fina;
     sub heh-ar by heh-ar.fina;
+    sub ae-ar by heh-ar.fina.1;
     sub waw-ar by waw-ar.fina;
     sub alefMaksura-ar by alefMaksura-ar.fina;
+    sub alefMaksura-ar.1 by alefMaksura-ar.fina.1;
     sub yehbarree-ar by yehbarree-ar.fina;
     
     sub tehMarbuta-ar by heh-ar.fina twodotsverticalabove-ar;
@@ -4480,6 +4490,10 @@ name = dotAbove;
 position = "{150, 500}";
 },
 {
+name = dotBelow;
+position = "{110, -284}";
+},
+{
 name = hamzaAbove;
 position = "{140, 440}";
 },
@@ -4516,6 +4530,10 @@ anchors = (
 {
 name = dotAbove;
 position = "{130, 500}";
+},
+{
+name = dotBelow;
+position = "{110, -284}";
 },
 {
 name = hamzaAbove;
@@ -4663,6 +4681,39 @@ width = 225;
 }
 );
 unicode = 0691;
+},
+{
+color = 3;
+glyphname = "rehVbelow-ar";
+layers = (
+{
+components = (
+{
+name = "reh-ar";
+},
+{
+name = "vbelow-ar";
+transform = "{1, 0, 0, 1, -14, -284}";
+}
+);
+layerId = master01;
+width = 225;
+},
+{
+components = (
+{
+name = "reh-ar";
+},
+{
+name = "vbelow-ar";
+transform = "{1, 0, 0, 1, -14, -284}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 225;
+}
+);
+unicode = 0695;
 },
 {
 color = 0;
@@ -7466,6 +7517,10 @@ layers = (
 {
 anchors = (
 {
+name = dotAbove;
+position = "{393, 861}";
+},
+{
 name = markAbove;
 position = "{100, 550}";
 },
@@ -7495,6 +7550,10 @@ width = 470;
 },
 {
 anchors = (
+{
+name = dotAbove;
+position = "{373, 861}";
+},
 {
 name = markAbove;
 position = "{100, 550}";
@@ -7717,8 +7776,12 @@ layers = (
 {
 anchors = (
 {
+name = dotAbove;
+position = "{150, 861}";
+},
+{
 name = markAbove;
-position = "{155, 830}";
+position = "{150, 830}";
 },
 {
 name = markBelow;
@@ -7746,6 +7809,10 @@ width = 225;
 },
 {
 anchors = (
+{
+name = dotAbove;
+position = "{125, 861}";
+},
 {
 name = markAbove;
 position = "{125, 830}";
@@ -7782,6 +7849,10 @@ production = uni0644.init.Alef;
 layers = (
 {
 anchors = (
+{
+name = dotAbove;
+position = "{275, 861}";
+},
 {
 name = markAbove;
 position = "{275, 830}";
@@ -7848,6 +7919,10 @@ width = 350;
 },
 {
 anchors = (
+{
+name = dotAbove;
+position = "{295, 861}";
+},
 {
 name = markAbove;
 position = "{295, 830}";
@@ -7921,6 +7996,10 @@ layers = (
 {
 anchors = (
 {
+name = dotAbove;
+position = "{275, 861}";
+},
+{
 name = markAbove;
 position = "{275, 830}";
 },
@@ -7988,8 +8067,12 @@ width = 350;
 {
 anchors = (
 {
+name = dotAbove;
+position = "{295, 861}";
+},
+{
 name = markAbove;
-position = "{275, 830}";
+position = "{295, 830}";
 },
 {
 name = markBelow;
@@ -8243,6 +8326,39 @@ nodes = (
 width = 0;
 }
 );
+},
+{
+color = 3;
+glyphname = "lamVabove-ar";
+layers = (
+{
+components = (
+{
+name = "lam-ar";
+},
+{
+name = "vabove-ar";
+transform = "{1, 0, 0, 1, 269, 861}";
+}
+);
+layerId = master01;
+width = 470;
+},
+{
+components = (
+{
+name = "lam-ar";
+},
+{
+name = "vabove-ar";
+transform = "{1, 0, 0, 1, 249, 861}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 470;
+}
+);
+unicode = 06B5;
 },
 {
 glyphname = "meem-ar";
@@ -8876,6 +8992,10 @@ name = dotAbove;
 position = "{230, 400}";
 },
 {
+name = dotBelow;
+position = "{223, -339}";
+},
+{
 name = hamzaAbove;
 position = "{220, 340}";
 },
@@ -8937,6 +9057,10 @@ anchors = (
 {
 name = dotAbove;
 position = "{230, 400}";
+},
+{
+name = dotBelow;
+position = "{223, -309}";
 },
 {
 name = hamzaAbove;
@@ -9138,6 +9262,39 @@ width = 460;
 }
 );
 unicode = 06BB;
+},
+{
+color = 3;
+glyphname = "noonRing-ar";
+layers = (
+{
+components = (
+{
+name = "noon-ar";
+},
+{
+name = "ringbelow-ar";
+transform = "{1, 0, 0, 1, 124, -226}";
+}
+);
+layerId = master01;
+width = 460;
+},
+{
+components = (
+{
+name = "noon-ar";
+},
+{
+name = "ringbelow-ar";
+transform = "{1, 0, 0, 1, 124, -226}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 460;
+}
+);
+unicode = 06BC;
 },
 {
 color = 0;
@@ -10888,7 +11045,7 @@ layers = (
 anchors = (
 {
 name = dotAbove;
-position = "{174, 550}";
+position = "{174, 460}";
 },
 {
 name = hamzaAbove;
@@ -10931,7 +11088,7 @@ width = 349;
 anchors = (
 {
 name = dotAbove;
-position = "{174, 550}";
+position = "{194, 500}";
 },
 {
 name = hamzaAbove;
@@ -11139,6 +11296,39 @@ width = 422;
 );
 },
 {
+color = 3;
+glyphname = "wawTwodots-ar";
+layers = (
+{
+components = (
+{
+name = "waw-ar";
+},
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 29, 460}";
+}
+);
+layerId = master01;
+width = 349;
+},
+{
+components = (
+{
+name = "waw-ar";
+},
+{
+name = "twodotshorizontalabove-ar";
+transform = "{1, 0, 0, 1, 49, 500}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 390;
+}
+);
+unicode = 06CA;
+},
+{
 color = 0;
 glyphname = "wawDotabove-ar";
 layers = (
@@ -11149,7 +11339,7 @@ name = "waw-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 116, 550}";
+transform = "{1, 0, 0, 1, 116, 460}";
 }
 );
 layerId = master01;
@@ -11162,7 +11352,7 @@ name = "waw-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 116, 550}";
+transform = "{1, 0, 0, 1, 136, 500}";
 }
 );
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
@@ -11203,6 +11393,72 @@ width = 390;
 }
 );
 unicode = 0624;
+},
+{
+color = 3;
+glyphname = "oe-ar";
+layers = (
+{
+components = (
+{
+name = "waw-ar";
+},
+{
+name = "vabove-ar";
+transform = "{1, 0, 0, 1, 50, 460}";
+}
+);
+layerId = master01;
+width = 349;
+},
+{
+components = (
+{
+name = "waw-ar";
+},
+{
+name = "vabove-ar";
+transform = "{1, 0, 0, 1, 70, 500}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 390;
+}
+);
+unicode = 06C6;
+},
+{
+color = 3;
+glyphname = "ve-ar";
+layers = (
+{
+components = (
+{
+name = "waw-ar";
+},
+{
+name = "threedotsupabove-ar";
+transform = "{1, 0, 0, 1, 29, 460}";
+}
+);
+layerId = master01;
+width = 349;
+},
+{
+components = (
+{
+name = "waw-ar";
+},
+{
+name = "threedotsupabove-ar";
+transform = "{1, 0, 0, 1, 49, 500}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 390;
+}
+);
+unicode = 06CB;
 },
 {
 glyphname = "alefMaksura-ar";
@@ -11802,6 +12058,37 @@ width = 725;
 unicode = 0626;
 },
 {
+color = 3;
+glyphname = "yehVabove-ar";
+layers = (
+{
+components = (
+{
+name = "alefMaksura-ar";
+},
+{
+name = "vabove-ar";
+}
+);
+layerId = master01;
+width = 725;
+},
+{
+components = (
+{
+name = "alefMaksura-ar";
+},
+{
+name = "vabove-ar";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 725;
+}
+);
+unicode = 06CE;
+},
+{
 color = 0;
 glyphname = "yeh-farsi";
 layers = (
@@ -11825,6 +12112,39 @@ width = 725;
 }
 );
 unicode = 06CC;
+},
+{
+color = 3;
+glyphname = "e-ar";
+layers = (
+{
+components = (
+{
+name = "alefMaksura-ar.1";
+},
+{
+name = "twodotsverticalbelow-ar";
+transform = "{1, 0, 0, 1, 182, -150}";
+}
+);
+layerId = master01;
+width = 765;
+},
+{
+components = (
+{
+name = "alefMaksura-ar.1";
+},
+{
+name = "twodotsverticalbelow-ar";
+transform = "{1, 0, 0, 1, 182, -150}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 765;
+}
+);
+unicode = 06D0;
 },
 {
 glyphname = "yehbarree-ar";
@@ -12108,6 +12428,31 @@ width = 1045;
 }
 );
 unicode = 06D3;
+},
+{
+color = 3;
+glyphname = "ae-ar";
+layers = (
+{
+components = (
+{
+name = "heh-ar.1";
+}
+);
+layerId = master01;
+width = 349;
+},
+{
+components = (
+{
+name = "heh-ar.1";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 390;
+}
+);
+unicode = 06D5;
 },
 {
 glyphname = "kashida-ar";
@@ -14387,6 +14732,54 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+color = 3;
+glyphname = "twodotsverticalbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _dotBelow;
+position = "{58, 0}";
+},
+{
+name = markBelow;
+position = "{58, -270}";
+}
+);
+components = (
+{
+name = "twodotsverticalabove-ar";
+transform = "{1, 0, 0, 1, 0, -169}";
+}
+);
+layerId = master01;
+width = 116;
+},
+{
+anchors = (
+{
+name = _dotBelow;
+position = "{58, 0}";
+},
+{
+name = markBelow;
+position = "{58, -270}";
+}
+);
+components = (
+{
+name = "twodotsverticalabove-ar";
+transform = "{1, 0, 0, 1, 0, -169}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 116;
+}
+);
+category = Mark;
+subCategory = Nonspacing;
+},
+{
 glyphname = "twodotshorizontalabove-ar";
 layers = (
 {
@@ -14681,6 +15074,54 @@ transform = "{1, 0, 0, 1, 0, -150}";
 );
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 width = 289;
+}
+);
+category = Mark;
+subCategory = Nonspacing;
+},
+{
+color = 3;
+glyphname = "ringbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _dotBelow;
+position = "{99, -113}";
+},
+{
+name = markBelow;
+position = "{99, -190}";
+}
+);
+components = (
+{
+name = "sukun-ar";
+transform = "{1, 0, 0, 1, 0, -220}";
+}
+);
+layerId = master01;
+width = 198;
+},
+{
+anchors = (
+{
+name = _dotBelow;
+position = "{99, -83}";
+},
+{
+name = markBelow;
+position = "{99, -190}";
+}
+);
+components = (
+{
+name = "sukun-ar";
+transform = "{1, 0, 0, 1, 0, -220}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 198;
 }
 );
 category = Mark;
@@ -15829,6 +16270,119 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+color = 3;
+glyphname = "vabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _dotAbove;
+position = "{124, 0}";
+},
+{
+name = markAbove;
+position = "{124, 200}";
+}
+);
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"125 -50 LINE",
+"248 76 LINE",
+"201 124 LINE",
+"109 22 LINE",
+"138 29 LINE",
+"47 124 LINE",
+"0 77 LINE"
+);
+}
+);
+width = 248;
+},
+{
+anchors = (
+{
+name = _dotAbove;
+position = "{124, 0}";
+},
+{
+name = markAbove;
+position = "{124, 200}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+paths = (
+{
+closed = 1;
+nodes = (
+"125 -50 LINE",
+"248 76 LINE",
+"201 124 LINE",
+"109 22 LINE",
+"138 29 LINE",
+"47 124 LINE",
+"0 77 LINE"
+);
+}
+);
+width = 248;
+}
+);
+unicode = 065A;
+category = Mark;
+subCategory = Nonspacing;
+},
+{
+color = 3;
+glyphname = "vbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _dotBelow;
+position = "{124, 0}";
+},
+{
+name = markBelow;
+position = "{124, -250}";
+}
+);
+components = (
+{
+name = "vabove-ar";
+transform = "{1, 0, 0, 1, 0, -66}";
+}
+);
+layerId = master01;
+width = 248;
+},
+{
+anchors = (
+{
+name = _dotBelow;
+position = "{124, 0}";
+},
+{
+name = markBelow;
+position = "{124, -250}";
+}
+);
+components = (
+{
+name = "vabove-ar";
+transform = "{1, 0, 0, 1, 0, -66}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 248;
+}
+);
+category = Mark;
+subCategory = Nonspacing;
+},
+{
 glyphname = "hahabove-ar";
 layers = (
 {
@@ -15962,6 +16516,8 @@ width = 198;
 }
 );
 unicode = 06E1;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 export = 0;
