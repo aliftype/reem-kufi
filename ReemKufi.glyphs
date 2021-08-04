@@ -365,20 +365,23 @@ feature rclt {
          noonghunna-ar.fina
      by  behDotless-ar.medi.high;
 
-  @ar23DotAbove = [twodotshorizontalabove-ar threedotsupabove-ar hamzaabove-ar tahabove-ar];
-  @ar23DotBelow = [twodotshorizontalbelow-ar threedotsdownbelow-ar hamzabelow-ar];
+  @WideMarksAbove = [twodotshorizontalabove-ar threedotsupabove-ar hamzaabove-ar tahabove-ar];
+  @WideMarksBelow = [twodotshorizontalbelow-ar threedotsdownbelow-ar hamzabelow-ar];
 
-  lookupflag UseMarkFilteringSet [@ar23DotBelow];
-    sub [behDotless-ar.medi behDotless-ar.medi.high]' @ar23DotBelow
+  lookupflag UseMarkFilteringSet [@WideMarksBelow];
+    sub [behDotless-ar.medi behDotless-ar.medi.high]'
+        @WideMarksBelow
         [hah-ar.fina hah-ar.fina.1 hah-ar.fina.alt hah-ar.fina.alt.1 hah-ar.medi hah-ar.medi.1]
      by [behDotless-ar.medi.wider behDotless-ar.medi.high.wider];
 
-  lookupflag UseMarkFilteringSet [@ar23DotAbove @ar23DotBelow];
-    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high] @ar23DotAbove
-        [behDotless-ar.medi behDotless-ar.medi.high]' @ar23DotAbove
+  lookupflag UseMarkFilteringSet [@WideMarksAbove @WideMarksBelow];
+    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high] 
+        @WideMarksAbove
+        [behDotless-ar.medi behDotless-ar.medi.high]' @WideMarksAbove
      by [behDotless-ar.medi.wide behDotless-ar.medi.high.wide];
-    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high] @ar23DotBelow
-        [behDotless-ar.medi behDotless-ar.medi.high]' @ar23DotBelow
+    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high] 
+        @WideMarksBelow
+        [behDotless-ar.medi behDotless-ar.medi.high]' @WideMarksBelow
      by [behDotless-ar.medi.wide behDotless-ar.medi.high.wide];
 
 } rclt;
