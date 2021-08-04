@@ -144,7 +144,7 @@ feature ccmp {
     sub wawTwodots-ar by waw-ar twodotshorizontalabove-ar;
     sub oe-ar by waw-ar vabove-ar;
     sub ve-ar by waw-ar threedotsupabove-ar;
-    sub yehVabove-ar by alefMaksura-ar vabove-ar;
+    sub yehVabove-ar by yeh-farsi vabove-ar;
     sub e-ar by alefMaksura-ar.1 twodotsverticalbelow-ar;
     sub gaf-ar by keheh-ar gafsarkashabove-ar;
 } ccmp;
@@ -11466,6 +11466,10 @@ layers = (
 {
 anchors = (
 {
+name = dotAbove;
+position = "{288, 676}";
+},
+{
 name = dotBelow;
 position = "{240, -300}";
 },
@@ -11475,7 +11479,7 @@ position = "{100, 0}";
 },
 {
 name = markAbove;
-position = "{290, 700}";
+position = "{288, 700}";
 },
 {
 name = markBelow;
@@ -11528,6 +11532,10 @@ width = 725;
 {
 anchors = (
 {
+name = dotAbove;
+position = "{288, 676}";
+},
+{
 name = dotBelow;
 position = "{240, -300}";
 },
@@ -11537,7 +11545,7 @@ position = "{100, 0}";
 },
 {
 name = markAbove;
-position = "{290, 700}";
+position = "{288, 700}";
 },
 {
 name = markBelow;
@@ -11596,6 +11604,10 @@ layers = (
 {
 anchors = (
 {
+name = dotAbove;
+position = "{328, 676}";
+},
+{
 name = dotBelow;
 position = "{240, -150}";
 },
@@ -11605,7 +11617,7 @@ position = "{40, 200}";
 },
 {
 name = markAbove;
-position = "{322, 700}";
+position = "{328, 700}";
 },
 {
 name = markBelow;
@@ -11629,7 +11641,7 @@ nodes = (
 "304 523 OFFCURVE",
 "263 493 CURVE SMOOTH",
 "182 433 OFFCURVE",
-"120 345 OFFCURVE",
+"121 345 OFFCURVE",
 "202 203 CURVE SMOOTH",
 "318 0 LINE"
 );
@@ -11664,6 +11676,10 @@ width = 765;
 {
 anchors = (
 {
+name = dotAbove;
+position = "{328, 676}";
+},
+{
 name = dotBelow;
 position = "{240, -150}";
 },
@@ -11673,7 +11689,7 @@ position = "{40, 200}";
 },
 {
 name = markAbove;
-position = "{322, 700}";
+position = "{328, 700}";
 },
 {
 name = markBelow;
@@ -11738,6 +11754,10 @@ layers = (
 {
 anchors = (
 {
+name = dotAbove;
+position = "{288, 676}";
+},
+{
 name = dotBelow;
 position = "{240, -300}";
 },
@@ -11796,6 +11816,10 @@ width = 680;
 },
 {
 anchors = (
+{
+name = dotAbove;
+position = "{288, 676}";
+},
 {
 name = dotBelow;
 position = "{240, -300}";
@@ -11862,6 +11886,10 @@ layers = (
 {
 anchors = (
 {
+name = dotAbove;
+position = "{328, 676}";
+},
+{
 name = dotBelow;
 position = "{240, -150}";
 },
@@ -11871,7 +11899,7 @@ position = "{40, 200}";
 },
 {
 name = markAbove;
-position = "{322, 700}";
+position = "{328, 700}";
 },
 {
 name = markBelow;
@@ -11895,7 +11923,7 @@ nodes = (
 "304 523 OFFCURVE",
 "263 493 CURVE SMOOTH",
 "182 433 OFFCURVE",
-"120 345 OFFCURVE",
+"121 345 OFFCURVE",
 "202 203 CURVE SMOOTH",
 "318 0 LINE"
 );
@@ -11927,6 +11955,10 @@ width = 720;
 {
 anchors = (
 {
+name = dotAbove;
+position = "{328, 676}";
+},
+{
 name = dotBelow;
 position = "{240, -150}";
 },
@@ -11936,7 +11968,7 @@ position = "{40, 200}";
 },
 {
 name = markAbove;
-position = "{322, 700}";
+position = "{328, 700}";
 },
 {
 name = markBelow;
@@ -12068,6 +12100,7 @@ name = "alefMaksura-ar";
 },
 {
 name = "vabove-ar";
+transform = "{1, 0, 0, 1, 164, 676}";
 }
 );
 layerId = master01;
@@ -12080,6 +12113,7 @@ name = "alefMaksura-ar";
 },
 {
 name = "vabove-ar";
+transform = "{1, 0, 0, 1, 164, 676}";
 }
 );
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
