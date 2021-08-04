@@ -11161,15 +11161,15 @@ layers = (
 anchors = (
 {
 name = dotAbove;
-position = "{174, 460}";
+position = "{174, 500}";
 },
 {
 name = hamzaAbove;
-position = "{174, 400}";
+position = "{174, 440}";
 },
 {
 name = markAbove;
-position = "{174, 550}";
+position = "{174, 500}";
 },
 {
 name = markBelow;
@@ -11208,11 +11208,11 @@ position = "{194, 500}";
 },
 {
 name = hamzaAbove;
-position = "{195, 400}";
+position = "{195, 440}";
 },
 {
 name = markAbove;
-position = "{195, 550}";
+position = "{195, 500}";
 },
 {
 name = markBelow;
@@ -11300,15 +11300,15 @@ layers = (
 anchors = (
 {
 name = dotAbove;
-position = "{174, 550}";
+position = "{174, 500}";
 },
 {
 name = hamzaAbove;
-position = "{174, 400}";
+position = "{174, 440}";
 },
 {
 name = markAbove;
-position = "{174, 550}";
+position = "{174, 500}";
 },
 {
 name = markBelow;
@@ -11356,15 +11356,15 @@ width = 400;
 anchors = (
 {
 name = dotAbove;
-position = "{196, 550}";
+position = "{196, 500}";
 },
 {
 name = hamzaAbove;
-position = "{196, 400}";
+position = "{196, 440}";
 },
 {
 name = markAbove;
-position = "{196, 550}";
+position = "{196, 500}";
 },
 {
 name = markBelow;
@@ -11422,7 +11422,7 @@ name = "waw-ar";
 },
 {
 name = "twodotshorizontalabove-ar";
-transform = "{1, 0, 0, 1, 29, 460}";
+transform = "{1, 0, 0, 1, 29, 500}";
 }
 );
 layerId = master01;
@@ -11455,7 +11455,7 @@ name = "waw-ar";
 },
 {
 name = "dotabove-ar";
-transform = "{1, 0, 0, 1, 116, 460}";
+transform = "{1, 0, 0, 1, 116, 500}";
 }
 );
 layerId = master01;
@@ -11488,7 +11488,7 @@ name = "waw-ar";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 39, 400}";
+transform = "{1, 0, 0, 1, 39, 440}";
 }
 );
 layerId = master01;
@@ -11501,7 +11501,7 @@ name = "waw-ar";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, 60, 400}";
+transform = "{1, 0, 0, 1, 60, 440}";
 }
 );
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
@@ -11521,7 +11521,7 @@ name = "waw-ar";
 },
 {
 name = "vabove-ar";
-transform = "{1, 0, 0, 1, 50, 460}";
+transform = "{1, 0, 0, 1, 50, 500}";
 }
 );
 layerId = master01;
@@ -11554,7 +11554,7 @@ name = "waw-ar";
 },
 {
 name = "threedotsupabove-ar";
-transform = "{1, 0, 0, 1, 29, 460}";
+transform = "{1, 0, 0, 1, 29, 500}";
 }
 );
 layerId = master01;
