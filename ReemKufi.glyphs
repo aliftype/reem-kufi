@@ -368,22 +368,22 @@ feature rclt {
   @WideMarksAbove = [twodotshorizontalabove-ar threedotsupabove-ar hamzaabove-ar tahabove-ar];
   @WideMarksBelow = [twodotshorizontalbelow-ar threedotsdownbelow-ar hamzabelow-ar];
 
-  lookupflag UseMarkFilteringSet [@WideMarksBelow];
+  lookupflag UseMarkFilteringSet @WideMarksBelow;
     sub [behDotless-ar.medi behDotless-ar.medi.high]'
         @WideMarksBelow
         [hah-ar.fina hah-ar.fina.1 hah-ar.fina.alt hah-ar.fina.alt.1 hah-ar.medi hah-ar.medi.1]
      by [behDotless-ar.medi.wider behDotless-ar.medi.high.wider];
 
-  lookupflag UseMarkFilteringSet [@WideMarksAbove @WideMarksBelow];
-    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high] 
-        @WideMarksAbove
-        [behDotless-ar.medi behDotless-ar.medi.high]' @WideMarksAbove
-     by [behDotless-ar.medi.wide behDotless-ar.medi.high.wide];
-    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high] 
+    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high]
         @WideMarksBelow
         [behDotless-ar.medi behDotless-ar.medi.high]' @WideMarksBelow
      by [behDotless-ar.medi.wide behDotless-ar.medi.high.wide];
 
+  lookupflag UseMarkFilteringSet @WideMarksAbove;
+    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high]
+        @WideMarksAbove
+        [behDotless-ar.medi behDotless-ar.medi.high]' @WideMarksAbove
+     by [behDotless-ar.medi.wide behDotless-ar.medi.high.wide];
 } rclt;
 
 feature rclt {
