@@ -3,7 +3,7 @@
 classes = (
 {
 automatic = 1;
-code = "hamza-ar highhamza-ar alef-ar alef-ar.1 alef-ar.2 alef-ar.3 alef-ar.fina alef-ar.fina.Lam alef-ar.fina.Lam.1 alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar alefWasla-ar behDotless-ar behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.medi.high.wide behDotless-ar.medi.high.wider behDotless-ar.medi.wide behDotless-ar.medi.wider behDotless-ar.init behDotless-ar.init.Hah beh-ar peh-ar teh-ar theh-ar tteh-ar tteheh-ar jeem-ar tcheh-ar hah-ar hah-ar.alt hah-ar.fina hah-ar.fina.1 hah-ar.fina.alt hah-ar.fina.alt.1 hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.init hah-ar.init.2 khah-ar dal-ar dal-ar.fina thal-ar ddal-ar dul-ar reh-ar reh-ar.fina zain-ar rreh-ar rehVbelow-ar jeh-ar seen-ar seen-ar.fina seen-ar.medi seen-ar.init sheen-ar sad-ar sad-ar.fina sad-ar.medi sad-ar.init dad-ar tah-ar tah-ar.fina tah-ar.medi tah-ar.init zah-ar ain-ar ain-ar.fina ain-ar.fina.1 ain-ar.medi ain-ar.medi.1 ain-ar.init ainThreedots-ar ghain-ar feh-ar veh-ar fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina qaf-ar kaf-ar kaf-ar.fina kaf-ar.fina.1 kaf-ar.medi kaf-ar.medi.1 kaf-ar.init kaf-ar.init.1 keheh-ar kehehDotabove-ar gaf-ar kafDotabove-ar lam-ar lam-ar.fina lam-ar.medi lam-ar.medi.Alef lam-ar.init lam-ar.init.Alef lam-ar.init.Alef.1 lam-ar.init.Hah lamVabove-ar meem-ar meem-ar.1 meem-ar.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi meem-ar.medi.1 meem-ar.init noon-ar noonghunna-ar noonghunna-ar.fina rnoon-ar noonRing-ar noonThreedotsabove-ar heh-ar heh-ar.1 heh-ar.isol heh-ar.fina heh-ar.fina.1 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 hehHamzaabove-ar hehgoal-ar hehgoalHamzaabove-ar hehDoachashmee-ar tehMarbuta-ar tehMarbutagoal-ar waw-ar waw-ar.fina waw-ar.fina.1 wawTwodots-ar wawDotabove-ar wawHamzaabove-ar oe-ar ve-ar alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.fina alefMaksura-ar.fina.1 yeh-ar yehHamzaabove-ar yehVabove-ar yeh-farsi e-ar yehbarree-ar yehbarree-ar.fina yehbarreeHamzaabove-ar ae-ar kashida-ar";
+code = "hamza-ar highhamza-ar alef-ar alef-ar.1 alef-ar.2 alef-ar.3 alef-ar.fina alef-ar.fina.Lam alef-ar.fina.Lam.1 alefHamzaabove-ar alefHamzabelow-ar alefMadda-ar alefWasla-ar behDotless-ar behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.medi.high.wide behDotless-ar.medi.high.wider behDotless-ar.medi.wide behDotless-ar.medi.wider behDotless-ar.init behDotless-ar.init.Hah behDotless-ar.init.wide beh-ar peh-ar teh-ar theh-ar tteh-ar tteheh-ar jeem-ar tcheh-ar hah-ar hah-ar.alt hah-ar.fina hah-ar.fina.1 hah-ar.fina.alt hah-ar.fina.alt.1 hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.init hah-ar.init.2 khah-ar dal-ar dal-ar.fina thal-ar ddal-ar dul-ar reh-ar reh-ar.fina zain-ar rreh-ar rehVbelow-ar jeh-ar seen-ar seen-ar.fina seen-ar.medi seen-ar.init sheen-ar sad-ar sad-ar.fina sad-ar.medi sad-ar.init dad-ar tah-ar tah-ar.fina tah-ar.medi tah-ar.init zah-ar ain-ar ain-ar.fina ain-ar.fina.1 ain-ar.medi ain-ar.medi.1 ain-ar.init ainThreedots-ar ghain-ar feh-ar veh-ar fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina qaf-ar kaf-ar kaf-ar.fina kaf-ar.fina.1 kaf-ar.medi kaf-ar.medi.1 kaf-ar.init kaf-ar.init.1 keheh-ar kehehDotabove-ar gaf-ar kafDotabove-ar lam-ar lam-ar.fina lam-ar.medi lam-ar.medi.Alef lam-ar.init lam-ar.init.Alef lam-ar.init.Alef.1 lam-ar.init.Hah lamVabove-ar meem-ar meem-ar.1 meem-ar.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi meem-ar.medi.1 meem-ar.init noon-ar noonghunna-ar noonghunna-ar.fina rnoon-ar noonRing-ar noonThreedotsabove-ar heh-ar heh-ar.1 heh-ar.isol heh-ar.fina heh-ar.fina.1 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 hehHamzaabove-ar hehgoal-ar hehgoalHamzaabove-ar hehDoachashmee-ar tehMarbuta-ar tehMarbutagoal-ar waw-ar waw-ar.fina waw-ar.fina.1 wawTwodots-ar wawDotabove-ar wawHamzaabove-ar oe-ar ve-ar alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.fina alefMaksura-ar.fina.1 yeh-ar yehHamzaabove-ar yehVabove-ar yeh-farsi e-ar yehbarree-ar yehbarree-ar.fina yehbarreeHamzaabove-ar ae-ar kashida-ar";
 name = ArabicLetters;
 }
 );
@@ -365,7 +365,7 @@ feature rclt {
          noonghunna-ar.fina
      by  behDotless-ar.medi.high;
 
-  @WideMarksAbove = [twodotshorizontalabove-ar threedotsupabove-ar hamzaabove-ar tahabove-ar];
+  @WideMarksAbove = [twodotshorizontalabove-ar threedotsupabove-ar hamzaabove-ar tahabove-ar vabove-ar];
   @WideMarksBelow = [twodotshorizontalbelow-ar threedotsdownbelow-ar hamzabelow-ar];
 
   lookupflag UseMarkFilteringSet @WideMarksBelow;
@@ -384,6 +384,12 @@ feature rclt {
         @WideMarksAbove
         [behDotless-ar.medi behDotless-ar.medi.high]' @WideMarksAbove
      by [behDotless-ar.medi.wide behDotless-ar.medi.high.wide];
+
+    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high]'
+        @WideMarksAbove
+        reh-ar.fina
+        @WideMarksAbove
+     by [behDotless-ar.init.wide behDotless-ar.medi.wider behDotless-ar.medi.high.wider];
 } rclt;
 
 feature rclt {
@@ -2732,6 +2738,113 @@ nodes = (
 );
 visible = 1;
 width = 0;
+}
+);
+},
+{
+glyphname = "behDotless-ar.init.wide";
+layers = (
+{
+anchors = (
+{
+name = dotAbove;
+position = "{183, 483}";
+},
+{
+name = dotBelow;
+position = "{183, -150}";
+},
+{
+name = hamzaAbove;
+position = "{175, 422}";
+},
+{
+name = markAbove;
+position = "{183, 550}";
+},
+{
+name = markBelow;
+position = "{183, -150}";
+}
+);
+layerId = master01;
+paths = (
+{
+closed = 1;
+nodes = (
+"260 0 LINE",
+"260 0 OFFCURVE",
+"300 -2 OFFCURVE",
+"300 23 CURVE SMOOTH",
+"300 300 LINE",
+"200 278 LINE",
+"200 100 LINE",
+"80 100 LINE",
+"80 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"109 0 LINE",
+"109 100 LINE",
+"-20 100 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 325;
+},
+{
+anchors = (
+{
+name = dotAbove;
+position = "{183, 523}";
+},
+{
+name = dotBelow;
+position = "{183, -150}";
+},
+{
+name = hamzaAbove;
+position = "{175, 462}";
+},
+{
+name = markAbove;
+position = "{183, 590}";
+},
+{
+name = markBelow;
+position = "{183, -150}";
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+paths = (
+{
+closed = 1;
+nodes = (
+"260 0 LINE",
+"260 0 OFFCURVE",
+"300 -2 OFFCURVE",
+"300 23 CURVE SMOOTH",
+"300 340 LINE",
+"160 309 LINE",
+"160 140 LINE",
+"80 140 LINE",
+"80 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"109 0 LINE",
+"109 140 LINE",
+"-20 140 LINE",
+"-20 0 LINE"
+);
+}
+);
+width = 325;
 }
 );
 },
