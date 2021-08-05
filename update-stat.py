@@ -39,6 +39,10 @@ def main():
         if n.nameID == 6:
             psname = str(n).split("-")[0]
             n.string = psname
+        elif n.nameID == 3:
+            n.string = str(n).split("-")[0]
+        elif n.nameID == 4:
+            n.string = str(n).replace(" Regular", "")
     for instance in fvar.instances:
         if instance.postscriptNameID == 0xFFFF:
             n = name.getDebugName(instance.subfamilyNameID)
