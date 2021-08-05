@@ -4799,7 +4799,7 @@ width = 225;
 unicode = 0691;
 },
 {
-color = 3;
+color = 0;
 glyphname = "rehVbelow-ar";
 layers = (
 {
@@ -8444,7 +8444,7 @@ width = 0;
 );
 },
 {
-color = 3;
+color = 0;
 glyphname = "lamVabove-ar";
 layers = (
 {
@@ -9380,7 +9380,7 @@ width = 460;
 unicode = 06BB;
 },
 {
-color = 3;
+color = 0;
 glyphname = "noonRing-ar";
 layers = (
 {
@@ -11412,7 +11412,7 @@ width = 422;
 );
 },
 {
-color = 3;
+color = 0;
 glyphname = "wawTwodots-ar";
 layers = (
 {
@@ -11511,7 +11511,7 @@ width = 390;
 unicode = 0624;
 },
 {
-color = 3;
+color = 0;
 glyphname = "oe-ar";
 layers = (
 {
@@ -11544,7 +11544,7 @@ width = 390;
 unicode = 06C6;
 },
 {
-color = 3;
+color = 0;
 glyphname = "ve-ar";
 layers = (
 {
@@ -12206,7 +12206,7 @@ width = 725;
 unicode = 0626;
 },
 {
-color = 3;
+color = 0;
 glyphname = "yehVabove-ar";
 layers = (
 {
@@ -12264,7 +12264,7 @@ width = 725;
 unicode = 06CC;
 },
 {
-color = 3;
+color = 0;
 glyphname = "e-ar";
 layers = (
 {
@@ -12580,7 +12580,6 @@ width = 1045;
 unicode = 06D3;
 },
 {
-color = 3;
 glyphname = "ae-ar";
 layers = (
 {
@@ -14882,7 +14881,6 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
-color = 3;
 glyphname = "twodotsverticalbelow-ar";
 layers = (
 {
@@ -15230,7 +15228,6 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
-color = 3;
 glyphname = "ringbelow-ar";
 layers = (
 {
@@ -16420,7 +16417,6 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
-color = 3;
 glyphname = "vabove-ar";
 layers = (
 {
@@ -16485,7 +16481,6 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
-color = 3;
 glyphname = "vbelow-ar";
 layers = (
 {
