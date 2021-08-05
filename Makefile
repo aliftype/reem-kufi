@@ -46,17 +46,23 @@ $(NAME)-%.otf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,otf,$<,$@,$*)
 
-$(NAME).otf: $(BUILDDIR)/$(NAME).glyphs
+$(BUILDDIR)/$(NAME).otf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,variable-cff2,$<,$@)
+
+$(NAME).otf: $(BUILDDIR)/$(NAME).otf
+	@$(PYTHON) update-stat.py $< $@
 
 $(NAME)-%.ttf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,ttf,$<,$@,$*)
 
-$(NAME).ttf: $(BUILDDIR)/$(NAME).glyphs
+$(BUILDDIR)/$(NAME).ttf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,variable,$<,$@)
+
+$(NAME).ttf: $(BUILDDIR)/$(NAME).ttf
+	@$(PYTHON) update-stat.py $< $@
 
 $(BUILDDIR)/$(NAME).glyphs: $(NAME).glyphs $(LATIN).glyphs $(BUILDDIR)
 	@echo "   GEN	$(@F)"

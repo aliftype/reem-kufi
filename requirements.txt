@@ -28,6 +28,7 @@ fontmath==0.8.1
     # via fontmake
 fonttools[lxml,ufo,unicode]==4.26.1
     # via
+    #   -r requirements.in
     #   booleanoperations
     #   cffsubr
     #   compreffor
