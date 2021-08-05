@@ -21,19 +21,30 @@ def axis_value(instance, name):
 def main():
     parser = argparse.ArgumentParser(description="Update STAT table.")
     parser.add_argument("input", metavar="FILE", help="input font to process")
-    parser.add_argument("output", metavar="FILE", help="output font to svae")
+    parser.add_argument("output", metavar="FILE", help="output font to save")
 
     args = parser.parse_args()
 
     font = TTFont(args.input)
     STAT = font["STAT"]
+    fvar = font["fvar"]
+    name = font["name"]
     if not STAT.table.AxisValueArray:
-        fvar = font["fvar"]
-        name = font["name"]
         STAT.table.AxisValueArray = ot.AxisValueArray()
         STAT.table.AxisValueArray.AxisValue = [
             axis_value(i, name.getDebugName(i.subfamilyNameID)) for i in fvar.instances
         ]
+    name.names = [n for n in name.names if n.platformID == 3]
+    for n in name.names:
+        if n.nameID == 6:
+            psname = str(n).split("-")[0]
+            n.string = psname
+    for instance in fvar.instances:
+        if instance.postscriptNameID == 0xFFFF:
+            n = name.getDebugName(instance.subfamilyNameID)
+            instance.postscriptNameID = name.addMultilingualName(
+                {"en": f"{psname}-{n}"}, mac=False
+            )
 
     font.save(args.output)
 
