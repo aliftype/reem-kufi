@@ -2009,10 +2009,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"200 190 LINE",
-"200 350 LINE",
-"100 328 LINE",
-"100 190 LINE"
+"200 210 LINE",
+"200 370 LINE",
+"100 348 LINE",
+"100 210 LINE"
 );
 }
 );
@@ -2060,10 +2060,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"200 190 LINE",
-"200 390 LINE",
-"60 359 LINE",
-"60 190 LINE"
+"200 210 LINE",
+"200 410 LINE",
+"60 379 LINE",
+"60 210 LINE"
 );
 }
 );
