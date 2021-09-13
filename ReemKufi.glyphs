@@ -378,7 +378,9 @@ feature rclt {
 } rclt;
 
 feature rclt {
-  @ar23DotBelow2 = [twodotshorizontalbelow-ar threedotsdownbelow-ar];
+  @ar23DotBelow2 = [twodotshorizontalbelow-ar threedotsdownbelow-ar
+                    twodotshorizontalbelow-ar.ss01 threedotsdownbelow-ar.ss01
+                    twodotshorizontalbelow-ar.ss02 threedotsdownbelow-ar.ss02];
   lookupflag UseMarkFilteringSet @ar23DotBelow2;
     pos [reh-ar reh-ar.fina]' <100 0 100 0> behDotless-ar.init @ar23DotBelow2;
 } rclt;
