@@ -434,7 +434,6 @@ value = "نقاط وعلامات تشكيل ملونة";
 tag = ss01;
 },
 {
-automatic = 1;
 code = "sub dotabove-ar by dotabove-ar.ss02;
 sub dotbelow-ar by dotbelow-ar.ss02;
 sub dotcenter-ar by dotcenter-ar.ss02;
@@ -449,6 +448,22 @@ sub threedotsupbelow-ar by threedotsupbelow-ar.ss02;
 sub hamzaabove-ar by hamzaabove-ar.ss02;
 sub hamzabelow-ar by hamzabelow-ar.ss02;
 sub madda-ar by madda-ar.ss02;
+
+sub tahabove-ar by tahabove-ar.ss01;
+sub wasla-ar by wasla-ar.ss01;
+sub alefabove-ar by alefabove-ar.ss01;
+sub alefbelow-ar by alefbelow-ar.ss01;
+sub fathatan-ar by fathatan-ar.ss01;
+sub dammatan-ar by dammatan-ar.ss01;
+sub kasratan-ar by kasratan-ar.ss01;
+sub fatha-ar by fatha-ar.ss01;
+sub damma-ar by damma-ar.ss01;
+sub kasra-ar by kasra-ar.ss01;
+sub shadda-ar by shadda-ar.ss01;
+sub sukun-ar by sukun-ar.ss01;
+sub vabove-ar by vabove-ar.ss01;
+sub vbelow-ar by vbelow-ar.ss01;
+sub hahabove-ar by hahabove-ar.ss01;
 ";
 labels = (
 {
