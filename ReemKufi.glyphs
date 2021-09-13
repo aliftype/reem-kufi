@@ -432,6 +432,35 @@ value = "نقاط وعلامات تشكيل ملونة";
 }
 );
 tag = ss01;
+},
+{
+automatic = 1;
+code = "sub dotabove-ar by dotabove-ar.ss02;
+sub dotbelow-ar by dotbelow-ar.ss02;
+sub dotcenter-ar by dotcenter-ar.ss02;
+sub twodotsverticalabove-ar by twodotsverticalabove-ar.ss02;
+sub twodotsverticalbelow-ar by twodotsverticalbelow-ar.ss02;
+sub twodotshorizontalabove-ar by twodotshorizontalabove-ar.ss02;
+sub twodotshorizontalbelow-ar by twodotshorizontalbelow-ar.ss02;
+sub threedotsdownabove-ar by threedotsdownabove-ar.ss02;
+sub threedotsdownbelow-ar by threedotsdownbelow-ar.ss02;
+sub threedotsupabove-ar by threedotsupabove-ar.ss02;
+sub threedotsupbelow-ar by threedotsupbelow-ar.ss02;
+sub hamzaabove-ar by hamzaabove-ar.ss02;
+sub hamzabelow-ar by hamzabelow-ar.ss02;
+sub madda-ar by madda-ar.ss02;
+";
+labels = (
+{
+language = ENG;
+value = "Colored heart-shaped dots";
+},
+{
+language = ARA;
+value = "نقاط ملونة على شكل قلب";
+}
+);
+tag = ss02;
 }
 );
 fontMaster = (
@@ -14631,6 +14660,97 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+glyphname = "dotabove-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (58,0);
+},
+{
+name = markAbove;
+pos = (58,150);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,-54,o),
+(120,-28,o),
+(120,8,cs),
+(120,29,o),
+(107,50,o),
+(87,50,cs),
+(70,50,o),
+(61,33,o),
+(58,24,c),
+(55,33,o),
+(46,50,o),
+(29,50,cs),
+(9,50,o),
+(-4,29,o),
+(-4,8,cs),
+(-4,-28,o),
+(29,-54,o),
+(58,-58,c)
+);
+}
+);
+width = 116;
+},
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (58,0);
+},
+{
+name = markAbove;
+pos = (58,150);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,-54,o),
+(120,-28,o),
+(120,8,cs),
+(120,29,o),
+(107,50,o),
+(87,50,cs),
+(70,50,o),
+(61,33,o),
+(58,24,c),
+(55,33,o),
+(46,50,o),
+(29,50,cs),
+(9,50,o),
+(-4,29,o),
+(-4,8,cs),
+(-4,-28,o),
+(29,-54,o),
+(58,-58,c)
+);
+}
+);
+width = 116;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
 glyphname = "dotbelow-ar";
 layers = (
 {
@@ -14727,6 +14847,57 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+glyphname = "dotbelow-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (58,0);
+},
+{
+name = markBelow;
+pos = (58,-100);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+ref = "dotabove-ar.ss02";
+}
+);
+width = 116;
+},
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (58,0);
+},
+{
+name = markBelow;
+pos = (58,-100);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "dotabove-ar.ss02";
+}
+);
+width = 116;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
 glyphname = "dotcenter-ar";
 layers = (
 {
@@ -14807,6 +14978,49 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+glyphname = "dotcenter-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (58,0);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+ref = "dotbelow-ar.ss02";
+}
+);
+width = 116;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (58,0);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "dotbelow-ar.ss02";
+}
+);
+width = 116;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
 glyphname = "twodotsverticalabove-ar";
 layers = (
 {
@@ -14861,6 +15075,51 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = "twodotsverticalabove-ar.alt";
+layers = (
+{
+anchors = (
+{
+name = _dotAbove.alt;
+pos = (58,0);
+},
+{
+name = markAbove;
+pos = (58,319);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "twodotsverticalabove-ar";
+}
+);
+width = 116;
+},
+{
+anchors = (
+{
+name = _dotAbove.alt;
+pos = (58,0);
+},
+{
+name = markAbove;
+pos = (58,319);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "twodotsverticalabove-ar";
+}
+);
+width = 116;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+glyphname = "twodotsverticalabove-ar.alt.001";
 layers = (
 {
 anchors = (
@@ -15007,6 +15266,65 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+glyphname = "twodotsverticalabove-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (58,0);
+},
+{
+name = markAbove;
+pos = (58,319);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+pos = (0,170);
+ref = "dotabove-ar.ss02";
+},
+{
+ref = "dotabove-ar.ss02";
+}
+);
+width = 116;
+},
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (58,0);
+},
+{
+name = markAbove;
+pos = (58,319);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,170);
+ref = "dotabove-ar.ss02";
+},
+{
+ref = "dotabove-ar.ss02";
+}
+);
+width = 116;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
 glyphname = "twodotsverticalbelow-ar";
 layers = (
 {
@@ -15096,6 +15414,59 @@ layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
 ref = "twodotsverticalbelow-ar";
+}
+);
+width = 116;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+glyphname = "twodotsverticalbelow-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (58,0);
+},
+{
+name = markBelow;
+pos = (58,-270);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+pos = (0,-169);
+ref = "twodotsverticalabove-ar.ss02";
+}
+);
+width = 116;
+},
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (58,0);
+},
+{
+name = markBelow;
+pos = (58,-270);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-169);
+ref = "twodotsverticalabove-ar.ss02";
 }
 );
 width = 116;
@@ -15209,6 +15580,65 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+glyphname = "twodotshorizontalabove-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (145,0);
+},
+{
+name = markAbove;
+pos = (145,150);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+pos = (173,0);
+ref = "dotabove-ar.ss02";
+},
+{
+ref = "dotabove-ar.ss02";
+}
+);
+width = 289;
+},
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (145,0);
+},
+{
+name = markAbove;
+pos = (145,150);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (173,0);
+ref = "dotabove-ar.ss02";
+},
+{
+ref = "dotabove-ar.ss02";
+}
+);
+width = 289;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
 glyphname = "twodotshorizontalbelow-ar";
 layers = (
 {
@@ -15305,6 +15735,57 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+glyphname = "twodotshorizontalbelow-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (145,0);
+},
+{
+name = markBelow;
+pos = (145,-100);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+ref = "twodotshorizontalabove-ar.ss02";
+}
+);
+width = 289;
+},
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (145,0);
+},
+{
+name = markBelow;
+pos = (145,-100);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "twodotshorizontalabove-ar.ss02";
+}
+);
+width = 289;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
 glyphname = "threedotsdownabove-ar";
 layers = (
 {
@@ -15373,13 +15854,63 @@ name = markAbove;
 pos = (145,299);
 }
 );
+layerId = master01;
+shapes = (
+{
+ref = "threedotsdownabove-ar";
+}
+);
+width = 289;
+},
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (145,0);
+},
+{
+name = markAbove;
+pos = (145,299);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "threedotsdownabove-ar";
+}
+);
+width = 289;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+glyphname = "threedotsdownabove-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (145,0);
+},
+{
+name = markAbove;
+pos = (145,299);
+}
+);
 attr = {
 colorPalette = 0;
 };
 layerId = master01;
 shapes = (
 {
-ref = "threedotsdownabove-ar";
+pos = (87,0);
+ref = "dotabove-ar.ss02";
+},
+{
+pos = (0,150);
+ref = "twodotshorizontalabove-ar.ss02";
 }
 );
 width = 289;
@@ -15401,7 +15932,12 @@ colorPalette = 0;
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-ref = "threedotsdownabove-ar";
+pos = (87,0);
+ref = "dotabove-ar.ss02";
+},
+{
+pos = (0,150);
+ref = "twodotshorizontalabove-ar.ss02";
 }
 );
 width = 289;
@@ -15500,6 +16036,59 @@ layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
 ref = "threedotsdownbelow-ar";
+}
+);
+width = 289;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+glyphname = "threedotsdownbelow-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (145,0);
+},
+{
+name = markBelow;
+pos = (145,-250);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+pos = (0,-150);
+ref = "threedotsdownabove-ar.ss02";
+}
+);
+width = 289;
+},
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (145,0);
+},
+{
+name = markBelow;
+pos = (145,-250);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-150);
+ref = "threedotsdownabove-ar.ss02";
 }
 );
 width = 289;
@@ -15613,6 +16202,65 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+glyphname = "threedotsupabove-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (145,0);
+},
+{
+name = markAbove;
+pos = (145,299);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+pos = (87,150);
+ref = "dotabove-ar.ss02";
+},
+{
+ref = "twodotshorizontalabove-ar.ss02";
+}
+);
+width = 289;
+},
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (145,0);
+},
+{
+name = markAbove;
+pos = (145,299);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (87,150);
+ref = "dotabove-ar.ss02";
+},
+{
+ref = "twodotshorizontalabove-ar.ss02";
+}
+);
+width = 289;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
 glyphname = "threedotsupbelow-ar";
 layers = (
 {
@@ -15702,6 +16350,59 @@ layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
 ref = "threedotsupbelow-ar";
+}
+);
+width = 289;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+glyphname = "threedotsupbelow-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (145,0);
+},
+{
+name = markBelow;
+pos = (145,-250);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+pos = (0,-150);
+ref = "threedotsupabove-ar.ss02";
+}
+);
+width = 289;
+},
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (145,0);
+},
+{
+name = markBelow;
+pos = (145,-250);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-150);
+ref = "threedotsupabove-ar.ss02";
 }
 );
 width = 289;
@@ -16294,6 +16995,73 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
+glyphname = "hamzaabove-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _hamzaAbove;
+pos = (135,0);
+},
+{
+name = markAbove;
+pos = (135,250);
+}
+);
+attr = {
+colorPalette = 1;
+};
+layerId = master01;
+shapes = (
+{
+angle = 90;
+pos = (49,-4);
+ref = "dotabove-ar.ss02";
+scale = (0.6561,0.6561);
+},
+{
+pos = (72,88);
+ref = "dotabove-ar.ss02";
+scale = (1.5242,1.5242);
+}
+);
+width = 270;
+},
+{
+anchors = (
+{
+name = _hamzaAbove;
+pos = (135,0);
+},
+{
+name = markAbove;
+pos = (135,250);
+}
+);
+attr = {
+colorPalette = 1;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+angle = 90;
+pos = (49,-4);
+ref = "dotabove-ar.ss02";
+scale = (0.6561,0.6561);
+},
+{
+pos = (72,88);
+ref = "dotabove-ar.ss02";
+scale = (1.5242,1.5242);
+}
+);
+width = 270;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
 glyphname = "hamzabelow-ar";
 layers = (
 {
@@ -16384,6 +17152,59 @@ layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
 ref = "hamzabelow-ar";
+}
+);
+width = 270;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+glyphname = "hamzabelow-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _hamzaBelow;
+pos = (135,0);
+},
+{
+name = markBelow;
+pos = (135,-210);
+}
+);
+attr = {
+colorPalette = 1;
+};
+layerId = master01;
+shapes = (
+{
+pos = (0,-168);
+ref = "hamzaabove-ar.ss02";
+}
+);
+width = 270;
+},
+{
+anchors = (
+{
+name = _hamzaBelow;
+pos = (135,0);
+},
+{
+name = markBelow;
+pos = (135,-210);
+}
+);
+attr = {
+colorPalette = 1;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-168);
+ref = "hamzaabove-ar.ss02";
 }
 );
 width = 270;
@@ -17521,6 +18342,81 @@ layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
 ref = "madda-ar";
+}
+);
+width = 315;
+}
+);
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+glyphname = "madda-ar.ss02";
+layers = (
+{
+anchors = (
+{
+name = _hamzaAbove;
+pos = (141,0);
+},
+{
+name = _markAbove;
+pos = (141,-50);
+}
+);
+attr = {
+colorPalette = 1;
+};
+layerId = master01;
+shapes = (
+{
+pos = (26,37);
+ref = "dotabove-ar.ss02";
+scale = (0.6561,0.6561);
+},
+{
+pos = (113,37);
+ref = "dotabove-ar.ss02";
+scale = (0.6561,0.6561);
+},
+{
+pos = (201,37);
+ref = "dotabove-ar.ss02";
+scale = (0.6561,0.6561);
+}
+);
+width = 315;
+},
+{
+anchors = (
+{
+name = _hamzaAbove;
+pos = (150,0);
+},
+{
+name = _markAbove;
+pos = (150,-50);
+}
+);
+attr = {
+colorPalette = 1;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (26,37);
+ref = "dotabove-ar.ss02";
+scale = (0.6561,0.6561);
+},
+{
+pos = (113,37);
+ref = "dotabove-ar.ss02";
+scale = (0.6561,0.6561);
+},
+{
+pos = (201,37);
+ref = "dotabove-ar.ss02";
+scale = (0.6561,0.6561);
 }
 );
 width = 315;
