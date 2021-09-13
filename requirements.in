@@ -1,5 +1,6 @@
 fonttools
 fontmake
-glyphsLib
+#glyphsLib
+git+git://github.com/khaledhosny/glyphsLib@fork#egg=glyphsLib
 skia-pathops
 svgutils
