@@ -1,5 +1,6 @@
 VERSION=1.2
 NAME=ReemKufi
+COLOR=Fun
 LATIN=JosefinSans
 
 DIST=$(NAME)-$(VERSION)
@@ -10,8 +11,8 @@ PYTHON ?= python3
 
 FONTS=Regular Medium SemiBold Bold
 
-OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf
-TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf
+OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf $(NAME)$(COLOR).otf
+TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf $(NAME)$(COLOR).ttf
 SVG=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.svg)
 SAMPLE=Sample.svg
 
@@ -52,6 +53,10 @@ $(BUILDDIR)/$(NAME).otf: $(BUILDDIR)/$(NAME).glyphs
 
 $(NAME).otf: $(BUILDDIR)/$(NAME).otf
 	@$(PYTHON) update-stat.py $< $@
+
+$(NAME)$(COLOR).%: $(NAME).%
+	@echo "   MAKE	$(@F)"
+	@$(PYTHON) rename-color.py $< $@ $(COLOR) ss02
 
 $(NAME)-%.ttf: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   MAKE	$(@F)"
