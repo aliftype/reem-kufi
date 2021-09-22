@@ -19,7 +19,7 @@ SAMPLE=Sample.svg
 export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" $(NAME).glyphs)
 
 define generate_fonts
-fontmake --glyphs $(2)                                                         \
+fontmake --mm-designspace $(2)                                                 \
          --output $(1)                                                         \
          --output-path $(3)                                                    \
          $(if $(4),--interpolate '.* $(4)',)                                   \
@@ -27,8 +27,6 @@ fontmake --glyphs $(2)                                                         \
          --overlaps-backend pathops                                            \
          --optimize-cff 1                                                      \
          --flatten-components                                                  \
-         --master-dir '{tmp}'                                                  \
-         --instance-dir '{tmp}'                                                \
          ;
 endef
 
@@ -40,14 +38,12 @@ doc: $(SAMPLE)
 
 SHELL=/usr/bin/env bash
 
-$(BUILDDIR):
-	@mkdir -p $(BUILDDIR)
 
-$(NAME)-%.otf: $(BUILDDIR)/$(NAME).glyphs
+$(NAME)-%.otf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,otf,$<,$@,$*)
 
-$(BUILDDIR)/$(NAME).otf: $(BUILDDIR)/$(NAME).glyphs
+$(BUILDDIR)/$(NAME).otf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,variable-cff2,$<,$@)
 
@@ -58,23 +54,35 @@ $(NAME)$(COLOR).%: $(NAME).%
 	@echo "   MAKE	$(@F)"
 	@$(PYTHON) rename-color.py $< $@ $(COLOR) ss02
 
-$(NAME)-%.ttf: $(BUILDDIR)/$(NAME).glyphs
+$(NAME)-%.ttf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,ttf,$<,$@,$*)
 
-$(BUILDDIR)/$(NAME).ttf: $(BUILDDIR)/$(NAME).glyphs
+$(BUILDDIR)/$(NAME).ttf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,variable,$<,$@)
 
 $(NAME).ttf: $(BUILDDIR)/$(NAME).ttf
 	@$(PYTHON) update-stat.py $< $@
 
-$(BUILDDIR)/$(NAME).glyphs: $(NAME).glyphs $(LATIN).glyphs $(BUILDDIR)
+$(BUILDDIR)/$(NAME).glyphs: $(NAME).glyphs $(LATIN).glyphs
 	@echo "   GEN	$(@F)"
+	@mkdir -p $(BUILDDIR)
 	@$(PYTHON) prepare.py --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
 
-$(BUILDDIR)/$(NAME)-%.svg: $(NAME)-%.otf $(BUILDDIR)
+$(BUILDDIR)/$(NAME).designspace: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   GEN	$(@F)"
+	@glyphs2ufo -m $(BUILDDIR)                                             \
+		    --minimal                                                  \
+		    --generate-GDEF                                            \
+		    --write-public-skip-export-glyphs                          \
+		    --no-preserve-glyphsapp-metadata                           \
+		    --no-store-editor-state                                    \
+		    $<
+
+$(BUILDDIR)/$(NAME)-%.svg: $(NAME)-%.otf
+	@echo "   GEN	$(@F)"
+	@mkdir -p $(BUILDDIR)
 	@hb-view --font-file=$< \
 		 --output-file=$@ \
 		 --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
