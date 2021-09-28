@@ -11,6 +11,8 @@ PYTHON ?= python3
 
 FONTS=Regular Medium SemiBold Bold
 
+BASE=$(FONTS:%=$(NAME)-%.otf)
+
 OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf $(NAME)$(COLOR).otf
 TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf $(NAME)$(COLOR).ttf
 SVG=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.svg)
@@ -80,17 +82,12 @@ $(BUILDDIR)/$(NAME).designspace: $(BUILDDIR)/$(NAME).glyphs
 		    --no-store-editor-state                                    \
 		    $<
 
-$(BUILDDIR)/$(NAME)-%.svg: $(NAME)-%.otf
-	@echo "   GEN	$(@F)"
-	@mkdir -p $(BUILDDIR)
-	@hb-view --font-file=$< \
-		 --output-file=$@ \
-		 --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
-		 --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]"
-
-$(SAMPLE): $(SVG)
+$(SAMPLE): $(BASE)
 	@echo "   SAMPLE    $(@F)"
-	@$(PYTHON) mksample.py -o $@ $+
+	@$(PYTHON) mksample.py $+ \
+	  --output=$@ \
+	  --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
+          --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]"
 
 dist: ttf
 	@mkdir -p $(NAME)-$(VERSION)/ttf
