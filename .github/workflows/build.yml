@@ -20,4 +20,4 @@ jobs:
         python -m pip install -r requirements.txt
     - name: Build
       run: |
-        make -B otf ttf
+        make -B dist
