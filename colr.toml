@@ -1,0 +1,25 @@
+family = "COLR"
+upem = 1000
+width = 0
+ascender = 1100
+descender = -400
+linegap = 0
+transform = "translate(0, 0)"
+version_major = 1
+version_minor = 0
+reuse_tolerance = 0.1
+ignore_reuse_error = true
+keep_glyph_names = true
+clip_to_viewbox = true
+pretty_print = false
+
+[axis.wght]
+name = "Weight"
+default = 400
+
+[master.regular]
+style_name = "Regular"
+srcs = ["*.svg"]
+
+[master.regular.position]
+wght = 400

@@ -13,7 +13,7 @@ FONTS=Regular Medium SemiBold Bold
 
 BASE=$(FONTS:%=$(NAME)-%.otf)
 
-OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf $(NAME)$(COLOR).otf
+OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf $(NAME)$(COLOR).otf $(NAME)$(COLOR)V1-Regular.otf $(NAME)$(COLOR)V1-Bold.otf
 TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf $(NAME)$(COLOR).ttf
 SVG=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.svg)
 SAMPLE=Sample.svg
@@ -38,8 +38,51 @@ otf: $(OTF)
 ttf: $(TTF)
 doc: $(SAMPLE)
 
+.SECONDARY:
+
 SHELL=/usr/bin/env bash
 
+
+SVGS_ = $(notdir $(wildcard Images/Regular/*.svg))
+SVGS = $(SVGS_:%=\%/%)
+
+COLRDIR = $(BUILDDIR)/colr
+
+
+$(COLRDIR)/%.svg: Images/%.svg
+	@echo "   PICO	$(@F)"
+	@mkdir -p $(@D)
+	@picosvg --output_file $@ $<
+
+$(COLRDIR)/%/colr.toml: colr.toml
+	@mkdir -p $(@D)
+	@cp $< $@
+
+%/colr.fea:
+	@mkdir -p $(@D)
+	@touch $@
+
+%/codepointmap.csv %/glyphnamemap.csv: $(NAME).glyphs
+	@mkdir -p $(@D)
+	@$(PYTHON) make-nanoempji-maps.py $< $(@D)
+
+%/glyphnamemap.csv: %/codepointmap.csv
+
+%/colr.otf: %/colr.toml %/codepointmap.csv %/colr.fea $(SVGS)
+	@echo "   MAKE	$(@F)"
+	@$(PYTHON) -m nanoemoji.write_font -v -1 \
+		      --config_file $< \
+		      --color_format cff_colr_1 \
+		      --codepointmap_file $*/codepointmap.csv \
+		      --fea_file $*/colr.fea \
+		      --output_file $@
+
+$(NAME)$(COLOR)V1-%.otf: $(NAME)-%.otf $(COLRDIR)/%/colr.otf $(COLRDIR)/%/glyphnamemap.csv
+	@echo "   MAKE	$(@F)"
+	@$(PYTHON) copy-colrv1.py $< \
+		                $(COLRDIR)/$*/colr.otf \
+				$(COLRDIR)/$*/glyphnamemap.csv \
+				$@
 
 $(NAME)-%.otf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"

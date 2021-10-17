@@ -26,7 +26,7 @@ value = 1;
 },
 {
 name = "Don't use Production Names";
-value = 0;
+value = 1;
 },
 {
 name = "Use Line Breaks";
