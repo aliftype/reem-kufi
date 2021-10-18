@@ -10,6 +10,6 @@
   <sodipodi:guide position="0,400" orientation="0,-1"/>
  </sodipodi:namedview>
  <g transform="matrix(1 0 0 -1 0 1100.0)">
-  <path d="M-20.0 0.0H160.0C160.0 0.0 200.0 -2.0 200.0 23.0V340.0L60.0 309.0V140.0H-20.0V0.0Z" />
+  <path opacity="0.75" d="M-20.0 0.0H160.0C160.0 0.0 200.0 -2.0 200.0 23.0V340.0L60.0 309.0V140.0H-20.0V0.0Z" />
  </g>
 </svg>
