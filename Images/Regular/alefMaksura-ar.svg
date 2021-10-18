@@ -134,7 +134,12 @@
      objecttolerance="1"
      gridtolerance="1"
      guidetolerance="1"
-     inkscape:current-layer="svg3075" />
+     inkscape:current-layer="svg3075">
+    <sodipodi:guide
+       position="0,400"
+       orientation="0,-1"
+       id="guide22" />
+  </sodipodi:namedview>
   <g
      transform="matrix(1,0,0,-1,20,1100)"
      id="g6903"

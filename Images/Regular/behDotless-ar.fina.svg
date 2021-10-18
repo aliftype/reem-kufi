@@ -1,5 +1,14 @@
 <?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 925.0 1500.0" width="925.0" height="1500.0">
+<svg
+   version="1.1"
+   viewBox="0 0 925.0 1500.0"
+   width="925.0"
+   height="1500.0"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+ <sodipodi:namedview objecttolerance="1" gridtolerance="1" guidetolerance="1">
+  <sodipodi:guide position="0,400" orientation="0,-1"/>
+ </sodipodi:namedview>
  <g transform="matrix(1 0 0 -1 0 1100.0)">
   <path d="M725.0 0.0H945.0V100.0H725.0V0.0ZM410.0 390.0ZM410.0 -150.0ZM400.0 332.0ZM410.0 550.0ZM410.0 -150.0ZM25.0 0.0H725.0V100.0H85.0L25.0 0.0ZM708.0 483.0ZM708.0 -150.0ZM700.0 422.0ZM708.0 550.0ZM708.0 -150.0ZM605.0 0.0H785.0C785.0 0.0 825.0 -2.0 825.0 23.0V300.0L725.0 278.0V100.0H605.0V0.0Z" />
  </g>

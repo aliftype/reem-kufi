@@ -103,7 +103,15 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:current-layer="svg13" />
+     inkscape:current-layer="svg13"
+     objecttolerance="1"
+     gridtolerance="1"
+     guidetolerance="1">
+    <sodipodi:guide
+       position="0,400"
+       orientation="0,-1"
+       id="guide22" />
+  </sodipodi:namedview>
   <g
      transform="matrix(1,0,0,-1,0,1100)"
      id="g11"
