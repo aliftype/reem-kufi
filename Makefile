@@ -7,8 +7,6 @@ DIST=$(NAME)-$(VERSION)
 
 BUILDDIR=build
 
-PYTHON ?= python3
-
 FONTS=Regular Medium SemiBold Bold
 
 BASE=$(FONTS:%=$(NAME)-%.otf)
@@ -64,13 +62,13 @@ $(COLRDIR)/%/colr.toml: colr.toml
 
 %/codepointmap.csv %/glyphnamemap.csv: $(NAME).glyphs
 	@mkdir -p $(@D)
-	@$(PYTHON) make-nanoempji-maps.py $< $(@D)
+	@python3 make-nanoempji-maps.py $< $(@D)
 
 %/glyphnamemap.csv: %/codepointmap.csv
 
 %/colr.otf: %/colr.toml %/codepointmap.csv %/colr.fea $(SVGS)
 	@echo "   MAKE	$(@F)"
-	@$(PYTHON) -m nanoemoji.write_font -v -1 \
+	@python3 -m nanoemoji.write_font -v -1 \
 		      --config_file $< \
 		      --color_format cff_colr_1 \
 		      --codepointmap_file $*/codepointmap.csv \
@@ -79,7 +77,7 @@ $(COLRDIR)/%/colr.toml: colr.toml
 
 $(NAME)$(COLOR)V1-%.otf: $(NAME)-%.otf $(COLRDIR)/%/colr.otf $(COLRDIR)/%/glyphnamemap.csv
 	@echo "   MAKE	$(@F)"
-	@$(PYTHON) copy-colrv1.py $< \
+	@python3 copy-colrv1.py $< \
 		                $(COLRDIR)/$*/colr.otf \
 				$(COLRDIR)/$*/glyphnamemap.csv \
 				$@
@@ -93,11 +91,11 @@ $(BUILDDIR)/$(NAME).otf: $(BUILDDIR)/$(NAME).designspace
 	@$(call generate_fonts,variable-cff2,$<,$@)
 
 $(NAME).otf: $(BUILDDIR)/$(NAME).otf
-	@$(PYTHON) update-stat.py $< $@
+	@python3 update-stat.py $< $@
 
 $(NAME)$(COLOR).%: $(NAME).%
 	@echo "   MAKE	$(@F)"
-	@$(PYTHON) rename-color.py $< $@ $(COLOR) ss02
+	@python3 rename-color.py $< $@ $(COLOR) ss02
 
 $(NAME)-%.ttf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"
@@ -108,12 +106,12 @@ $(BUILDDIR)/$(NAME).ttf: $(BUILDDIR)/$(NAME).designspace
 	@$(call generate_fonts,variable,$<,$@)
 
 $(NAME).ttf: $(BUILDDIR)/$(NAME).ttf
-	@$(PYTHON) update-stat.py $< $@
+	@python3 update-stat.py $< $@
 
 $(BUILDDIR)/$(NAME).glyphs: $(NAME).glyphs $(LATIN).glyphs
 	@echo "   GEN	$(@F)"
 	@mkdir -p $(BUILDDIR)
-	@$(PYTHON) prepare.py --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
+	@python3 prepare.py --version=$(VERSION) --out-file=$@ $< $(word 2,$+)
 
 $(BUILDDIR)/$(NAME).designspace: $(BUILDDIR)/$(NAME).glyphs
 	@echo "   GEN	$(@F)"
@@ -127,7 +125,7 @@ $(BUILDDIR)/$(NAME).designspace: $(BUILDDIR)/$(NAME).glyphs
 
 $(SAMPLE): $(BASE)
 	@echo "   SAMPLE    $(@F)"
-	@$(PYTHON) mksample.py $+ \
+	@python3 mksample.py $+ \
 	  --output=$@ \
 	  --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
           --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]"
