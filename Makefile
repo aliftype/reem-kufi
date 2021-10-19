@@ -1,6 +1,8 @@
 VERSION=1.2
+FAMILY=Reem Kufi
 NAME=ReemKufi
 COLOR=Fun
+COLORv1=Ink
 LATIN=JosefinSans
 
 DIST=$(NAME)-$(VERSION)
@@ -11,7 +13,7 @@ FONTS=Regular Medium SemiBold Bold
 
 BASE=$(FONTS:%=$(NAME)-%.otf)
 
-OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf $(NAME)$(COLOR).otf $(NAME)$(COLOR)V1-Regular.otf $(NAME)$(COLOR)V1-Bold.otf
+OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf $(NAME)$(COLOR).otf $(NAME)$(COLORv1)-Regular.otf $(NAME)$(COLORv1)-Bold.otf
 TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf $(NAME)$(COLOR).ttf
 SVG=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.svg)
 SAMPLE=Sample.svg
@@ -75,12 +77,12 @@ $(COLRDIR)/%/colr.toml: colr.toml
 		      --fea_file $*/colr.fea \
 		      --output_file $@
 
-$(NAME)$(COLOR)V1-%.otf: $(NAME)-%.otf $(COLRDIR)/%/colr.otf $(COLRDIR)/%/glyphnamemap.csv
+$(NAME)$(COLORv1)-%.otf: $(NAME)-%.otf $(COLRDIR)/%/colr.otf $(COLRDIR)/%/glyphnamemap.csv
 	@echo "   MAKE	$(@F)"
-	@python3 copy-colrv1.py $< \
-		                $(COLRDIR)/$*/colr.otf \
-				$(COLRDIR)/$*/glyphnamemap.csv \
-				$@
+	@python3 mkcolrv1.py $< $(COLRDIR)/$*/colr.otf \
+			     $(COLRDIR)/$*/glyphnamemap.csv \
+			     "$(FAMILY)" "$(COLORv1)" \
+			     $@
 
 $(NAME)-%.otf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"
