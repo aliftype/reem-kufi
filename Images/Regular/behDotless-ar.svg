@@ -1,15 +1,98 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
    viewBox="0 0 850.0 1500.0"
    width="850.0"
    height="1500.0"
+   id="svg217"
+   sodipodi:docname="behDotless-ar.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
- <sodipodi:namedview objecttolerance="1" gridtolerance="1" guidetolerance="1">
-  <sodipodi:guide position="0,400" orientation="0,-1"/>
- </sodipodi:namedview>
- <g transform="matrix(1 0 0 -1 0 1100.0)">
-  <path opacity="0.75" d="M25.0 0.0H725.0V100.0H85.0L25.0 0.0ZM708.0 483.0ZM708.0 -150.0ZM700.0 422.0ZM708.0 550.0ZM708.0 -150.0ZM605.0 0.0H785.0C785.0 0.0 825.0 -2.0 825.0 23.0V300.0L725.0 278.0V100.0H605.0V0.0Z" />
- </g>
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs219">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1369">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1365" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop1367" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1369"
+       id="linearGradient1371"
+       x1="25"
+       y1="200"
+       x2="825"
+       y2="200"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1369"
+       id="linearGradient1392"
+       gradientUnits="userSpaceOnUse"
+       x1="59.228188"
+       y1="48.99329"
+       x2="655.8725"
+       y2="48.99329" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1369"
+       id="linearGradient1495"
+       gradientUnits="userSpaceOnUse"
+       x1="778.02014"
+       y1="288.59061"
+       x2="825"
+       y2="193.95973" />
+  </defs>
+  <sodipodi:namedview
+     objecttolerance="1"
+     gridtolerance="1"
+     guidetolerance="1"
+     id="namedview211"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:current-layer="svg217">
+    <sodipodi:guide
+       position="0,400"
+       orientation="0,-1"
+       id="guide209" />
+  </sodipodi:namedview>
+  <g
+     transform="matrix(1 0 0 -1 0 1100.0)"
+     id="g215">
+    <path
+       opacity="0.75"
+       d="M25.0 0.0H725.0V100.0H85.0L25.0 0.0ZM708.0 483.0ZM708.0 -150.0ZM700.0 422.0ZM708.0 550.0ZM708.0 -150.0ZM605.0 0.0H785.0C785.0 0.0 825.0 -2.0 825.0 23.0V300.0L725.0 278.0V100.0H605.0V0.0Z"
+       id="path213" />
+  </g>
+  <g
+     transform="matrix(1 0 0 -1 0 1100.0)"
+     id="g1306"
+     style="fill-opacity:1;fill:url(#linearGradient1371)">
+    <path
+       opacity="0.75"
+       d="M25.0 0.0H725.0V100.0H85.0L25.0 0.0ZM708.0 483.0ZM708.0 -150.0ZM700.0 422.0ZM708.0 550.0ZM708.0 -150.0ZM605.0 0.0H785.0C785.0 0.0 825.0 -2.0 825.0 23.0V300.0L725.0 278.0V100.0H605.0V0.0Z"
+       id="path1304"
+       style="fill-opacity:1;fill:url(#linearGradient1392)" />
+    <path
+       opacity="0.75"
+       d="M25.0 0.0H725.0V100.0H85.0L25.0 0.0ZM708.0 483.0ZM708.0 -150.0ZM700.0 422.0ZM708.0 550.0ZM708.0 -150.0ZM605.0 0.0H785.0C785.0 0.0 825.0 -2.0 825.0 23.0V300.0L725.0 278.0V100.0H605.0V0.0Z"
+       id="path1474"
+       style="fill-opacity:1;fill:url(#linearGradient1495)" />
+  </g>
 </svg>
