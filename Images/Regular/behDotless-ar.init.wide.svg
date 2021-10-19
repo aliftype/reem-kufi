@@ -58,7 +58,7 @@
      transform="matrix(1 0 0 -1 0 1100.0)"
      id="g131">
     <path
-       opacity="0.75"
+       fill="#404040"
        d="M80.0 0.0H260.0C260.0 0.0 300.0 -2.0 300.0 23.0V300.0L200.0 278.0V100.0H80.0V0.0ZM-20.0 0.0H109.0V100.0H-20.0V0.0Z"
        id="path129" />
   </g>
@@ -67,7 +67,7 @@
      id="g1187"
      style="fill-opacity:1;fill:url(#linearGradient1252)">
     <path
-       opacity="0.75"
+       fill="#404040"
        d="M80.0 0.0H260.0C260.0 0.0 300.0 -2.0 300.0 23.0V300.0L200.0 278.0V100.0H80.0V0.0ZM-20.0 0.0H109.0V100.0H-20.0V0.0Z"
        id="path1185"
        style="fill-opacity:1;fill:url(#linearGradient1252)" />

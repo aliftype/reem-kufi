@@ -113,7 +113,7 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:current-layer="svg13"
+     inkscape:current-layer="g101"
      objecttolerance="1"
      gridtolerance="1"
      guidetolerance="1">
@@ -125,42 +125,42 @@
   <g
      transform="matrix(1,0,0,-1,0,1100)"
      id="g11"
-     style="mix-blend-mode:overlay;fill:url(#linearGradient966);fill-opacity:1">
+     style="display:inline;mix-blend-mode:overlay;fill:url(#linearGradient966);fill-opacity:1">
     <path
        d="M 140,-150 Z M 25,0 H 440 L 380,100 H 177 c -24,0 -55,13 -68,40 z M 456,550 Z M 406,-150 Z M 440,0 c 82,0 148,67 148,150 0,76 -41,144 -129,199 C 448,337 437,326 430,300 353,295 291,229 291,150 291,67 358,0 440,0 Z m 0,100 c -28,0 -50,22 -50,50 0,28 22,50 50,50 28,0 50,-22 50,-50 0,-28 -22,-50 -50,-50 z"
        id="path9"
-       style="fill:url(#linearGradient1070);fill-opacity:1" />
+       style="display:inline;fill:url(#linearGradient1070);fill-opacity:1" />
   </g>
   <g
      transform="matrix(1,0,0,-1,0,1100)"
      id="g101"
-     style="opacity:0.75;fill:#000000;fill-opacity:1">
+     style="display:inline;fill:#404040;fill-opacity:1">
     <path
        d="M 140,-150 Z M 25,0 H 440 L 380,100 H 177 c -24,0 -55,13 -68,40 z M 456,550 Z M 406,-150 Z M 440,0 c 82,0 148,67 148,150 0,76 -41,144 -129,199 C 448,337 437,326 430,300 353,295 291,229 291,150 291,67 358,0 440,0 Z m 0,100 c -28,0 -50,22 -50,50 0,28 22,50 50,50 28,0 50,-22 50,-50 0,-28 -22,-50 -50,-50 z"
        id="path99"
-       style="fill:#000000;fill-opacity:1" />
+       style="display:inline;fill:#404040;fill-opacity:1" />
   </g>
   <g
      transform="matrix(1,0,0,-1,0,1100)"
      id="g1884"
-     style="fill:url(#linearGradient1892);fill-opacity:1">
+     style="display:inline;fill:url(#linearGradient1892);fill-opacity:1">
     <path
        d="M 140,-150 Z M 25,0 H 440 L 380,100 H 177 c -24,0 -55,13 -68,40 z M 456,550 Z M 406,-150 Z M 440,0 c 82,0 148,67 148,150 0,76 -41,144 -129,199 C 448,337 437,326 430,300 353,295 291,229 291,150 291,67 358,0 440,0 Z m 0,100 c -28,0 -50,22 -50,50 0,28 22,50 50,50 28,0 50,-22 50,-50 0,-28 -22,-50 -50,-50 z"
        id="path1882"
-       style="opacity:0.5;fill:url(#linearGradient1993);fill-opacity:1" />
+       style="display:inline;opacity:0.5;fill:url(#linearGradient1993);fill-opacity:1" />
   </g>
   <g
      transform="matrix(1,0,0,-1,0,1280)"
      id="g1997"
-     style="fill:url(#linearGradient2001);fill-opacity:1">
+     style="display:inline;fill:url(#linearGradient2001);fill-opacity:1">
     <path
        d="M 140,30 Z M 25,180 H 440 L 380,280 H 177 c -24,0 -55,13 -68,40 z M 456,730 Z M 406,30 Z m 34,150 c 82,0 148,67 148,150 0,76 -41,144 -129,199 -11,-12 -22,-23 -29,-49 -77,-5 -139,-71 -139,-150 0,-83 67,-150 149,-150 z m 0,100 c -28,0 -50,22 -50,50 0,28 22,50 50,50 28,0 50,-22 50,-50 0,-28 -22,-50 -50,-50 z"
        id="path1995"
-       style="opacity:0.5;fill:url(#linearGradient1999);fill-opacity:1" />
+       style="display:inline;opacity:0.5;fill:url(#linearGradient1999);fill-opacity:1" />
   </g>
   <path
      id="path4708"
      d="m 439.94113,750 c -10,40 -29,52 -43,56 -61,19 -106,76 -106,144 0,17.56989 3.15659,34.34783 8.66797,50 h 140.33203 c -28,0 -50,-22 -50,-50 0,-28 22,-50 50,-50"
-     style="fill:url(#linearGradient5472);fill-opacity:1"
+     style="display:inline;fill:url(#linearGradient5472);fill-opacity:1"
      sodipodi:nodetypes="ccsccsc" />
 </svg>

@@ -85,6 +85,10 @@
        orientation="0,-1"
        id="guide161" />
   </sodipodi:namedview>
+  <path
+     d="m 220,1041.9995 c -25,12 -95,25.0001 -95,-21.9999 V 300 L 25,321.99998 v 697.99962 c 0,119.9999 174,97 195,21.9999 z"
+     id="path1083"
+     style="fill:#404040;stroke-width:1" />
   <g
      transform="matrix(1 0 0 -1 0 1100.0)"
      id="g167"
@@ -98,8 +102,4 @@
      d="m 220,1042 c -25,12 -95,25 -95,-22 V 300 L 25,322 v 698 c 0,120 174,97 195,22 z"
      id="path173"
      style="fill:url(#linearGradient1191);fill-opacity:1" />
-  <path
-     d="m 220,1042 c -25,12 -95,25 -95,-22 V 300 L 25,322 v 698 c 0,120 174,97 195,22 z"
-     id="path1083"
-     style="opacity:0.5" />
 </svg>

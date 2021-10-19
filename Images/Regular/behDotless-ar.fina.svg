@@ -77,7 +77,7 @@
      transform="matrix(1 0 0 -1 0 1100.0)"
      id="g15">
     <path
-       opacity="0.75"
+       fill="#404040"
        d="M725.0 0.0H945.0V100.0H725.0V0.0ZM410.0 390.0ZM410.0 -150.0ZM400.0 332.0ZM410.0 550.0ZM410.0 -150.0ZM25.0 0.0H725.0V100.0H85.0L25.0 0.0ZM708.0 483.0ZM708.0 -150.0ZM700.0 422.0ZM708.0 550.0ZM708.0 -150.0ZM605.0 0.0H785.0C785.0 0.0 825.0 -2.0 825.0 23.0V300.0L725.0 278.0V100.0H605.0V0.0Z"
        id="path13" />
   </g>
@@ -86,7 +86,7 @@
      id="g1651"
      style="fill-opacity:1;fill:url(#linearGradient1659)">
     <path
-       opacity="0.75"
+       fill="#404040"
        d="M725.0 0.0H945.0V100.0H725.0V0.0ZM410.0 390.0ZM410.0 -150.0ZM400.0 332.0ZM410.0 550.0ZM410.0 -150.0ZM25.0 0.0H725.0V100.0H85.0L25.0 0.0ZM708.0 483.0ZM708.0 -150.0ZM700.0 422.0ZM708.0 550.0ZM708.0 -150.0ZM605.0 0.0H785.0C785.0 0.0 825.0 -2.0 825.0 23.0V300.0L725.0 278.0V100.0H605.0V0.0Z"
        id="path1649"
        style="fill-opacity:1;fill:url(#linearGradient1659)" />
@@ -96,7 +96,7 @@
      id="g1947"
      style="fill:url(#linearGradient1968);fill-opacity:1">
     <path
-       opacity="0.75"
+       fill="#404040"
        d="m 725,-380 h 220 v 100 H 725 Z M 410,10 Z m 0,-540 z m -10,482 z m 10,218 z m 0,-700 z M 25,-380 h 700 v 100 H 85 Z m 683,483 z m 0,-633 z m -8,572 z m 8,128 z m 0,-700 z m -103,150 h 180 c 0,0 40,-2 40,23 V -80 L 725,-102 V -280 H 605 Z"
        id="path1945"
        style="fill:url(#linearGradient2050);fill-opacity:1" />

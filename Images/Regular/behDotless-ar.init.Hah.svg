@@ -67,7 +67,7 @@
      transform="matrix(1 0 0 -1 0 1100.0)"
      id="g107">
     <path
-       opacity="0.75"
+       fill="#404040"
        d="M-435.0 165.0C-400.0 158.0 -265.0 117.0 -265.0 300.0V400.0L-365.0 378.0V300.0C-365.0 230.0 -360.0 175.0 -435.0 165.0Z"
        id="path105" />
   </g>
@@ -76,7 +76,7 @@
      id="g2444"
      style="fill-opacity:1;fill:url(#linearGradient2452)">
     <path
-       opacity="0.75"
+       fill="#404040"
        d="M-435.0 165.0C-400.0 158.0 -265.0 117.0 -265.0 300.0V400.0L-365.0 378.0V300.0C-365.0 230.0 -360.0 175.0 -435.0 165.0Z"
        id="path2442"
        style="fill-opacity:1;fill:url(#linearGradient2452)" />
@@ -86,7 +86,7 @@
      id="g2555"
      style="fill-opacity:1;fill:url(#linearGradient2452)">
     <path
-       opacity="0.75"
+       fill="#404040"
        d="M-435.0 165.0C-400.0 158.0 -265.0 117.0 -265.0 300.0V400.0L-365.0 378.0V300.0C-365.0 230.0 -360.0 175.0 -435.0 165.0Z"
        id="path2553"
        style="fill-opacity:1;fill:url(#linearGradient2576)" />
