@@ -58,6 +58,18 @@ def make(args):
     for tag in {"COLR", "CPAL"}:
         base_font[tag] = copy.deepcopy(colr_font[tag])
 
+    # Add alternate default palette.
+    palettes = base_font["CPAL"].palettes
+    palettes.append([])
+    for color in palettes[0]:
+        if color.hex() == "#404040FF":
+            palettes[-1].append(color.fromHex("#8e0b14FF"))  # reddish ink
+        elif color.hex() == "#808080FF":
+            palettes[-1].append(color.fromHex("#c7060aFF"))  # same ink, 25% lighter
+        else:
+            palettes[-1].append(color)
+    base_font["CPAL"].palettes = [palettes[1], palettes[0]]
+
     name = base_font["name"]
     family = args.family
     psname = args.family.replace(" ", "")
