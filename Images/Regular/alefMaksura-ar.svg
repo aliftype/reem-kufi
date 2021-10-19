@@ -108,8 +108,8 @@
        gradientUnits="userSpaceOnUse"
        x1="284.73154"
        y1="593.65436"
-       x2="633.55707"
-       y2="-201.64764"
+       x2="317.44968"
+       y2="458.75504"
        gradientTransform="translate(-20)" />
     <linearGradient
        inkscape:collect="always"
@@ -147,16 +147,7 @@
     <path
        d="M 373,-200 H 487 L 229,252 c -37,65 -23,131 26,158 L 492,0 H 607 L 268,591 C 268,539 244,523 203,493 122,433 60,345 142,203 Z M 505,0 H 680 L 596,140 C 583,113 552,100 528,100 H 475 Z M 120,-350 Z M 5,-200 h 415 l -60,100 H 157 c -24,0 -55,13 -68,40 z"
        id="path6901"
-       style="opacity:0.5;fill:#000000;fill-opacity:1" />
-  </g>
-  <g
-     transform="matrix(1,0,0,-1,20,1100)"
-     id="g5492"
-     style="opacity:1;mix-blend-mode:multiply;fill:#000000;fill-opacity:0.5">
-    <path
-       d="M 373,-200 H 487 L 229,252 c -37,65 -23,131 26,158 L 492,0 H 607 L 268,591 C 268,539 244,523 203,493 122,433 60,345 142,203 Z M 505,0 H 680 L 596,140 C 583,113 552,100 528,100 H 475 Z M 120,-350 Z M 5,-200 h 415 l -60,100 H 157 c -24,0 -55,13 -68,40 z"
-       id="path5490"
-       style="opacity:0.5;fill:#000000;fill-opacity:0.5" />
+       style="opacity:0.75;fill:#000000;fill-opacity:1" />
   </g>
   <path
      style="fill:url(#linearGradient3282);fill-opacity:1"
