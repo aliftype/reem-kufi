@@ -88,37 +88,40 @@
        id="guide1349" />
   </sodipodi:namedview>
   <g
-     transform="matrix(1,0,0,-1,0,1100)"
-     id="g15"
-     style="fill:#808080">
-    <path
-       d="m 58,-58 c 32,0 58,26 58,58 C 116,32 90,58 58,58 26,58 0,32 0,0 0,-32 26,-58 58,-58 Z"
-       id="path13" />
-  </g>
-  <g
-     transform="matrix(1,0,0,-1,0,1100)"
-     id="g103"
-     style="fill:url(#radialGradient962);fill-opacity:1">
-    <path
-       d="m 58,-58 c 32,0 58,26 58,58 C 116,32 90,58 58,58 26,58 0,32 0,0 0,-32 26,-58 58,-58 Z"
-       id="path101"
-       style="fill:url(#radialGradient964);fill-opacity:1" />
-  </g>
-  <g
-     transform="matrix(1,0,0,-1,173,1100)"
-     id="g15-9"
-     style="fill:#808080">
-    <path
-       d="m 58,-58 c 32,0 58,26 58,58 C 116,32 90,58 58,58 26,58 0,32 0,0 0,-32 26,-58 58,-58 Z"
-       id="path13-6" />
-  </g>
-  <g
-     transform="matrix(1,0,0,-1,173,1100)"
-     id="g103-0"
-     style="fill:url(#radialGradient962-2);fill-opacity:1">
-    <path
-       d="m 58,-58 c 32,0 58,26 58,58 C 116,32 90,58 58,58 26,58 0,32 0,0 0,-32 26,-58 58,-58 Z"
-       id="path101-1"
-       style="fill:url(#radialGradient964-9);fill-opacity:1" />
+     id="g2509">
+    <g
+       transform="matrix(1,0,0,-1,0,1100)"
+       id="g15"
+       style="fill:#808080">
+      <path
+         d="m 58,-58 c 32,0 58,26 58,58 C 116,32 90,58 58,58 26,58 0,32 0,0 0,-32 26,-58 58,-58 Z"
+         id="path13" />
+    </g>
+    <g
+       transform="matrix(1,0,0,-1,0,1100)"
+       id="g103"
+       style="fill:url(#radialGradient962);fill-opacity:1">
+      <path
+         d="m 58,-58 c 32,0 58,26 58,58 C 116,32 90,58 58,58 26,58 0,32 0,0 0,-32 26,-58 58,-58 Z"
+         id="path101"
+         style="fill:url(#radialGradient964);fill-opacity:1" />
+    </g>
+    <g
+       transform="matrix(1,0,0,-1,173,1100)"
+       id="g15-9"
+       style="fill:#808080">
+      <path
+         d="m 58,-58 c 32,0 58,26 58,58 C 116,32 90,58 58,58 26,58 0,32 0,0 0,-32 26,-58 58,-58 Z"
+         id="path13-6" />
+    </g>
+    <g
+       transform="matrix(1,0,0,-1,173,1100)"
+       id="g103-0"
+       style="fill:url(#radialGradient962-2);fill-opacity:1">
+      <path
+         d="m 58,-58 c 32,0 58,26 58,58 C 116,32 90,58 58,58 26,58 0,32 0,0 0,-32 26,-58 58,-58 Z"
+         id="path101-1"
+         style="fill:url(#radialGradient964-9);fill-opacity:1" />
+    </g>
   </g>
 </svg>

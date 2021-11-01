@@ -67,20 +67,23 @@
        id="guide9" />
   </sodipodi:namedview>
   <g
-     transform="matrix(1 0 0 -1 0 1100.0)"
-     id="g15"
-     style="fill:#808080">
-    <path
-       d="M58.0 -58.0C90.0 -58.0 116.0 -32.0 116.0 0.0C116.0 32.0 90.0 58.0 58.0 58.0C26.0 58.0 0.0 32.0 0.0 0.0C0.0 -32.0 26.0 -58.0 58.0 -58.0Z"
-       id="path13" />
-  </g>
-  <g
-     transform="matrix(1,0,0,-1,0,1100)"
-     id="g103"
-     style="fill:url(#radialGradient962);fill-opacity:1">
-    <path
-       d="m 58,-58 c 32,0 58,26 58,58 C 116,32 90,58 58,58 26,58 0,32 0,0 0,-32 26,-58 58,-58 Z"
-       id="path101"
-       style="fill:url(#radialGradient964);fill-opacity:1" />
+     id="g2898">
+    <g
+       transform="matrix(1 0 0 -1 0 1100.0)"
+       id="g15"
+       style="fill:#808080">
+      <path
+         d="M58.0 -58.0C90.0 -58.0 116.0 -32.0 116.0 0.0C116.0 32.0 90.0 58.0 58.0 58.0C26.0 58.0 0.0 32.0 0.0 0.0C0.0 -32.0 26.0 -58.0 58.0 -58.0Z"
+         id="path13" />
+    </g>
+    <g
+       transform="matrix(1,0,0,-1,0,1100)"
+       id="g103"
+       style="fill:url(#radialGradient962);fill-opacity:1">
+      <path
+         d="m 58,-58 c 32,0 58,26 58,58 C 116,32 90,58 58,58 26,58 0,32 0,0 0,-32 26,-58 58,-58 Z"
+         id="path101"
+         style="fill:url(#radialGradient964);fill-opacity:1" />
+    </g>
   </g>
 </svg>
