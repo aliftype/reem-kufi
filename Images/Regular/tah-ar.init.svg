@@ -1,15 +1,84 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
    viewBox="0 0 940.0 1500.0"
    width="940.0"
    height="1500.0"
+   id="svg109"
+   sodipodi:docname="tah-ar.init.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
- <sodipodi:namedview objecttolerance="1" gridtolerance="1" guidetolerance="1">
-  <sodipodi:guide position="0,400" orientation="0,-1"/>
- </sodipodi:namedview>
- <g transform="matrix(1 0 0 -1 0 1100.0)">
-  <path fill="#404040" d="M-60.0 0.0H35.0V100.0H-60.0V0.0ZM115.0 50.0H215.0V800.0L115.0 778.0V50.0ZM-45.0 0.0H275.0V100.0H15.0L-45.0 0.0ZM160.0 0.0H875.0C875.0 0.0 915.0 -2.0 915.0 23.0C915.0 143.0 932.0 300.0 725.0 300.0H160.0V200.0H725.0C800.0 200.0 816.0 156.0 815.0 100.0H160.0V0.0Z" />
- </g>
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs111">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient978"
+       id="linearGradient980"
+       x1="228.3557"
+       y1="784.54474"
+       x2="234.33167"
+       y2="591.25616"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient978">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop974" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop976" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient978"
+       id="linearGradient1234"
+       gradientUnits="userSpaceOnUse"
+       x1="228.3557"
+       y1="784.54474"
+       x2="234.33167"
+       y2="591.25616" />
+  </defs>
+  <sodipodi:namedview
+     objecttolerance="1"
+     gridtolerance="1"
+     guidetolerance="1"
+     id="namedview103"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:current-layer="svg109">
+    <sodipodi:guide
+       position="0,400"
+       orientation="0,-1"
+       id="guide101" />
+  </sodipodi:namedview>
+  <g
+     transform="matrix(1 0 0 -1 0 1100.0)"
+     id="g107">
+    <path
+       fill="#404040"
+       d="M-60.0 0.0H35.0V100.0H-60.0V0.0ZM115.0 50.0H215.0V800.0L115.0 778.0V50.0ZM-45.0 0.0H275.0V100.0H15.0L-45.0 0.0ZM160.0 0.0H875.0C875.0 0.0 915.0 -2.0 915.0 23.0C915.0 143.0 932.0 300.0 725.0 300.0H160.0V200.0H725.0C800.0 200.0 816.0 156.0 815.0 100.0H160.0V0.0Z"
+       id="path105" />
+  </g>
+  <g
+     transform="matrix(1,0,0,-1,-70,1100)"
+     id="g954"
+     style="fill:url(#linearGradient980);fill-opacity:1">
+    <path
+       fill="#404040"
+       d="M 185,50 H 285 V 800 L 185,778 Z M 25,0 H 345 V 100 H 85 Z m 205,0 h 715 c 0,0 40,-2 40,23 0,120 17,277 -190,277 H 230 V 200 h 565 c 75,0 91,-44 90,-100 H 230 Z"
+       id="path952"
+       style="fill:url(#linearGradient1234);fill-opacity:1" />
+  </g>
 </svg>
