@@ -1,15 +1,94 @@
-<?xml version="1.0" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
    viewBox="0 0 349.0 1500.0"
    width="349.0"
    height="1500.0"
+   id="svg121"
+   sodipodi:docname="waw-ar.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
- <sodipodi:namedview objecttolerance="1" gridtolerance="1" guidetolerance="1">
-  <sodipodi:guide position="0,400" orientation="0,-1"/>
- </sodipodi:namedview>
- <g transform="matrix(1 0 0 -1 0 1100.0)">
-  <path fill="#404040" d="M39.0 -132.0C105.0 -226.0 324.0 -219.0 324.0 -42.0V150.0L224.0 128.0V-52.0C224.0 -109.0 192.0 -173.0 39.0 -132.0ZM324.0 150.0V346.0C297.0 294.0 210.0 300.0 175.0 300.0L324.0 150.0ZM175.0 0.0C257.0 0.0 324.0 67.0 324.0 150.0C324.0 233.0 257.0 300.0 175.0 300.0C93.0 300.0 25.0 233.0 25.0 150.0C25.0 67.0 93.0 0.0 175.0 0.0ZM175.0 100.0C147.0 100.0 125.0 122.0 125.0 150.0C125.0 178.0 147.0 200.0 175.0 200.0C203.0 200.0 225.0 178.0 225.0 150.0C225.0 122.0 203.0 100.0 175.0 100.0Z" />
- </g>
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs123">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1463">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1459" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop1461" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1127">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1123" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop1125" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1127"
+       id="linearGradient968"
+       x1="41.107384"
+       y1="-132.36156"
+       x2="112.59061"
+       y2="-86.052834"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,-1,0,1100)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1463"
+       id="radialGradient1465"
+       cx="280.48465"
+       cy="1008.7731"
+       fx="280.48465"
+       fy="1008.7731"
+       r="149.5"
+       gradientTransform="matrix(-0.50646363,0.23390015,-0.27681105,-0.5993785,667.0906,1566.527)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     objecttolerance="1"
+     gridtolerance="1"
+     guidetolerance="1"
+     id="namedview115"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:current-layer="svg121">
+    <sodipodi:guide
+       position="0,400"
+       orientation="0,-1"
+       id="guide113" />
+  </sodipodi:namedview>
+  <path
+     fill="#404040"
+     d="m 39,1232 c 66,94 285,87 285,-90 V 950 l -100,22 v 180 c 0,57 -32,121 -185,80 z M 324,950 V 754 c -27,52 -114,46 -149,46 z m -149,150 c 82,0 149,-67 149,-150 0,-83 -67,-150 -149,-150 -82,0 -150,67 -150,150 0,83 68,150 150,150 z m 0,-100 c -28,0 -50,-22 -50,-50 0,-28 22,-50 50,-50 28,0 50,22 50,50 0,28 -22,50 -50,50 z"
+     id="path117" />
+  <path
+     fill="#404040"
+     d="m 39,1232 c 66,94 285,87 285,-90 V 950 l -100,22 v 180 c 0,57 -32,121 -185,80 z M 324,950 V 754 c -27,52 -114,46 -149,46 z m -149,150 c 82,0 149,-67 149,-150 0,-83 -67,-150 -149,-150 -82,0 -150,67 -150,150 0,83 68,150 150,150 z m 0,-100 c -28,0 -50,-22 -50,-50 0,-28 22,-50 50,-50 28,0 50,22 50,50 0,28 -22,50 -50,50 z"
+     id="path125"
+     style="fill:url(#linearGradient968);fill-opacity:1" />
+  <path
+     id="path1082"
+     style="display:inline;fill:url(#radialGradient1465);fill-opacity:1"
+     d="M 175 800 C 93 800 25 867 25 950 C 25 1033 93 1100 175 1100 C 192.15367 1100 208.63519 1097.0338 224 1091.6367 L 224 960.1875 C 219.40625 983.15625 199.5 1000 175 1000 C 147 1000 125 978 125 950 C 125 922 147 900 175 900 C 199.5 900 219.40625 916.84375 224 939.8125 L 224 877.5 L 305.42383 877.5 C 279.97604 831.25474 230.99495 800 175 800 z " />
 </svg>
