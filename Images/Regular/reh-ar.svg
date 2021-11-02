@@ -35,6 +35,24 @@
        x2="93.288589"
        y2="-130.13336"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1523"
+       id="linearGradient139"
+       gradientUnits="userSpaceOnUse"
+       x1="124.39597"
+       y1="238.323"
+       x2="93.288589"
+       y2="-130.13336" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1523"
+       id="linearGradient141"
+       gradientUnits="userSpaceOnUse"
+       x1="144.5302"
+       y1="286.64514"
+       x2="153.69127"
+       y2="105.43711" />
   </defs>
   <sodipodi:namedview
      objecttolerance="1"
@@ -71,5 +89,15 @@
        d="M-85.0 -150.0C-19.0 -244.0 200.0 -237.0 200.0 -60.0V300.0L100.0 278.0V-70.0C100.0 -127.0 68.0 -191.0 -85.0 -150.0Z"
        id="path1440"
        style="fill:url(#linearGradient1525);fill-opacity:1" />
+  </g>
+  <g
+     transform="matrix(1 0 0 -1 0 1100.0)"
+     id="g118"
+     style="fill:url(#linearGradient139);fill-opacity:1">
+    <path
+       fill="#404040"
+       d="M-85.0 -150.0C-19.0 -244.0 200.0 -237.0 200.0 -60.0V300.0L100.0 278.0V-70.0C100.0 -127.0 68.0 -191.0 -85.0 -150.0Z"
+       id="path116"
+       style="fill:url(#linearGradient141);fill-opacity:1" />
   </g>
 </svg>

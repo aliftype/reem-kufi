@@ -44,6 +44,16 @@
        y1="-148.25418"
        x2="93.288589"
        y2="-130.13336" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1523"
+       id="linearGradient141"
+       gradientUnits="userSpaceOnUse"
+       x1="144.5302"
+       y1="286.64514"
+       x2="153.69127"
+       y2="105.43711"
+       gradientTransform="matrix(1,0,0,-1,0,1100)" />
   </defs>
   <sodipodi:namedview
      objecttolerance="1"
@@ -81,4 +91,9 @@
        id="path1440"
        style="fill:url(#linearGradient1699);fill-opacity:1" />
   </g>
+  <path
+     fill="#404040"
+     d="m -85,1250 c 66,94 285,87 285,-90 V 800 l -100,22 v 348 c 0,57 -32,121 -185,80 z"
+     id="path116"
+     style="fill:url(#linearGradient141);fill-opacity:1" />
 </svg>

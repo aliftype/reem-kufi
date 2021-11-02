@@ -16,6 +16,18 @@
      id="defs171">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient1509">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop1505" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop1507" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient1189">
       <stop
          style="stop-color:#000000;stop-opacity:1;"
@@ -28,36 +40,6 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient996">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop992" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="1"
-         id="stop994" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient996"
-       id="linearGradient998"
-       x1="25"
-       y1="397.93726"
-       x2="220"
-       y2="397.93726"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient996"
-       id="linearGradient1057"
-       gradientUnits="userSpaceOnUse"
-       x1="220.65218"
-       y1="57.20966"
-       x2="81.579414"
-       y2="381.96564" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient1189"
        id="linearGradient1191"
        x1="-60.678791"
@@ -66,6 +48,15 @@
        y2="780.58978"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(280)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1509"
+       id="linearGradient1511"
+       x1="67.281876"
+       y1="313.47189"
+       x2="79.060402"
+       y2="534.94843"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      objecttolerance="1"
@@ -88,18 +79,13 @@
   <path
      d="m 220,1041.9995 c -25,12 -95,25.0001 -95,-21.9999 V 300 L 25,321.99998 v 697.99962 c 0,119.9999 174,97 195,21.9999 z"
      id="path1083"
-     style="fill:#404040;stroke-width:1" />
-  <g
-     transform="matrix(1 0 0 -1 0 1100.0)"
-     id="g167"
-     style="fill-opacity:1;fill:url(#linearGradient998)">
-    <path
-       d="M220.0 58.0C195.0 46.0 125.0 33.0 125.0 80.0V800.0L25.0 778.0V80.0C25.0 -40.0 199.0 -17.0 220.0 58.0Z"
-       id="path165"
-       style="fill-opacity:1;fill:url(#linearGradient1057)" />
-  </g>
+     style="display:inline;fill:#404040;stroke-width:1" />
   <path
      d="m 220,1042 c -25,12 -95,25 -95,-22 V 300 L 25,322 v 698 c 0,120 174,97 195,22 z"
      id="path173"
-     style="fill:url(#linearGradient1191);fill-opacity:1" />
+     style="display:inline;fill:url(#linearGradient1191);fill-opacity:1" />
+  <path
+     d="m 220,1041.9995 c -25,12 -95,25.0001 -95,-21.9999 V 300 L 25,321.99998 v 697.99962 c 0,119.9999 174,97 195,21.9999 z"
+     id="path1395"
+     style="display:inline;fill:url(#linearGradient1511);stroke-width:1;fill-opacity:1" />
 </svg>
