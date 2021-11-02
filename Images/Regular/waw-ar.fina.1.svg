@@ -16,6 +16,18 @@
      id="defs19">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient2537">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2533" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop2535" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient2632">
       <stop
          style="stop-color:#000000;stop-opacity:1;"
@@ -48,6 +60,17 @@
        fx="37.265099"
        fy="-74.561966"
        r="197.5" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2537"
+       id="radialGradient2539"
+       cx="198.33893"
+       cy="276.73557"
+       fx="198.33893"
+       fy="276.73557"
+       r="197.5"
+       gradientTransform="matrix(0.762441,-0.64705773,0.28544728,0.33634821,-31.876219,376.21773)"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      objecttolerance="1"
@@ -84,5 +107,15 @@
        d="M154.0 -178.0C218.0 -174.0 288.0 -130.0 316.0 6.0C329.0 71.0 328.0 141.0 318.0 190.0L222.0 128.0C214.0 -18.0 205.0 -154.0 25.0 -125.0C59.0 -171.0 110.0 -181.0 154.0 -178.0ZM174.0 0.0H420.0V100.0H224.0L174.0 0.0ZM174.0 0.0C256.0 0.0 322.0 67.0 322.0 150.0C322.0 226.0 281.0 294.0 193.0 349.0C182.0 337.0 171.0 326.0 164.0 300.0C87.0 295.0 25.0 229.0 25.0 150.0C25.0 67.0 92.0 0.0 174.0 0.0ZM174.0 100.0C146.0 100.0 124.0 122.0 124.0 150.0C124.0 178.0 146.0 200.0 174.0 200.0C202.0 200.0 224.0 178.0 224.0 150.0C224.0 122.0 202.0 100.0 174.0 100.0Z"
        id="path2549"
        style="fill:url(#radialGradient2695);fill-opacity:1" />
+  </g>
+  <g
+     transform="matrix(1 0 0 -1 0 1100.0)"
+     id="g2456"
+     style="fill:url(#radialGradient2539);fill-opacity:1">
+    <path
+       fill="#404040"
+       d="M154.0 -178.0C218.0 -174.0 288.0 -130.0 316.0 6.0C329.0 71.0 328.0 141.0 318.0 190.0L222.0 128.0C214.0 -18.0 205.0 -154.0 25.0 -125.0C59.0 -171.0 110.0 -181.0 154.0 -178.0ZM174.0 0.0H420.0V100.0H224.0L174.0 0.0ZM174.0 0.0C256.0 0.0 322.0 67.0 322.0 150.0C322.0 226.0 281.0 294.0 193.0 349.0C182.0 337.0 171.0 326.0 164.0 300.0C87.0 295.0 25.0 229.0 25.0 150.0C25.0 67.0 92.0 0.0 174.0 0.0ZM174.0 100.0C146.0 100.0 124.0 122.0 124.0 150.0C124.0 178.0 146.0 200.0 174.0 200.0C202.0 200.0 224.0 178.0 224.0 150.0C224.0 122.0 202.0 100.0 174.0 100.0Z"
+       id="path2454"
+       style="fill:url(#radialGradient2539);fill-opacity:1" />
   </g>
 </svg>
