@@ -3,6 +3,7 @@ import copy
 import sys
 from fontTools.ttLib import TTFont
 from fontTools.pens.t2CharStringPen import T2CharStringPen
+from fontTools.pens.ttGlyphPen import TTGlyphPen
 
 glyphmap = {}
 
@@ -17,28 +18,25 @@ def glyph_name(n):
     return n
 
 
-def make(args):
-    base_font = TTFont(args.base)
-    colr_font = TTFont(args.colr)
+def rename_glyphs(font):
+    go = font.getGlyphOrder()
+    go = [glyph_name(n) for n in go]
+    if "CFF " in font:
+        topDict = font["CFF "].cff.topDictIndex[0]
+        topDict.charset = go
+        topDict.CharStrings.charStrings = {
+            glyph_name(n): v for n, v in topDict.CharStrings.charStrings.items()
+        }
+    font.setGlyphOrder(go)
 
-    base_go = base_font.getGlyphOrder()
+
+def copy_CFF_glyphs(colr_font, base_font):
     colr_go = colr_font.getGlyphOrder()
-
-    # Rename color glyphs before copying
-    colr_go = [glyph_name(n) for n in colr_go]
-    colr_font = TTFont(sys.argv[2])
-    colr_font.setGlyphOrder(colr_go)
-    colr_topDict = colr_font["CFF "].cff.topDictIndex[0]
-    colr_topDict.charset = colr_go
-    colr_topDict.CharStrings.charStrings = {
-        glyph_name(n): v for n, v in colr_topDict.CharStrings.charStrings.items()
-    }
-
-    # Copy new color glyphs
+    colr_gs = colr_font.getGlyphSet()
+    base_go = base_font.getGlyphOrder()
+    topDict = base_font["CFF "].cff.topDictIndex[0]
     base_hmtx = base_font["hmtx"]
     colr_hmtx = colr_font["hmtx"]
-    topDict = base_font["CFF "].cff.topDictIndex[0]
-    colr_gs = colr_font.getGlyphSet()
     for name in colr_go:
         if not name[0] == "." and name not in base_go:
             glyph = colr_gs[name]
@@ -52,7 +50,41 @@ def make(args):
             )
             topDict.CharStrings.charStrings[name] = i
 
-            base_hmtx.metrics[name] = copy.deepcopy(colr_hmtx.metrics[name])
+            base_hmtx.metrics[name] = colr_hmtx.metrics[name]
+
+
+def copy_glyf_glyphs(colr_font, base_font):
+    colr_go = colr_font.getGlyphOrder()
+    colr_gs = colr_font.getGlyphSet()
+    base_go = base_font.getGlyphOrder()
+    base_glyf = base_font["glyf"]
+    base_hmtx = base_font["hmtx"]
+    colr_hmtx = colr_font["hmtx"]
+    for name in colr_go:
+        if not name[0] == "." and name not in base_go:
+            glyph = colr_gs[name]
+            pen = TTGlyphPen(colr_gs)
+            glyph.draw(pen)
+            base_glyf[name] = pen.glyph()
+
+            base_hmtx.metrics[name] = colr_hmtx.metrics[name]
+
+
+def make(args):
+    base_font = TTFont(args.base)
+    colr_font = TTFont(args.colr)
+
+    # Rename color glyphs before copying
+    rename_glyphs(colr_font)
+
+    base_go = base_font.getGlyphOrder()
+    colr_go = colr_font.getGlyphOrder()
+
+    # Copy new color glyphs
+    if "CFF " in colr_font:
+        copy_CFF_glyphs(colr_font, base_font)
+    else:
+        copy_glyf_glyphs(colr_font, base_font)
 
     # Copy color tables
     for tag in {"COLR", "CPAL"}:

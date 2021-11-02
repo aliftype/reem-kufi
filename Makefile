@@ -14,7 +14,7 @@ FONTS=Regular Medium SemiBold Bold
 BASE=$(FONTS:%=$(NAME)-%.otf)
 
 OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf $(NAME)$(COLOR).otf $(NAME)$(COLORv1)-Regular.otf $(NAME)$(COLORv1)-Bold.otf
-TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf $(NAME)$(COLOR).ttf
+TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf $(NAME)$(COLOR).ttf $(NAME)$(COLORv1)-Regular.ttf $(NAME)$(COLORv1)-Bold.ttf
 SVG=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.svg)
 SAMPLE=Sample.svg
 
@@ -77,9 +77,25 @@ $(COLRDIR)/%/colr.toml: colr.toml
 		      --fea_file $*/colr.fea \
 		      --output_file $@
 
+%/colr.ttf: %/colr.toml %/codepointmap.csv %/colr.fea $(SVGS)
+	@echo "   MAKE	$(@F)"
+	@python3 -m nanoemoji.write_font -v -1 \
+		      --config_file $< \
+		      --color_format glyf_colr_1 \
+		      --codepointmap_file $*/codepointmap.csv \
+		      --fea_file $*/colr.fea \
+		      --output_file $@
+
 $(NAME)$(COLORv1)-%.otf: $(NAME)-%.otf $(COLRDIR)/%/colr.otf $(COLRDIR)/%/glyphnamemap.csv
 	@echo "   MAKE	$(@F)"
 	@python3 mkcolrv1.py $< $(COLRDIR)/$*/colr.otf \
+			     $(COLRDIR)/$*/glyphnamemap.csv \
+			     "$(FAMILY)" "$(COLORv1)" \
+			     $@
+
+$(NAME)$(COLORv1)-%.ttf: $(NAME)-%.ttf $(COLRDIR)/%/colr.ttf $(COLRDIR)/%/glyphnamemap.csv
+	@echo "   MAKE	$(@F)"
+	@python3 mkcolrv1.py $< $(COLRDIR)/$*/colr.ttf \
 			     $(COLRDIR)/$*/glyphnamemap.csv \
 			     "$(FAMILY)" "$(COLORv1)" \
 			     $@
