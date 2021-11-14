@@ -62,41 +62,37 @@ $(COLRDIR)/%/colr.toml: colr.toml
 	@mkdir -p $(@D)
 	@touch $@
 
-%/codepointmap.csv %/glyphnamemap.csv: $(NAME).glyphs
+%/glyphmap.csv: $(NAME).glyphs
 	@mkdir -p $(@D)
-	@python3 make-nanoempji-maps.py $< $(@D)
+	@python3 mkglyphmap.py $< $(@D)
 
-%/glyphnamemap.csv: %/codepointmap.csv
-
-%/colr.otf: %/colr.toml %/codepointmap.csv %/colr.fea $(SVGS)
+%/colr.otf: %/colr.toml %/glyphmap.csv %/colr.fea $(SVGS)
 	@echo "   MAKE	$(@F)"
 	@python3 -m nanoemoji.write_font -v -1 \
 		      --config_file $< \
+		      --glyphmap_file $*/glyphmap.csv \
 		      --color_format cff_colr_1 \
-		      --codepointmap_file $*/codepointmap.csv \
 		      --fea_file $*/colr.fea \
 		      --output_file $@
 
-%/colr.ttf: %/colr.toml %/codepointmap.csv %/colr.fea $(SVGS)
+%/colr.ttf: %/colr.toml %/glyphmap.csv %/colr.fea $(SVGS)
 	@echo "   MAKE	$(@F)"
 	@python3 -m nanoemoji.write_font -v -1 \
 		      --config_file $< \
+		      --glyphmap_file $*/glyphmap.csv \
 		      --color_format glyf_colr_1 \
-		      --codepointmap_file $*/codepointmap.csv \
 		      --fea_file $*/colr.fea \
 		      --output_file $@
 
-$(NAME)$(COLORv1)-%.otf: $(NAME)-%.otf $(COLRDIR)/%/colr.otf $(COLRDIR)/%/glyphnamemap.csv
+$(NAME)$(COLORv1)-%.otf: $(NAME)-%.otf $(COLRDIR)/%/colr.otf
 	@echo "   MAKE	$(@F)"
 	@python3 mkcolrv1.py $< $(COLRDIR)/$*/colr.otf \
-			     $(COLRDIR)/$*/glyphnamemap.csv \
 			     "$(FAMILY)" "$(COLORv1)" \
 			     $@
 
-$(NAME)$(COLORv1)-%.ttf: $(NAME)-%.ttf $(COLRDIR)/%/colr.ttf $(COLRDIR)/%/glyphnamemap.csv
+$(NAME)$(COLORv1)-%.ttf: $(NAME)-%.ttf $(COLRDIR)/%/colr.ttf
 	@echo "   MAKE	$(@F)"
 	@python3 mkcolrv1.py $< $(COLRDIR)/$*/colr.ttf \
-			     $(COLRDIR)/$*/glyphnamemap.csv \
 			     "$(FAMILY)" "$(COLORv1)" \
 			     $@
 

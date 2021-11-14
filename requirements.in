@@ -3,5 +3,5 @@ fontmake>=3.0.0b1
 glyphsLib>=v6.0.0b2
 skia-pathops
 uharfbuzz
-nanoemoji
+nanoemoji>=0.9.11
 picosvg

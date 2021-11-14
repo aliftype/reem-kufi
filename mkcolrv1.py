@@ -5,30 +5,6 @@ from fontTools.ttLib import TTFont
 from fontTools.pens.t2CharStringPen import T2CharStringPen
 from fontTools.pens.ttGlyphPen import TTGlyphPen
 
-glyphmap = {}
-
-
-def glyph_name(n):
-    if n in glyphmap:
-        return glyphmap[n]
-    if "." in n:
-        b, e = n.split(".", 1)
-        if b in glyphmap:
-            return glyphmap[b] + ".colr" + e
-    return n
-
-
-def rename_glyphs(font):
-    go = font.getGlyphOrder()
-    go = [glyph_name(n) for n in go]
-    if "CFF " in font:
-        topDict = font["CFF "].cff.topDictIndex[0]
-        topDict.charset = go
-        topDict.CharStrings.charStrings = {
-            glyph_name(n): v for n, v in topDict.CharStrings.charStrings.items()
-        }
-    font.setGlyphOrder(go)
-
 
 def copy_CFF_glyphs(colr_font, base_font):
     colr_go = colr_font.getGlyphOrder()
@@ -74,9 +50,6 @@ def make(args):
     base_font = TTFont(args.base)
     colr_font = TTFont(args.colr)
 
-    # Rename color glyphs before copying
-    rename_glyphs(colr_font)
-
     base_go = base_font.getGlyphOrder()
     colr_go = colr_font.getGlyphOrder()
 
@@ -120,21 +93,11 @@ def main():
     parser = argparse.ArgumentParser(description="Rename Reem Kufi color fonts.")
     parser.add_argument("base", metavar="FILE", help="input font to process")
     parser.add_argument("colr", metavar="FILE", help="COLRv1 font to copy tables from")
-    parser.add_argument(
-        "glyhmap",
-        metavar="FILE",
-        help="glyph names mapping between COLRv1 and base fonts",
-    )
     parser.add_argument("family", metavar="STR", help="base family name")
     parser.add_argument("suffix", metavar="STR", help="suffix to add to family name")
     parser.add_argument("output", metavar="FILE", help="output font to write")
 
     args = parser.parse_args()
-
-    with open(sys.argv[3]) as fp:
-        for line in fp.readlines():
-            base_name, colr_name = line.strip().split(",")
-            glyphmap[colr_name] = base_name
 
     font = make(args)
     font.save(args.output)
