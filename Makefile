@@ -113,7 +113,7 @@ $(NAME).otf: $(BUILDDIR)/$(NAME).otf
 
 $(NAME)$(COLOR).%: $(NAME).%
 	@echo "   MAKE	$(@F)"
-	@python3 rename-color.py $< $@ $(COLOR) ss02
+	@python3 mkcolrv0.py $< $@ $(COLOR) ss02
 
 $(NAME)-%.ttf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"
