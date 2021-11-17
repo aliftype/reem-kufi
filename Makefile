@@ -84,6 +84,14 @@ $(COLRDIR)/%/colr.toml: colr.toml
 		      --fea_file $*/colr.fea \
 		      --output_file $@
 
+%/colr.ufo: %/colr.toml %/glyphmap.csv %/colr.fea $(SVGS)
+	@echo "   MAKE	$(@F)"
+	@python3 -m nanoemoji.write_font -v -1 \
+		      --config_file $< \
+		      --glyphmap_file $*/glyphmap.csv \
+		      --fea_file $*/colr.fea \
+		      --output_file $@
+
 $(NAME)$(COLORv1)-%.otf: $(NAME)-%.otf $(COLRDIR)/%/colr.otf
 	@echo "   MAKE	$(@F)"
 	@python3 mkcolrv1.py $< $(COLRDIR)/$*/colr.otf \
