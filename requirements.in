@@ -1,6 +1,6 @@
 fonttools
 fontmake>=3.0.0b1
-glyphsLib>=v6.0.0b2
+glyphsLib>=v6.0.0
 skia-pathops
 uharfbuzz
 nanoemoji>=0.9.11
