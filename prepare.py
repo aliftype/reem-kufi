@@ -1,6 +1,5 @@
 import argparse
 
-from datetime import datetime
 from glyphsLib.classes import GSFont
 
 
@@ -73,10 +72,8 @@ def merge(args):
     glyphOrder += [g.name for g in arabic.glyphs if g.color == 0]
     arabic.customParameters['glyphOrder'] = glyphOrder
 
-    # Set metadata
+    # Set veresion
     arabic.versionMajor, arabic.versionMinor = map(int, args.version.split("."))
-    year = datetime.now().year
-    arabic.copyright = f"Copyright 2015-{year} The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi)."
 
     return arabic
 

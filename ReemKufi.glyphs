@@ -1,5 +1,5 @@
 {
-.appVersion = "3100";
+.appVersion = "3110";
 .formatVersion = 3;
 axes = (
 {
@@ -24801,6 +24801,15 @@ value = "ريم على القاع بين البان و العلم   أحل سف�
 {
 key = vendorID;
 value = ALIF;
+},
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2015-2022 The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi).";
+}
+);
 }
 );
 settings = {
