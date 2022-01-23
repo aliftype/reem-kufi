@@ -1,5 +1,6 @@
 import argparse
 
+from fontTools import subset
 from fontTools.ttLib import TTFont
 
 
@@ -25,8 +26,22 @@ def main():
     args = parser.parse_args()
 
     font = TTFont(args.input)
-    del font["COLR"]
-    del font["CPAL"]
+
+    unicodes = font.getBestCmap().keys()
+    options = subset.Options()
+    options.set(
+        layout_features="*",
+        layout_scripts="*",
+        name_IDs="*",
+        name_languages="*",
+        drop_tables=["COLR", "CPAL"],
+        notdef_outline=True,
+        recalc_average_width=True,
+    )
+    subsetter = subset.Subsetter(options=options)
+    subsetter.populate(unicodes=unicodes)
+    subsetter.subset(font)
+
     font.save(args.output)
 
 
