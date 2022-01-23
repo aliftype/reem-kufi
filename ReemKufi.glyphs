@@ -14471,51 +14471,6 @@ subCategory = Nonspacing;
 },
 {
 category = Mark;
-glyphname = "twodotsverticalabove-ar.alt.001";
-layers = (
-{
-anchors = (
-{
-name = _dotAbove.alt;
-pos = (58,0);
-},
-{
-name = markAbove;
-pos = (58,319);
-}
-);
-layerId = master01;
-shapes = (
-{
-ref = "twodotsverticalabove-ar";
-}
-);
-width = 116;
-},
-{
-anchors = (
-{
-name = _dotAbove.alt;
-pos = (58,0);
-},
-{
-name = markAbove;
-pos = (58,319);
-}
-);
-layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
-shapes = (
-{
-ref = "twodotsverticalabove-ar";
-}
-);
-width = 116;
-}
-);
-subCategory = Nonspacing;
-},
-{
-category = Mark;
 glyphname = "twodotsverticalbelow-ar";
 layers = (
 {
