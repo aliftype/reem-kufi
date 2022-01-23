@@ -298,6 +298,9 @@ feature cv01 {
 
   sub alefMaksura-ar by alefMaksura-ar.1;
   sub alefMaksura-ar.fina by alefMaksura-ar.fina.1;
+
+  sub lam-ar.init.Alef by lam-ar.init.Alef.1;
+  sub alef-ar.fina.Lam by alef-ar.fina.Lam.1;
 } cv01;
 
 feature cv01 {
