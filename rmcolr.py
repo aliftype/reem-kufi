@@ -4,7 +4,6 @@ from fontTools.ttLib import TTFont
 
 
 def rename(args):
-    font = TTFont(args.input)
     name = font["name"]
     for rec in name.names:
         if rec.nameID in (1, 4):
@@ -22,11 +21,12 @@ def main():
     parser = argparse.ArgumentParser(description="Rename Reem Kufi color fonts.")
     parser.add_argument("input", metavar="FILE", help="input font to process")
     parser.add_argument("output", metavar="FILE", help="output font to write")
-    parser.add_argument("suffix", metavar="STR", help="suffix to add to family name")
 
     args = parser.parse_args()
 
-    font = rename(args)
+    font = TTFont(args.input)
+    del font["COLR"]
+    del font["CPAL"]
     font.save(args.output)
 
 

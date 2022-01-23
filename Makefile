@@ -107,6 +107,7 @@ $(NAME)$(COLORv1)-%.ttf: $(NAME)-%.ttf $(COLRDIR)/%/colr.ttf
 $(NAME)-%.otf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,otf,$<,$@,$*)
+	@python3 rmcolr.py $@ $@
 
 $(BUILDDIR)/$(NAME).otf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"
@@ -114,14 +115,17 @@ $(BUILDDIR)/$(NAME).otf: $(BUILDDIR)/$(NAME).designspace
 
 $(NAME).otf: $(BUILDDIR)/$(NAME).otf
 	@python3 update-stat.py $< $@
+	@python3 rmcolr.py $@ $@
 
-$(NAME)$(COLOR).%: $(NAME).%
+$(NAME)$(COLOR).%: $(BUILDDIR)/$(NAME).%
 	@echo "   MAKE	$(@F)"
-	@python3 mkcolrv0.py $< $@ $(COLOR) ss02
+	@python3 update-stat.py $< $@
+	@python3 mkcolrv0.py $@ $@ $(COLOR)
 
 $(NAME)-%.ttf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"
 	@$(call generate_fonts,ttf,$<,$@,$*)
+	@python3 rmcolr.py $@ $@
 
 $(BUILDDIR)/$(NAME).ttf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"
@@ -129,6 +133,7 @@ $(BUILDDIR)/$(NAME).ttf: $(BUILDDIR)/$(NAME).designspace
 
 $(NAME).ttf: $(BUILDDIR)/$(NAME).ttf
 	@python3 update-stat.py $< $@
+	@python3 rmcolr.py $@ $@
 
 $(BUILDDIR)/$(NAME).glyphs: $(NAME).glyphs $(LATIN).glyphs
 	@echo "   GEN	$(@F)"
