@@ -18,7 +18,7 @@ for glyph in font.glyphs:
         pua += 1
     else:
         uni = int(glyph.unicode, 16)
-    glyphmap_csv += f"{builddir / glyph.name}.svg,{glyph.name},{uni:x}\n"
+    glyphmap_csv += f"{builddir / glyph.name}.svg,,{glyph.name},{uni:x}\n"
 
 with open(f"{builddir / 'glyphmap.csv'}", "w") as fp:
     fp.write(glyphmap_csv)
