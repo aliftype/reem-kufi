@@ -37,6 +37,7 @@ def main():
         drop_tables=["COLR", "CPAL"],
         notdef_outline=True,
         recalc_average_width=True,
+        glyph_names=True,
     )
     subsetter = subset.Subsetter(options=options)
     subsetter.populate(unicodes=unicodes)
