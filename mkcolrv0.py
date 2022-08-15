@@ -11,6 +11,8 @@ def rename(args):
             rec.string = str(rec) + " " + args.suffix
         elif rec.nameID in (3, 6):
             rec.string = str(rec) + args.suffix
+        elif rec.nameID == 0:
+            rec.string = str(rec).replace("Kufi", f"Kufi {args.suffix}")
         elif "-" in str(rec):
             string = str(rec).split("-")
             rec.string = "-".join([string[0] + args.suffix] + string[1:])
