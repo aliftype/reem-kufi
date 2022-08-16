@@ -1,4 +1,4 @@
-VERSION=1.2
+VERSION=1.3
 FAMILY=Reem Kufi
 NAME=ReemKufi
 COLOR=Fun
@@ -13,8 +13,8 @@ FONTS=Regular Medium SemiBold Bold
 
 BASE=$(FONTS:%=$(NAME)-%.otf)
 
-OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf $(NAME)$(COLOR).otf $(NAME)$(COLORv1)-Regular.otf $(NAME)$(COLORv1)-Bold.otf
-TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf $(NAME)$(COLOR).ttf $(NAME)$(COLORv1)-Regular.ttf $(NAME)$(COLORv1)-Bold.ttf
+OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf $(NAME)$(COLOR).otf $(NAME)$(COLORv1)-Regular.otf #$(NAME)$(COLORv1)-Bold.otf
+TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf $(NAME)$(COLOR).ttf $(NAME)$(COLORv1)-Regular.ttf #$(NAME)$(COLORv1)-Bold.ttf
 SVG=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.svg)
 SAMPLE=Sample.svg
 
