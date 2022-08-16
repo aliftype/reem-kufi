@@ -32,7 +32,7 @@ fontmake --mm-designspace $(2)                                                 \
          ;
 endef
 
-all: otf ttf doc
+all: otf doc
 
 otf: $(OTF)
 ttf: $(TTF)
