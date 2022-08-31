@@ -73,7 +73,7 @@ def merge(args):
     arabic.customParameters['glyphOrder'] = glyphOrder
 
     # Set veresion
-    arabic.versionMajor, arabic.versionMinor = map(int, args.version.split("."))
+    arabic.versionMajor, arabic.versionMinor = map(int, args.version[1:].split("."))
 
     return arabic
 

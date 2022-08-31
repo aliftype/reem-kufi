@@ -1,4 +1,3 @@
-VERSION=1.4
 FAMILY=Reem Kufi
 NAME=ReemKufi
 COLOR=Fun
@@ -17,6 +16,8 @@ OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf $(NAME)$(COLOR).otf $(NAME)$(COLORv1)-R
 TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf $(NAME)$(COLOR).ttf $(NAME)$(COLORv1)-Regular.ttf #$(NAME)$(COLORv1)-Bold.ttf
 SVG=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.svg)
 SAMPLE=Sample.svg
+
+VERSION=$(shell git describe --tags --abbrev=0)
 
 export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" $(NAME).glyphs)
 
