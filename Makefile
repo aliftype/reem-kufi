@@ -1,7 +1,7 @@
 FAMILY=Reem Kufi
 NAME=ReemKufi
-COLOR=Fun
-COLORv1=Ink
+COLR=Fun
+COLRv1=Ink
 LATIN=JosefinSans
 
 DIST=$(NAME)-$(VERSION)
@@ -12,8 +12,8 @@ FONTS=Regular Medium SemiBold Bold
 
 BASE=$(FONTS:%=$(NAME)-%.otf)
 
-OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf $(NAME)$(COLOR).otf $(NAME)$(COLORv1)-Regular.otf #$(NAME)$(COLORv1)-Bold.otf
-TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf $(NAME)$(COLOR).ttf $(NAME)$(COLORv1)-Regular.ttf #$(NAME)$(COLORv1)-Bold.ttf
+OTF=$(FONTS:%=$(NAME)-%.otf) $(NAME).otf $(NAME)$(COLR).otf $(NAME)$(COLRv1)-Regular.otf #$(NAME)$(COLRv1)-Bold.otf
+TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf $(NAME)$(COLR).ttf $(NAME)$(COLRv1)-Regular.ttf #$(NAME)$(COLRv1)-Bold.ttf
 SVG=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.svg)
 SAMPLE=Sample.svg
 
@@ -93,16 +93,16 @@ $(COLRDIR)/%/colr.toml: colr.toml
 		      --fea_file $*/colr.fea \
 		      --output_file $@
 
-$(NAME)$(COLORv1)-%.otf: $(NAME)-%.otf $(COLRDIR)/%/colr.otf
+$(NAME)$(COLRv1)-%.otf: $(NAME)-%.otf $(COLRDIR)/%/colr.otf
 	@echo "   MAKE	$(@F)"
 	@python3 mkcolrv1.py $< $(COLRDIR)/$*/colr.otf \
-			     "$(FAMILY)" "$(COLORv1)" \
+			     "$(FAMILY)" "$(COLRv1)" \
 			     $@
 
-$(NAME)$(COLORv1)-%.ttf: $(NAME)-%.ttf $(COLRDIR)/%/colr.ttf
+$(NAME)$(COLRv1)-%.ttf: $(NAME)-%.ttf $(COLRDIR)/%/colr.ttf
 	@echo "   MAKE	$(@F)"
 	@python3 mkcolrv1.py $< $(COLRDIR)/$*/colr.ttf \
-			     "$(FAMILY)" "$(COLORv1)" \
+			     "$(FAMILY)" "$(COLRv1)" \
 			     $@
 
 $(NAME)-%.otf: $(BUILDDIR)/$(NAME).designspace
@@ -118,10 +118,10 @@ $(NAME).otf: $(BUILDDIR)/$(NAME).otf
 	@python3 update-stat.py $< $@
 	@python3 mknocolr.py $@ $@
 
-$(NAME)$(COLOR).%: $(BUILDDIR)/$(NAME).%
+$(NAME)$(COLR).%: $(BUILDDIR)/$(NAME).%
 	@echo "   MAKE	$(@F)"
 	@python3 update-stat.py $< $@
-	@python3 mkcolrv0.py $@ $@ $(COLOR)
+	@python3 mkcolrv0.py $@ $@ $(COLR)
 
 $(NAME)-%.ttf: $(BUILDDIR)/$(NAME).designspace
 	@echo "   MAKE	$(@F)"
