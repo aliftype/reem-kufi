@@ -1,3 +1,5 @@
+SHELL=/usr/bin/env bash
+
 FAMILY=Reem Kufi
 NAME=ReemKufi
 COLR=Fun
@@ -17,7 +19,8 @@ TTF=$(FONTS:%=$(NAME)-%.ttf) $(NAME).ttf $(NAME)$(COLR).ttf $(NAME)$(COLRv1)-Reg
 SVG=$(FONTS:%=$(BUILDDIR)/$(NAME)-%.svg)
 SAMPLE=Sample.svg
 
-VERSION=$(shell git describe --tags --abbrev=0)
+TAG=$(shell git describe --tags --abbrev=0)
+VERSION=$(TAG:v%=%)
 
 export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" $(NAME).glyphs)
 
@@ -40,9 +43,6 @@ ttf: $(TTF)
 doc: $(SAMPLE)
 
 .SECONDARY:
-
-SHELL=/usr/bin/env bash
-
 
 SVGS_ = $(notdir $(wildcard Images/Regular/*.svg))
 SVGS = $(SVGS_:%=\%/%)
