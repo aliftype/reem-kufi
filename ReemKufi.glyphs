@@ -1,5 +1,5 @@
 {
-.appVersion = "3134";
+.appVersion = "3140";
 .formatVersion = 3;
 axes = (
 {
@@ -54,6 +54,13 @@ value = (
 (196,156,51,255),
 (117,188,234,255)
 )
+);
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+space
 );
 }
 );
@@ -624,6 +631,40 @@ visible = 1;
 }
 );
 glyphs = (
+{
+glyphname = space;
+layers = (
+{
+anchors = (
+{
+name = markAbove;
+pos = (65,550);
+},
+{
+name = markBelow;
+pos = (65,-150);
+}
+);
+layerId = master01;
+width = 130;
+},
+{
+anchors = (
+{
+name = markAbove;
+pos = (65,550);
+},
+{
+name = markBelow;
+pos = (65,-150);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 130;
+}
+);
+unicode = (32,160);
+},
 {
 glyphname = "hamza-ar";
 layers = (
@@ -12900,40 +12941,6 @@ com.schriftgestaltung.Glyphs.lastChange = "2017-10-25 19:17:40 +0000";
 width = 500;
 }
 );
-},
-{
-glyphname = space;
-layers = (
-{
-anchors = (
-{
-name = markAbove;
-pos = (65,550);
-},
-{
-name = markBelow;
-pos = (65,-150);
-}
-);
-layerId = master01;
-width = 130;
-},
-{
-anchors = (
-{
-name = markAbove;
-pos = (65,550);
-},
-{
-name = markBelow;
-pos = (65,-150);
-}
-);
-layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
-width = 130;
-}
-);
-unicode = (32,160);
 },
 {
 glyphname = "fullstop-ar";
