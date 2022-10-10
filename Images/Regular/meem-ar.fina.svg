@@ -6,7 +6,7 @@
    height="1500.0"
    id="svg145"
    sodipodi:docname="meem-ar.fina.svg"
-   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -78,6 +78,16 @@
        y2="942.55011"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-365.05887)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4167"
+       id="linearGradient5088"
+       gradientUnits="userSpaceOnUse"
+       x1="439.76511"
+       y1="342.95303"
+       x2="441.24161"
+       y2="286.57718"
+       gradientTransform="translate(920)" />
   </defs>
   <sodipodi:namedview
      objecttolerance="1"
@@ -91,19 +101,23 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:current-layer="svg145">
+     inkscape:current-layer="svg145"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="0,400"
        orientation="0,-1"
-       id="guide137" />
+       id="guide137"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <g
-     transform="matrix(1 0 0 -1 0 1100.0)"
+     transform="matrix(1,0,0,-1,0,1680)"
      id="g143">
     <path
        fill="#404040"
-       d="M175.0 0.0H440.0L375.0 100.0H175.0V0.0ZM440.0 0.0H705.0V100.0H505.0L440.0 0.0ZM440.0 0.0C522.0 0.0 588.0 67.0 588.0 150.0C588.0 217.0 545.0 274.0 485.0 293.0C471.0 298.0 451.0 310.0 440.0 350.0C430.0 310.0 411.0 298.0 397.0 294.0C336.0 275.0 291.0 218.0 291.0 150.0C291.0 67.0 358.0 0.0 440.0 0.0ZM440.0 100.0C412.0 100.0 390.0 122.0 390.0 150.0C390.0 178.0 412.0 200.0 440.0 200.0C468.0 200.0 490.0 178.0 490.0 150.0C490.0 122.0 468.0 100.0 440.0 100.0ZM25.0 0.0H440.0L380.0 100.0H177.0C153.0 100.0 122.0 113.0 109.0 140.0L25.0 0.0Z"
-       id="path141" />
+       d="M 440,580 H 705 V 680 H 505 Z m 0,0 c 82,0 148,67 148,150 0,67 -43,124 -103,143 -14,5 -34,17 -45,57 -10,-40 -29,-52 -43,-56 -61,-19 -106,-76 -106,-144 0,-83 67,-150 149,-150 z m 0,100 c -28,0 -50,22 -50,50 0,28 22,50 50,50 28,0 50,-22 50,-50 0,-28 -22,-50 -50,-50 z M 25,580 H 440 L 380,680 H 177 c -24,0 -55,13 -68,40 z"
+       id="path141"
+       sodipodi:nodetypes="cccccsscccssssssscccscc" />
   </g>
   <path
      id="path2830"
@@ -120,14 +134,15 @@
      id="g101"
      style="fill:#404040;fill:#000000;fill-opacity:1" />
   <g
-     transform="matrix(1 0 0 -1 0 1100.0)"
+     transform="matrix(1,0,0,-1,-920,1100)"
      id="g4161"
-     style="fill-opacity:1;fill:url(#linearGradient4169)">
+     style="fill:url(#linearGradient4169);fill-opacity:1">
     <path
        fill="#404040"
-       d="M175.0 0.0H440.0L375.0 100.0H175.0V0.0ZM440.0 0.0H705.0V100.0H505.0L440.0 0.0ZM440.0 0.0C522.0 0.0 588.0 67.0 588.0 150.0C588.0 217.0 545.0 274.0 485.0 293.0C471.0 298.0 451.0 310.0 440.0 350.0C430.0 310.0 411.0 298.0 397.0 294.0C336.0 275.0 291.0 218.0 291.0 150.0C291.0 67.0 358.0 0.0 440.0 0.0ZM440.0 100.0C412.0 100.0 390.0 122.0 390.0 150.0C390.0 178.0 412.0 200.0 440.0 200.0C468.0 200.0 490.0 178.0 490.0 150.0C490.0 122.0 468.0 100.0 440.0 100.0ZM25.0 0.0H440.0L380.0 100.0H177.0C153.0 100.0 122.0 113.0 109.0 140.0L25.0 0.0Z"
+       d="m 1360,0 h 265 v 100 h -200 z m 0,0 c 82,0 148,67 148,150 0,67 -43,124 -103,143 -14,5 -34,17 -45,57 -10,-40 -29,-52 -43,-56 -61,-19 -106,-76 -106,-144 0,-83 67,-150 149,-150 z m 0,100 c -28,0 -50,22 -50,50 0,28 22,50 50,50 28,0 50,-22 50,-50 0,-28 -22,-50 -50,-50 z M 945,0 h 415 l -60,100 h -203 c -24,0 -55,13 -68,40 z"
        id="path4159"
-       style="fill-opacity:1;fill:url(#linearGradient4169)" />
+       style="fill:url(#linearGradient5088);fill-opacity:1"
+       sodipodi:nodetypes="cccccsscccssssssscccscc" />
   </g>
   <path
      id="path4708"
