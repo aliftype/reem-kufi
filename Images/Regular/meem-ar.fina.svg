@@ -62,15 +62,6 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4167"
-       id="linearGradient4169"
-       x1="439.76511"
-       y1="342.95303"
-       x2="441.24161"
-       y2="286.57718"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4167"
        id="linearGradient5472"
        x1="720.13849"
        y1="997.13605"
@@ -81,13 +72,13 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4167"
-       id="linearGradient5088"
+       id="linearGradient5409"
        gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,-1,0,1100)"
        x1="439.76511"
        y1="342.95303"
        x2="441.24161"
-       y2="286.57718"
-       gradientTransform="translate(920)" />
+       y2="286.57718" />
   </defs>
   <sodipodi:namedview
      objecttolerance="1"
@@ -133,17 +124,10 @@
      transform="matrix(1,0,0,-1,1060,1100)"
      id="g101"
      style="fill:#404040;fill:#000000;fill-opacity:1" />
-  <g
-     transform="matrix(1,0,0,-1,-920,1100)"
-     id="g4161"
-     style="fill:url(#linearGradient4169);fill-opacity:1">
-    <path
-       fill="#404040"
-       d="m 1360,0 h 265 v 100 h -200 z m 0,0 c 82,0 148,67 148,150 0,67 -43,124 -103,143 -14,5 -34,17 -45,57 -10,-40 -29,-52 -43,-56 -61,-19 -106,-76 -106,-144 0,-83 67,-150 149,-150 z m 0,100 c -28,0 -50,22 -50,50 0,28 22,50 50,50 28,0 50,-22 50,-50 0,-28 -22,-50 -50,-50 z M 945,0 h 415 l -60,100 h -203 c -24,0 -55,13 -68,40 z"
-       id="path4159"
-       style="fill:url(#linearGradient5088);fill-opacity:1"
-       sodipodi:nodetypes="cccccsscccssssssscccscc" />
-  </g>
+  <path
+     style="fill:url(#linearGradient5409);fill-opacity:1"
+     d="m 440,1100 c 82,0 148,-67 148,-150 0,-67 -43,-124 -103,-143 -14,-5 -34,-17 -45,-57 -10,40 -29,52 -43,56 -61,19 -106,76 -106,144 0,83 67,150 149,150 z"
+     id="path5403" />
   <path
      id="path4708"
      d="m 439.94113,750 c -10,40 -29,52 -43,56 -61,19 -106,76 -106,144 0,17.56989 3.15659,34.34783 8.66797,50 h 140.33203 c -28,0 -50,-22 -50,-50 0,-28 22,-50 50,-50"

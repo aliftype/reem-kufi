@@ -6,7 +6,7 @@
    height="1500.0"
    id="svg121"
    sodipodi:docname="meem-ar.fina.1.svg"
-   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -14,15 +14,6 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs123">
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4167"
-       id="linearGradient4169"
-       x1="439.76511"
-       y1="342.95303"
-       x2="441.24161"
-       y2="286.57718"
-       gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4167">
@@ -35,15 +26,6 @@
          offset="1"
          id="stop4165" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4167"
-       id="linearGradient693"
-       gradientUnits="userSpaceOnUse"
-       x1="439.76511"
-       y1="342.95303"
-       x2="441.24161"
-       y2="286.57718" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient2406"
@@ -77,6 +59,16 @@
        r="87.5"
        gradientTransform="matrix(-0.69291683,-0.98996457,0.43427301,-0.30396551,-63.82925,1855.126)"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4167"
+       id="linearGradient5345"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,-1,-265.93168,1100)"
+       x1="439.76511"
+       y1="342.95303"
+       x2="441.24161"
+       y2="286.57718" />
   </defs>
   <sodipodi:namedview
      objecttolerance="1"
@@ -90,11 +82,14 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:current-layer="svg121">
+     inkscape:current-layer="svg121"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="0,400"
        orientation="0,-1"
-       id="guide113" />
+       id="guide113"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <g
      transform="matrix(1 0 0 -1 0 1100.0)"
@@ -104,16 +99,10 @@
        d="M-50.0 -181.0C5.0 -235.0 125.0 -190.0 125.0 -100.0V92.0L25.0 150.0V-100.0C25.0 -164.0 -44.0 -181.0 -50.0 -181.0ZM174.0 0.0H439.0V100.0H239.0L174.0 0.0ZM174.0 0.0C256.0 0.0 322.0 67.0 322.0 150.0C322.0 217.0 279.0 274.0 219.0 293.0C205.0 298.0 185.0 310.0 174.0 350.0C164.0 310.0 145.0 298.0 131.0 294.0C70.0 275.0 25.0 218.0 25.0 150.0C25.0 67.0 92.0 0.0 174.0 0.0ZM174.0 100.0C146.0 100.0 124.0 122.0 124.0 150.0C124.0 178.0 146.0 200.0 174.0 200.0C202.0 200.0 224.0 178.0 224.0 150.0C224.0 122.0 202.0 100.0 174.0 100.0Z"
        id="path117" />
   </g>
-  <g
-     transform="matrix(1,0,0,-1,-265.93168,1100)"
-     id="g4161"
-     style="fill:url(#linearGradient4169);fill-opacity:1">
-    <path
-       fill="#404040"
-       d="M 175,0 H 440 L 375,100 H 175 Z M 440,0 H 705 V 100 H 505 Z M 440,0 c 82,0 148,67 148,150 0,67 -43,124 -103,143 -14,5 -34,17 -45,57 C 430,310 411,298 397,294 336,275 291,218 291,150 291,67 358,0 440,0 Z m 0,100 c -28,0 -50,22 -50,50 0,28 22,50 50,50 28,0 50,-22 50,-50 0,-28 -22,-50 -50,-50 z M 25,0 H 440 L 380,100 H 177 c -24,0 -55,13 -68,40 z"
-       id="path4159"
-       style="fill:url(#linearGradient693);fill-opacity:1" />
-  </g>
+  <path
+     style="fill:url(#linearGradient5345);fill-opacity:1"
+     d="m 174.06832,1100 c 82,0 148,-67 148,-150 0,-67 -43,-124 -103,-143 -14,-5 -34,-17 -45,-57 -10,40 -29,52 -43,56 -61,19 -106,76 -106,144 0,83 67,150 149,150 z"
+     id="path5339" />
   <path
      style="fill:url(#linearGradient2408);fill-opacity:1"
      d="m -50,1281 c 55,54 175,9 175,-81 V 1008 L 25,950 v 250 c 0,64 -69,81 -75,81 z"
