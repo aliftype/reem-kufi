@@ -1,12 +1,11 @@
-FAMILY=Reem Kufi
 NAME=ReemKufi
+FAMILY=Reem Kufi
 COLR=Fun
 COLRv1=Ink
 LATIN=JosefinSans
 
-DIST=$(NAME)-$(VERSION)
-
 BUILDDIR=build
+DIST=$(NAME)-$(VERSION)
 
 FONTS=Regular Medium SemiBold Bold
 
@@ -159,13 +158,14 @@ $(SAMPLE): $(BASE)
 	  --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
           --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]"
 
-dist: ttf
-	mkdir -p $(NAME)-$(VERSION)/ttf
-	cp $(OTF) $(NAME)-$(VERSION)
-	cp $(TTF) $(NAME)-$(VERSION)/ttf
-	cp OFL.txt $(NAME)-$(VERSION)
-	sed -e "/^!\[Sample\].*./d" README.md > $(NAME)-$(VERSION)/README.txt
-	zip -r $(NAME)-$(VERSION).zip $(NAME)-$(VERSION)
+dist: otf ttf
+	echo "   DIST   $(DIST)"
+	install -Dm644 -t $(DIST) $(OTF)
+	install -Dm644 -t $(DIST)/ttf $(TTF)
+	install -Dm644 -t $(DIST) OFL.txt
+	install -Dm644 -t $(DIST) README.md
+	echo "   ZIP    $(DIST)"
+	zip -q -r $(DIST).zip $(DIST)
 
 clean:
 	rm -rf $(OTF) $(TTF) $(SAMPLE) $(BUILDDIR) $(NAME)-$(VERSION) $(NAME)-$(VERSION).zip
