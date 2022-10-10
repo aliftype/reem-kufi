@@ -1,5 +1,6 @@
 import argparse
 import copy
+import re
 import sys
 from fontTools.ttLib import TTFont
 from fontTools.pens.t2CharStringPen import T2CharStringPen
@@ -76,14 +77,14 @@ def make(args):
     base_font["CPAL"].palettes = [palettes[1], palettes[0]]
 
     name = base_font["name"]
-    family = args.family
-    psname = args.family.replace(" ", "")
+    psname = args.output.stem
+    family = re.sub("([A-Z])", r" \1", psname.split("-")[0]).strip()
+    old_psname = str(name.getName(6, 3, 1))
+    old_family = str(name.getName(1, 3, 1))
     for rec in name.names:
         if rec.nameID in (1, 3, 4, 6):
             rec.string = (
-                str(rec)
-                .replace(family, family + " " + args.suffix)
-                .replace(psname, psname + args.suffix)
+                str(rec).replace(old_family, family).replace(old_psname, psname)
             )
 
     # Drop glyph names from TTF fonts.
@@ -94,12 +95,12 @@ def make(args):
 
 
 def main():
+    from pathlib import Path
+
     parser = argparse.ArgumentParser(description="Rename Reem Kufi color fonts.")
     parser.add_argument("base", metavar="FILE", help="input font to process")
     parser.add_argument("colr", metavar="FILE", help="COLRv1 font to copy tables from")
-    parser.add_argument("family", metavar="STR", help="base family name")
-    parser.add_argument("suffix", metavar="STR", help="suffix to add to family name")
-    parser.add_argument("output", metavar="FILE", help="output font to write")
+    parser.add_argument("output", type=Path, help="output font to write")
 
     args = parser.parse_args()
 

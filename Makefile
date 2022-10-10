@@ -1,5 +1,4 @@
 NAME=ReemKufi
-FAMILY=Reem Kufi
 COLR=Fun
 COLRv1=Ink
 LATIN=JosefinSans
@@ -95,15 +94,11 @@ $(COLRDIR)/%/colr.toml: colr.toml
 
 $(NAME)$(COLRv1)-%.otf: $(NAME)-%.otf $(COLRDIR)/%/colr.otf
 	echo "   MAKE	$(@F)"
-	python3 mkcolrv1.py $< $(COLRDIR)/$*/colr.otf \
-			     "$(FAMILY)" "$(COLRv1)" \
-			     $@
+	python3 mkcolrv1.py $< $(COLRDIR)/$*/colr.otf $@
 
 $(NAME)$(COLRv1)-%.ttf: $(NAME)-%.ttf $(COLRDIR)/%/colr.ttf
 	echo "   MAKE	$(@F)"
-	python3 mkcolrv1.py $< $(COLRDIR)/$*/colr.ttf \
-			     "$(FAMILY)" "$(COLRv1)" \
-			     $@
+	python3 mkcolrv1.py $< $(COLRDIR)/$*/colr.ttf $@
 
 $(NAME)-%.otf: $(BUILDDIR)/$(NAME).designspace
 	echo "   MAKE	$(@F)"
