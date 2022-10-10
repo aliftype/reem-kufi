@@ -86,6 +86,10 @@ def make(args):
                 .replace(psname, psname + args.suffix)
             )
 
+    # Drop glyph names from TTF fonts.
+    if "glyf" in base_font:
+        base_font["post"].formatType = 3
+
     return base_font
 
 
