@@ -63,7 +63,7 @@ picosvg==0.20.4
     # via
     #   -r requirements.in
     #   nanoemoji
-pillow==9.2.0
+pillow==9.3.0
     # via nanoemoji
 pngquant-cli==2.17.0.post5
     # via nanoemoji
@@ -93,8 +93,6 @@ ufolib2==0.13.1
     #   nanoemoji
 uharfbuzz==0.31.0
     # via blackrenderer
-unicodedata2==14.0.0
-    # via fonttools
 zopfli==0.2.1
     # via nanoemoji
 
