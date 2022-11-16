@@ -24,6 +24,8 @@ VARIABLE = \
 
 OTF=$(STATIC:%=${STATICDIR}/%.otf) $(VARIABLE:%=${VARIABLEDIR}/%.otf)
 TTF=$(STATIC:%=${STATICDIR}/%.ttf) $(VARIABLE:%=${VARIABLEDIR}/%.ttf)
+DOTF=$(OTF:%=${BUILDDIR}/dist/%)
+DTTF=$(TTF:%=${BUILDDIR}/dist/%)
 SAMPLE=Sample.svg
 
 TAG=$(shell git describe --tags --abbrev=0)
@@ -112,7 +114,7 @@ ${STATICDIR}/${NAME}${COLRv1}-%.ttf: ${STATICDIR}/${NAME}-%.ttf ${COLRDIR}/%/col
 	echo "   MAKE	$(@F)"
 	python3 ${SCRIPTDIR}/mkcolrv1.py $< ${COLRDIR}/$*/colr.ttf $@
 
-${NAME}-%.otf: ${BUILDDIR}/${NAME}.designspace
+${STATICDIR}/${NAME}-%.otf: ${BUILDDIR}/${NAME}.designspace
 	echo "   MAKE	$(@F)"
 	$(call generate_fonts,otf,$<,$@,$(*F))
 	python3 ${SCRIPTDIR}/mknocolr.py $@ $@
@@ -123,16 +125,14 @@ ${BUILDDIR}/${NAME}.otf: ${BUILDDIR}/${NAME}.designspace
 
 ${VARIABLEDIR}/${NAME}.otf: ${BUILDDIR}/${NAME}.otf
 	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/update-stat.py $< $@
-	python3 ${SCRIPTDIR}/mknocolr.py $@ $@
+	python3 ${SCRIPTDIR}/mknocolr.py $< $@
 
 ${VARIABLEDIR}/${NAME}${COLR}.%: ${BUILDDIR}/${NAME}.%
 	echo "   MAKE	$(@F)"
 	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/update-stat.py $< $@
-	python3 ${SCRIPTDIR}/mkcolrv0.py $@ $@ ${COLR}
+	python3 ${SCRIPTDIR}/mkcolrv0.py $< $@ ${COLR}
 
-${NAME}-%.ttf: ${BUILDDIR}/${NAME}.designspace
+${STATICDIR}/${NAME}-%.ttf: ${BUILDDIR}/${NAME}.designspace
 	echo "   MAKE	$(@F)"
 	$(call generate_fonts,ttf,$<,$@,$(*F))
 	python3 ${SCRIPTDIR}/mknocolr.py $@ $@
@@ -143,8 +143,7 @@ ${BUILDDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.designspace
 
 ${VARIABLEDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.ttf
 	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/update-stat.py $< $@
-	python3 ${SCRIPTDIR}/mknocolr.py $@ $@
+	python3 ${SCRIPTDIR}/mknocolr.py $< $@
 
 ${BUILDDIR}/${NAME}.glyphs: ${SOURCEDIR}/${NAME}.glyphs ${SOURCEDIR}/${LATIN}.glyphs
 	echo "   GEN	$(@F)"
@@ -161,6 +160,14 @@ ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
 		    --no-store-editor-state \
 		    $<
 
+${BUILDDIR}/dist/${STATICDIR}/%: ${STATICDIR}/%
+	mkdir -p $(@D)
+	python3 ${SCRIPTDIR}/dist.py $< $@
+
+${BUILDDIR}/dist/${VARIABLEDIR}/%: ${VARIABLEDIR}/%
+	mkdir -p $(@D)
+	python3 ${SCRIPTDIR}/dist.py $< $@
+
 ${SAMPLE}: ${VARIABLEDIR}/${NAME}.otf
 	echo "   SAMPLE    $(@F)"
 	python3 ${SCRIPTDIR}/mksample.py $< \
@@ -168,10 +175,10 @@ ${SAMPLE}: ${VARIABLEDIR}/${NAME}.otf
 	  --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
           --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]"
 
-dist: otf ttf
+dist: ${DOTF} ${DTTF}
 	echo "   DIST   ${DIST}"
-	install -Dm644 -t ${DIST} ${OTF}
-	install -Dm644 -t ${DIST}/ttf ${TTF}
+	install -Dm644 -t ${DIST} ${DOTF}
+	install -Dm644 -t ${DIST}/ttf ${DTTF}
 	install -Dm644 -t ${DIST} OFL.txt
 	install -Dm644 -t ${DIST} README.md
 	echo "   ZIP    ${DIST}"

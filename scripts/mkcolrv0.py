@@ -7,19 +7,19 @@ def process(args):
     font = TTFont(args.input)
     name = font["name"]
     for rec in name.names:
-        if rec.nameID in (1, 4):
+        if rec.nameID == 1:
             rec.string = str(rec) + " " + args.suffix
+        elif rec.nameID == 4:
+            base, style = str(rec).rsplit(" ", 1)
+            rec.string = f"{base} {args.suffix} {style}"
         elif rec.nameID in (3, 6):
-            rec.string = str(rec) + args.suffix
+            base, style = str(rec).split("-")
+            rec.string = f"{base}{args.suffix}-{style}"
         elif rec.nameID == 0:
             rec.string = str(rec).replace("Kufi", f"Kufi {args.suffix}")
         elif "-" in str(rec):
             string = str(rec).split("-")
             rec.string = "-".join([string[0] + args.suffix] + string[1:])
-
-    # Drop glyph names from TTF fonts.
-    if "glyf" in font:
-        font["post"].formatType = 3
 
     return font
 
