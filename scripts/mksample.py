@@ -3,7 +3,7 @@ import argparse
 from blackrenderer.font import BlackRendererFont
 from blackrenderer.backends.svg import SVGSurface
 from blackrenderer.render import buildGlyphLine, calcGlyphLineBounds
-from fontTools.misc.arrayTools import offsetRect, unionRect
+from fontTools.misc.arrayTools import insetRect, offsetRect, unionRect
 
 import uharfbuzz as hb
 
@@ -37,22 +37,26 @@ def parseFeatures(text):
 def makeLine(buf, font, y):
     line = buildGlyphLine(buf.glyph_infos, buf.glyph_positions, font.glyphNames)
 
-    rect = calcGlyphLineBounds(line, font)
-    rect = offsetRect(rect, 0, y)
+    xMin, yMin, xMax, yMax = calcGlyphLineBounds(line, font)
+    rect = offsetRect((xMin, yMin, xMax, yMax), 0, y)
 
-    ascender = font.ttFont["OS/2"].sTypoAscender
-    descender = font.ttFont["OS/2"].sTypoDescender
-    height = -ascender + descender
+    height = -yMin + yMax
 
     return line, rect, height
 
 
-def draw(surface, paths, text, features):
+def draw(surface, path, text, features):
+    margin = 100
     bounds = None
     lines = []
-    y = 0
-    for path in paths:
+    y = margin
+    font = BlackRendererFont(path)
+    locations = sorted(
+        [i.coordinates for i in font.ttFont["fvar"].instances], key=lambda x: -x["wght"]
+    )
+    for location in locations:
         font = BlackRendererFont(path)
+        font.setLocation(location)
 
         buf = hb.Buffer()
         buf.add_str(text)
@@ -65,13 +69,14 @@ def draw(surface, paths, text, features):
         if bounds is None:
             bounds = rect
         bounds = unionRect(bounds, rect)
-        y += height
+        y += height + margin
 
+    bounds = insetRect(bounds, -margin, -margin)
     with surface.canvas(bounds) as canvas:
         for font, line, rect, y in lines:
             with canvas.savedState():
-                # Center align the line. 
-                x = (bounds[2] - rect[2]) / 2
+                # Center align the line.
+                x = (bounds[2] - rect[2]) / 2 - margin
                 canvas.translate(x, y)
                 for glyph in line:
                     with canvas.savedState():
@@ -82,7 +87,7 @@ def draw(surface, paths, text, features):
 
 def main(args=None):
     parser = argparse.ArgumentParser(description="Create SVG sample.")
-    parser.add_argument("fonts", nargs="+", help="input fonts")
+    parser.add_argument("font", help="input font")
     parser.add_argument("-t", "--text", help="input text", required=True)
     parser.add_argument("-f", "--features", help="input features")
     parser.add_argument("-o", "--output", help="output SVG", required=True)
@@ -91,7 +96,7 @@ def main(args=None):
 
     surface = SVGSurface()
     features = parseFeatures(options.features)
-    draw(surface, options.fonts, options.text, features)
+    draw(surface, options.font, options.text, features)
     surface.saveImage(options.output)
 
 

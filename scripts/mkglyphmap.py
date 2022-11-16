@@ -11,7 +11,8 @@ for glyph in font.glyphs:
     if not glyph.export:
         continue
     style = Path(builddir.name)
-    if not ("Images" / style / f"{glyph.name}.svg").is_file():
+    svg = Path("sources/svg" / style / f"{glyph.name}.svg")
+    if not svg.is_file():
         continue
     if not glyph.unicode:
         uni = pua
