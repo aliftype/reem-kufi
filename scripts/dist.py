@@ -1,44 +1,38 @@
 import argparse
 
 from fontTools.ttLib import TTFont
-from fontTools.ttLib.tables import otTables as ot
 
-
-def axis_value(instance, name):
-    v = ot.AxisValue()
-    v.AxisIndex = 0
-    v.Format = 1
-    v.Flags = 0
-    if name == "Regular":
-        v.Format = 3
-        v.LinkedValue = 700.0
-        v.Flags = 2
-    v.ValueNameID = instance.subfamilyNameID
-    v.Value = list(instance.coordinates.values())[0]
-    return v
+from gftools.fix import fix_unhinted_font
+from gftools.stat import gen_stat_tables
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Update STAT table.")
+    parser = argparse.ArgumentParser(description="Post process font for distribution.")
     parser.add_argument("input", metavar="FILE", help="input font to process")
     parser.add_argument("output", metavar="FILE", help="output font to save")
+    parser.add_argument("version", metavar="VERSION", help="Font version")
 
     args = parser.parse_args()
 
     font = TTFont(args.input)
 
+    version = args.version.split("-")[0]
+    if args.version[0] == "v":
+        version = version[1:]
+
+    font["head"].fontRevision = float(version)
+
+    font["name"].names = [n for n in font["name"].names if n.platformID == 3]
+    for name in font["name"].names:
+        if name.nameID == 5:
+            v = f"Version {version}"
+            name.string = v
+        if name.nameID == 3:
+            parts = [version] + str(name).split(";")[1:]
+            name.string = ";".join(parts)
+
     if "fvar" in font:
-        STAT = font["STAT"]
-        fvar = font["fvar"]
-        name = font["name"]
-        if not STAT.table.AxisValueArray:
-            STAT.table.AxisValueArray = ot.AxisValueArray()
-            STAT.table.AxisValueArray.AxisValue = [
-                axis_value(i, name.getDebugName(i.subfamilyNameID))
-                for i in fvar.instances
-            ]
-        name.names = [n for n in name.names if n.platformID == 3]
-        for n in name.names:
+        for n in font["name"].names:
             if n.nameID == 6:
                 psname = str(n).split("-")[0]
                 n.string = psname
@@ -46,12 +40,8 @@ def main():
                 n.string = str(n).split("-")[0]
             elif n.nameID == 4:
                 n.string = str(n).replace(" Regular", "")
-        for instance in fvar.instances:
-            if instance.postscriptNameID == 0xFFFF:
-                n = name.getDebugName(instance.subfamilyNameID)
-                instance.postscriptNameID = name.addMultilingualName(
-                    {"en": f"{psname}-{n}"}, mac=False
-                )
+        gen_stat_tables([font])
+    fix_unhinted_font(font)
 
     # Drop glyph names from TTF fonts.
     if "glyf" in font:

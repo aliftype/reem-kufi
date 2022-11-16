@@ -148,7 +148,7 @@ ${VARIABLEDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.ttf
 ${BUILDDIR}/${NAME}.glyphs: ${SOURCEDIR}/${NAME}.glyphs ${SOURCEDIR}/${LATIN}.glyphs
 	echo "   GEN	$(@F)"
 	mkdir -p ${BUILDDIR}
-	python3 ${SCRIPTDIR}/prepare.py --version=${VERSION} --out-file=$@ $< $(word 2,$+)
+	python3 ${SCRIPTDIR}/prepare.py --out-file=$@ $< $(word 2,$+)
 
 ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
 	echo "   GEN	$(@F)"
@@ -162,11 +162,11 @@ ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
 
 ${BUILDDIR}/dist/${STATICDIR}/%: ${STATICDIR}/%
 	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/dist.py $< $@
+	python3 ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
 
 ${BUILDDIR}/dist/${VARIABLEDIR}/%: ${VARIABLEDIR}/%
 	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/dist.py $< $@
+	python3 ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
 
 ${SAMPLE}: ${VARIABLEDIR}/${NAME}.otf
 	echo "   SAMPLE    $(@F)"

@@ -72,9 +72,6 @@ def merge(args):
     glyphOrder += [g.name for g in arabic.glyphs if g.color == 0]
     arabic.customParameters['glyphOrder'] = glyphOrder
 
-    # Set veresion
-    arabic.versionMajor, arabic.versionMinor = map(int, args.version.split("."))
-
     return arabic
 
 
@@ -84,9 +81,6 @@ def main():
     parser.add_argument("latinfile", metavar="FILE", help="input font to process")
     parser.add_argument(
         "--out-file", metavar="FILE", help="output font to write", required=True
-    )
-    parser.add_argument(
-        "--version", metavar="version", help="version number", required=True
     )
 
     args = parser.parse_args()
