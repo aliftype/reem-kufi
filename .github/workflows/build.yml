@@ -23,7 +23,7 @@ jobs:
         python -m pip install -r requirements.txt
     - name: Build
       run: |
-        make -j -B dist
+        make -B dist
     - name: Upload artifacts
       if: github.ref_type == 'tag'
       uses: actions/upload-artifact@v2
