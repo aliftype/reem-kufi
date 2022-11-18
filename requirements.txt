@@ -226,7 +226,7 @@ toml==0.10.2
     # via nanoemoji
 ttfautohint-py==0.5.1
     # via gftools
-ufo2ft[cffsubr,compreffor]==2.29.0
+ufo2ft @ git+https://github.com/googlefonts/ufo2ft@issue-579
     # via
     #   -r requirements.in
     #   fontmake
