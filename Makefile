@@ -1,29 +1,21 @@
 NAME=ReemKufi
-COLR=Fun
-COLRv1=Ink
 LATIN=JosefinSans
+COLRv0=Fun
+COLRv1=Ink
 
 SOURCEDIR=sources
 SCRIPTDIR=scripts
 FONTDIR=fonts
-STATICDIR=${FONTDIR}/static
-VARIABLEDIR=${FONTDIR}/variable
 BUILDDIR=build
 DIST=${NAME}-${VERSION}
 
-STATIC = \
-	${NAME}-Regular \
-	${NAME}-Medium \
-	${NAME}-SemiBold \
-	${NAME}-Bold \
+FONTS = \
+	${NAME} \
+	${NAME}${COLRv0} \
 	${NAME}${COLRv1}-Regular # ${NAME}${COLRv1}-Bold
 
-VARIABLE = \
-	${NAME} \
-	${NAME}${COLR}
-
-OTF=$(STATIC:%=${STATICDIR}/%.otf) $(VARIABLE:%=${VARIABLEDIR}/%.otf)
-TTF=$(STATIC:%=${STATICDIR}/%.ttf) $(VARIABLE:%=${VARIABLEDIR}/%.ttf)
+OTF=$(FONTS:%=${FONTDIR}/%.otf)
+TTF=$(FONTS:%=${FONTDIR}/%.ttf)
 DOTF=$(OTF:%=${BUILDDIR}/dist/%)
 DTTF=$(TTF:%=${BUILDDIR}/dist/%)
 SAMPLE=Sample.svg
@@ -106,42 +98,36 @@ ${COLRDIR}/%/colr.toml: colr.toml
 		      --fea_file $*/colr.fea \
 		      --output_file $@
 
-${STATICDIR}/${NAME}${COLRv1}-%.otf: ${STATICDIR}/${NAME}-%.otf ${COLRDIR}/%/colr.otf
-	echo "   MAKE	$(@F)"
-	python3 ${SCRIPTDIR}/mkcolrv1.py $< ${COLRDIR}/$*/colr.otf $@
-
-${STATICDIR}/${NAME}${COLRv1}-%.ttf: ${STATICDIR}/${NAME}-%.ttf ${COLRDIR}/%/colr.ttf
-	echo "   MAKE	$(@F)"
-	python3 ${SCRIPTDIR}/mkcolrv1.py $< ${COLRDIR}/$*/colr.ttf $@
-
-${STATICDIR}/${NAME}-%.otf: ${BUILDDIR}/${NAME}.designspace
+${FONTDIR}/${NAME}${COLRv1}-%.otf: ${BUILDDIR}/${NAME}.designspace ${COLRDIR}/%/colr.otf
 	echo "   MAKE	$(@F)"
 	$(call generate_fonts,otf,$<,$@,$(*F))
 	python3 ${SCRIPTDIR}/mknocolr.py $@ $@
+	python3 ${SCRIPTDIR}/mkcolrv1.py $@ ${COLRDIR}/$*/colr.otf $@
+
+${FONTDIR}/${NAME}${COLRv1}-%.ttf: ${BUILDDIR}/${NAME}.designspace ${COLRDIR}/%/colr.ttf
+	echo "   MAKE	$(@F)"
+	$(call generate_fonts,ttf,$<,$@,$(*F))
+	python3 ${SCRIPTDIR}/mknocolr.py $@ $@
+	python3 ${SCRIPTDIR}/mkcolrv1.py $@ ${COLRDIR}/$*/colr.ttf $@
+
+${FONTDIR}/${NAME}${COLRv0}.%: ${BUILDDIR}/${NAME}.%
+	echo "   MAKE	$(@F)"
+	mkdir -p $(@D)
+	python3 ${SCRIPTDIR}/mkcolrv0.py $< $@ ${COLRv0}
 
 ${BUILDDIR}/${NAME}.otf: ${BUILDDIR}/${NAME}.designspace
 	echo "   MAKE	$(@F)"
 	$(call generate_fonts,variable-cff2,$<,$@)
 
-${VARIABLEDIR}/${NAME}.otf: ${BUILDDIR}/${NAME}.otf
-	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/mknocolr.py $< $@
-
-${VARIABLEDIR}/${NAME}${COLR}.%: ${BUILDDIR}/${NAME}.%
-	echo "   MAKE	$(@F)"
-	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/mkcolrv0.py $< $@ ${COLR}
-
-${STATICDIR}/${NAME}-%.ttf: ${BUILDDIR}/${NAME}.designspace
-	echo "   MAKE	$(@F)"
-	$(call generate_fonts,ttf,$<,$@,$(*F))
-	python3 ${SCRIPTDIR}/mknocolr.py $@ $@
-
 ${BUILDDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.designspace
 	echo "   MAKE	$(@F)"
 	$(call generate_fonts,variable,$<,$@)
 
-${VARIABLEDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.ttf
+${FONTDIR}/${NAME}.otf: ${BUILDDIR}/${NAME}.otf
+	mkdir -p $(@D)
+	python3 ${SCRIPTDIR}/mknocolr.py $< $@
+
+${FONTDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.ttf
 	mkdir -p $(@D)
 	python3 ${SCRIPTDIR}/mknocolr.py $< $@
 
@@ -160,15 +146,15 @@ ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
 		    --no-store-editor-state \
 		    $<
 
-${BUILDDIR}/dist/${STATICDIR}/%: ${STATICDIR}/%
+${BUILDDIR}/dist/${FONTDIR}/%: ${FONTDIR}/%
 	mkdir -p $(@D)
 	python3 ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
 
-${BUILDDIR}/dist/${VARIABLEDIR}/%: ${VARIABLEDIR}/%
+${BUILDDIR}/dist/${FONTDIR}/%: ${FONTDIR}/%
 	mkdir -p $(@D)
 	python3 ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
 
-${SAMPLE}: ${VARIABLEDIR}/${NAME}.otf
+${SAMPLE}: ${FONTDIR}/${NAME}.otf
 	echo "   SAMPLE    $(@F)"
 	python3 ${SCRIPTDIR}/mksample.py $< \
 	  --output=$@ \
