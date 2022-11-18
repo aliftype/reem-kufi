@@ -6,7 +6,7 @@
    height="1500.0"
    id="svg145"
    sodipodi:docname="hah-ar.fina.svg"
-   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -43,6 +43,16 @@
        x1="85.402687"
        y1="739.24341"
        x2="169.05368"
+       y2="791.59247"
+       gradientTransform="translate(-580)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1720"
+       id="linearGradient251"
+       gradientUnits="userSpaceOnUse"
+       x1="85.402687"
+       y1="739.24341"
+       x2="169.05368"
        y2="791.59247" />
   </defs>
   <sodipodi:namedview
@@ -57,11 +67,14 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:current-layer="svg145">
+     inkscape:current-layer="svg145"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="0,400"
        orientation="0,-1"
-       id="guide137" />
+       id="guide137"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <path
      fill="#404040"
@@ -73,8 +86,23 @@
      id="path1570"
      style="fill:url(#linearGradient1722);fill-opacity:1" />
   <path
-     fill="#404040"
-     d="m 215,1185 z m 0,0 z m -140,85 c 61,47 164,37 221,-3 -64,20 -185,13 -185,-95 0,-51 45,-72 71,-72 H 450 V 1000 H 182 c -128,0 -157,87 -157,157 0,53 20,90 50,113 z M 192,600 Z m 0,0 z m 186,700 83,-77 L 192,741 H 25 l 50,100 h 45 z"
-     id="path1823"
-     style="fill:url(#linearGradient1844);fill-opacity:1" />
+     style="fill:url(#linearGradient251);fill-opacity:1"
+     d="M 378,1300 461,1223 192,741 H 25 l 50,100 h 45 z"
+     id="path249" />
+  <path
+     style="fill:url(#linearGradient1844);fill-opacity:1"
+     d="M -388,600 Z"
+     id="path247" />
+  <path
+     style="fill:url(#linearGradient1844);fill-opacity:1"
+     d="M -388,600 Z"
+     id="path245" />
+  <path
+     style="fill:url(#linearGradient1844);fill-opacity:1"
+     d="M -365,1185 Z"
+     id="path241" />
+  <path
+     style="fill:url(#linearGradient1844);fill-opacity:1"
+     d="M -365,1185 Z"
+     id="path1823" />
 </svg>
