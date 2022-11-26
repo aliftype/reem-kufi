@@ -1222,7 +1222,6 @@ nodes = (
 width = 225;
 }
 );
-production = uni0627.fina;
 },
 {
 glyphname = "alef-ar.fina.Lam";
@@ -1294,7 +1293,6 @@ nodes = (
 width = 0;
 }
 );
-production = uni0627.fina.Lam;
 },
 {
 glyphname = "alef-ar.fina.Lam.1";
@@ -1366,7 +1364,6 @@ nodes = (
 width = 0;
 }
 );
-production = uni0627.fina.Lam.1;
 },
 {
 glyphname = "behDotless-ar";
@@ -2822,7 +2819,6 @@ ref = _hah.head;
 width = 428;
 }
 );
-production = uni062D.fina;
 },
 {
 glyphname = "hah-ar.fina.1";
@@ -2856,7 +2852,6 @@ ref = _hah.head.1;
 width = 428;
 }
 );
-production = uni062D.fina.1;
 },
 {
 glyphname = "hah-ar.fina.alt";
@@ -2892,7 +2887,6 @@ ref = _hah.bowel.alt;
 width = 583;
 }
 );
-production = uni062D.fina.alt;
 },
 {
 glyphname = "hah-ar.fina.alt.1";
@@ -2928,7 +2922,6 @@ ref = _hah.bowel.alt;
 width = 583;
 }
 );
-production = uni062D.fina.alt.1;
 },
 {
 glyphname = "hah-ar.medi";
@@ -2998,7 +2991,6 @@ ref = _hah.head;
 width = 418;
 }
 );
-production = uni062D.medi;
 },
 {
 glyphname = "hah-ar.medi.1";
@@ -3068,7 +3060,6 @@ ref = _hah.head.1;
 width = 378;
 }
 );
-production = uni062D.medi.1;
 },
 {
 glyphname = "hah-ar.medi.2";
@@ -3112,7 +3103,6 @@ ref = "hah-ar.init.2";
 width = 480;
 }
 );
-production = uni062D.medi.2;
 },
 {
 glyphname = "hah-ar.init";
@@ -3208,7 +3198,6 @@ nodes = (
 width = 685;
 }
 );
-production = uni062D.init;
 },
 {
 glyphname = "hah-ar.init.2";
@@ -3470,7 +3459,6 @@ nodes = (
 width = 0;
 }
 );
-production = uni062D.init.2;
 },
 {
 glyphname = "dal-ar";
@@ -3664,7 +3652,6 @@ nodes = (
 width = 920;
 }
 );
-production = uni062F.fina;
 },
 {
 glyphname = "reh-ar";
@@ -3796,7 +3783,6 @@ ref = "reh-ar";
 width = 300;
 }
 );
-production = uni0631.fina;
 },
 {
 glyphname = "seen-ar";
@@ -3980,7 +3966,6 @@ ref = "seen-ar";
 width = 945;
 }
 );
-production = uni0633.fina;
 },
 {
 glyphname = "seen-ar.medi";
@@ -4068,7 +4053,6 @@ nodes = (
 width = 700;
 }
 );
-production = uni0633.medi;
 },
 {
 glyphname = "seen-ar.init";
@@ -4158,7 +4142,6 @@ nodes = (
 width = 625;
 }
 );
-production = uni0633.init;
 },
 {
 glyphname = "sad-ar";
@@ -4250,7 +4233,6 @@ ref = "sad-ar";
 width = 1245;
 }
 );
-production = uni0635.fina;
 },
 {
 glyphname = "sad-ar.medi";
@@ -4292,7 +4274,6 @@ ref = "sad-ar.init";
 width = 1015;
 }
 );
-production = uni0635.medi;
 },
 {
 glyphname = "sad-ar.init";
@@ -4354,7 +4335,6 @@ ref = _sad.body;
 width = 940;
 }
 );
-production = uni0635.init;
 },
 {
 glyphname = "tah-ar";
@@ -4456,7 +4436,6 @@ ref = "tah-ar";
 width = 1085;
 }
 );
-production = uni0637.fina;
 },
 {
 glyphname = "tah-ar.medi";
@@ -4518,7 +4497,6 @@ ref = "tah-ar";
 width = 1015;
 }
 );
-production = uni0637.medi;
 },
 {
 glyphname = "tah-ar.init";
@@ -4562,7 +4540,6 @@ ref = "tah-ar";
 width = 940;
 }
 );
-production = uni0637.init;
 },
 {
 glyphname = "ain-ar";
@@ -4796,7 +4773,6 @@ ref = _ain.head;
 width = 430;
 }
 );
-production = uni0639.fina;
 },
 {
 glyphname = "ain-ar.fina.1";
@@ -4856,7 +4832,6 @@ ref = _ain.head.1;
 width = 490;
 }
 );
-production = uni0639.fina.1;
 },
 {
 glyphname = "ain-ar.medi";
@@ -4910,7 +4885,6 @@ ref = _ain.head;
 width = 369;
 }
 );
-production = uni0639.medi;
 },
 {
 glyphname = "ain-ar.medi.1";
@@ -4965,7 +4939,6 @@ ref = _ain.head.1;
 width = 525;
 }
 );
-production = uni0639.medi.1;
 },
 {
 glyphname = "ain-ar.init";
@@ -5063,7 +5036,6 @@ nodes = (
 width = 535;
 }
 );
-production = uni0639.init;
 },
 {
 glyphname = "fehDotless-ar";
@@ -5747,7 +5719,6 @@ nodes = (
 width = 965;
 }
 );
-production = uni0643.fina;
 },
 {
 glyphname = "kaf-ar.fina.1";
@@ -5789,7 +5760,6 @@ ref = "kaf-ar";
 width = 1085;
 }
 );
-production = uni0643.fina.1;
 },
 {
 glyphname = "kaf-ar.medi";
@@ -5917,7 +5887,6 @@ nodes = (
 width = 985;
 }
 );
-production = uni0643.medi;
 },
 {
 glyphname = "kaf-ar.medi.1";
@@ -5959,7 +5928,6 @@ ref = "kaf-ar.init.1";
 width = 985;
 }
 );
-production = uni0643.medi.1;
 },
 {
 glyphname = "kaf-ar.init";
@@ -6063,7 +6031,6 @@ nodes = (
 width = 940;
 }
 );
-production = uni0643.init;
 },
 {
 glyphname = "kaf-ar.init.1";
@@ -6091,7 +6058,6 @@ ref = "kaf-ar";
 width = 925;
 }
 );
-production = uni0643.init.1;
 },
 {
 glyphname = "lam-ar";
@@ -6203,7 +6169,6 @@ ref = "lam-ar";
 width = 545;
 }
 );
-production = uni0644.fina;
 },
 {
 glyphname = "lam-ar.medi";
@@ -6257,7 +6222,6 @@ ref = "lam-ar.init";
 width = 300;
 }
 );
-production = uni0644.medi;
 },
 {
 glyphname = "lam-ar.medi.Alef";
@@ -6299,7 +6263,6 @@ ref = "lam-ar.init.Alef";
 width = 425;
 }
 );
-production = uni0644.medi.Alef;
 },
 {
 glyphname = "lam-ar.init";
@@ -6373,7 +6336,6 @@ nodes = (
 width = 225;
 }
 );
-production = uni0644.init;
 },
 {
 glyphname = "lam-ar.init.Alef";
@@ -6481,7 +6443,6 @@ ref = _circle;
 width = 390;
 }
 );
-production = uni0644.init.Alef;
 },
 {
 glyphname = "lam-ar.init.Alef.1";
@@ -6591,7 +6552,6 @@ ref = _circle;
 width = 390;
 }
 );
-production = uni0644.init.Alef.1;
 },
 {
 glyphname = "lam-ar.init.Hah";
@@ -6663,7 +6623,6 @@ nodes = (
 width = 0;
 }
 );
-production = uni0644.init.Hah;
 },
 {
 glyphname = "meem-ar";
@@ -6868,7 +6827,6 @@ ref = _tail;
 width = 685;
 }
 );
-production = uni0645.fina;
 },
 {
 glyphname = "meem-ar.fina.1";
@@ -6952,7 +6910,6 @@ ref = _meem.circle;
 width = 419;
 }
 );
-production = uni0645.fina.1;
 },
 {
 glyphname = "meem-ar.fina.2";
@@ -7018,7 +6975,6 @@ ref = _meem.circle;
 width = 507;
 }
 );
-production = uni0645.fina.2;
 },
 {
 glyphname = "meem-ar.medi";
@@ -7078,7 +7034,6 @@ ref = _meem.circle;
 width = 490;
 }
 );
-production = uni0645.medi;
 },
 {
 glyphname = "meem-ar.medi.1";
@@ -7160,7 +7115,6 @@ ref = _meem.circle.2;
 width = 490;
 }
 );
-production = uni0645.medi.1;
 },
 {
 glyphname = "meem-ar.init";
@@ -7224,7 +7178,6 @@ ref = _circle;
 width = 418;
 }
 );
-production = uni0645.init;
 },
 {
 glyphname = "noonghunna-ar";
@@ -7468,7 +7421,6 @@ ref = "noonghunna-ar";
 width = 490;
 }
 );
-production = uni06BA.fina;
 },
 {
 glyphname = "heh-ar";
@@ -8063,7 +8015,6 @@ nodes = (
 width = 419;
 }
 );
-production = uni0647.isol;
 },
 {
 glyphname = "heh-ar.fina";
@@ -8123,7 +8074,6 @@ ref = "heh-ar";
 width = 415;
 }
 );
-production = uni0647.fina;
 },
 {
 glyphname = "heh-ar.fina.1";
@@ -8183,7 +8133,6 @@ ref = "heh-ar.1";
 width = 415;
 }
 );
-production = uni0647.fina.1;
 },
 {
 glyphname = "heh-ar.medi";
@@ -8225,7 +8174,6 @@ ref = "heh-ar.init";
 width = 487;
 }
 );
-production = uni0647.medi;
 },
 {
 glyphname = "heh-ar.medi.1";
@@ -8267,7 +8215,6 @@ ref = "heh-ar.init.1";
 width = 487;
 }
 );
-production = uni0647.medi.1;
 },
 {
 glyphname = "heh-ar.medi.2";
@@ -8309,7 +8256,6 @@ ref = "heh-ar.init.2";
 width = 487;
 }
 );
-production = uni0647.medi.2;
 },
 {
 glyphname = "heh-ar.medi.3";
@@ -8351,7 +8297,6 @@ ref = "heh-ar.init.3";
 width = 487;
 }
 );
-production = uni0647.medi.3;
 },
 {
 glyphname = "heh-ar.init";
@@ -8459,7 +8404,6 @@ ref = _circle;
 width = 419;
 }
 );
-production = uni0647.init;
 },
 {
 glyphname = "heh-ar.init.1";
@@ -8501,7 +8445,6 @@ ref = "heh-ar.init";
 width = 419;
 }
 );
-production = uni0647.init.1;
 },
 {
 glyphname = "heh-ar.init.2";
@@ -8917,7 +8860,6 @@ nodes = (
 width = 419;
 }
 );
-production = uni0647.init.2;
 },
 {
 glyphname = "heh-ar.init.3";
@@ -8959,7 +8901,6 @@ ref = "heh-ar.init.2";
 width = 419;
 }
 );
-production = uni0647.init.3;
 },
 {
 glyphname = "hehDoachashmee-ar";
@@ -9025,7 +8966,6 @@ ref = "heh-ar.isol";
 width = 634;
 }
 );
-production = uni06BE.fina;
 },
 {
 glyphname = "waw-ar";
@@ -9155,7 +9095,6 @@ ref = "waw-ar";
 width = 400;
 }
 );
-production = uni0648.fina;
 },
 {
 glyphname = "waw-ar.fina.1";
@@ -9270,7 +9209,6 @@ ref = _meem.circle.2;
 width = 422;
 }
 );
-production = uni0648.fina.1;
 },
 {
 glyphname = "alefMaksura-ar";
@@ -9681,7 +9619,6 @@ ref = _tail;
 width = 680;
 }
 );
-production = uni0649.fina;
 },
 {
 glyphname = "alefMaksura-ar.fina.1";
@@ -9825,7 +9762,6 @@ nodes = (
 width = 720;
 }
 );
-production = uni0649.fina.1;
 },
 {
 glyphname = "yehbarree-ar";
@@ -10075,7 +10011,6 @@ nodes = (
 width = 1045;
 }
 );
-production = uni06D2.fina;
 },
 {
 glyphname = "ae-ar";
