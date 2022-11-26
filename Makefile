@@ -14,9 +14,7 @@ FONTS = \
 	${NAME}${COLRv0} \
 	${NAME}${COLRv1}-Regular # ${NAME}${COLRv1}-Bold
 
-OTF=$(FONTS:%=${FONTDIR}/%.otf)
 TTF=$(FONTS:%=${FONTDIR}/%.ttf)
-DOTF=$(OTF:%=${BUILDDIR}/dist/%)
 DTTF=$(TTF:%=${BUILDDIR}/dist/%)
 SAMPLE=Sample.svg
 
@@ -38,9 +36,8 @@ fontmake --mm-designspace $(2)                                                 \
          ;
 endef
 
-all: otf doc
+all: ttf doc
 
-otf: ${OTF}
 ttf: ${TTF}
 doc: ${SAMPLE}
 
@@ -72,15 +69,6 @@ ${COLRDIR}/%/colr.toml: colr.toml
 	mkdir -p $(@D)
 	python3 ${SCRIPTDIR}/mkglyphmap.py $< $(@D)
 
-%/colr.otf: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
-	echo "   MAKE	$(@F)"
-	python3 -m nanoemoji.write_font -v -1 \
-		      --config_file $< \
-		      --glyphmap_file $*/glyphmap.csv \
-		      --color_format cff_colr_1 \
-		      --fea_file $*/colr.fea \
-		      --output_file $@
-
 %/colr.ttf: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
 	echo "   MAKE	$(@F)"
 	python3 -m nanoemoji.write_font -v -1 \
@@ -98,34 +86,20 @@ ${COLRDIR}/%/colr.toml: colr.toml
 		      --fea_file $*/colr.fea \
 		      --output_file $@
 
-${FONTDIR}/${NAME}${COLRv1}-%.otf: ${BUILDDIR}/${NAME}.designspace ${COLRDIR}/%/colr.otf
-	echo "   MAKE	$(@F)"
-	$(call generate_fonts,otf,$<,$@,$(*F))
-	python3 ${SCRIPTDIR}/mknocolr.py $@ $@
-	python3 ${SCRIPTDIR}/mkcolrv1.py $@ ${COLRDIR}/$*/colr.otf $@
-
 ${FONTDIR}/${NAME}${COLRv1}-%.ttf: ${BUILDDIR}/${NAME}.designspace ${COLRDIR}/%/colr.ttf
 	echo "   MAKE	$(@F)"
 	$(call generate_fonts,ttf,$<,$@,$(*F))
 	python3 ${SCRIPTDIR}/mknocolr.py $@ $@
 	python3 ${SCRIPTDIR}/mkcolrv1.py $@ ${COLRDIR}/$*/colr.ttf $@
 
-${FONTDIR}/${NAME}${COLRv0}.%: ${BUILDDIR}/${NAME}.%
+${FONTDIR}/${NAME}${COLRv0}.ttf: ${BUILDDIR}/${NAME}.ttf
 	echo "   MAKE	$(@F)"
 	mkdir -p $(@D)
 	python3 ${SCRIPTDIR}/mkcolrv0.py $< $@ ${COLRv0}
 
-${BUILDDIR}/${NAME}.otf: ${BUILDDIR}/${NAME}.designspace
-	echo "   MAKE	$(@F)"
-	$(call generate_fonts,variable-cff2,$<,$@)
-
 ${BUILDDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.designspace
 	echo "   MAKE	$(@F)"
 	$(call generate_fonts,variable,$<,$@)
-
-${FONTDIR}/${NAME}.otf: ${BUILDDIR}/${NAME}.otf
-	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/mknocolr.py $< $@
 
 ${FONTDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.ttf
 	mkdir -p $(@D)
@@ -154,21 +128,20 @@ ${BUILDDIR}/dist/${FONTDIR}/%: ${FONTDIR}/%
 	mkdir -p $(@D)
 	python3 ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
 
-${SAMPLE}: ${FONTDIR}/${NAME}.otf
+${SAMPLE}: ${FONTDIR}/${NAME}.ttf
 	echo "   SAMPLE    $(@F)"
 	python3 ${SCRIPTDIR}/mksample.py $< \
 	  --output=$@ \
 	  --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
           --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]"
 
-dist: ${DOTF} ${DTTF}
+dist: ${DTTF}
 	echo "   DIST   ${DIST}"
-	install -Dm644 -t ${DIST} ${DOTF}
-	install -Dm644 -t ${DIST}/ttf ${DTTF}
+	install -Dm644 -t ${DIST} ${DTTF}
 	install -Dm644 -t ${DIST} OFL.txt
 	install -Dm644 -t ${DIST} README.md
 	echo "   ZIP    ${DIST}"
 	zip -q -r ${DIST}.zip ${DIST}
 
 clean:
-	rm -rf ${OTF} ${TTF} ${SAMPLE} ${BUILDDIR} ${NAME}-${VERSION} ${NAME}-${VERSION}.zip
+	rm -rf ${TTF} ${SAMPLE} ${BUILDDIR} ${NAME}-${VERSION} ${NAME}-${VERSION}.zip
