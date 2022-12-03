@@ -80,6 +80,15 @@ ${COLRDIR}/%/colr.toml: colr.toml
 		      --fea_file $*/colr.fea \
 		      --output_file $@
 
+%/svg.ttf: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
+	echo "   MAKE	$(@F)"
+	${PY} -m nanoemoji.write_font -v -1 \
+		      --config_file $< \
+		      --glyphmap_file $*/glyphmap.csv \
+		      --color_format untouchedsvg \
+		      --fea_file $*/colr.fea \
+		      --output_file $@
+
 %/colr.ufo: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
 	echo "   MAKE	$(@F)"
 	${PY} -m nanoemoji.write_font -v -1 \
@@ -88,11 +97,11 @@ ${COLRDIR}/%/colr.toml: colr.toml
 		      --fea_file $*/colr.fea \
 		      --output_file $@
 
-${FONTDIR}/${NAME}${COLRv1}-%.ttf: ${BUILDDIR}/${NAME}.designspace ${COLRDIR}/%/colr.ttf
+${FONTDIR}/${NAME}${COLRv1}-%.ttf: ${BUILDDIR}/${NAME}.designspace ${COLRDIR}/%/colr.ttf ${COLRDIR}/%/svg.ttf
 	echo "   MAKE	$(@F)"
 	$(call generate_fonts,ttf,$<,$@,$(*F))
 	${PY} ${SCRIPTDIR}/mknocolr.py $@ $@
-	${PY} ${SCRIPTDIR}/mkcolrv1.py $@ ${COLRDIR}/$*/colr.ttf $@
+	${PY} ${SCRIPTDIR}/mkcolrv1.py $@ ${COLRDIR}/$*/colr.ttf ${COLRDIR}/$*/svg.ttf $@
 
 ${FONTDIR}/${NAME}${COLRv0}.ttf: ${BUILDDIR}/${NAME}.ttf
 	echo "   MAKE	$(@F)"
