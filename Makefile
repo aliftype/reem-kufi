@@ -9,6 +9,8 @@ FONTDIR=fonts
 BUILDDIR=build
 DIST=${NAME}-${VERSION}
 
+PY ?= python3
+
 FONTS = \
 	${NAME} \
 	${NAME}${COLRv0} \
@@ -67,11 +69,11 @@ ${COLRDIR}/%/colr.toml: colr.toml
 
 %/glyphmap.csv: ${SOURCEDIR}/${NAME}.glyphs
 	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/mkglyphmap.py $< $(@D)
+	${PY} ${SCRIPTDIR}/mkglyphmap.py $< $(@D)
 
 %/colr.ttf: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
 	echo "   MAKE	$(@F)"
-	python3 -m nanoemoji.write_font -v -1 \
+	${PY} -m nanoemoji.write_font -v -1 \
 		      --config_file $< \
 		      --glyphmap_file $*/glyphmap.csv \
 		      --color_format glyf_colr_1 \
@@ -80,7 +82,7 @@ ${COLRDIR}/%/colr.toml: colr.toml
 
 %/colr.ufo: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
 	echo "   MAKE	$(@F)"
-	python3 -m nanoemoji.write_font -v -1 \
+	${PY} -m nanoemoji.write_font -v -1 \
 		      --config_file $< \
 		      --glyphmap_file $*/glyphmap.csv \
 		      --fea_file $*/colr.fea \
@@ -89,13 +91,13 @@ ${COLRDIR}/%/colr.toml: colr.toml
 ${FONTDIR}/${NAME}${COLRv1}-%.ttf: ${BUILDDIR}/${NAME}.designspace ${COLRDIR}/%/colr.ttf
 	echo "   MAKE	$(@F)"
 	$(call generate_fonts,ttf,$<,$@,$(*F))
-	python3 ${SCRIPTDIR}/mknocolr.py $@ $@
-	python3 ${SCRIPTDIR}/mkcolrv1.py $@ ${COLRDIR}/$*/colr.ttf $@
+	${PY} ${SCRIPTDIR}/mknocolr.py $@ $@
+	${PY} ${SCRIPTDIR}/mkcolrv1.py $@ ${COLRDIR}/$*/colr.ttf $@
 
 ${FONTDIR}/${NAME}${COLRv0}.ttf: ${BUILDDIR}/${NAME}.ttf
 	echo "   MAKE	$(@F)"
 	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/mkcolrv0.py $< $@ ${COLRv0}
+	${PY} ${SCRIPTDIR}/mkcolrv0.py $< $@ ${COLRv0}
 
 ${BUILDDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.designspace
 	echo "   MAKE	$(@F)"
@@ -103,12 +105,12 @@ ${BUILDDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.designspace
 
 ${FONTDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.ttf
 	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/mknocolr.py $< $@
+	${PY} ${SCRIPTDIR}/mknocolr.py $< $@
 
 ${BUILDDIR}/${NAME}.glyphs: ${SOURCEDIR}/${NAME}.glyphs ${SOURCEDIR}/${LATIN}.glyphs
 	echo "   GEN	$(@F)"
 	mkdir -p ${BUILDDIR}
-	python3 ${SCRIPTDIR}/prepare.py --out-file=$@ $< $(word 2,$+)
+	${PY} ${SCRIPTDIR}/prepare.py --out-file=$@ $< $(word 2,$+)
 
 ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
 	echo "   GEN	$(@F)"
@@ -122,15 +124,15 @@ ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
 
 ${BUILDDIR}/dist/${FONTDIR}/%: ${FONTDIR}/%
 	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
+	${PY} ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
 
 ${BUILDDIR}/dist/${FONTDIR}/%: ${FONTDIR}/%
 	mkdir -p $(@D)
-	python3 ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
+	${PY} ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
 
 ${SAMPLE}: ${FONTDIR}/${NAME}.ttf
 	echo "   SAMPLE    $(@F)"
-	python3 ${SCRIPTDIR}/mksample.py $< \
+	${PY} ${SCRIPTDIR}/mksample.py $< \
 	  --output=$@ \
 	  --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
           --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]"
