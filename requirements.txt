@@ -41,7 +41,7 @@ bumpfontversion==0.4.1
     # via gftools
 cattrs==22.2.0
     # via statmake
-certifi==2022.9.24
+certifi==2022.12.7
     # via requests
 cffi==1.15.1
     # via
@@ -65,8 +65,6 @@ defcon==0.10.2
     # via glyphsets
 deprecated==1.2.13
     # via pygithub
-exceptiongroup==1.0.4
-    # via cattrs
 fontfeatures==1.7.3
     # via
     #   babelfont
@@ -244,9 +242,7 @@ uharfbuzz==0.32.0
     #   blackrenderer
     #   vharfbuzz
 unicodedata2==15.0.0
-    # via
-    #   fonttools
-    #   hyperglot
+    # via hyperglot
 unidecode==1.3.6
     # via gftools
 urllib3==1.26.12
