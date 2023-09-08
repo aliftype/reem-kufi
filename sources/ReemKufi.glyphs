@@ -1,5 +1,5 @@
 {
-.appVersion = "3148";
+.appVersion = "3217";
 .formatVersion = 3;
 axes = (
 {
@@ -43,7 +43,7 @@ value = 0;
 {
 name = "gasp Table";
 value = {
-65535 = 15;
+"65535" = 15;
 };
 },
 {
@@ -131,6 +131,11 @@ feature ccmp {
     sub lamVabove-ar by lam-ar vabove-ar;
     sub rnoon-ar by noonghunna-ar tahabove-ar;
     sub noonRing-ar by noonghunna-ar dotabove-ar ringbelow-ar;
+    sub tehMarbuta-ar by heh-ar twodotsverticalabove-ar;
+
+    sub hehHamzaabove-ar by heh-ar hamzaabove-ar;
+    sub hehgoalHamzaabove-ar by heh-ar hamzaabove-ar;
+
     sub yehbarreeHamzaabove-ar by yehbarree-ar hamzaabove-ar;
     sub kehehDotabove-ar by keheh-ar dotabove-ar;
     sub wawDotabove-ar by waw-ar dotabove-ar;
@@ -142,15 +147,12 @@ feature ccmp {
     sub gaf-ar by keheh-ar gafsarkashabove-ar;
 } ccmp;
 
-feature isol {
-    sub tehMarbuta-ar by heh-ar twodotsverticalabove-ar;
+feature rlig {
     sub keheh-ar by kaf-ar;
-    sub hehHamzaabove-ar by heh-ar.1 hamzaabove-ar;
-    sub hehgoalHamzaabove-ar by heh-ar.1 hamzaabove-ar;
     sub hehgoal-ar by heh-ar;
     sub yehFarsi-ar by alefMaksura-ar;
     sub noonThreedotsabove-ar by noonghunna-ar threedotsupabove-ar;
-} isol;
+} rlig;
 
 feature init {
     sub hah-ar by hah-ar.init;
@@ -171,7 +173,6 @@ feature init {
     sub noonghunna-ar by behDotless-ar.init;
     sub hehDoachashmee-ar by heh-ar.init.2;
     sub hehgoal-ar by heh-ar.init.2;
-    sub hehgoalHamzaabove-ar by heh-ar.init.2 hamzaabove-ar;
     sub yehFarsi-ar by behDotless-ar.init twodotshorizontalbelow-ar;
     sub noonThreedotsabove-ar by behDotless-ar.init threedotsdownbelow-ar;
 } init;
@@ -195,7 +196,6 @@ feature medi {
     sub noonghunna-ar by behDotless-ar.medi;
     sub hehDoachashmee-ar by heh-ar.medi.2;
     sub hehgoal-ar by heh-ar.medi.2;
-    sub hehgoalHamzaabove-ar by heh-ar.medi.2 hamzaabove-ar;
     sub yehFarsi-ar by behDotless-ar.medi twodotshorizontalbelow-ar;
     sub noonThreedotsabove-ar by behDotless-ar.medi threedotsdownbelow-ar;
 } medi;
@@ -223,26 +223,25 @@ feature fina {
     sub alefMaksura-ar by alefMaksura-ar.fina;
     sub alefMaksura-ar.1 by alefMaksura-ar.fina.1;
     sub yehbarree-ar by yehbarree-ar.fina;
-    
-    sub tehMarbuta-ar by heh-ar.fina twodotsverticalabove-ar;
 
     sub hehgoal-ar by heh-ar.fina;
-    sub hehgoalHamzaabove-ar by heh-ar.fina.1 hamzaabove-ar;
     
     sub hehDoachashmee-ar by hehDoachashmee-ar.fina;
     sub yehFarsi-ar by alefMaksura-ar.fina;
-    sub hehHamzaabove-ar by heh-ar.fina.1 hamzaabove-ar;
     sub keheh-ar by kaf-ar.fina.1;
     sub noonThreedotsabove-ar by noonghunna-ar.fina threedotsupabove-ar;
 } fina;
 
 feature rlig {
-  @hehMarks = [twodotsverticalabove-ar];
+  @hehMarks = [twodotsverticalabove-ar hamzaabove-ar];
   lookupflag UseMarkFilteringSet @hehMarks;
     ignore sub @ArabicLetters heh-ar';
     ignore sub @hehMarks heh-ar';
     ignore sub heh-ar' @hehMarks;
     sub heh-ar' by heh-ar.isol;
+
+  lookupflag 0;
+    sub [heh-ar heh-ar.fina]' hamzaabove-ar by [heh-ar.1 heh-ar.fina.1];
 } rlig;
 
 lookup LamAlefIsol {

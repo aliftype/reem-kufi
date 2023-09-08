@@ -84,7 +84,6 @@ def make(args):
 
     for doc in base_font["SVG "].docList:
         for old, new in color_map.items():
-            print(old[:-2], new[:-2])
             doc.data = doc.data.replace(old[:-2], new[:-2])
 
     name = base_font["name"]
