@@ -238,7 +238,7 @@ unicodedata2==15.1.0
     #   hyperglot
 unidecode==1.3.7
     # via gftools
-urllib3==2.0.6
+urllib3==2.0.7
     # via
     #   pygithub
     #   requests
