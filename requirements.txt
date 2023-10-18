@@ -6,263 +6,83 @@
 #
 absl-py==2.0.0
     # via
-    #   gftools
     #   nanoemoji
     #   picosvg
-afdko==4.0.0
-    # via gftools
 appdirs==1.4.4
     # via fs
 attrs==23.1.0
     # via
-    #   cattrs
     #   fontmake
-    #   statmake
     #   ufolib2
 axisregistry==0.4.3
-    # via gftools
-babelfont==3.0.1
-    # via gftools
-beautifulsoup4==4.12.2
-    # via gftools
+    # via -r requirements.in
 blackrenderer==0.6.0
     # via -r requirements.in
 booleanoperations==0.9.0
-    # via
-    #   afdko
-    #   fontparts
-    #   ufo2ft
-brotli==1.1.0
-    # via
-    #   fonttools
-    #   gftools
-bump2version==1.0.1
-    # via bumpfontversion
-bumpfontversion==0.4.1
-    # via gftools
-cattrs==23.1.2
-    # via statmake
-certifi==2023.7.22
-    # via requests
-cffi==1.16.0
-    # via
-    #   cryptography
-    #   pygit2
-    #   pynacl
+    # via ufo2ft
 cffsubr==0.2.9.post1
     # via ufo2ft
-charset-normalizer==3.3.0
-    # via requests
-click==8.1.7
-    # via hyperglot
-colorlog==6.7.0
-    # via hyperglot
 compreffor==0.5.5
     # via ufo2ft
-cryptography==41.0.4
-    # via pyjwt
-cu2qu==1.6.7.post2
-    # via babelfont
-defcon==0.10.3
-    # via
-    #   afdko
-    #   fontparts
-    #   glyphsets
-    #   mutatormath
-    #   ufoprocessor
-deprecated==1.2.14
-    # via pygithub
-font-v==2.1.0
-    # via gftools
-fontfeatures==1.8.0
-    # via
-    #   babelfont
-    #   gftools
 fontmake==3.7.1
-    # via
-    #   -r requirements.in
-    #   gftools
+    # via -r requirements.in
 fontmath==0.9.3
-    # via
-    #   afdko
-    #   fontmake
-    #   fontparts
-    #   mutatormath
-    #   ufoprocessor
-fontparts==0.11.0
-    # via ufoprocessor
-fontpens==0.2.4
-    # via defcon
+    # via fontmake
 fonttools==4.43.1
     # via
     #   -r requirements.in
-    #   afdko
     #   axisregistry
-    #   babelfont
     #   blackrenderer
     #   booleanoperations
-    #   bumpfontversion
     #   cffsubr
     #   compreffor
-    #   cu2qu
-    #   defcon
-    #   font-v
-    #   fontfeatures
     #   fontmake
     #   fontmath
-    #   fontparts
-    #   fontpens
-    #   gftools
-    #   glyphsets
     #   glyphslib
-    #   hyperglot
-    #   mutatormath
     #   nanoemoji
-    #   psautohint
-    #   statmake
     #   ufo2ft
     #   ufolib2
-    #   ufoprocessor
-    #   vharfbuzz
-    #   vttlib
 fs==2.4.16
-    # via
-    #   fontfeatures
-    #   fonttools
-gflanguages==0.5.7
-    # via gftools
-gftools==0.9.35
-    # via -r requirements.in
-gitdb==4.0.10
-    # via gitpython
-gitpython==3.1.38
-    # via font-v
-glyphsets==0.6.4
-    # via gftools
+    # via fonttools
 glyphslib==6.4.1
     # via
     #   -r requirements.in
-    #   babelfont
-    #   bumpfontversion
     #   fontmake
-    #   gftools
-    #   glyphsets
-hyperglot==0.4.5
-    # via gftools
-idna==3.4
-    # via requests
-jinja2==3.1.2
-    # via gftools
 lxml==4.9.3
     # via
-    #   afdko
-    #   fontfeatures
     #   fonttools
     #   nanoemoji
     #   picosvg
-markdown-it-py==3.0.0
-    # via rich
-markupsafe==2.1.3
-    # via jinja2
-mdurl==0.1.2
-    # via markdown-it-py
-mutatormath==3.0.1
-    # via ufoprocessor
 nanoemoji==0.15.1
-    # via
-    #   -r requirements.in
-    #   gftools
+    # via -r requirements.in
 ninja==1.11.1.1
     # via nanoemoji
 openstep-plist==0.3.1
-    # via
-    #   babelfont
-    #   bumpfontversion
-    #   glyphslib
-opentype-sanitizer==9.1.0
-    # via gftools
-orjson==3.9.9
-    # via babelfont
+    # via glyphslib
 picosvg==0.22.1
     # via
     #   -r requirements.in
     #   nanoemoji
 pillow==10.1.0
-    # via
-    #   gftools
-    #   nanoemoji
+    # via nanoemoji
 pngquant-cli==2.17.0.post5
     # via nanoemoji
 protobuf==3.20.3
-    # via
-    #   axisregistry
-    #   gflanguages
-    #   gftools
-psautohint==2.4.0
-    # via afdko
+    # via axisregistry
 pyclipper==1.3.0.post5
     # via booleanoperations
-pycparser==2.21
-    # via cffi
-pygit2==1.13.1
-    # via gftools
-pygithub==2.1.1
-    # via gftools
-pygments==2.16.1
-    # via rich
-pyjwt==2.8.0
-    # via
-    #   pygithub
-    #   pyjwt
-pynacl==1.5.0
-    # via pygithub
-pyparsing==3.1.1
-    # via vttlib
-python-dateutil==2.8.2
-    # via
-    #   pygithub
-    #   strictyaml
-pyyaml==6.0.1
-    # via
-    #   gftools
-    #   hyperglot
 regex==2023.10.3
     # via nanoemoji
-requests==2.31.0
-    # via
-    #   gftools
-    #   pygithub
 resvg-cli==0.22.0.post3
     # via nanoemoji
-rich==13.6.0
-    # via gftools
 six==1.16.0
-    # via
-    #   fs
-    #   python-dateutil
+    # via fs
 skia-pathops==0.8.0.post1
     # via
     #   -r requirements.in
-    #   gftools
     #   picosvg
-smmap==5.0.1
-    # via gitdb
-soupsieve==2.5
-    # via beautifulsoup4
-statmake==0.6.0
-    # via gftools
-strictyaml==1.7.3
-    # via gftools
-tabulate==0.9.0
-    # via gftools
 toml==0.10.2
     # via nanoemoji
-tqdm==4.66.1
-    # via afdko
-ttfautohint-py==0.5.1
-    # via gftools
-typing-extensions==4.8.0
-    # via pygithub
 ufo2ft==2.33.4
     # via
     #   -r requirements.in
@@ -270,40 +90,15 @@ ufo2ft==2.33.4
     #   nanoemoji
 ufolib2==0.16.0
     # via
-    #   babelfont
-    #   bumpfontversion
     #   fontmake
     #   glyphslib
     #   nanoemoji
-    #   vttlib
-ufonormalizer==0.6.1
-    # via afdko
-ufoprocessor==1.9.0
-    # via afdko
 uharfbuzz==0.37.3
-    # via
-    #   blackrenderer
-    #   vharfbuzz
+    # via blackrenderer
 unicodedata2==15.1.0
-    # via
-    #   fonttools
-    #   hyperglot
-unidecode==1.3.7
-    # via gftools
-urllib3==2.0.7
-    # via
-    #   pygithub
-    #   requests
-vharfbuzz==0.2.0
-    # via gftools
-vttlib==0.12.0
-    # via gftools
-wrapt==1.15.0
-    # via deprecated
+    # via fonttools
 zopfli==0.2.3
-    # via
-    #   fonttools
-    #   nanoemoji
+    # via nanoemoji
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
