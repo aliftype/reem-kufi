@@ -1,0 +1,49 @@
+{
+glyphname = apostrophemod;
+layers = (
+{
+layerId = UUID1;
+shapes = (
+{
+pos = (14,591);
+ref = comma;
+}
+);
+width = 205;
+},
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+pos = (0,517);
+ref = comma;
+}
+);
+width = 201;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+alignment = -1;
+pos = (0,465.333);
+ref = comma;
+}
+);
+width = 166.83333;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+pos = (8,560);
+ref = comma;
+}
+);
+width = 203;
+}
+);
+production = uni02BC;
+unicode = 700;
+}

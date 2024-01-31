@@ -1,0 +1,89 @@
+{
+glyphname = ringcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (176,437);
+},
+{
+name = top;
+pos = (176,670);
+}
+);
+layerId = UUID1;
+shapes = (
+{
+pos = (27,0);
+ref = ring;
+}
+);
+width = 323;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (216,369);
+},
+{
+name = top;
+pos = (216,569);
+}
+);
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+pos = (7,0);
+ref = ring;
+}
+);
+width = 397;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (228.5,349);
+},
+{
+name = top;
+pos = (228.5,538.167);
+}
+);
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+alignment = -1;
+pos = (1.167,0);
+ref = ring;
+}
+);
+width = 418.66667;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (193,408);
+},
+{
+name = top;
+pos = (193,628);
+}
+);
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+pos = (19,0);
+ref = ring;
+}
+);
+width = 354;
+}
+);
+production = uni030A;
+unicode = 778;
+}

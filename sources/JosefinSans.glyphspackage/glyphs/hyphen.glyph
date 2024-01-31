@@ -1,0 +1,66 @@
+{
+glyphname = hyphen;
+layers = (
+{
+layerId = UUID1;
+shapes = (
+{
+closed = 1;
+nodes = (
+(54,168,l),
+(242,168,l),
+(242,290,l),
+(54,290,l)
+);
+}
+);
+width = 306;
+},
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(53,180,l),
+(238,180,l),
+(238,222,l),
+(53,222,l)
+);
+}
+);
+width = 302;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+closed = 1;
+nodes = (
+(53,183.333,l),
+(237.167,183.333,l),
+(237.167,202,l),
+(53,202,l)
+);
+}
+);
+width = 300;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(54,173,l),
+(240,173,l),
+(240,261,l),
+(54,261,l)
+);
+}
+);
+width = 304;
+}
+);
+unicode = 45;
+}

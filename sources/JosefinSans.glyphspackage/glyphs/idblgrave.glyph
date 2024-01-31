@@ -1,0 +1,61 @@
+{
+glyphname = idblgrave;
+layers = (
+{
+layerId = UUID1;
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-259,0);
+ref = dblgravecomb;
+}
+);
+width = 284;
+},
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-86,0);
+ref = dblgravecomb;
+}
+);
+width = 225;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-34,0);
+ref = dblgravecomb;
+}
+);
+width = 208;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+ref = idotless;
+},
+{
+alignment = -1;
+pos = (-186,0);
+ref = dblgravecomb;
+}
+);
+width = 259;
+}
+);
+production = uni0209;
+unicode = 521;
+}

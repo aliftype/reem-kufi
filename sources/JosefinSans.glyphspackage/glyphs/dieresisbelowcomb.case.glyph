@@ -1,0 +1,88 @@
+{
+glyphname = dieresisbelowcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (221,0);
+},
+{
+name = bottom;
+pos = (221,-173);
+}
+);
+layerId = UUID1;
+shapes = (
+{
+pos = (19,-643);
+ref = dieresis;
+}
+);
+width = 461;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (195,0);
+},
+{
+name = bottom;
+pos = (195,-124);
+}
+);
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+pos = (5,-602);
+ref = dieresis;
+}
+);
+width = 394;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (186.667,0);
+},
+{
+name = bottom;
+pos = (186.667,-109.833);
+}
+);
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+alignment = -1;
+pos = (0.833,-589.5);
+ref = dieresis;
+}
+);
+width = 374;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (210,0);
+},
+{
+name = bottom;
+pos = (210,-152);
+}
+);
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+pos = (13,-626);
+ref = dieresis;
+}
+);
+width = 433;
+}
+);
+production = uni0324.case;
+}

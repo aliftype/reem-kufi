@@ -1,0 +1,60 @@
+{
+glyphname = rcaron;
+layers = (
+{
+layerId = UUID1;
+shapes = (
+{
+ref = r;
+},
+{
+pos = (41,0);
+ref = caroncomb;
+}
+);
+width = 410;
+},
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+ref = r;
+},
+{
+pos = (-43,-40);
+ref = caroncomb;
+}
+);
+width = 342;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+ref = r;
+},
+{
+pos = (-68,-52);
+ref = caroncomb;
+}
+);
+width = 321;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+ref = r;
+},
+{
+alignment = -1;
+pos = (6,-17);
+ref = caroncomb;
+}
+);
+width = 381;
+}
+);
+unicode = 345;
+}

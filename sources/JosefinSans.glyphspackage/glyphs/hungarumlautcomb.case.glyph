@@ -1,0 +1,88 @@
+{
+glyphname = hungarumlautcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (220,455);
+},
+{
+name = top;
+pos = (270,645);
+}
+);
+layerId = UUID1;
+shapes = (
+{
+pos = (-2,0);
+ref = hungarumlaut;
+}
+);
+width = 497;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (124,427);
+},
+{
+name = top;
+pos = (181,621);
+}
+);
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+pos = (-1,0);
+ref = hungarumlaut;
+}
+);
+width = 351;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (94.833,418.667);
+},
+{
+name = top;
+pos = (154.333,613.5);
+}
+);
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+alignment = -1;
+pos = (-0.167,0);
+ref = hungarumlaut;
+}
+);
+width = 306.83333;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (180,443);
+},
+{
+name = top;
+pos = (233,635);
+}
+);
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+pos = (-2,0);
+ref = hungarumlaut;
+}
+);
+width = 436;
+}
+);
+production = uni030B.case;
+}

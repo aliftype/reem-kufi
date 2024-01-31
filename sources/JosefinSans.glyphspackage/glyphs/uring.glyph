@@ -1,0 +1,60 @@
+{
+glyphname = uring;
+layers = (
+{
+layerId = UUID1;
+shapes = (
+{
+ref = u;
+},
+{
+pos = (118,20);
+ref = ringcomb;
+}
+);
+width = 584;
+},
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (39,28);
+ref = ringcomb;
+}
+);
+width = 509;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (15,30);
+ref = ringcomb;
+}
+);
+width = 487;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+ref = u;
+},
+{
+alignment = -1;
+pos = (85,23);
+ref = ringcomb;
+}
+);
+width = 553;
+}
+);
+unicode = 367;
+}

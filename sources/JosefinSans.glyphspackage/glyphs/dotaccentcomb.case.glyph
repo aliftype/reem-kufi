@@ -1,0 +1,88 @@
+{
+glyphname = dotaccentcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (99,535);
+},
+{
+name = top;
+pos = (100,701);
+}
+);
+layerId = UUID1;
+shapes = (
+{
+pos = (-20,18);
+ref = dotaccent;
+}
+);
+width = 218;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (90,566);
+},
+{
+name = top;
+pos = (90,684);
+}
+);
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+pos = (-5,121);
+ref = dotaccent;
+}
+);
+width = 194;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (87.5,575.167);
+},
+{
+name = top;
+pos = (87.5,679);
+}
+);
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+alignment = -1;
+pos = (-0.833,151.833);
+ref = dotaccent;
+}
+);
+width = 186.5;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (95,548);
+},
+{
+name = top;
+pos = (96,694);
+}
+);
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+pos = (-14,61);
+ref = dotaccent;
+}
+);
+width = 208;
+}
+);
+production = uni0307.case;
+}

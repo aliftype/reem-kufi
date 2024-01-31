@@ -1,0 +1,61 @@
+{
+glyphname = ohornhookabove;
+layers = (
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+ref = ohorn;
+},
+{
+pos = (110,-88);
+ref = hookabovecomb;
+}
+);
+width = 519;
+},
+{
+layerId = UUID1;
+shapes = (
+{
+ref = ohorn;
+},
+{
+pos = (93,-73);
+ref = hookabovecomb;
+}
+);
+width = 571;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+ref = ohorn;
+},
+{
+pos = (114,-93);
+ref = hookabovecomb;
+}
+);
+width = 503;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+ref = ohorn;
+},
+{
+alignment = -1;
+pos = (100,-79);
+ref = hookabovecomb;
+}
+);
+width = 549;
+}
+);
+production = uni1EDF;
+unicode = 7903;
+}

@@ -1,0 +1,62 @@
+{
+glyphname = ecircumflextilde;
+kernLeft = o;
+layers = (
+{
+layerId = UUID1;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (47,21);
+ref = circumflexcomb_tildecomb;
+}
+);
+width = 553;
+},
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (10,-9);
+ref = circumflexcomb_tildecomb;
+}
+);
+width = 487;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (-1,-18);
+ref = circumflexcomb_tildecomb;
+}
+);
+width = 467;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+ref = e;
+},
+{
+alignment = -1;
+pos = (31,8);
+ref = circumflexcomb_tildecomb;
+}
+);
+width = 525;
+}
+);
+production = uni1EC5;
+unicode = 7877;
+}

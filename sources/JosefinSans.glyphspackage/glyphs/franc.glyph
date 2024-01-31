@@ -1,0 +1,60 @@
+{
+glyphname = franc;
+layers = (
+{
+layerId = UUID1;
+shapes = (
+{
+ref = F;
+},
+{
+pos = (-13,-357);
+ref = macron;
+}
+);
+width = 576;
+},
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+ref = F;
+},
+{
+pos = (-40,-339);
+ref = macron;
+}
+);
+width = 597;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+ref = F;
+},
+{
+pos = (-48.333,-334);
+ref = macron;
+}
+);
+width = 603.66667;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+ref = F;
+},
+{
+alignment = -1;
+pos = (-24,-349);
+ref = macron;
+}
+);
+width = 585;
+}
+);
+unicode = 8355;
+}

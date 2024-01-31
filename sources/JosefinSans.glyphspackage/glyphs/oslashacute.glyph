@@ -1,0 +1,60 @@
+{
+glyphname = oslashacute;
+layers = (
+{
+layerId = UUID1;
+shapes = (
+{
+ref = oslash;
+},
+{
+pos = (67,0);
+ref = acutecomb;
+}
+);
+width = 546;
+},
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+ref = oslash;
+},
+{
+pos = (135,-15);
+ref = acutecomb;
+}
+);
+width = 496;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+ref = oslash;
+},
+{
+pos = (156.333,-18.667);
+ref = acutecomb;
+}
+);
+width = 481;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+ref = oslash;
+},
+{
+alignment = -1;
+pos = (96,-6);
+ref = acutecomb;
+}
+);
+width = 525;
+}
+);
+unicode = 511;
+}

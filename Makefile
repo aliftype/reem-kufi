@@ -116,7 +116,7 @@ ${FONTDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.ttf
 	mkdir -p $(@D)
 	${PY} ${SCRIPTDIR}/mknocolr.py $< $@
 
-${BUILDDIR}/${NAME}.glyphs: ${SOURCEDIR}/${NAME}.glyphspackage ${SOURCEDIR}/${LATIN}.glyphs
+${BUILDDIR}/${NAME}.glyphs: ${SOURCEDIR}/${NAME}.glyphspackage ${SOURCEDIR}/${LATIN}.glyphspackage
 	echo "   GEN	$(@F)"
 	mkdir -p ${BUILDDIR}
 	${PY} ${SCRIPTDIR}/prepare.py --out-file=$@ $< $(word 2,$+)

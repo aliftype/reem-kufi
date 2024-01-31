@@ -1,0 +1,66 @@
+{
+glyphname = grave;
+layers = (
+{
+layerId = UUID1;
+shapes = (
+{
+closed = 1;
+nodes = (
+(162,489,l),
+(247,489,l),
+(185,624,l),
+(30,624,l)
+);
+}
+);
+width = 317;
+},
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+closed = 1;
+nodes = (
+(99,482,l),
+(133,482,l),
+(50,615,l),
+(-2,615,l)
+);
+}
+);
+width = 231;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+closed = 1;
+nodes = (
+(79.833,479.5,l),
+(98.833,479.5,l),
+(10,612.5,l),
+(-12,612.5,l)
+);
+}
+);
+width = 205;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,486,l),
+(199,486,l),
+(128,620,l),
+(17,620,l)
+);
+}
+);
+width = 281;
+}
+);
+unicode = 96;
+}

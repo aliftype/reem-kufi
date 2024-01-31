@@ -1,0 +1,63 @@
+{
+glyphname = cedi;
+layers = (
+{
+layerId = UUID1;
+shapes = (
+{
+ref = C;
+},
+{
+pos = (252,118);
+ref = bar;
+}
+);
+width = 697;
+},
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+ref = C;
+},
+{
+pos = (286,97);
+ref = bar;
+}
+);
+width = 692;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+alignment = -1;
+ref = C;
+},
+{
+alignment = -1;
+pos = (296,91.167);
+ref = bar;
+}
+);
+width = 690.33333;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+ref = C;
+},
+{
+alignment = -1;
+pos = (266,109);
+ref = bar;
+}
+);
+width = 695;
+}
+);
+production = uni20B5;
+unicode = 8373;
+}

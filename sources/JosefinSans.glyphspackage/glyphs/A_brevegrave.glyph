@@ -1,0 +1,80 @@
+{
+glyphname = Abrevegrave;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+layerId = UUID1;
+shapes = (
+{
+ref = A;
+},
+{
+pos = (130,334);
+ref = brevecomb.case;
+},
+{
+pos = (131,449);
+ref = gravecomb.case;
+}
+);
+width = 696;
+},
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (170,275);
+ref = brevecomb.case;
+},
+{
+pos = (238,419);
+ref = gravecomb.case;
+}
+);
+width = 706;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (182,257);
+ref = brevecomb.case;
+},
+{
+pos = (270,410);
+ref = gravecomb.case;
+}
+);
+width = 709;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+ref = A;
+},
+{
+alignment = -1;
+pos = (147,309);
+ref = brevecomb.case;
+},
+{
+alignment = -1;
+pos = (176,436);
+ref = gravecomb.case;
+}
+);
+width = 700;
+}
+);
+production = uni1EB0;
+unicode = 7856;
+}

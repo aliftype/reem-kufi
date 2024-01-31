@@ -1,0 +1,73 @@
+{
+glyphname = ogonekcomb;
+layers = (
+{
+anchors = (
+{
+name = _ogonek;
+pos = (358,10);
+}
+);
+layerId = UUID1;
+shapes = (
+{
+pos = (22,0);
+ref = ogonek;
+}
+);
+width = 406;
+},
+{
+anchors = (
+{
+name = _ogonek;
+pos = (253,10);
+}
+);
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+pos = (6,0);
+ref = ogonek;
+}
+);
+width = 302;
+},
+{
+anchors = (
+{
+name = _ogonek;
+pos = (221.333,10);
+}
+);
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+alignment = -1;
+pos = (1,0);
+ref = ogonek;
+}
+);
+width = 271.16667;
+},
+{
+anchors = (
+{
+name = _ogonek;
+pos = (314,10);
+}
+);
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+pos = (15,0);
+ref = ogonek;
+}
+);
+width = 362;
+}
+);
+production = uni0328;
+unicode = 808;
+}

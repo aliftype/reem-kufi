@@ -1,0 +1,92 @@
+{
+glyphname = hungarumlaut;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(142,624,l),
+(111,579,o),
+(81,533,o),
+(50,489,c),
+(135,489,l),
+(179,533,o),
+(224,579,o),
+(267,624,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(324,624,l),
+(293,579,o),
+(263,533,o),
+(232,489,c),
+(317,489,l),
+(361,533,o),
+(406,579,o),
+(449,624,c)
+);
+}
+);
+};
+layerId = UUID1;
+shapes = (
+{
+ref = acute;
+},
+{
+pos = (184,-2);
+ref = acute;
+}
+);
+width = 501;
+},
+{
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+ref = acute;
+},
+{
+pos = (116,-1);
+ref = acute;
+}
+);
+width = 352;
+},
+{
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+alignment = -1;
+ref = acute;
+},
+{
+alignment = -1;
+pos = (96,-0.167);
+ref = acute;
+}
+);
+width = 307;
+},
+{
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+ref = acute;
+},
+{
+alignment = -1;
+pos = (155,-2);
+ref = acute;
+}
+);
+width = 438;
+}
+);
+unicode = 733;
+}

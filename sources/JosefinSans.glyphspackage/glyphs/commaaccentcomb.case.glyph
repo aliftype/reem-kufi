@@ -1,0 +1,84 @@
+{
+glyphname = commaaccentcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (147,20);
+},
+{
+name = bottom;
+pos = (97,-174);
+}
+);
+layerId = UUID1;
+shapes = (
+{
+ref = commaaccentcomb;
+}
+);
+width = 258;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (121,5);
+},
+{
+name = bottom;
+pos = (82,-231);
+}
+);
+layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
+shapes = (
+{
+ref = commaaccentcomb;
+}
+);
+width = 215;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (113.5,0.833);
+},
+{
+name = bottom;
+pos = (77.833,-248.5);
+}
+);
+layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
+shapes = (
+{
+alignment = -1;
+ref = commaaccentcomb;
+}
+);
+width = 202.5;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (136,14);
+},
+{
+name = bottom;
+pos = (91,-198);
+}
+);
+layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
+shapes = (
+{
+alignment = -1;
+ref = commaaccentcomb;
+}
+);
+width = 240;
+}
+);
+production = uni0326.case;
+}
