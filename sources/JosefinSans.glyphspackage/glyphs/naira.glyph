@@ -2,16 +2,6 @@
 glyphname = naira;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (427,0);
-},
-{
-name = top;
-pos = (407,736);
-}
-);
 layerId = UUID1;
 shapes = (
 {
@@ -53,16 +43,6 @@ nodes = (
 width = 853;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (412,0);
-},
-{
-name = top;
-pos = (406,710);
-}
-);
 layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
 shapes = (
 {
@@ -104,16 +84,6 @@ nodes = (
 width = 822;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (407,0);
-},
-{
-name = top;
-pos = (406,701.667);
-}
-);
 layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
 shapes = (
 {
@@ -155,16 +125,6 @@ nodes = (
 width = 813;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (421,0);
-},
-{
-name = top;
-pos = (407,725);
-}
-);
 layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
 shapes = (
 {

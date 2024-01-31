@@ -2,24 +2,6 @@
 glyphname = manat;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (393,-20);
-},
-{
-name = bottomleft;
-pos = (143,-103);
-},
-{
-name = ogonek;
-pos = (229,726);
-},
-{
-name = top;
-pos = (393,736);
-}
-);
 layerId = UUID1;
 shapes = (
 {
@@ -40,7 +22,6 @@ nodes = (
 (691,629,o),
 (559,744,o),
 (394,744,cs),
-(394,744,ls),
 (228,744,o),
 (95,629,o),
 (95,467,cs),
@@ -59,24 +40,6 @@ nodes = (
 width = 786;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (358,-11);
-},
-{
-name = bottomleft;
-pos = (117,-125);
-},
-{
-name = ogonek;
-pos = (231,694);
-},
-{
-name = top;
-pos = (358,704);
-}
-);
 layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
 shapes = (
 {
@@ -97,7 +60,6 @@ nodes = (
 (602,622,o),
 (497,712,o),
 (358,712,cs),
-(358,712,ls),
 (221,712,o),
 (113,622,o),
 (113,466,cs),
@@ -116,24 +78,6 @@ nodes = (
 width = 715;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (347.167,-8.5);
-},
-{
-name = bottomleft;
-pos = (108.667,-131.667);
-},
-{
-name = ogonek;
-pos = (231.833,684);
-},
-{
-name = top;
-pos = (347.167,694);
-}
-);
 layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
 shapes = (
 {
@@ -154,7 +98,6 @@ nodes = (
 (575.333,619.5,o),
 (477.833,702,o),
 (347.167,702,cs),
-(347.167,702,ls),
 (218.5,702,o),
 (118.833,619.5,o),
 (118.833,466,cs),
@@ -173,24 +116,6 @@ nodes = (
 width = 694;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (378,-16);
-},
-{
-name = bottomleft;
-pos = (132,-112);
-},
-{
-name = ogonek;
-pos = (230,713);
-},
-{
-name = top;
-pos = (378,723);
-}
-);
 layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
 shapes = (
 {
@@ -211,7 +136,6 @@ nodes = (
 (654,626,o),
 (533,731,o),
 (379,731,cs),
-(379,731,ls),
 (225,731,o),
 (103,626,o),
 (103,467,cs),

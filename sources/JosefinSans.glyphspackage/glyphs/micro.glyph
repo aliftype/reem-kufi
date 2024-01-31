@@ -2,24 +2,6 @@
 glyphname = micro;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (292,0);
-},
-{
-name = ogonek;
-pos = (608,10);
-},
-{
-name = top;
-pos = (294,457);
-},
-{
-name = topright;
-pos = (507,437);
-}
-);
 layerId = UUID1;
 shapes = (
 {
@@ -56,24 +38,6 @@ nodes = (
 width = 584;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (255,0);
-},
-{
-name = ogonek;
-pos = (477,10);
-},
-{
-name = top;
-pos = (255,397);
-},
-{
-name = topright;
-pos = (439,391);
-}
-);
 layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
 shapes = (
 {
@@ -110,24 +74,6 @@ nodes = (
 width = 509;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (243.333,0);
-},
-{
-name = ogonek;
-pos = (437.833,10);
-},
-{
-name = top;
-pos = (243.333,378.667);
-},
-{
-name = topright;
-pos = (418.167,377.667);
-}
-);
 layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
 shapes = (
 {
@@ -164,24 +110,6 @@ nodes = (
 width = 487;
 },
 {
-anchors = (
-{
-name = bottom;
-pos = (276,0);
-},
-{
-name = ogonek;
-pos = (553,10);
-},
-{
-name = top;
-pos = (278,432);
-},
-{
-name = topright;
-pos = (478,418);
-}
-);
 layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
 shapes = (
 {
