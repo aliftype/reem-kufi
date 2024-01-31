@@ -8,6 +8,10 @@ name = dotAbove;
 pos = (200,500);
 },
 {
+name = dotBelow;
+pos = (505,-150);
+},
+{
 name = gafAbove;
 pos = (374,467);
 },
@@ -62,6 +66,10 @@ anchors = (
 {
 name = dotAbove;
 pos = (200,500);
+},
+{
+name = dotBelow;
+pos = (505,-150);
 },
 {
 name = gafAbove;

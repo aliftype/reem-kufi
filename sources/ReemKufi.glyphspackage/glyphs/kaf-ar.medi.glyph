@@ -8,6 +8,10 @@ name = dotAbove;
 pos = (670,500);
 },
 {
+name = dotBelow;
+pos = (440,-150);
+},
+{
 name = markAbove;
 pos = (670,550);
 },
@@ -67,6 +71,10 @@ anchors = (
 {
 name = dotAbove;
 pos = (670,500);
+},
+{
+name = dotBelow;
+pos = (440,-150);
 },
 {
 name = markAbove;
