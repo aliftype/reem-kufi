@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "tteh-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+pos = (250,332);
+ref = "tahabove-ar";
+}
+);
+width = 850;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+pos = (250,332);
+ref = "tahabove-ar";
+}
+);
+width = 850;
+}
+);
+sortName = arpl0103;
+sortNameKeep = ar0189;
+unicode = 1657;
+}

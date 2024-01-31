@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "yehbarreeHamzaabove-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "yehbarree-ar";
+},
+{
+pos = (49,630);
+ref = "hamzaabove-ar";
+}
+);
+width = 1045;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "yehbarree-ar";
+},
+{
+pos = (49,630);
+ref = "hamzaabove-ar";
+}
+);
+width = 1045;
+}
+);
+sortName = arpl1800;
+sortNameKeep = ar1270;
+unicode = 1747;
+}

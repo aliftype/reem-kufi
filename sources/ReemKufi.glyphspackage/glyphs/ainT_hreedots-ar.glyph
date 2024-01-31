@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "ainThreedots-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "ain-ar";
+},
+{
+pos = (10,500);
+ref = "threedotsupabove-ar";
+}
+);
+width = 370;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "ain-ar";
+},
+{
+pos = (29,500);
+ref = "threedotsupabove-ar";
+}
+);
+width = 389;
+}
+);
+sortName = arpl0801;
+sortNameKeep = ar0657;
+unicode = 1696;
+}

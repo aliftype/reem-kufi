@@ -1,0 +1,54 @@
+{
+category = Mark;
+glyphname = "hamzabelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _hamzaBelow;
+pos = (135,0);
+},
+{
+name = markBelow;
+pos = (135,-210);
+}
+);
+attr = {
+colorPalette = 1;
+};
+layerId = master01;
+shapes = (
+{
+pos = (0,-168);
+ref = "hamzaabove-ar";
+}
+);
+width = 270;
+},
+{
+anchors = (
+{
+name = _hamzaBelow;
+pos = (135,0);
+},
+{
+name = markBelow;
+pos = (135,-210);
+}
+);
+attr = {
+colorPalette = 1;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-168);
+ref = "hamzaabove-ar";
+}
+);
+width = 270;
+}
+);
+subCategory = Nonspacing;
+unicode = 1621;
+}

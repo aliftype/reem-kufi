@@ -1,0 +1,62 @@
+{
+glyphname = "semicolon-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(154,0,o),
+(180,26,o),
+(180,58,cs),
+(180,90,o),
+(154,116,o),
+(122,116,cs),
+(90,116,o),
+(64,90,o),
+(64,58,cs),
+(64,26,o),
+(90,0,o),
+(122,0,cs)
+);
+},
+{
+pos = (0,189);
+ref = "comma-ar";
+}
+);
+width = 205;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(161,0,o),
+(196,35,o),
+(196,78,cs),
+(196,121,o),
+(161,156,o),
+(118,156,cs),
+(75,156,o),
+(40,121,o),
+(40,78,cs),
+(40,35,o),
+(75,0,o),
+(118,0,cs)
+);
+},
+{
+pos = (0,209);
+ref = "comma-ar";
+}
+);
+width = 221;
+}
+);
+metricLeft = "=comma-ar";
+metricWidth = "=comma-ar";
+unicode = 1563;
+}

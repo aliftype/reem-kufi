@@ -1,0 +1,41 @@
+{
+glyphname = "fehDotless-ar.fina";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(945,0,l),
+(945,100,l),
+(725,100,l),
+(725,0,l)
+);
+},
+{
+ref = "fehDotless-ar";
+}
+);
+width = 925;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(945,0,l),
+(945,140,l),
+(725,140,l),
+(725,0,l)
+);
+},
+{
+ref = "fehDotless-ar";
+}
+);
+width = 925;
+}
+);
+}

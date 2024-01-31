@@ -1,0 +1,64 @@
+{
+glyphname = "meem-ar.1";
+layers = (
+{
+anchors = (
+{
+name = markBelow;
+pos = (230,-150);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(5,-235,o),
+(125,-190,o),
+(125,-100,cs),
+(125,92,l),
+(25,150,l),
+(25,-100,ls),
+(25,-164,o),
+(-44,-181,o),
+(-50,-181,c)
+);
+},
+{
+ref = _meem.circle.2;
+}
+);
+width = 347;
+},
+{
+anchors = (
+{
+name = markBelow;
+pos = (230,-150);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(5,-235,o),
+(165,-200,o),
+(165,-80,cs),
+(165,92,l),
+(25,171,l),
+(25,-80,ls),
+(25,-164,o),
+(-44,-181,o),
+(-50,-181,c)
+);
+},
+{
+pos = (22,20);
+ref = _meem.circle.2;
+}
+);
+width = 391;
+}
+);
+}

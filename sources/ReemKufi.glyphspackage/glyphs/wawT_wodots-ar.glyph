@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "wawTwodots-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "waw-ar";
+},
+{
+pos = (29,500);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 349;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "waw-ar";
+},
+{
+pos = (49,500);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 390;
+}
+);
+sortName = arpl1608;
+sortNameKeep = ar1077;
+unicode = 1738;
+}

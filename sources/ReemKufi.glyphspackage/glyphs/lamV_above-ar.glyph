@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "lamVabove-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "lam-ar";
+},
+{
+pos = (269,861);
+ref = "vabove-ar";
+}
+);
+width = 470;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "lam-ar";
+},
+{
+pos = (249,861);
+ref = "vabove-ar";
+}
+);
+width = 470;
+}
+);
+sortName = arpl1200;
+sortNameKeep = ar0915;
+unicode = 1717;
+}

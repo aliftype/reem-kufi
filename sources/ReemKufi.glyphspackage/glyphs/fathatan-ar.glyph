@@ -1,0 +1,54 @@
+{
+category = Mark;
+glyphname = "fathatan-ar";
+layers = (
+{
+anchors = (
+{
+name = _markAbove;
+pos = (138,0);
+}
+);
+attr = {
+colorPalette = 2;
+};
+layerId = master01;
+shapes = (
+{
+pos = (34,0);
+ref = "fatha-ar";
+},
+{
+pos = (0,57);
+ref = "fatha-ar";
+}
+);
+width = 276;
+},
+{
+anchors = (
+{
+name = _markAbove;
+pos = (138,0);
+}
+);
+attr = {
+colorPalette = 2;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (34,0);
+ref = "fatha-ar";
+},
+{
+pos = (0,57);
+ref = "fatha-ar";
+}
+);
+width = 276;
+}
+);
+subCategory = Nonspacing;
+unicode = 1611;
+}

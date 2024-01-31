@@ -1,0 +1,47 @@
+{
+category = Mark;
+glyphname = "ringbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (99,-113);
+},
+{
+name = markBelow;
+pos = (99,-190);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,-220);
+ref = "sukun-ar";
+}
+);
+width = 198;
+},
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (99,-83);
+},
+{
+name = markBelow;
+pos = (99,-190);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-220);
+ref = "sukun-ar";
+}
+);
+width = 198;
+}
+);
+subCategory = Nonspacing;
+}

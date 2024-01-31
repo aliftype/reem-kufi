@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "tcheh-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "hah-ar.alt";
+},
+{
+pos = (167,-90);
+ref = "threedotsdownbelow-ar";
+}
+);
+width = 515;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "hah-ar.alt";
+},
+{
+pos = (167,-90);
+ref = "threedotsdownbelow-ar";
+}
+);
+width = 515;
+}
+);
+sortName = arpl0207;
+sortNameKeep = ar0270;
+unicode = 1670;
+}

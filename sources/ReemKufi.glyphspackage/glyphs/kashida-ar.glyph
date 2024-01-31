@@ -1,0 +1,56 @@
+{
+glyphname = "kashida-ar";
+layers = (
+{
+anchors = (
+{
+name = markAbove;
+pos = (150,550);
+},
+{
+name = markBelow;
+pos = (150,-150);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(320,0,l),
+(320,100,l),
+(-20,100,l),
+(-20,0,l)
+);
+}
+);
+width = 300;
+},
+{
+anchors = (
+{
+name = markAbove;
+pos = (150,550);
+},
+{
+name = markBelow;
+pos = (150,-150);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(320,0,l),
+(320,140,l),
+(-20,140,l),
+(-20,0,l)
+);
+}
+);
+width = 300;
+}
+);
+unicode = 1600;
+}

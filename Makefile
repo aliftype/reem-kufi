@@ -23,7 +23,7 @@ SAMPLE=Sample.svg
 TAG=$(shell git describe --tags --abbrev=0)
 VERSION=$(TAG:v%=%)
 
-export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" $(SOURCEDIR)/${NAME}.glyphs)
+export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" $(SOURCEDIR)/${NAME}.glyphspackage)
 
 define generate_fonts
 mkdir -p $(dir $(3));
@@ -67,7 +67,7 @@ ${COLRDIR}/%/colr.toml: colr.toml
 	mkdir -p $(@D)
 	touch $@
 
-%/glyphmap.csv: ${SOURCEDIR}/${NAME}.glyphs
+%/glyphmap.csv: ${SOURCEDIR}/${NAME}.glyphspackage
 	mkdir -p $(@D)
 	${PY} ${SCRIPTDIR}/mkglyphmap.py $< $(@D)
 
@@ -116,7 +116,7 @@ ${FONTDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.ttf
 	mkdir -p $(@D)
 	${PY} ${SCRIPTDIR}/mknocolr.py $< $@
 
-${BUILDDIR}/${NAME}.glyphs: ${SOURCEDIR}/${NAME}.glyphs ${SOURCEDIR}/${LATIN}.glyphs
+${BUILDDIR}/${NAME}.glyphs: ${SOURCEDIR}/${NAME}.glyphspackage ${SOURCEDIR}/${LATIN}.glyphs
 	echo "   GEN	$(@F)"
 	mkdir -p ${BUILDDIR}
 	${PY} ${SCRIPTDIR}/prepare.py --out-file=$@ $< $(word 2,$+)

@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "veh-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "fehDotless-ar";
+},
+{
+pos = (530,600);
+ref = "threedotsupabove-ar";
+}
+);
+width = 850;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "fehDotless-ar";
+},
+{
+pos = (510,600);
+ref = "threedotsupabove-ar";
+}
+);
+width = 850;
+}
+);
+sortName = arpl0903;
+sortNameKeep = ar0693;
+unicode = 1700;
+}

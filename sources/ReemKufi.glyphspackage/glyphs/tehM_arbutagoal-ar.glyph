@@ -1,0 +1,27 @@
+{
+color = 0;
+glyphname = "tehMarbutagoal-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "tehMarbuta-ar";
+}
+);
+width = 349;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "tehMarbuta-ar";
+}
+);
+width = 390;
+}
+);
+sortName = arpl1504;
+sortNameKeep = ar1059;
+unicode = 1731;
+}

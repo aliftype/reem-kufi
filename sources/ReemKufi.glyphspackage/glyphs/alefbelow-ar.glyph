@@ -1,0 +1,46 @@
+{
+category = Mark;
+glyphname = "alefbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _markBelow;
+pos = (44,0);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+pos = (0,-230);
+ref = "alefabove-ar";
+}
+);
+width = 69;
+},
+{
+anchors = (
+{
+name = _markBelow;
+pos = (44,0);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-230);
+ref = "alefabove-ar";
+}
+);
+width = 69;
+}
+);
+subCategory = Nonspacing;
+unicode = 1622;
+}

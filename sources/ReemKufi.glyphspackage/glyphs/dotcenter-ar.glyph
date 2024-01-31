@@ -1,0 +1,105 @@
+{
+category = Mark;
+glyphname = "dotcenter-ar";
+layers = (
+{
+anchors = (
+{
+name = _center;
+pos = (58,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = "dotbelow-ar";
+}
+);
+width = 116;
+},
+{
+anchors = (
+{
+name = _center;
+pos = (58,0);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "dotbelow-ar";
+}
+);
+width = 116;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "0D9A7180-BB07-4460-BB01-994250875842";
+name = "Regular 23 Jan 22, 19:37";
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,-54,o),
+(120,-28,o),
+(120,8,cs),
+(120,29,o),
+(107,50,o),
+(87,50,cs),
+(70,50,o),
+(61,33,o),
+(58,24,c),
+(55,33,o),
+(46,50,o),
+(29,50,cs),
+(9,50,o),
+(-4,29,o),
+(-4,8,cs),
+(-4,-28,o),
+(29,-54,o),
+(58,-58,c)
+);
+}
+);
+width = 116;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "52E0B597-ADC2-45BA-A71E-4F3403A1AE09";
+name = "Bold 23 Jan 22, 19:37";
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,-54,o),
+(120,-28,o),
+(120,8,cs),
+(120,29,o),
+(107,50,o),
+(87,50,cs),
+(70,50,o),
+(61,33,o),
+(58,24,c),
+(55,33,o),
+(46,50,o),
+(29,50,cs),
+(9,50,o),
+(-4,29,o),
+(-4,8,cs),
+(-4,-28,o),
+(29,-54,o),
+(58,-58,c)
+);
+}
+);
+width = 116;
+}
+);
+subCategory = Nonspacing;
+}

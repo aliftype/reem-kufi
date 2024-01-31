@@ -1,0 +1,70 @@
+{
+category = Mark;
+glyphname = "vabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (124,0);
+},
+{
+name = markAbove;
+pos = (124,200);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(125,-50,l),
+(248,76,l),
+(201,124,l),
+(109,22,l),
+(138,29,l),
+(47,124,l),
+(0,77,l)
+);
+}
+);
+width = 248;
+},
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (124,0);
+},
+{
+name = markAbove;
+pos = (124,200);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(125,-50,l),
+(248,76,l),
+(201,124,l),
+(109,22,l),
+(138,29,l),
+(47,124,l),
+(0,77,l)
+);
+}
+);
+width = 248;
+}
+);
+subCategory = Nonspacing;
+unicode = 1626;
+}

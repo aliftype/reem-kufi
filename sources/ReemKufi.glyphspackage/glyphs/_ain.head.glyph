@@ -1,0 +1,111 @@
+{
+export = 0;
+glyphname = _ain.head;
+layers = (
+{
+anchors = (
+{
+name = dotAbove;
+pos = (85,550);
+},
+{
+name = markAbove;
+pos = (85,550);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(248,121,l),
+(25,364,l),
+(-41,273,l),
+(168,46,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(255,50,l),
+(255,400,l),
+(155,378,l),
+(155,50,l)
+);
+}
+);
+width = 350;
+},
+{
+anchors = (
+{
+name = dotAbove;
+pos = (104,550);
+},
+{
+name = markAbove;
+pos = (104,550);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(281,106,l),
+(44,364,l),
+(-41,247,l),
+(178,11,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(284,50,l),
+(284,400,l),
+(144,369,l),
+(144,50,l)
+);
+}
+);
+width = 369;
+},
+{
+anchors = (
+{
+name = dotAbove;
+pos = (85,550);
+},
+{
+name = markAbove;
+pos = (85,550);
+}
+);
+associatedMasterId = master01;
+layerId = "0E02E8D5-590C-4984-BBA3-36394FA7EB74";
+name = "Nov 5 20, 23:09";
+shapes = (
+{
+closed = 1;
+nodes = (
+(262,106,l),
+(25,364,l),
+(-41,273,l),
+(181,31,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(255,50,l),
+(255,400,l),
+(155,378,l),
+(155,50,l)
+);
+}
+);
+visible = 1;
+width = 350;
+}
+);
+}

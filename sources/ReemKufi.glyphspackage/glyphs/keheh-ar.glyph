@@ -1,0 +1,27 @@
+{
+color = 0;
+glyphname = "keheh-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "kaf-ar";
+}
+);
+width = 1010;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "kaf-ar";
+}
+);
+width = 1010;
+}
+);
+sortName = arpl1104;
+sortNameKeep = ar0786;
+unicode = 1705;
+}

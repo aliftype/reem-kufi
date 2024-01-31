@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "gaf-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "keheh-ar";
+},
+{
+pos = (163,467);
+ref = "gafsarkashabove-ar";
+}
+);
+width = 1010;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "keheh-ar";
+},
+{
+pos = (163,467);
+ref = "gafsarkashabove-ar";
+}
+);
+width = 1010;
+}
+);
+sortName = arpl1106;
+sortNameKeep = ar0816;
+unicode = 1711;
+}

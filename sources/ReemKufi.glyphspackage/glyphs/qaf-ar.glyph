@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "qaf-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "qafDotless-ar";
+},
+{
+pos = (195,500);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 515;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "qafDotless-ar";
+},
+{
+pos = (195,500);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 536;
+}
+);
+sortName = arpl1000;
+sortNameKeep = ar0750;
+unicode = 1602;
+}

@@ -1,0 +1,46 @@
+{
+category = Mark;
+glyphname = "kasratan-ar";
+layers = (
+{
+anchors = (
+{
+name = _markBelow;
+pos = (138,200);
+}
+);
+attr = {
+colorPalette = 2;
+};
+layerId = master01;
+shapes = (
+{
+pos = (0,-81);
+ref = "fathatan-ar";
+}
+);
+width = 276;
+},
+{
+anchors = (
+{
+name = _markBelow;
+pos = (138,200);
+}
+);
+attr = {
+colorPalette = 2;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-81);
+ref = "fathatan-ar";
+}
+);
+width = 276;
+}
+);
+subCategory = Nonspacing;
+unicode = 1613;
+}

@@ -1,0 +1,59 @@
+{
+glyphname = "seven-persian.urdu";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(318,565,l),
+(228,612,l),
+(70,26,l),
+(166,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(166,0,l),
+(407,42,l),
+(412,143,l),
+(149,97,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2017-10-25 19:17:40 +0000";
+};
+width = 500;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(333,546,l),
+(207,612,l),
+(51,37,l),
+(186,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(186,0,l),
+(432,43,l),
+(439,185,l),
+(162,136,l)
+);
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2017-10-25 19:17:40 +0000";
+};
+width = 500;
+}
+);
+}

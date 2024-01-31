@@ -1,0 +1,81 @@
+{
+glyphname = "alef-ar.3";
+layers = (
+{
+anchors = (
+{
+name = hamzaAbove;
+pos = (90,850);
+},
+{
+name = hamzaBelow;
+pos = (90,-50);
+},
+{
+name = markAbove;
+pos = (90,830);
+},
+{
+name = markBelow;
+pos = (90,-150);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(31,-32,o),
+(150,-10,o),
+(150,80,cs),
+(150,800,l),
+(50,778,l),
+(50,80,ls),
+(50,10,o),
+(6,25,o),
+(0,25,c)
+);
+}
+);
+width = 175;
+},
+{
+anchors = (
+{
+name = hamzaAbove;
+pos = (130,850);
+},
+{
+name = hamzaBelow;
+pos = (130,-50);
+},
+{
+name = markAbove;
+pos = (130,830);
+},
+{
+name = markBelow;
+pos = (130,-150);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(31,-32,o),
+(190,-20,o),
+(190,100,cs),
+(190,800,l),
+(50,769,l),
+(50,80,ls),
+(50,10,o),
+(6,25,o),
+(0,25,c)
+);
+}
+);
+width = 215;
+}
+);
+}

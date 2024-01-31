@@ -1,0 +1,34 @@
+{
+glyphname = space;
+layers = (
+{
+anchors = (
+{
+name = markAbove;
+pos = (65,550);
+},
+{
+name = markBelow;
+pos = (65,-150);
+}
+);
+layerId = master01;
+width = 130;
+},
+{
+anchors = (
+{
+name = markAbove;
+pos = (65,550);
+},
+{
+name = markBelow;
+pos = (65,-150);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 130;
+}
+);
+unicode = (32,160);
+}

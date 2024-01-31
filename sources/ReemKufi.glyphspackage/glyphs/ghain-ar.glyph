@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "ghain-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "ain-ar";
+},
+{
+pos = (97,500);
+ref = "dotabove-ar";
+}
+);
+width = 370;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "ain-ar";
+},
+{
+pos = (116,500);
+ref = "dotabove-ar";
+}
+);
+width = 389;
+}
+);
+sortName = arpl0800;
+sortNameKeep = ar0660;
+unicode = 1594;
+}

@@ -1,0 +1,70 @@
+{
+glyphname = "lam-ar";
+layers = (
+{
+anchors = (
+{
+name = dotAbove;
+pos = (393,861);
+},
+{
+name = markAbove;
+pos = (100,550);
+},
+{
+name = markBelow;
+pos = (215,-270);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(445,0,l),
+(445,800,l),
+(345,778,l),
+(345,40,l)
+);
+},
+{
+ref = _seen.bowel;
+}
+);
+width = 470;
+},
+{
+anchors = (
+{
+name = dotAbove;
+pos = (373,861);
+},
+{
+name = markAbove;
+pos = (100,550);
+},
+{
+name = markBelow;
+pos = (215,-270);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(445,0,l),
+(445,800,l),
+(305,769,l),
+(305,40,l)
+);
+},
+{
+ref = _seen.bowel;
+}
+);
+width = 470;
+}
+);
+unicode = 1604;
+}

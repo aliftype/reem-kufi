@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "theh-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+pos = (265,390);
+ref = "threedotsupabove-ar";
+}
+);
+width = 850;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "behDotless-ar";
+},
+{
+pos = (265,390);
+ref = "threedotsupabove-ar";
+}
+);
+width = 850;
+}
+);
+sortName = arpl0102;
+sortNameKeep = ar0174;
+unicode = 1579;
+}

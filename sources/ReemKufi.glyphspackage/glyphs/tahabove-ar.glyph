@@ -1,0 +1,96 @@
+{
+category = Mark;
+glyphname = "tahabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _hamzaAbove;
+pos = (150,0);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(284,0,l),
+(284,0,o),
+(300,-1,o),
+(300,9,cs),
+(300,57,o),
+(307,140,o),
+(224,140,cs),
+(82,140,l),
+(82,90,l),
+(219,90,ls),
+(249,90,o),
+(249,72,o),
+(250,50,c),
+(24,50,l),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(114,20,l),
+(114,300,l),
+(64,291,l),
+(64,20,l)
+);
+}
+);
+width = 300;
+},
+{
+anchors = (
+{
+name = _hamzaAbove;
+pos = (150,0);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(284,0,l),
+(284,0,o),
+(300,-1,o),
+(300,9,cs),
+(300,57,o),
+(307,140,o),
+(224,140,cs),
+(82,140,l),
+(82,90,l),
+(219,90,ls),
+(249,90,o),
+(249,72,o),
+(250,50,c),
+(24,50,l),
+(0,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(114,20,l),
+(114,300,l),
+(64,291,l),
+(64,20,l)
+);
+}
+);
+width = 300;
+}
+);
+subCategory = Nonspacing;
+unicode = 1557;
+}

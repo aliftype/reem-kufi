@@ -1,0 +1,64 @@
+{
+category = Mark;
+glyphname = "dammatan-ar";
+layers = (
+{
+anchors = (
+{
+name = _markAbove;
+pos = (140,0);
+}
+);
+attr = {
+colorPalette = 2;
+};
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(57,70,l),
+(33,201,l),
+(0,195,l),
+(23,63,l)
+);
+},
+{
+pos = (40,6);
+ref = "damma-ar";
+}
+);
+width = 250;
+},
+{
+anchors = (
+{
+name = _markAbove;
+pos = (140,0);
+}
+);
+attr = {
+colorPalette = 2;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(57,70,l),
+(33,201,l),
+(0,195,l),
+(23,63,l)
+);
+},
+{
+pos = (40,6);
+ref = "damma-ar";
+}
+);
+width = 250;
+}
+);
+subCategory = Nonspacing;
+unicode = 1612;
+}

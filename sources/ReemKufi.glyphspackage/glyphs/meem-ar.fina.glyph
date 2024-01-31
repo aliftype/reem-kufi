@@ -1,0 +1,35 @@
+{
+glyphname = "meem-ar.fina";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (195,0);
+ref = "meem-ar.medi";
+},
+{
+alignment = -1;
+ref = _tail;
+}
+);
+width = 685;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+alignment = -1;
+pos = (195,0);
+ref = "meem-ar.medi";
+},
+{
+alignment = -1;
+ref = _tail;
+}
+);
+width = 685;
+}
+);
+}

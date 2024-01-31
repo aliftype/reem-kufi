@@ -1,0 +1,53 @@
+{
+category = Mark;
+glyphname = "vbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (124,0);
+},
+{
+name = markBelow;
+pos = (124,-250);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = master01;
+shapes = (
+{
+pos = (0,-66);
+ref = "vabove-ar";
+}
+);
+width = 248;
+},
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (124,0);
+},
+{
+name = markBelow;
+pos = (124,-250);
+}
+);
+attr = {
+colorPalette = 0;
+};
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-66);
+ref = "vabove-ar";
+}
+);
+width = 248;
+}
+);
+subCategory = Nonspacing;
+}

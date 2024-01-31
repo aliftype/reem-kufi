@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "zah-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "tah-ar";
+},
+{
+pos = (477,550);
+ref = "dotabove-ar";
+}
+);
+width = 1010;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "tah-ar";
+},
+{
+pos = (477,550);
+ref = "dotabove-ar";
+}
+);
+width = 1010;
+}
+);
+sortName = arpl0700;
+sortNameKeep = ar0627;
+unicode = 1592;
+}

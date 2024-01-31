@@ -1,0 +1,48 @@
+{
+glyphname = "highhamza-ar";
+layers = (
+{
+anchors = (
+{
+name = markAbove;
+pos = (255,750);
+},
+{
+name = markBelow;
+pos = (245,250);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (0,400);
+ref = "hamza-ar";
+}
+);
+width = 520;
+},
+{
+anchors = (
+{
+name = markAbove;
+pos = (255,750);
+},
+{
+name = markBelow;
+pos = (245,250);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+alignment = -1;
+pos = (0,400);
+ref = "hamza-ar";
+}
+);
+width = 520;
+}
+);
+unicode = 1652;
+}

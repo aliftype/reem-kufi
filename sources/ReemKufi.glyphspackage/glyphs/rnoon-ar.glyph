@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "rnoon-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "noonghunna-ar";
+},
+{
+pos = (70,340);
+ref = "tahabove-ar";
+}
+);
+width = 460;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "noonghunna-ar";
+},
+{
+pos = (70,340);
+ref = "tahabove-ar";
+}
+);
+width = 460;
+}
+);
+sortName = arpl1402;
+sortNameKeep = ar0963;
+unicode = 1723;
+}

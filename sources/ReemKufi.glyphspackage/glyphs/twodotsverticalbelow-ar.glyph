@@ -1,0 +1,161 @@
+{
+category = Mark;
+glyphname = "twodotsverticalbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (58,0);
+},
+{
+name = markBelow;
+pos = (58,-270);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,-169);
+ref = "twodotsverticalabove-ar";
+}
+);
+width = 116;
+},
+{
+anchors = (
+{
+name = _dotBelow;
+pos = (58,0);
+},
+{
+name = markBelow;
+pos = (58,-270);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-169);
+ref = "twodotsverticalabove-ar";
+}
+);
+width = 116;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "2B3B227A-74A8-4A33-9342-743C6FDE2626";
+name = "Bold 23 Jan 22, 19:38";
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,-53,o),
+(120,-27,o),
+(120,9,cs),
+(120,30,o),
+(107,51,o),
+(87,51,cs),
+(70,51,o),
+(61,34,o),
+(58,25,c),
+(55,34,o),
+(46,51,o),
+(29,51,cs),
+(9,51,o),
+(-4,30,o),
+(-4,9,cs),
+(-4,-27,o),
+(29,-53,o),
+(58,-57,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(87,-223,o),
+(120,-197,o),
+(120,-161,cs),
+(120,-140,o),
+(107,-119,o),
+(87,-119,cs),
+(70,-119,o),
+(61,-136,o),
+(58,-145,c),
+(55,-136,o),
+(46,-119,o),
+(29,-119,cs),
+(9,-119,o),
+(-4,-140,o),
+(-4,-161,cs),
+(-4,-197,o),
+(29,-223,o),
+(58,-227,c)
+);
+}
+);
+width = 116;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "82F0E440-FBEB-41CA-8CE8-B279E929095C";
+name = "Regular 23 Jan 22, 19:38";
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,-53,o),
+(120,-27,o),
+(120,9,cs),
+(120,30,o),
+(107,51,o),
+(87,51,cs),
+(70,51,o),
+(61,34,o),
+(58,25,c),
+(55,34,o),
+(46,51,o),
+(29,51,cs),
+(9,51,o),
+(-4,30,o),
+(-4,9,cs),
+(-4,-27,o),
+(29,-53,o),
+(58,-57,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(87,-223,o),
+(120,-197,o),
+(120,-161,cs),
+(120,-140,o),
+(107,-119,o),
+(87,-119,cs),
+(70,-119,o),
+(61,-136,o),
+(58,-145,c),
+(55,-136,o),
+(46,-119,o),
+(29,-119,cs),
+(9,-119,o),
+(-4,-140,o),
+(-4,-161,cs),
+(-4,-197,o),
+(29,-223,o),
+(58,-227,c)
+);
+}
+);
+width = 116;
+}
+);
+subCategory = Nonspacing;
+}

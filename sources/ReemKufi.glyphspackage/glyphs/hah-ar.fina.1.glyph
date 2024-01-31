@@ -1,0 +1,33 @@
+{
+glyphname = "hah-ar.fina.1";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = _hah.bowel;
+},
+{
+alignment = -1;
+pos = (50,0);
+ref = _hah.head.1;
+}
+);
+width = 428;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = _hah.bowel;
+},
+{
+alignment = -1;
+pos = (65,0);
+ref = _hah.head.1;
+}
+);
+width = 428;
+}
+);
+}

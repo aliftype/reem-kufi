@@ -1,0 +1,167 @@
+{
+category = Mark;
+glyphname = "twodotsverticalabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (58,0);
+},
+{
+name = markAbove;
+pos = (58,319);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,170);
+ref = "dotabove-ar";
+},
+{
+ref = "dotabove-ar";
+}
+);
+width = 116;
+},
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (58,0);
+},
+{
+name = markAbove;
+pos = (58,319);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,170);
+ref = "dotabove-ar";
+},
+{
+ref = "dotabove-ar";
+}
+);
+width = 116;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "3EA68E2D-EF33-4A83-BFD4-03BE10FF62EC";
+name = "Regular 23 Jan 22, 19:37";
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,116,o),
+(120,142,o),
+(120,178,cs),
+(120,199,o),
+(107,220,o),
+(87,220,cs),
+(70,220,o),
+(61,203,o),
+(58,194,c),
+(55,203,o),
+(46,220,o),
+(29,220,cs),
+(9,220,o),
+(-4,199,o),
+(-4,178,cs),
+(-4,142,o),
+(29,116,o),
+(58,112,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(87,-54,o),
+(120,-28,o),
+(120,8,cs),
+(120,29,o),
+(107,50,o),
+(87,50,cs),
+(70,50,o),
+(61,33,o),
+(58,24,c),
+(55,33,o),
+(46,50,o),
+(29,50,cs),
+(9,50,o),
+(-4,29,o),
+(-4,8,cs),
+(-4,-28,o),
+(29,-54,o),
+(58,-58,c)
+);
+}
+);
+width = 116;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "97EB0DCC-6904-47CA-A263-851DCE356D4D";
+name = "Bold 23 Jan 22, 19:37";
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,116,o),
+(120,142,o),
+(120,178,cs),
+(120,199,o),
+(107,220,o),
+(87,220,cs),
+(70,220,o),
+(61,203,o),
+(58,194,c),
+(55,203,o),
+(46,220,o),
+(29,220,cs),
+(9,220,o),
+(-4,199,o),
+(-4,178,cs),
+(-4,142,o),
+(29,116,o),
+(58,112,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(87,-54,o),
+(120,-28,o),
+(120,8,cs),
+(120,29,o),
+(107,50,o),
+(87,50,cs),
+(70,50,o),
+(61,33,o),
+(58,24,c),
+(55,33,o),
+(46,50,o),
+(29,50,cs),
+(9,50,o),
+(-4,29,o),
+(-4,8,cs),
+(-4,-28,o),
+(29,-54,o),
+(58,-58,c)
+);
+}
+);
+width = 116;
+}
+);
+subCategory = Nonspacing;
+}

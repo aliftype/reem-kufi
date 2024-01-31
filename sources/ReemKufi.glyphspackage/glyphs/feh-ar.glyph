@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "feh-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "fehDotless-ar";
+},
+{
+pos = (617,600);
+ref = "dotabove-ar";
+}
+);
+width = 850;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "fehDotless-ar";
+},
+{
+pos = (597,600);
+ref = "dotabove-ar";
+}
+);
+width = 850;
+}
+);
+sortName = arpl0900;
+sortNameKeep = ar0678;
+unicode = 1601;
+}

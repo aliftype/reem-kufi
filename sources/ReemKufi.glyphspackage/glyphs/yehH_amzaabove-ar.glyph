@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "yehHamzaabove-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "alefMaksura-ar";
+},
+{
+pos = (-35,0);
+ref = "hamzaabove-ar";
+}
+);
+width = 725;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "alefMaksura-ar";
+},
+{
+pos = (-35,0);
+ref = "hamzaabove-ar";
+}
+);
+width = 725;
+}
+);
+sortName = arpl1701;
+sortNameKeep = ar1182;
+unicode = 1574;
+}

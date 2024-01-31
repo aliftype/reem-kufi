@@ -1,0 +1,764 @@
+{
+.appVersion = "3234";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+classes = (
+{
+automatic = 1;
+code = "hamza-ar highhamza-ar alef-ar alef-ar.1 alef-ar.2 alef-ar.3 alef-ar.fina alef-ar.fina.Lam alef-ar.fina.Lam.1 behDotless-ar behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.medi.high.wide behDotless-ar.medi.high.wider behDotless-ar.medi.wide behDotless-ar.medi.wider behDotless-ar.init behDotless-ar.init.Hah behDotless-ar.init.wide hah-ar hah-ar.alt hah-ar.fina hah-ar.fina.1 hah-ar.fina.alt hah-ar.fina.alt.1 hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.init hah-ar.init.2 dal-ar dal-ar.fina reh-ar reh-ar.fina seen-ar seen-ar.fina seen-ar.medi seen-ar.init sad-ar sad-ar.fina sad-ar.medi sad-ar.init tah-ar tah-ar.fina tah-ar.medi tah-ar.init ain-ar ain-ar.fina ain-ar.fina.1 ain-ar.medi ain-ar.medi.1 ain-ar.init fehDotless-ar fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar qafDotless-ar.fina kaf-ar kaf-ar.fina kaf-ar.fina.1 kaf-ar.medi kaf-ar.medi.1 kaf-ar.init kaf-ar.init.1 lam-ar lam-ar.fina lam-ar.medi lam-ar.medi.Alef lam-ar.init lam-ar.init.Alef lam-ar.init.Alef.1 lam-ar.init.Hah meem-ar meem-ar.1 meem-ar.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi meem-ar.medi.1 meem-ar.init noonghunna-ar noonghunna-ar.fina heh-ar heh-ar.1 heh-ar.isol heh-ar.fina heh-ar.fina.1 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 hehDoachashmee-ar hehDoachashmee-ar.fina waw-ar waw-ar.fina waw-ar.fina.1 alefMaksura-ar alefMaksura-ar.1 alefMaksura-ar.fina alefMaksura-ar.fina.1 yehbarree-ar yehbarree-ar.fina ae-ar kashida-ar alefMadda-ar alefHamzaabove-ar alefHamzabelow-ar alefWasla-ar beh-ar teh-ar theh-ar tteh-ar tteheh-ar peh-ar jeem-ar khah-ar tcheh-ar thal-ar ddal-ar dul-ar zain-ar rreh-ar rehVbelow-ar jeh-ar sheen-ar dad-ar zah-ar ghain-ar ainThreedots-ar feh-ar veh-ar qaf-ar keheh-ar kafDotabove-ar gaf-ar kehehDotabove-ar lamVabove-ar noon-ar rnoon-ar noonRing-ar noonThreedotsabove-ar tehMarbuta-ar hehHamzaabove-ar hehgoal-ar hehgoalHamzaabove-ar tehMarbutagoal-ar wawHamzaabove-ar oe-ar wawTwodots-ar ve-ar wawDotabove-ar yehHamzaabove-ar yeh-ar yehFarsi-ar yehVabove-ar e-ar yehbarreeHamzaabove-ar";
+name = ArabicLetters;
+}
+);
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Don't use Production Names";
+value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Write lastChange";
+value = 0;
+},
+{
+name = "Write DisplayStrings";
+value = 0;
+},
+{
+name = "gasp Table";
+value = {
+"65535" = 15;
+};
+},
+{
+name = "Color Palettes";
+value = (
+(
+(200,0,5,255),
+(196,156,51,255),
+(117,188,234,255)
+)
+);
+},
+{
+name = glyphOrder;
+value = (
+.notdef,
+space
+);
+}
+);
+date = "2015-11-13 18:42:21 +0000";
+familyName = "Reem Kufi";
+featurePrefixes = (
+{
+code = "languagesystem arab dflt;
+languagesystem arab URD;
+languagesystem arab KSH;
+languagesystem arab SND;
+";
+name = Languagesystems;
+},
+{
+code = "feature locl {
+  script arab;
+
+  language URD;
+    sub four-persian  by four-persian.urdu;
+    sub six-persian   by six-ar;
+    sub seven-persian by seven-persian.urdu;
+
+  language KSH;
+    sub four-persian  by four-persian.urdu;
+    sub six-persian   by six-ar;
+    sub seven-persian by seven-persian.urdu;
+
+  language SND;
+    sub six-persian   by six-ar;
+    sub seven-persian by seven-persian.urdu;
+} locl;
+
+feature ccmp {
+    sub alefMadda-ar by alef-ar madda-ar;
+    sub alefHamzaabove-ar by alef-ar hamzaabove-ar;
+    sub wawHamzaabove-ar by waw-ar hamzaabove-ar;
+    sub alefHamzabelow-ar by alef-ar hamzabelow-ar;
+    sub yehHamzaabove-ar by alefMaksura-ar hamzaabove-ar;
+    sub beh-ar by behDotless-ar dotbelow-ar;
+    sub teh-ar by behDotless-ar twodotshorizontalabove-ar;
+    sub theh-ar by behDotless-ar threedotsupabove-ar;
+    sub jeem-ar by hah-ar dotcenter-ar;
+    sub khah-ar by hah-ar dotabove-ar;
+    sub thal-ar by dal-ar dotabove-ar;
+    sub zain-ar by reh-ar dotabove-ar;
+    sub sheen-ar by seen-ar threedotsupabove-ar;
+    sub dad-ar by sad-ar dotabove-ar;
+    sub zah-ar by tah-ar dotabove-ar;
+    sub ghain-ar by ain-ar dotabove-ar;
+    sub feh-ar by fehDotless-ar dotabove-ar;
+    sub qaf-ar by qafDotless-ar twodotshorizontalabove-ar;
+    sub noon-ar by noonghunna-ar dotabove-ar;
+    sub yeh-ar by alefMaksura-ar twodotshorizontalbelow-ar;
+    sub alefWasla-ar by alef-ar wasla-ar;
+    sub tteh-ar by behDotless-ar tahabove-ar;
+    sub tteheh-ar by behDotless-ar twodotsverticalabove-ar;
+    sub peh-ar by behDotless-ar threedotsdownbelow-ar;
+    sub tcheh-ar by hah-ar.alt threedotsdownbelow-ar;
+    sub ddal-ar by dal-ar tahabove-ar;
+    sub dul-ar by dal-ar threedotsupabove-ar;
+    sub rreh-ar by reh-ar tahabove-ar;
+    sub jeh-ar by reh-ar threedotsupabove-ar;
+    sub rehVbelow-ar by reh-ar vbelow-ar;
+    sub ainThreedots-ar by ain-ar threedotsupabove-ar;
+    sub veh-ar by fehDotless-ar threedotsupabove-ar;
+    sub kafDotabove-ar by kaf-ar dotabove-ar;
+    sub lamVabove-ar by lam-ar vabove-ar;
+    sub rnoon-ar by noonghunna-ar tahabove-ar;
+    sub noonRing-ar by noonghunna-ar dotabove-ar ringbelow-ar;
+    sub tehMarbuta-ar by heh-ar twodotsverticalabove-ar;
+
+    sub hehHamzaabove-ar by heh-ar hamzaabove-ar;
+    sub hehgoalHamzaabove-ar by heh-ar hamzaabove-ar;
+
+    sub yehbarreeHamzaabove-ar by yehbarree-ar hamzaabove-ar;
+    sub kehehDotabove-ar by keheh-ar dotabove-ar;
+    sub wawDotabove-ar by waw-ar dotabove-ar;
+    sub wawTwodots-ar by waw-ar twodotshorizontalabove-ar;
+    sub oe-ar by waw-ar vabove-ar;
+    sub ve-ar by waw-ar threedotsupabove-ar;
+    sub yehVabove-ar by yehFarsi-ar vabove-ar;
+    sub e-ar by alefMaksura-ar.1 twodotsverticalbelow-ar;
+    sub gaf-ar by keheh-ar gafsarkashabove-ar;
+} ccmp;
+
+feature rlig {
+    sub keheh-ar by kaf-ar;
+    sub hehgoal-ar by heh-ar;
+    sub yehFarsi-ar by alefMaksura-ar;
+    sub noonThreedotsabove-ar by noonghunna-ar threedotsupabove-ar;
+} rlig;
+
+feature init {
+    sub hah-ar by hah-ar.init;
+    sub hah-ar.alt by hah-ar.init;
+    sub seen-ar by seen-ar.init;
+    sub sad-ar by sad-ar.init;
+    sub tah-ar by tah-ar.init;
+    sub ain-ar by ain-ar.init;
+    sub kaf-ar by kaf-ar.init;
+    sub lam-ar by lam-ar.init;
+    sub meem-ar by meem-ar.init;
+    sub heh-ar by heh-ar.init;
+    sub [alefMaksura-ar alefMaksura-ar.1] by behDotless-ar.init;
+    sub behDotless-ar by behDotless-ar.init;
+    sub qafDotless-ar by fehDotless-ar.init;
+    sub fehDotless-ar by fehDotless-ar.init;
+    sub keheh-ar by kaf-ar.init.1;
+    sub noonghunna-ar by behDotless-ar.init;
+    sub hehDoachashmee-ar by heh-ar.init.2;
+    sub hehgoal-ar by heh-ar.init.2;
+    sub yehFarsi-ar by behDotless-ar.init twodotshorizontalbelow-ar;
+    sub noonThreedotsabove-ar by behDotless-ar.init threedotsdownbelow-ar;
+} init;
+
+feature medi {
+    sub hah-ar by hah-ar.medi;
+    sub hah-ar.alt by hah-ar.medi;
+    sub seen-ar by seen-ar.medi;
+    sub sad-ar by sad-ar.medi;
+    sub tah-ar by tah-ar.medi;
+    sub ain-ar by ain-ar.medi;
+    sub kaf-ar by kaf-ar.medi;
+    sub lam-ar by lam-ar.medi;
+    sub meem-ar by meem-ar.medi;
+    sub heh-ar by heh-ar.medi;
+    sub [alefMaksura-ar alefMaksura-ar.1] by behDotless-ar.medi;
+    sub behDotless-ar by behDotless-ar.medi;
+    sub qafDotless-ar by fehDotless-ar.medi;
+    sub fehDotless-ar by fehDotless-ar.medi;
+    sub keheh-ar by kaf-ar.medi.1;
+    sub noonghunna-ar by behDotless-ar.medi;
+    sub hehDoachashmee-ar by heh-ar.medi.2;
+    sub hehgoal-ar by heh-ar.medi.2;
+    sub yehFarsi-ar by behDotless-ar.medi twodotshorizontalbelow-ar;
+    sub noonThreedotsabove-ar by behDotless-ar.medi threedotsdownbelow-ar;
+} medi;
+
+feature fina {
+    sub alef-ar by alef-ar.fina;
+    sub behDotless-ar by behDotless-ar.fina;
+    sub hah-ar by hah-ar.fina;
+    sub hah-ar.alt by hah-ar.fina.alt;
+    sub dal-ar by dal-ar.fina;
+    sub reh-ar by reh-ar.fina;
+    sub seen-ar by seen-ar.fina;
+    sub sad-ar by sad-ar.fina;
+    sub tah-ar by tah-ar.fina;
+    sub ain-ar by ain-ar.fina;
+    sub fehDotless-ar by fehDotless-ar.fina;
+    sub qafDotless-ar by qafDotless-ar.fina;
+    sub kaf-ar by kaf-ar.fina;
+    sub lam-ar by lam-ar.fina;
+    sub meem-ar by meem-ar.fina;
+    sub noonghunna-ar by noonghunna-ar.fina;
+    sub heh-ar by heh-ar.fina;
+    sub ae-ar by heh-ar.fina.1;
+    sub waw-ar by waw-ar.fina;
+    sub alefMaksura-ar by alefMaksura-ar.fina;
+    sub alefMaksura-ar.1 by alefMaksura-ar.fina.1;
+    sub yehbarree-ar by yehbarree-ar.fina;
+
+    sub hehgoal-ar by heh-ar.fina;
+    
+    sub hehDoachashmee-ar by hehDoachashmee-ar.fina;
+    sub yehFarsi-ar by alefMaksura-ar.fina;
+    sub keheh-ar by kaf-ar.fina.1;
+    sub noonThreedotsabove-ar by noonghunna-ar.fina threedotsupabove-ar;
+} fina;
+
+feature rlig {
+  @hehMarks = [twodotsverticalabove-ar hamzaabove-ar];
+  lookupflag UseMarkFilteringSet @hehMarks;
+    ignore sub @ArabicLetters heh-ar';
+    ignore sub @hehMarks heh-ar';
+    ignore sub heh-ar' @hehMarks;
+    sub heh-ar' by heh-ar.isol;
+
+  lookupflag 0;
+    sub [heh-ar heh-ar.fina]' hamzaabove-ar by [heh-ar.1 heh-ar.fina.1];
+} rlig;
+
+lookup LamAlefIsol {
+  sub lam-ar.init by lam-ar.init.Alef;
+  sub alef-ar.fina by alef-ar.fina.Lam;
+} LamAlefIsol;
+
+lookup LamAlefFina {
+  sub lam-ar.medi by lam-ar.medi.Alef;
+  sub alef-ar.fina by alef-ar.fina.Lam;
+} LamAlefFina;
+
+feature rlig {
+  lookupflag IgnoreMarks;
+    sub lam-ar.init' lookup LamAlefIsol alef-ar.fina' lookup LamAlefIsol;
+    sub lam-ar.medi' lookup LamAlefFina alef-ar.fina' lookup LamAlefFina;
+} rlig;
+
+lookup AboveHah {
+  sub lam-ar.init by lam-ar.init.Hah;
+  sub behDotless-ar.init by behDotless-ar.init.Hah;
+  sub hah-ar.medi by hah-ar.init;
+  sub hah-ar.fina by hah-ar;
+} AboveHah;
+
+feature rclt {
+  lookupflag IgnoreMarks;
+    sub [lam-ar.init behDotless-ar.init]' lookup AboveHah [hah-ar.medi hah-ar.fina]' lookup AboveHah;
+    pos [lam-ar.init.Hah behDotless-ar.init.Hah]' <80 0 80 0> [hah-ar];
+
+  @ar2DotBelow = [twodotshorizontalbelow-ar];
+  lookupflag UseMarkFilteringSet @ar2DotBelow;
+    sub behDotless-ar.init.Hah @ar2DotBelow' by twodotsverticalabove-ar.alt;
+} rclt;
+
+feature cv01 {
+  sub alef-ar      by alef-ar.1;
+
+  sub hah-ar.fina  by hah-ar.fina.1;
+  sub hah-ar.fina.alt by hah-ar.fina.alt.1;
+  sub hah-ar.medi  by hah-ar.medi.1;
+
+  sub ain-ar.fina  by ain-ar.fina.1;
+  sub ain-ar.medi  by ain-ar.medi.1;
+
+  sub kaf-ar.init  by kaf-ar.init.1;
+  sub kaf-ar.medi  by kaf-ar.medi.1;
+  sub kaf-ar.fina  by kaf-ar.fina.1;
+
+  sub meem-ar      by meem-ar.1;
+  sub meem-ar.fina by meem-ar.fina.1;
+  sub meem-ar.medi by meem-ar.medi.1;
+
+  sub heh-ar       by heh-ar.1;
+  sub heh-ar.fina  by heh-ar.fina.1;
+  sub heh-ar.medi  by heh-ar.medi.1;
+  sub heh-ar.init  by heh-ar.init.1;
+
+  sub waw-ar.fina  by waw-ar.fina.1;
+
+  sub alefMaksura-ar by alefMaksura-ar.1;
+  sub alefMaksura-ar.fina by alefMaksura-ar.fina.1;
+
+  sub lam-ar.init.Alef by lam-ar.init.Alef.1;
+  sub alef-ar.fina.Lam by alef-ar.fina.Lam.1;
+} cv01;
+
+feature cv01 {
+  sub [heh-ar.1 heh-ar.fina.1] twodotsverticalabove-ar' by twodotshorizontalabove-ar;
+} cv01;
+
+feature cv02 {
+  sub alef-ar by alef-ar.2;
+
+  sub hah-ar.init by hah-ar.init.2;
+  sub hah-ar.medi by hah-ar.medi.2;
+
+  sub meem-ar by meem-ar.2;
+  sub meem-ar.fina by meem-ar.fina.2;
+
+  sub heh-ar.medi by heh-ar.medi.2;
+  sub heh-ar.init by heh-ar.init.2;
+} cv02;
+
+# Undo the rclt above
+lookup ReverseAboveHah {
+  sub lam-ar.init.Hah by lam-ar.init;
+  sub behDotless-ar.init.Hah by behDotless-ar.init;
+  sub hah-ar.init.2 by hah-ar.medi.2;
+} ReverseAboveHah;
+
+feature cv02 {
+  lookupflag IgnoreMarks;
+    sub [lam-ar.init.Hah behDotless-ar.init.Hah]' lookup ReverseAboveHah hah-ar.init.2' lookup ReverseAboveHah;
+} cv02;
+
+feature cv03 {
+  sub alef-ar by alef-ar.3;
+
+  sub heh-ar.medi by heh-ar.medi.3;
+  sub heh-ar.init by heh-ar.init.3;
+} cv03;
+
+feature rclt {
+  lookupflag IgnoreMarks;
+    sub [behDotless-ar.init behDotless-ar.medi]
+         behDotless-ar.medi'
+        [behDotless-ar.medi behDotless-ar.fina]
+     by  behDotless-ar.medi.high;
+    sub [seen-ar.init seen-ar.medi]
+         behDotless-ar.medi'
+     by  behDotless-ar.medi.high;
+    sub  behDotless-ar.init
+         behDotless-ar.medi'
+         noonghunna-ar.fina
+     by  behDotless-ar.medi.high;
+
+  @WideMarksAbove = [twodotshorizontalabove-ar threedotsupabove-ar hamzaabove-ar tahabove-ar vabove-ar];
+  @WideMarksBelow = [twodotshorizontalbelow-ar threedotsdownbelow-ar hamzabelow-ar];
+
+  lookupflag UseMarkFilteringSet @WideMarksBelow;
+    sub [behDotless-ar.medi behDotless-ar.medi.high]'
+        @WideMarksBelow
+        [hah-ar.fina hah-ar.fina.1 hah-ar.fina.alt hah-ar.fina.alt.1 hah-ar.medi hah-ar.medi.1]
+     by [behDotless-ar.medi.wider behDotless-ar.medi.high.wider];
+
+    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high]
+        @WideMarksBelow
+        [behDotless-ar.medi behDotless-ar.medi.high]' @WideMarksBelow
+     by [behDotless-ar.medi.wide behDotless-ar.medi.high.wide];
+
+  lookupflag UseMarkFilteringSet @WideMarksAbove;
+    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high]
+        @WideMarksAbove
+        [behDotless-ar.medi behDotless-ar.medi.high]' @WideMarksAbove
+     by [behDotless-ar.medi.wide behDotless-ar.medi.high.wide];
+
+    sub [behDotless-ar.init behDotless-ar.medi behDotless-ar.medi.high]'
+        @WideMarksAbove
+        reh-ar.fina
+        @WideMarksAbove
+     by [behDotless-ar.init.wide behDotless-ar.medi.wider behDotless-ar.medi.high.wider];
+} rclt;
+
+feature rclt {
+  @ar23DotBelow2 = [twodotshorizontalbelow-ar threedotsdownbelow-ar];
+  lookupflag UseMarkFilteringSet @ar23DotBelow2;
+    pos [reh-ar reh-ar.fina]' <100 0 100 0> behDotless-ar.init @ar23DotBelow2;
+} rclt;
+
+";
+name = Features;
+}
+);
+fontMaster = (
+{
+axesValues = (
+108
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1100;
+},
+{
+name = typoDescender;
+value = -400;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1100;
+},
+{
+name = hheaDescender;
+value = -400;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1400;
+},
+{
+name = winDescent;
+value = 400;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = underlinePosition;
+value = -300;
+}
+);
+guides = (
+{
+name = "800";
+pos = (0,800);
+},
+{
+name = "700";
+pos = (0,700);
+},
+{
+name = "600";
+pos = (0,600);
+},
+{
+name = "500";
+pos = (0,500);
+},
+{
+name = "400";
+pos = (0,400);
+},
+{
+name = "300";
+pos = (0,300);
+},
+{
+name = "200";
+pos = (0,200);
+},
+{
+name = "100";
+pos = (0,100);
+},
+{
+name = "-100";
+pos = (0,-100);
+},
+{
+name = "-200";
+pos = (0,-200);
+}
+);
+id = master01;
+metricValues = (
+{
+pos = 1100;
+},
+{
+},
+{
+},
+{
+},
+{
+pos = -400;
+},
+{
+}
+);
+name = Regular;
+userData = {
+GSOffsetHorizontal = 17.5;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 0;
+GSOffsetProportional = 1;
+GSOffsetVertical = 35;
+};
+visible = 1;
+},
+{
+axesValues = (
+150
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1100;
+},
+{
+name = typoDescender;
+value = -400;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1100;
+},
+{
+name = hheaDescender;
+value = -400;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1400;
+},
+{
+name = winDescent;
+value = 400;
+},
+{
+name = underlineThickness;
+value = 50;
+},
+{
+name = underlinePosition;
+value = -300;
+}
+);
+guides = (
+{
+name = "800";
+pos = (0,800);
+},
+{
+name = "700";
+pos = (0,700);
+},
+{
+name = "600";
+pos = (0,600);
+},
+{
+name = "500";
+pos = (0,500);
+},
+{
+name = "400";
+pos = (0,400);
+},
+{
+name = "300";
+pos = (0,340);
+},
+{
+name = "200";
+pos = (0,200);
+},
+{
+name = "100";
+pos = (0,140);
+},
+{
+name = "-100";
+pos = (0,-100);
+},
+{
+name = "-200";
+pos = (0,-200);
+}
+);
+iconName = Bold;
+id = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+metricValues = (
+{
+pos = 1100;
+},
+{
+},
+{
+},
+{
+},
+{
+pos = -400;
+},
+{
+}
+);
+name = Bold;
+userData = {
+GSOffsetHorizontal = 20;
+GSOffsetKeepCompatible = 1;
+GSOffsetPosition = 0;
+GSOffsetProportional = 1;
+GSOffsetVertical = 20;
+};
+visible = 1;
+}
+);
+instances = (
+{
+axesValues = (
+108
+);
+instanceInterpolations = {
+master01 = 1;
+};
+name = Regular;
+},
+{
+axesValues = (
+122
+);
+instanceInterpolations = {
+"A6CBEFC3-C9E0-479E-A224-60A030287C4A" = 0.33333;
+master01 = 0.66667;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+136
+);
+instanceInterpolations = {
+"A6CBEFC3-C9E0-479E-A224-60A030287C4A" = 0.66667;
+master01 = 0.33333;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+150
+);
+instanceInterpolations = {
+"A6CBEFC3-C9E0-479E-A224-60A030287C4A" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = 700;
+}
+);
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright 2015-2022 The Reem Kufi Project Authors (https://github.com/aliftype/reem-kufi).";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = dflt;
+value = "Reem Kufi is a Kufic typeface based on early Kufic (Mushafi) models, but retrofitted to the Fatimid Kufic grid and with borrowing from its forms. Reem Kufi is largely based on the Kufic designs of the late master of Arabic calligraphy Mohammad Abdul Qadir who revived this art in the 20th century and formalised its rules.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Khaled Hosny";
+}
+);
+},
+{
+key = designerURL;
+value = "https://github.com/aliftype";
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+key = sampleTexts;
+values = (
+{
+language = dflt;
+value = "ريم على القاع بين البان و العلم   أحل سفك دمي في الأشهر الحرم";
+}
+);
+},
+{
+key = vendorID;
+value = ALIF;
+}
+);
+settings = {
+keepAlternatesTogether = 1;
+};
+unitsPerEm = 1000;
+userData = {
+UFOFormat = 3;
+};
+versionMajor = 0;
+versionMinor = 0;
+}

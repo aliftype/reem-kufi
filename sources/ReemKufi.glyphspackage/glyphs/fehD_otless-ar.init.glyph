@@ -1,0 +1,81 @@
+{
+glyphname = "fehDotless-ar.init";
+layers = (
+{
+anchors = (
+{
+name = dotAbove;
+pos = (250,600);
+},
+{
+name = markAbove;
+pos = (250,600);
+},
+{
+name = markBelow;
+pos = (250,-150);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(360,0,l),
+(360,0,o),
+(400,-2,o),
+(400,23,cs),
+(400,300,l),
+(300,228,l),
+(300,100,l),
+(-20,100,l),
+(-20,0,l)
+);
+},
+{
+pos = (76,350);
+ref = _circle;
+}
+);
+width = 425;
+},
+{
+anchors = (
+{
+name = dotAbove;
+pos = (230,600);
+},
+{
+name = markAbove;
+pos = (230,600);
+},
+{
+name = markBelow;
+pos = (230,-150);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(360,0,l),
+(360,0,o),
+(400,-2,o),
+(400,23,cs),
+(400,340,l),
+(260,268,l),
+(260,140,l),
+(-20,140,l),
+(-20,0,l)
+);
+},
+{
+pos = (35,390);
+ref = _circle;
+}
+);
+width = 425;
+}
+);
+}

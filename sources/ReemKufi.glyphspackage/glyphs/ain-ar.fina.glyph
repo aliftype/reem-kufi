@@ -1,0 +1,45 @@
+{
+glyphname = "ain-ar.fina";
+layers = (
+{
+anchors = (
+{
+name = markBelow;
+pos = (261,-270);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = _ain.bowel;
+},
+{
+alignment = -1;
+pos = (66,0);
+ref = _ain.head;
+}
+);
+width = 430;
+},
+{
+anchors = (
+{
+name = markBelow;
+pos = (195,-270);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = _ain.bowel;
+},
+{
+alignment = -1;
+pos = (61,0);
+ref = _ain.head;
+}
+);
+width = 430;
+}
+);
+}

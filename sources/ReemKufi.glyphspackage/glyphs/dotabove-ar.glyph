@@ -1,0 +1,141 @@
+{
+category = Mark;
+glyphname = "dotabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (58,0);
+},
+{
+name = markAbove;
+pos = (58,150);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(90,-58,o),
+(116,-32,o),
+(116,0,cs),
+(116,32,o),
+(90,58,o),
+(58,58,cs),
+(26,58,o),
+(0,32,o),
+(0,0,cs),
+(0,-32,o),
+(26,-58,o),
+(58,-58,cs)
+);
+}
+);
+width = 116;
+},
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (58,0);
+},
+{
+name = markAbove;
+pos = (58,150);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(90,-58,o),
+(116,-32,o),
+(116,0,cs),
+(116,32,o),
+(90,58,o),
+(58,58,cs),
+(26,58,o),
+(0,32,o),
+(0,0,cs),
+(0,-32,o),
+(26,-58,o),
+(58,-58,cs)
+);
+}
+);
+width = 116;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "62D517D0-CE33-4392-AFFA-798155F80317";
+name = "23 Jan 22, 19:35";
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,-54,o),
+(120,-28,o),
+(120,8,cs),
+(120,29,o),
+(107,50,o),
+(87,50,cs),
+(70,50,o),
+(61,33,o),
+(58,24,c),
+(55,33,o),
+(46,50,o),
+(29,50,cs),
+(9,50,o),
+(-4,29,o),
+(-4,8,cs),
+(-4,-28,o),
+(29,-54,o),
+(58,-58,c)
+);
+}
+);
+width = 116;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "E9021CAE-0580-4278-B505-48B6D20016AF";
+name = "23 Jan 22, 19:36";
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,-54,o),
+(120,-28,o),
+(120,8,cs),
+(120,29,o),
+(107,50,o),
+(87,50,cs),
+(70,50,o),
+(61,33,o),
+(58,24,c),
+(55,33,o),
+(46,50,o),
+(29,50,cs),
+(9,50,o),
+(-4,29,o),
+(-4,8,cs),
+(-4,-28,o),
+(29,-54,o),
+(58,-58,c)
+);
+}
+);
+width = 116;
+}
+);
+subCategory = Nonspacing;
+}

@@ -1,0 +1,87 @@
+{
+glyphname = "behDotless-ar.medi.high.wider";
+layers = (
+{
+anchors = (
+{
+name = dotAbove;
+pos = (213,483);
+},
+{
+name = dotBelow;
+pos = (213,-150);
+},
+{
+name = hamzaAbove;
+pos = (205,422);
+},
+{
+name = markAbove;
+pos = (213,550);
+},
+{
+name = markBelow;
+pos = (213,-150);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(189,0,l),
+(189,100,l),
+(-20,100,l),
+(-20,0,l)
+);
+},
+{
+pos = (180,0);
+ref = "behDotless-ar.medi.high";
+}
+);
+width = 480;
+},
+{
+anchors = (
+{
+name = dotAbove;
+pos = (213,483);
+},
+{
+name = dotBelow;
+pos = (213,-150);
+},
+{
+name = hamzaAbove;
+pos = (205,422);
+},
+{
+name = markAbove;
+pos = (213,550);
+},
+{
+name = markBelow;
+pos = (213,-150);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(189,0,l),
+(189,140,l),
+(-20,140,l),
+(-20,0,l)
+);
+},
+{
+pos = (180,0);
+ref = "behDotless-ar.medi.high";
+}
+);
+width = 480;
+}
+);
+}

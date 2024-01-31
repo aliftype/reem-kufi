@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "yeh-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "alefMaksura-ar";
+},
+{
+pos = (95,-300);
+ref = "twodotshorizontalbelow-ar";
+}
+);
+width = 725;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "alefMaksura-ar";
+},
+{
+pos = (95,-300);
+ref = "twodotshorizontalbelow-ar";
+}
+);
+width = 725;
+}
+);
+sortName = arpl1705;
+sortNameKeep = ar1168;
+unicode = 1610;
+}

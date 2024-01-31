@@ -1,0 +1,35 @@
+{
+color = 0;
+glyphname = "dad-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "sad-ar";
+},
+{
+pos = (637,550);
+ref = "dotabove-ar";
+}
+);
+width = 1170;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "sad-ar";
+},
+{
+pos = (637,550);
+ref = "dotabove-ar";
+}
+);
+width = 1170;
+}
+);
+sortName = arpl0600;
+sortNameKeep = ar0591;
+unicode = 1590;
+}
