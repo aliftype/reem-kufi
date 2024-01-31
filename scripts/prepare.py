@@ -22,9 +22,6 @@ def merge(args):
         if name in ("space", "nbspace", "CR", "NULL", ".notdef"):
             continue
 
-        # We don’t want the ligatures, they are useless in this design.
-        if name.startswith("f_") or name in {"fi", "fl"}:
-            continue
         assert glyph.name not in arabic.glyphs, glyph.name
         assert not (
             glyph.unicodes and set(glyph.unicodes).issubset(unicodes)

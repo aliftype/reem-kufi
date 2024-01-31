@@ -196,23 +196,6 @@ tag = case;
 },
 {
 automatic = 1;
-code = "sub f f ij by f_f_ij;
-sub f ij by f_ij;
-";
-tag = dlig;
-},
-{
-automatic = 1;
-code = "sub f f l by f_f_l;
-sub f f i by f_f_i;
-sub f i by fi;
-sub f f by f_f;
-sub f l by fl;
-";
-tag = liga;
-},
-{
-automatic = 1;
 code = "sub zero by zero.zero;
 ";
 tag = zero;
