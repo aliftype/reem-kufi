@@ -80,7 +80,5 @@ ref = dotaccentcomb;
 width = 259;
 }
 );
-metricLeft = n;
-metricRight = n;
 unicode = 105;
 }

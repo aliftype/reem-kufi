@@ -42,7 +42,7 @@ pos = (568,0);
 ref = j;
 }
 );
-width = 874;
+width = 863;
 },
 {
 layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
@@ -83,7 +83,7 @@ pos = (544,0);
 ref = j;
 }
 );
-width = 816;
+width = 809;
 }
 );
 metricLeft = n;

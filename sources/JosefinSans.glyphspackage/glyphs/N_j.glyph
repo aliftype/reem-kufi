@@ -56,6 +56,7 @@ ref = j;
 width = 1105;
 }
 );
-metricRight = n;
+metricLeft = N;
+metricRight = j;
 unicode = 459;
 }

@@ -58,7 +58,7 @@ pos = (15,0);
 ref = n;
 }
 );
-width = 575;
+width = 574;
 }
 );
 metricRight = n;

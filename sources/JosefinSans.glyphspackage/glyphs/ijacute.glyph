@@ -5,24 +5,25 @@ layers = (
 layerId = UUID1;
 shapes = (
 {
+pos = (-10,0);
 ref = idotless;
 },
 {
-pos = (-52,2);
+pos = (-62,2);
 ref = acutecomb;
 },
 {
 alignment = -1;
-pos = (294,0);
+pos = (284,0);
 ref = jdotless;
 },
 {
 alignment = -1;
-pos = (240,2);
+pos = (230,2);
 ref = acutecomb;
 }
 );
-width = 589;
+width = 579;
 },
 {
 layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
@@ -51,50 +52,53 @@ width = 424;
 layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
 shapes = (
 {
+pos = (-7,0);
 ref = idotless;
 },
 {
-pos = (25.5,-18.667);
+pos = (19,-19);
 ref = acutecomb;
 },
 {
 alignment = -1;
-pos = (207,0);
+pos = (200,0);
 ref = jdotless;
 },
 {
 alignment = -1;
-pos = (235.333,-18.667);
+pos = (228,-19);
 ref = acutecomb;
 }
 );
-width = 423;
+width = 416;
 },
 {
 layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
 shapes = (
 {
 alignment = -1;
+pos = (-6,0);
 ref = idotless;
 },
 {
 alignment = -1;
-pos = (-30,-5);
+pos = (-36,-5);
 ref = acutecomb;
 },
 {
 alignment = -1;
-pos = (255,0);
+pos = (249,0);
 ref = jdotless;
 },
 {
 alignment = -1;
-pos = (235,-5);
+pos = (229,-5);
 ref = acutecomb;
 }
 );
-width = 520;
+width = 514;
 }
 );
-metricLeft = n;
+metricLeft = iacute;
+metricRight = jacute;
 }

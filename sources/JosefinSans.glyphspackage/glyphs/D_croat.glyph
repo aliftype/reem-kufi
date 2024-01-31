@@ -40,7 +40,7 @@ pos = (8,0);
 ref = Eth;
 }
 );
-width = 764;
+width = 765;
 }
 );
 metricRight = D;

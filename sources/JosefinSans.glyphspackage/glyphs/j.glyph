@@ -56,6 +56,5 @@ ref = dotaccentcomb;
 width = 265;
 }
 );
-metricRight = n;
 unicode = 106;
 }

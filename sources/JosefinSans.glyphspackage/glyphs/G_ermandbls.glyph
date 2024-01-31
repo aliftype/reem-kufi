@@ -129,7 +129,7 @@ nodes = (
 );
 }
 );
-width = 839;
+width = 838;
 },
 {
 layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
@@ -194,7 +194,7 @@ nodes = (
 );
 }
 );
-width = 837;
+width = 821;
 },
 {
 layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
@@ -259,7 +259,7 @@ nodes = (
 );
 }
 );
-width = 839;
+width = 842;
 }
 );
 metricLeft = H;
