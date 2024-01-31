@@ -74,6 +74,5 @@ ref = circumflexcomb;
 width = 525;
 }
 );
-production = uni1EC7;
 unicode = 7879;
 }

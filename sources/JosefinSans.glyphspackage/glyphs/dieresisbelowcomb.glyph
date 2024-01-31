@@ -84,6 +84,5 @@ ref = dieresis;
 width = 433;
 }
 );
-production = uni0324;
 unicode = 804;
 }

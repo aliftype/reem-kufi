@@ -57,6 +57,5 @@ ref = dblgravecomb;
 width = 525;
 }
 );
-production = uni0205;
 unicode = 517;
 }

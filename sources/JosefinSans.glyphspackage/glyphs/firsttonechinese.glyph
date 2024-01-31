@@ -44,6 +44,5 @@ ref = macron;
 width = 350;
 }
 );
-production = uni02C9;
 unicode = 713;
 }

@@ -57,6 +57,5 @@ ref = hookabovecomb;
 width = 525;
 }
 );
-production = uni1EBB;
 unicode = 7867;
 }

@@ -80,6 +80,5 @@ ref = dotaccent;
 width = 222;
 }
 );
-production = uni0307;
 unicode = 775;
 }

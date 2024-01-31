@@ -83,5 +83,4 @@ ref = ring;
 width = 331;
 }
 );
-production = uni030A.case;
 }

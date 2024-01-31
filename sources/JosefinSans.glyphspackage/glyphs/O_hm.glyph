@@ -222,6 +222,5 @@ nodes = (
 width = 833;
 }
 );
-production = uni2126;
 unicode = 8486;
 }

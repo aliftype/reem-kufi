@@ -118,6 +118,5 @@ width = 751;
 );
 metricLeft = C;
 metricRight = C;
-production = Euro;
 unicode = 8364;
 }

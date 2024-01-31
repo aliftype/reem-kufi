@@ -40,6 +40,5 @@ ref = hyphen;
 width = 600;
 }
 );
-production = uni00AD;
 unicode = 173;
 }

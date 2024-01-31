@@ -56,6 +56,5 @@ ref = dotbelowcomb;
 width = 259;
 }
 );
-production = uni1ECB;
 unicode = 7883;
 }

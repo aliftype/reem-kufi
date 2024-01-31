@@ -56,6 +56,5 @@ ref = caroncomb.case;
 width = 735;
 }
 );
-production = uni01D3;
 unicode = 467;
 }

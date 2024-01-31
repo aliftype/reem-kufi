@@ -44,6 +44,5 @@ ref = comma;
 width = 203;
 }
 );
-production = uni02BC;
 unicode = 700;
 }

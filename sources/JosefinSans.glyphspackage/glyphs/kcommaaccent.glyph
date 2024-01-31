@@ -57,6 +57,5 @@ ref = commaaccentcomb;
 width = 506;
 }
 );
-production = uni0137;
 unicode = 311;
 }

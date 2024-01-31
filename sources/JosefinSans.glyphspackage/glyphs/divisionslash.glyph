@@ -42,6 +42,5 @@ ref = slash;
 width = 390;
 }
 );
-production = uni2215;
 unicode = 8725;
 }

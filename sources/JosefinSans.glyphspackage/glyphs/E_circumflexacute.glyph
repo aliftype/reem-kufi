@@ -56,6 +56,5 @@ ref = circumflexcomb_acutecomb;
 width = 655;
 }
 );
-production = uni1EBE;
 unicode = 7870;
 }

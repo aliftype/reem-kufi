@@ -80,6 +80,5 @@ ref = circumflex;
 width = 419;
 }
 );
-production = uni0302;
 unicode = 770;
 }

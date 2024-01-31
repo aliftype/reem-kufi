@@ -84,5 +84,4 @@ ref = dotaccent;
 width = 208;
 }
 );
-production = uni0307.case;
 }

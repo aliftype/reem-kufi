@@ -163,6 +163,5 @@ nodes = (
 width = 525;
 }
 );
-production = uni0259;
 unicode = 601;
 }

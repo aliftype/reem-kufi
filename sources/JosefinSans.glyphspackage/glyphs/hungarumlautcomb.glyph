@@ -84,6 +84,5 @@ ref = hungarumlaut;
 width = 478;
 }
 );
-production = uni030B;
 unicode = 779;
 }

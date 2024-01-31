@@ -58,6 +58,5 @@ ref = circumflexcomb_tildecomb;
 width = 549;
 }
 );
-production = uni1ED7;
 unicode = 7895;
 }

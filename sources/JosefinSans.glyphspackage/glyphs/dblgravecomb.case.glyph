@@ -80,5 +80,4 @@ ref = dblgravecomb;
 width = 484;
 }
 );
-production = uni030F.case;
 }

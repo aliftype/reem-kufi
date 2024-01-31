@@ -162,6 +162,5 @@ nodes = (
 width = 606;
 }
 );
-production = guillemotleft;
 unicode = 171;
 }

@@ -56,6 +56,5 @@ ref = cedillacomb;
 width = 365;
 }
 );
-production = uni0163;
 unicode = 355;
 }

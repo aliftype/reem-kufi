@@ -58,6 +58,5 @@ ref = circumflexcomb_hookabovecomb;
 width = 856;
 }
 );
-production = uni1ED4;
 unicode = 7892;
 }

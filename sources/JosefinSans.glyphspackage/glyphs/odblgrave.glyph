@@ -58,6 +58,5 @@ ref = dblgravecomb;
 width = 549;
 }
 );
-production = uni020D;
 unicode = 525;
 }

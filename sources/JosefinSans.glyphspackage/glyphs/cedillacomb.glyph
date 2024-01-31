@@ -84,6 +84,5 @@ ref = cedilla;
 width = 361;
 }
 );
-production = uni0327;
 unicode = 807;
 }

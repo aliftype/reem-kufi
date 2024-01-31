@@ -84,6 +84,5 @@ ref = caron;
 width = 394;
 }
 );
-production = uni030C;
 unicode = 780;
 }

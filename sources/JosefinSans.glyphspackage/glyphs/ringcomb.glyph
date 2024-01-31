@@ -84,6 +84,5 @@ ref = ring;
 width = 354;
 }
 );
-production = uni030A;
 unicode = 778;
 }

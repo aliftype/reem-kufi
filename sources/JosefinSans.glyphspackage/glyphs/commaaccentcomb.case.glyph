@@ -80,5 +80,4 @@ ref = commaaccentcomb;
 width = 240;
 }
 );
-production = uni0326.case;
 }

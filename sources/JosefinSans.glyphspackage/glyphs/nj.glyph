@@ -88,6 +88,5 @@ width = 816;
 );
 metricLeft = n;
 metricRight = j;
-production = uni01CC;
 unicode = 460;
 }

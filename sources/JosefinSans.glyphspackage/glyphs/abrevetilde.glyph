@@ -57,6 +57,5 @@ ref = brevecomb_tildecomb;
 width = 591;
 }
 );
-production = uni1EB5;
 unicode = 7861;
 }

@@ -58,6 +58,5 @@ ref = commaaccentcomb.case;
 width = 582;
 }
 );
-production = uni021A;
 unicode = 538;
 }

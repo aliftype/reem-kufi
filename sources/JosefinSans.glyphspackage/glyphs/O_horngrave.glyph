@@ -59,6 +59,5 @@ ref = gravecomb.case;
 width = 856;
 }
 );
-production = uni1EDC;
 unicode = 7900;
 }

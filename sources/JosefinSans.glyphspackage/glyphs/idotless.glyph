@@ -120,6 +120,5 @@ width = 259;
 );
 metricLeft = n;
 metricRight = n;
-production = dotlessi;
 unicode = 305;
 }

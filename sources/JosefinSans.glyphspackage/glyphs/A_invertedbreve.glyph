@@ -58,6 +58,5 @@ ref = breveinvertedcomb.case;
 width = 700;
 }
 );
-production = uni0202;
 unicode = 514;
 }

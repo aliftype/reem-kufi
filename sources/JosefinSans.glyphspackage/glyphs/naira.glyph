@@ -206,6 +206,5 @@ nodes = (
 width = 840;
 }
 );
-production = uni20A6;
 unicode = 8358;
 }

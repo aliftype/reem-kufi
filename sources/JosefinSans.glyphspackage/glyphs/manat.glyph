@@ -232,6 +232,5 @@ width = 756;
 );
 metricLeft = H;
 metricRight = H;
-production = uni20BC;
 unicode = 8380;
 }

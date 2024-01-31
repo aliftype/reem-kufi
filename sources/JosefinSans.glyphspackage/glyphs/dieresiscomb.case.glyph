@@ -84,5 +84,4 @@ ref = dieresis;
 width = 433;
 }
 );
-production = uni0308.case;
 }

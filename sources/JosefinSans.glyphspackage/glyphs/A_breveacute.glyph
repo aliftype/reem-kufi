@@ -75,6 +75,5 @@ ref = acutecomb.case;
 width = 700;
 }
 );
-production = uni1EAE;
 unicode = 7854;
 }

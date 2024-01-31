@@ -56,6 +56,5 @@ ref = zcaron;
 width = 1229;
 }
 );
-production = uni01C5;
 unicode = 453;
 }
