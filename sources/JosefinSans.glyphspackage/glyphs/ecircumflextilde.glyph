@@ -9,8 +9,12 @@ shapes = (
 ref = e;
 },
 {
-pos = (47,21);
-ref = circumflexcomb_tildecomb;
+pos = (85,21);
+ref = circumflexcomb;
+},
+{
+pos = (44,257);
+ref = tildecomb;
 }
 );
 width = 553;
@@ -22,8 +26,13 @@ shapes = (
 ref = e;
 },
 {
-pos = (10,-9);
-ref = circumflexcomb_tildecomb;
+pos = (20,-41);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (39,191);
+ref = tildecomb;
 }
 );
 width = 487;
@@ -35,8 +44,14 @@ shapes = (
 ref = e;
 },
 {
-pos = (-1,-18);
-ref = circumflexcomb_tildecomb;
+alignment = -1;
+pos = (1,-59);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (37,171);
+ref = tildecomb;
 }
 );
 width = 467;
@@ -50,8 +65,13 @@ ref = e;
 },
 {
 alignment = -1;
-pos = (31,8);
-ref = circumflexcomb_tildecomb;
+pos = (57,-5);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (41,229);
+ref = tildecomb;
 }
 );
 width = 525;

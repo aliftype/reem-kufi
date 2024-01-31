@@ -2,6 +2,12 @@
 glyphname = Ecircumflexhookabove;
 layers = (
 {
+anchors = (
+{
+name = top;
+pos = (434,1053);
+}
+);
 layerId = UUID1;
 shapes = (
 {
@@ -9,38 +15,72 @@ ref = E;
 },
 {
 pos = (149,319);
-ref = circumflexcomb_hookabovecomb;
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (371,306);
+ref = hookabovecomb;
 }
 );
 width = 666;
 },
 {
+anchors = (
+{
+name = top;
+pos = (346,1068);
+}
+);
 layerId = "4C85334C-E1D4-4EB0-A0B2-9D58DDEA71D9";
 shapes = (
 {
 ref = E;
 },
 {
-pos = (95,324);
-ref = circumflexcomb_hookabovecomb;
+pos = (94,292);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (301,338);
+ref = hookabovecomb;
 }
 );
 width = 639;
 },
 {
+anchors = (
+{
+name = top;
+pos = (320,1071.5);
+}
+);
 layerId = "93649EC8-ADF5-4C20-AD08-3ED15854CD33";
 shapes = (
 {
 ref = E;
 },
 {
-pos = (79,325);
-ref = circumflexcomb_hookabovecomb;
+alignment = -1;
+pos = (78,284);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (280,347);
+ref = hookabovecomb;
 }
 );
 width = 631;
 },
 {
+anchors = (
+{
+name = top;
+pos = (397,1059);
+}
+);
 layerId = "3DCE0E54-12D6-4F05-956C-7616B59038AD";
 shapes = (
 {
@@ -49,8 +89,13 @@ ref = E;
 },
 {
 alignment = -1;
-pos = (126,321);
-ref = circumflexcomb_hookabovecomb;
+pos = (126,308);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (341,319);
+ref = hookabovecomb;
 }
 );
 width = 655;
