@@ -11,10 +11,8 @@ absl-py==2.1.0
 appdirs==1.4.4
     # via fs
 attrs==23.2.0
-    # via
-    #   fontmake
-    #   ufolib2
-axisregistry==0.4.5
+    # via ufolib2
+axisregistry==0.4.9
     # via -r requirements.in
 blackrenderer==0.6.0
     # via -r requirements.in
@@ -24,11 +22,13 @@ cffsubr==0.3.0
     # via ufo2ft
 compreffor==0.5.5
     # via ufo2ft
-fontmake==3.7.2
+fontmake==3.9.0
     # via -r requirements.in
 fontmath==0.9.3
-    # via fontmake
-fonttools==4.47.2
+    # via
+    #   fontmake
+    #   ufo2ft
+fonttools==4.51.0
     # via
     #   -r requirements.in
     #   axisregistry
@@ -44,11 +44,11 @@ fonttools==4.47.2
     #   ufolib2
 fs==2.4.16
     # via fonttools
-glyphslib==6.6.1
+glyphslib==6.7.0
     # via
     #   -r requirements.in
     #   fontmake
-lxml==4.9.4
+lxml==5.2.1
     # via
     #   fonttools
     #   nanoemoji
@@ -63,7 +63,7 @@ picosvg==0.22.1
     # via
     #   -r requirements.in
     #   nanoemoji
-pillow==10.2.0
+pillow==10.3.0
     # via nanoemoji
 pngquant-cli==2.17.0.post5
     # via nanoemoji
@@ -83,7 +83,7 @@ skia-pathops==0.8.0.post1
     #   picosvg
 toml==0.10.2
     # via nanoemoji
-ufo2ft==2.33.4
+ufo2ft==3.2.1
     # via
     #   -r requirements.in
     #   fontmake
@@ -93,7 +93,7 @@ ufolib2==0.16.0
     #   fontmake
     #   glyphslib
     #   nanoemoji
-uharfbuzz==0.38.0
+uharfbuzz==0.39.1
     # via blackrenderer
 unicodedata2==15.1.0
     # via fonttools
