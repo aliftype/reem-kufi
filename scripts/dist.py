@@ -24,26 +24,10 @@ def main():
     parser = argparse.ArgumentParser(description="Post process font for distribution.")
     parser.add_argument("input", metavar="FILE", help="input font to process")
     parser.add_argument("output", metavar="FILE", help="output font to save")
-    parser.add_argument("version", metavar="VERSION", help="Font version")
 
     args = parser.parse_args()
 
     font = TTFont(args.input)
-
-    version = args.version.split("-")[0]
-    if args.version[0] == "v":
-        version = version[1:]
-
-    font["head"].fontRevision = float(version)
-
-    font["name"].names = [n for n in font["name"].names if n.platformID == 3]
-    for name in font["name"].names:
-        if name.nameID == 5:
-            v = f"Version {version}"
-            name.string = v
-        if name.nameID == 3:
-            parts = [version] + str(name).split(";")[1:]
-            name.string = ";".join(parts)
 
     if "fvar" in font:
         from axisregistry import build_stat

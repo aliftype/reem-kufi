@@ -59,6 +59,8 @@ fontmake --mm-designspace $(2)                                                 \
          --overlaps-backend pathops                                            \
          --optimize-cff 1                                                      \
          --flatten-components                                                  \
+         --filter ...                                                          \
+         --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})" \
          ;
 endef
 
@@ -160,11 +162,7 @@ ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
 
 ${BUILDDIR}/dist/${FONTDIR}/%: ${FONTDIR}/%
 	mkdir -p $(@D)
-	${PYTHON} ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
-
-${BUILDDIR}/dist/${FONTDIR}/%: ${FONTDIR}/%
-	mkdir -p $(@D)
-	${PYTHON} ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
+	${PYTHON} ${SCRIPTDIR}/dist.py $< $@
 
 ${SVG}: ${FONTDIR}/${NAME}.ttf
 	$(info   SVG    $(@F))
