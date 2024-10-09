@@ -33,7 +33,7 @@ FONTS = \
 	${NAME}${COLRv1}-Regular # ${NAME}${COLRv1}-Bold
 
 TTF = $(FONTS:%=${FONTDIR}/%.ttf)
-SVG = Sample.svg
+SVG = FontSample.svg
 
 GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
 
