@@ -20,11 +20,9 @@ width = 696;
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
 pos = (177,217);
 ref = gravecomb.case;
 }

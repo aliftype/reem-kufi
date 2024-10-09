@@ -24,17 +24,14 @@ width = 696;
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
-pos = (136,316);
+pos = (141,325);
 ref = circumflexcomb;
 },
 {
-alignment = -1;
-pos = (120,550);
+pos = (125,576);
 ref = tildecomb;
 }
 );

@@ -10,7 +10,7 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (389,190);
+pos = (346,190);
 ref = acutecomb.case;
 }
 );

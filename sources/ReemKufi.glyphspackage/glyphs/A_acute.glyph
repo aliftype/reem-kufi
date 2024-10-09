@@ -10,7 +10,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (311,220);
+pos = (268,220);
 ref = acutecomb.case;
 }
 );
@@ -20,11 +20,9 @@ width = 696;
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
 pos = (307,232);
 ref = acutecomb.case;
 }

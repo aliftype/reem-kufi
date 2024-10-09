@@ -14,7 +14,7 @@ pos = (217,334);
 ref = ringcomb.case;
 },
 {
-pos = (311,458);
+pos = (268,458);
 ref = acutecomb.case;
 }
 );
@@ -24,16 +24,13 @@ width = 696;
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
 pos = (188,318);
 ref = ringcomb.case;
 },
 {
-alignment = -1;
 pos = (307,457);
 ref = acutecomb.case;
 }

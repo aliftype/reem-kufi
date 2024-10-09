@@ -20,12 +20,10 @@ width = 696;
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
-pos = (190,233);
+pos = (190,232);
 ref = hookabovecomb.case;
 }
 );

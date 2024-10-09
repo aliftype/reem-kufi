@@ -21,7 +21,7 @@ ref = circumflexcomb;
 },
 {
 alignment = -1;
-pos = (318,446);
+pos = (408,446);
 ref = acutecomb;
 }
 );
@@ -37,12 +37,10 @@ pos = (431,1030);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = A;
 },
 {
-alignment = -1;
-pos = (144,322);
+pos = (141,325);
 ref = circumflexcomb;
 },
 {
