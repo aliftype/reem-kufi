@@ -1,23 +1,6 @@
 import argparse
 
-from fontTools.ttLib import TTFont, newTable
-from fontTools.ttLib.tables import ttProgram
-
-
-def fix_unhinted_font(font):
-    gasp = newTable("gasp")
-    # Set GASP so all sizes are smooth
-    gasp.gaspRange = {0xFFFF: 15}
-
-    program = ttProgram.Program()
-    assembly = ["PUSHW[]", "511", "SCANCTRL[]", "PUSHB[]", "4", "SCANTYPE[]"]
-    program.fromAssembly(assembly)
-
-    prep = newTable("prep")
-    prep.program = program
-
-    font["gasp"] = gasp
-    font["prep"] = prep
+from fontTools.ttLib import TTFont
 
 
 def main():
@@ -42,7 +25,6 @@ def main():
                 n.string = str(n).replace(" Regular", "")
 
         build_stat(font, [])
-    fix_unhinted_font(font)
 
     # Drop glyph names from TTF fonts.
     if "glyf" in font:
