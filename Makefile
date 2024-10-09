@@ -73,36 +73,34 @@ all: ttf doc
 ttf: ${TTF}
 doc: ${SVG}
 
-SHELL=/usr/bin/env bash
-MAKEFLAGS := -s -r
 
 .SECONDARY:
 
 SVGS_ = $(notdir $(wildcard $(SOURCEDIR)/svg/Regular/*.svg))
-SVGS = $(SVGS_:%=\%/%)
+SVGS = ${SVGS_:%=\%/%}
 
 COLRDIR = ${BUILDDIR}/colr
 
 
 ${COLRDIR}/%.svg: ${SOURCEDIR}/svg/%.svg
-	echo "   PICO	$(@F)"
-	mkdir -p $(@D)
+	$(info   PICO   ${@F})
+	mkdir -p ${@D}
 	picosvg --output_file $@ $<
 
 ${COLRDIR}/%/colr.toml: colr.toml
-	mkdir -p $(@D)
+	mkdir -p ${@D}
 	cp $< $@
 
 %/colr.fea:
-	mkdir -p $(@D)
+	mkdir -p ${@D}
 	touch $@
 
 %/glyphmap.csv: ${SOURCEDIR}/${NAME}.glyphspackage
-	mkdir -p $(@D)
-	${PYTHON} ${SCRIPTDIR}/mkglyphmap.py $< $(@D)
+	mkdir -p ${@D}
+	${PYTHON} ${SCRIPTDIR}/mkglyphmap.py $< ${@D}
 
 %/colr.ttf: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
-	echo "   MAKE	$(@F)"
+	$(info   MAKE   ${@F})
 	${PYTHON} -m nanoemoji.write_font -v -1 \
 		      --config_file $< \
 		      --glyphmap_file $*/glyphmap.csv \
@@ -111,7 +109,7 @@ ${COLRDIR}/%/colr.toml: colr.toml
 		      --output_file $@
 
 %/svg.ttf: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
-	echo "   MAKE	$(@F)"
+	$(info   MAKE   ${@F})
 	${PYTHON} -m nanoemoji.write_font -v -1 \
 		      --config_file $< \
 		      --glyphmap_file $*/glyphmap.csv \
@@ -120,7 +118,7 @@ ${COLRDIR}/%/colr.toml: colr.toml
 		      --output_file $@
 
 %/colr.ufo: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
-	echo "   MAKE	$(@F)"
+	$(info   MAKE   ${@F})
 	${PYTHON} -m nanoemoji.write_font -v -1 \
 		      --config_file $< \
 		      --glyphmap_file $*/glyphmap.csv \
@@ -128,31 +126,31 @@ ${COLRDIR}/%/colr.toml: colr.toml
 		      --output_file $@
 
 ${FONTDIR}/${NAME}${COLRv1}-%.ttf: ${BUILDDIR}/${NAME}.designspace ${COLRDIR}/%/colr.ttf ${COLRDIR}/%/svg.ttf
-	echo "   MAKE	$(@F)"
+	$(info   MAKE   ${@F})
 	$(call generate_fonts,ttf,$<,$@,$(*F))
 	${PYTHON} ${SCRIPTDIR}/mknocolr.py $@ $@
 	${PYTHON} ${SCRIPTDIR}/mkcolrv1.py $@ ${COLRDIR}/$*/colr.ttf ${COLRDIR}/$*/svg.ttf $@
 
 ${FONTDIR}/${NAME}${COLRv0}.ttf: ${BUILDDIR}/${NAME}.ttf
-	echo "   MAKE	$(@F)"
-	mkdir -p $(@D)
+	$(info   MAKE   ${@F})
+	mkdir -p ${@D}
 	${PYTHON} ${SCRIPTDIR}/mkcolrv0.py $< $@ ${COLRv0}
 
 ${BUILDDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.designspace
-	echo "   MAKE	$(@F)"
+	$(info   MAKE   ${@F})
 	$(call generate_fonts,variable,$<,$@)
 
 ${FONTDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.ttf
-	mkdir -p $(@D)
+	mkdir -p ${@D}
 	${PYTHON} ${SCRIPTDIR}/mknocolr.py $< $@
 
 ${BUILDDIR}/${NAME}.glyphs: ${SOURCEDIR}/${NAME}.glyphspackage ${SOURCEDIR}/${LATIN}.glyphspackage
-	echo "   GEN	$(@F)"
+	$(info   GEN    ${@F})
 	mkdir -p ${BUILDDIR}
 	${PYTHON} ${SCRIPTDIR}/prepare.py --out-file=$@ $< $(word 2,$+)
 
 ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
-	echo "   GEN	$(@F)"
+	$(info   GEN    ${@F})
 	${PYTHON} -m glyphsLib glyphs2ufo \
 		    -m ${BUILDDIR} \
 		    --minimal \
@@ -163,11 +161,11 @@ ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
 		    $<
 
 ${BUILDDIR}/dist/${FONTDIR}/%: ${FONTDIR}/%
-	mkdir -p $(@D)
+	mkdir -p ${@D}
 	${PYTHON} ${SCRIPTDIR}/dist.py $< $@
 
 ${SVG}: ${FONTDIR}/${NAME}.ttf
-	$(info   SVG    $(@F))
+	$(info   SVG    ${@F})
 	${PYTHON} -m alifTools.sample $< \
 				      -t "${SAMPLE}" \
                                       --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]" \
@@ -176,12 +174,11 @@ ${SVG}: ${FONTDIR}/${NAME}.ttf
 				      -o $@
 
 dist: ${DTTF}
-	echo "   DIST   ${DIST}"
+	$(info   DIST   ${DIST}.zip)
 	install -Dm644 -t ${DIST} ${DTTF}
-	install -Dm644 -t ${DIST} OFL.txt
 	install -Dm644 -t ${DIST} README.md
-	echo "   ZIP    ${DIST}"
-	zip -q -r ${DIST}.zip ${DIST}
+	install -Dm644 -t ${DIST} OFL.txt
+	zip -rq ${DIST}.zip ${DIST}
 
 clean:
-	rm -rf ${TTF} ${SVG} ${BUILDDIR} ${NAME}-${VERSION} ${NAME}-${VERSION}.zip
+	rm -rf ${TTF} ${SVG} ${BUILDDIR} ${DIST} ${DIST}.zip
