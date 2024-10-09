@@ -51,17 +51,18 @@ DIST = ${NAME}-${VERSION}
 
 define generate_fonts
 mkdir -p $(dir $(3));
-fontmake --mm-designspace $(2)                                                 \
-         --output $(1)                                                         \
-         --output-path $(3)                                                    \
-         $(if $(4),--interpolate '.* $(4)',)                                   \
-         --verbose WARNING                                                     \
-         --overlaps-backend pathops                                            \
-         --optimize-cff 1                                                      \
-         --flatten-components                                                  \
-         --filter ...                                                          \
-         --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})" \
-         ;
+${PYTHON} -m fontmake                                                          \
+    --mm-designspace $(2)                                                      \
+    --output $(1)                                                              \
+    --output-path $(3)                                                         \
+    $(if $(4),--interpolate '.* $(4)',)                                        \
+    --verbose WARNING                                                          \
+    --overlaps-backend pathops                                                 \
+    --optimize-cff 1                                                           \
+    --flatten-components                                                       \
+    --filter ...                                                               \
+    --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"    \
+    ;
 endef
 
 .SECONDARY:
@@ -152,7 +153,8 @@ ${BUILDDIR}/${NAME}.glyphs: ${SOURCEDIR}/${NAME}.glyphspackage ${SOURCEDIR}/${LA
 
 ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
 	echo "   GEN	$(@F)"
-	glyphs2ufo -m ${BUILDDIR} \
+	${PYTHON} -m glyphsLib glyphs2ufo \
+		    -m ${BUILDDIR} \
 		    --minimal \
 		    --generate-GDEF \
 		    --write-public-skip-export-glyphs \
