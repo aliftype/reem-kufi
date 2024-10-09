@@ -41,7 +41,7 @@ nodes = (
 );
 },
 {
-ref = "seen-ar";
+ref = "seen-ar.isol";
 }
 );
 width = 945;
@@ -86,7 +86,7 @@ nodes = (
 );
 },
 {
-ref = "seen-ar";
+ref = "seen-ar.isol";
 }
 );
 width = 945;

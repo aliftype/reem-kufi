@@ -6,7 +6,7 @@ layers = (
 layerId = master01;
 shapes = (
 {
-ref = "fehDotless-ar";
+ref = "fehDotless-ar.isol";
 },
 {
 pos = (530,600);
@@ -19,7 +19,7 @@ width = 850;
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-ref = "fehDotless-ar";
+ref = "fehDotless-ar.isol";
 },
 {
 pos = (510,600);
@@ -29,5 +29,6 @@ ref = "threedotsupabove-ar";
 width = 850;
 }
 );
+script = "";
 unicode = 1700;
 }

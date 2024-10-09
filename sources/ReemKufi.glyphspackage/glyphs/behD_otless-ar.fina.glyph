@@ -14,7 +14,7 @@ nodes = (
 );
 },
 {
-ref = "behDotless-ar";
+ref = "behDotless-ar.isol";
 }
 );
 width = 925;
@@ -32,7 +32,7 @@ nodes = (
 );
 },
 {
-ref = "behDotless-ar";
+ref = "behDotless-ar.isol";
 }
 );
 width = 925;

@@ -14,7 +14,7 @@ nodes = (
 );
 },
 {
-ref = "waw-ar";
+ref = "waw-ar.isol";
 }
 );
 width = 400;
@@ -32,7 +32,7 @@ nodes = (
 );
 },
 {
-ref = "waw-ar";
+ref = "waw-ar.isol";
 }
 );
 width = 400;

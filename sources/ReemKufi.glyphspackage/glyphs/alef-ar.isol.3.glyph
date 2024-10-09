@@ -1,15 +1,15 @@
 {
-glyphname = "alef-ar.1";
+glyphname = "alef-ar.isol.3";
 layers = (
 {
 anchors = (
 {
 name = hamzaAbove;
-pos = (140,850);
+pos = (90,850);
 },
 {
 name = hamzaBelow;
-pos = (140,-50);
+pos = (90,-50);
 },
 {
 name = markAbove;
@@ -17,7 +17,7 @@ pos = (90,830);
 },
 {
 name = markBelow;
-pos = (140,-150);
+pos = (90,-150);
 }
 );
 layerId = master01;
@@ -25,37 +25,37 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(204,18,o),
-(125,53,o),
-(125,100,cs),
-(125,800,l),
-(25,778,l),
-(25,100,ls),
-(25,-38,o),
-(246,-35,o),
-(313,72,c)
+(31,-32,o),
+(150,-10,o),
+(150,80,cs),
+(150,800,l),
+(50,778,l),
+(50,80,ls),
+(50,10,o),
+(6,25,o),
+(0,25,c)
 );
 }
 );
-width = 313;
+width = 175;
 },
 {
 anchors = (
 {
 name = hamzaAbove;
-pos = (160,850);
+pos = (130,850);
 },
 {
 name = hamzaBelow;
-pos = (160,-50);
+pos = (130,-50);
 },
 {
 name = markAbove;
-pos = (110,830);
+pos = (130,830);
 },
 {
 name = markBelow;
-pos = (160,-150);
+pos = (130,-150);
 }
 );
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
@@ -63,19 +63,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(244,18,o),
-(165,73,o),
-(165,140,cs),
-(165,800,l),
-(25,769,l),
-(25,120,ls),
-(25,-40,o),
-(286,-35,o),
-(353,72,c)
+(31,-32,o),
+(190,-20,o),
+(190,100,cs),
+(190,800,l),
+(50,769,l),
+(50,80,ls),
+(50,10,o),
+(6,25,o),
+(0,25,c)
 );
 }
 );
-width = 353;
+width = 215;
 }
 );
 }

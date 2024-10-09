@@ -29,5 +29,6 @@ ref = "ringbelow-ar";
 width = 460;
 }
 );
+script = "";
 unicode = 1724;
 }

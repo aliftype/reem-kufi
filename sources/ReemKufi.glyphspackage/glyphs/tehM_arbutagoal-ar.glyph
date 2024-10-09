@@ -21,5 +21,6 @@ ref = "tehMarbuta-ar";
 width = 390;
 }
 );
+script = "";
 unicode = 1731;
 }

@@ -1,0 +1,45 @@
+{
+glyphname = "meem-ar.isol";
+layers = (
+{
+anchors = (
+{
+name = markBelow;
+pos = (280,-150);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = _tail;
+},
+{
+alignment = -1;
+pos = (266,0);
+ref = _meem.circle.2;
+}
+);
+width = 613;
+},
+{
+anchors = (
+{
+name = markBelow;
+pos = (280,-150);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = _tail;
+},
+{
+alignment = -1;
+pos = (244,20);
+ref = _meem.circle.2;
+}
+);
+width = 613;
+}
+);
+}

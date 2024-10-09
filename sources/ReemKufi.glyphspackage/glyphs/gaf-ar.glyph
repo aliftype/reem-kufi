@@ -29,5 +29,6 @@ ref = "gafsarkashabove-ar";
 width = 1010;
 }
 );
+script = "";
 unicode = 1711;
 }

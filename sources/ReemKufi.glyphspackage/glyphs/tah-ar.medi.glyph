@@ -24,7 +24,7 @@ nodes = (
 },
 {
 pos = (-70,0);
-ref = "tah-ar";
+ref = "tah-ar.isol";
 }
 );
 width = 1015;
@@ -52,7 +52,7 @@ nodes = (
 },
 {
 pos = (-70,0);
-ref = "tah-ar";
+ref = "tah-ar.isol";
 }
 );
 width = 1015;

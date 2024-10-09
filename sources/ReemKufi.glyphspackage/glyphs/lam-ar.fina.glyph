@@ -14,7 +14,7 @@ nodes = (
 );
 },
 {
-ref = "lam-ar";
+ref = "lam-ar.isol";
 }
 );
 width = 545;
@@ -32,7 +32,7 @@ nodes = (
 );
 },
 {
-ref = "lam-ar";
+ref = "lam-ar.isol";
 }
 );
 width = 545;

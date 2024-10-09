@@ -14,7 +14,7 @@ nodes = (
 );
 },
 {
-ref = "qafDotless-ar";
+ref = "qafDotless-ar.isol";
 }
 );
 width = 600;
@@ -32,7 +32,7 @@ nodes = (
 );
 },
 {
-ref = "qafDotless-ar";
+ref = "qafDotless-ar.isol";
 }
 );
 width = 600;

@@ -6,7 +6,7 @@ layers = (
 layerId = master01;
 shapes = (
 {
-ref = "noonghunna-ar";
+ref = "noonghunna-ar.isol";
 },
 {
 pos = (70,340);
@@ -19,7 +19,7 @@ width = 460;
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-ref = "noonghunna-ar";
+ref = "noonghunna-ar.isol";
 },
 {
 pos = (70,340);
@@ -29,5 +29,6 @@ ref = "tahabove-ar";
 width = 460;
 }
 );
+script = "";
 unicode = 1723;
 }

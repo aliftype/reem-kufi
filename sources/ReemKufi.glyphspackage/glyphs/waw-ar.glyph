@@ -1,88 +1,26 @@
 {
+category = Placeholder;
 glyphname = "waw-ar";
 layers = (
 {
-anchors = (
-{
-name = dotAbove;
-pos = (174,500);
-},
-{
-name = hamzaAbove;
-pos = (174,440);
-},
-{
-name = markAbove;
-pos = (174,500);
-},
-{
-name = markBelow;
-pos = (174,-270);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(105,-226,o),
-(324,-219,o),
-(324,-42,cs),
-(324,150,l),
-(224,128,l),
-(224,-52,ls),
-(224,-109,o),
-(192,-173,o),
-(39,-132,c)
-);
-},
-{
-ref = "heh-ar.1";
+ref = "waw-ar.isol";
 }
 );
 width = 349;
 },
 {
-anchors = (
-{
-name = dotAbove;
-pos = (194,500);
-},
-{
-name = hamzaAbove;
-pos = (195,440);
-},
-{
-name = markAbove;
-pos = (195,500);
-},
-{
-name = markBelow;
-pos = (195,-270);
-}
-);
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-closed = 1;
-nodes = (
-(126,-226,o),
-(365,-220,o),
-(365,-22,cs),
-(365,170,l),
-(225,128,l),
-(225,-52,ls),
-(225,-75,o),
-(213,-173,o),
-(60,-132,c)
-);
-},
-{
-ref = "heh-ar.1";
+ref = "waw-ar.isol";
 }
 );
 width = 390;
 }
 );
+script = "";
 unicode = 1608;
 }

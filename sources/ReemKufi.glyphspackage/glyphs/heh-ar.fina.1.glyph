@@ -23,7 +23,7 @@ nodes = (
 );
 },
 {
-ref = "heh-ar.1";
+ref = "heh-ar.isol.1";
 }
 );
 width = 415;
@@ -50,7 +50,7 @@ nodes = (
 );
 },
 {
-ref = "heh-ar.1";
+ref = "heh-ar.isol.1";
 }
 );
 width = 415;

@@ -6,7 +6,7 @@ layers = (
 layerId = master01;
 shapes = (
 {
-ref = "lam-ar";
+ref = "lam-ar.isol";
 },
 {
 pos = (269,861);
@@ -19,7 +19,7 @@ width = 470;
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-ref = "lam-ar";
+ref = "lam-ar.isol";
 },
 {
 pos = (249,861);
@@ -29,5 +29,6 @@ ref = "vabove-ar";
 width = 470;
 }
 );
+script = "";
 unicode = 1717;
 }

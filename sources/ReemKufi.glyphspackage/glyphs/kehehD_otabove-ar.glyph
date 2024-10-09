@@ -29,5 +29,6 @@ ref = "dotabove-ar";
 width = 1010;
 }
 );
+script = "";
 unicode = 1890;
 }

@@ -6,7 +6,7 @@ layers = (
 layerId = master01;
 shapes = (
 {
-ref = "dal-ar";
+ref = "dal-ar.isol";
 },
 {
 pos = (285,440);
@@ -19,7 +19,7 @@ width = 870;
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-ref = "dal-ar";
+ref = "dal-ar.isol";
 },
 {
 pos = (325,440);
@@ -29,5 +29,6 @@ ref = "tahabove-ar";
 width = 870;
 }
 );
+script = "";
 unicode = 1672;
 }

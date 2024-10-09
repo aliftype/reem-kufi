@@ -1,11 +1,11 @@
 {
-glyphname = "meem-ar.2";
+glyphname = "fehDotless-ar.isol";
 layers = (
 {
 anchors = (
 {
 name = markBelow;
-pos = (230,-150);
+pos = (425,-150);
 }
 );
 layerId = master01;
@@ -13,26 +13,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(262,0,l),
-(113,150,l),
-(113,115,o),
-(114,32,o),
-(25,10,c),
+(435,0,l),
+(435,100,l),
+(85,100,l),
 (25,0,l)
 );
 },
 {
-pos = (88,0);
-ref = _meem.circle.2;
+pos = (425,0);
+ref = "fehDotless-ar.init";
 }
 );
-width = 435;
+width = 850;
 },
 {
 anchors = (
 {
 name = markBelow;
-pos = (230,-150);
+pos = (425,-150);
 }
 );
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
@@ -40,20 +38,18 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(284,0,l),
-(113,170,l),
-(113,115,o),
-(114,32,o),
-(25,10,c),
+(435,0,l),
+(435,140,l),
+(85,140,l),
 (25,0,l)
 );
 },
 {
-pos = (110,20);
-ref = _meem.circle.2;
+pos = (425,0);
+ref = "fehDotless-ar.init";
 }
 );
-width = 479;
+width = 850;
 }
 );
 }

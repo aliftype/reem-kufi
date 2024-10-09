@@ -6,7 +6,7 @@ layers = (
 layerId = master01;
 shapes = (
 {
-ref = "alefMaksura-ar";
+ref = "alefMaksura-ar.isol";
 }
 );
 width = 725;
@@ -15,11 +15,12 @@ width = 725;
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-ref = "alefMaksura-ar";
+ref = "alefMaksura-ar.isol";
 }
 );
 width = 725;
 }
 );
+script = "";
 unicode = 1740;
 }

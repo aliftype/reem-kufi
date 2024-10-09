@@ -14,7 +14,7 @@ nodes = (
 );
 },
 {
-ref = "noonghunna-ar";
+ref = "noonghunna-ar.isol";
 }
 );
 width = 490;
@@ -32,7 +32,7 @@ nodes = (
 );
 },
 {
-ref = "noonghunna-ar";
+ref = "noonghunna-ar.isol";
 }
 );
 width = 490;

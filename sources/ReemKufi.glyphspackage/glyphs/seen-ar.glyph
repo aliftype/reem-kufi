@@ -1,88 +1,26 @@
 {
+category = Placeholder;
 glyphname = "seen-ar";
 layers = (
 {
-anchors = (
-{
-name = dotAbove;
-pos = (590,550);
-},
-{
-name = markAbove;
-pos = (590,550);
-},
-{
-name = markBelow;
-pos = (590,-150);
-}
-);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(425,0,l),
-(805,0,l),
-(805,0,o),
-(845,-2,o),
-(845,23,cs),
-(845,300,l),
-(745,278,l),
-(745,100,l),
-(645,100,l),
-(645,300,l),
-(545,278,l),
-(545,100,l),
-(425,100,l)
-);
-},
-{
-ref = _seen.bowel;
+ref = "seen-ar.isol";
 }
 );
 width = 870;
 },
 {
-anchors = (
-{
-name = dotAbove;
-pos = (590,550);
-},
-{
-name = markAbove;
-pos = (590,550);
-},
-{
-name = markBelow;
-pos = (590,-150);
-}
-);
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-closed = 1;
-nodes = (
-(425,0,l),
-(805,0,l),
-(805,0,o),
-(845,-2,o),
-(845,23,cs),
-(845,340,l),
-(705,309,l),
-(705,140,l),
-(645,140,l),
-(645,340,l),
-(505,309,l),
-(505,140,l),
-(425,140,l)
-);
-},
-{
-ref = _seen.bowel;
+ref = "seen-ar.isol";
 }
 );
 width = 870;
 }
 );
+script = "";
 unicode = 1587;
 }

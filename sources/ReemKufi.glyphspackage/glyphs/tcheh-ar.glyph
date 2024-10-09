@@ -6,7 +6,7 @@ layers = (
 layerId = master01;
 shapes = (
 {
-ref = "hah-ar.alt";
+ref = "hah-ar.isol.alt";
 },
 {
 pos = (167,-90);
@@ -19,7 +19,7 @@ width = 515;
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-ref = "hah-ar.alt";
+ref = "hah-ar.isol.alt";
 },
 {
 pos = (167,-90);
@@ -29,5 +29,6 @@ ref = "threedotsdownbelow-ar";
 width = 515;
 }
 );
+script = "";
 unicode = 1670;
 }

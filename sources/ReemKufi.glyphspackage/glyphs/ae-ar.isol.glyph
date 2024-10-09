@@ -1,0 +1,23 @@
+{
+glyphname = "ae-ar.isol";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "heh-ar.isol.1";
+}
+);
+width = 349;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "heh-ar.isol.1";
+}
+);
+width = 390;
+}
+);
+}

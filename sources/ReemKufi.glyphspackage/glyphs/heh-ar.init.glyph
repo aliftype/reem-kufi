@@ -43,7 +43,7 @@ nodes = (
 },
 {
 pos = (70,0);
-ref = "heh-ar.1";
+ref = "heh-ar.isol.1";
 },
 {
 pos = (70,0);
@@ -94,7 +94,7 @@ nodes = (
 },
 {
 pos = (29,10);
-ref = "heh-ar.1";
+ref = "heh-ar.isol.1";
 },
 {
 pos = (29,10);
