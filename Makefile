@@ -33,7 +33,6 @@ FONTS = \
 	${NAME}${COLRv1}-Regular # ${NAME}${COLRv1}-Bold
 
 TTF = $(FONTS:%=${FONTDIR}/%.ttf)
-DTTF = $(TTF:%=${BUILDDIR}/dist/%)
 SVG = Sample.svg
 
 GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
@@ -160,10 +159,6 @@ ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
 		    --no-store-editor-state \
 		    $<
 
-${BUILDDIR}/dist/${FONTDIR}/%: ${FONTDIR}/%
-	mkdir -p ${@D}
-	${PYTHON} ${SCRIPTDIR}/dist.py $< $@
-
 ${SVG}: ${FONTDIR}/${NAME}.ttf
 	$(info   SVG    ${@F})
 	${PYTHON} -m alifTools.sample $< \
@@ -173,9 +168,9 @@ ${SVG}: ${FONTDIR}/${NAME}.ttf
 				      --dark-foreground=D1D7E0 \
 				      -o $@
 
-dist: ${DTTF}
+dist: ${TTF}
 	$(info   DIST   ${DIST}.zip)
-	install -Dm644 -t ${DIST} ${DTTF}
+	install -Dm644 -t ${DIST} ${TTF}
 	install -Dm644 -t ${DIST} README.md
 	install -Dm644 -t ${DIST} OFL.txt
 	zip -rq ${DIST}.zip ${DIST}

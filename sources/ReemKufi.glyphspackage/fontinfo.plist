@@ -1,5 +1,5 @@
 {
-.appVersion = "3234";
+.appVersion = "3321";
 .formatVersion = 3;
 axes = (
 {
@@ -395,6 +395,22 @@ feature rclt {
 
 ";
 name = Features;
+},
+{
+code = "table STAT {
+	ElidedFallbackName	{ name \"Regular\"; };
+	DesignAxis wght 0	{ name \"Weight\"; };
+	AxisValue { name \"ExtraLight\";	location wght 200; };
+	AxisValue { name \"Light\";		location wght 300; };
+	AxisValue { name \"Regular\";		location wght 400 700; flag ElidableAxisValueName;};
+	AxisValue { name \"Medium\";		location wght 500; };
+	AxisValue { name \"SemiBold\";	location wght 600; };
+	AxisValue { name \"Bold\";		location wght 700; };
+	AxisValue { name \"ExtraBold\";	location wght 800; };
+	AxisValue { name \"Black\";		location wght 900; };
+} STAT;
+";
+name = STAT;
 }
 );
 fontMaster = (
