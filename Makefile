@@ -1,29 +1,49 @@
-NAME=ReemKufi
-LATIN=JosefinSans
-COLRv0=Fun
-COLRv1=Ink
+# Copyright (c) 2020-2024 Khaled Hosny
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as
+# published by the Free Software Foundation, either version 3 of the
+# License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-SOURCEDIR=sources
-SCRIPTDIR=scripts
-FONTDIR=fonts
-BUILDDIR=build
-DIST=${NAME}-${VERSION}
+NAME = ReemKufi
+LATIN = JosefinSans
+COLRv0 = Fun
+COLRv1 = Ink
 
-PY ?= python3
+SHELL = bash
+MAKEFLAGS := -srj
+PYTHON := venv/bin/python3
+
+SOURCEDIR = sources
+SCRIPTDIR = scripts
+FONTDIR = fonts
+BUILDDIR = build
 
 FONTS = \
 	${NAME} \
 	${NAME}${COLRv0} \
 	${NAME}${COLRv1}-Regular # ${NAME}${COLRv1}-Bold
 
-TTF=$(FONTS:%=${FONTDIR}/%.ttf)
-DTTF=$(TTF:%=${BUILDDIR}/dist/%)
-SAMPLE=Sample.svg
+TTF = $(FONTS:%=${FONTDIR}/%.ttf)
+DTTF = $(TTF:%=${BUILDDIR}/dist/%)
+SVG = Sample.svg
 
-TAG=$(shell git describe --tags --abbrev=0)
-VERSION=$(TAG:v%=%)
+GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
 
-export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" $(SOURCEDIR)/${NAME}.glyphspackage)
+export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
+
+TAG = $(shell git describe --tags --abbrev=0)
+VERSION = ${TAG:v%=%}
+DIST = ${NAME}-${VERSION}
+
 
 define generate_fonts
 mkdir -p $(dir $(3));
@@ -38,10 +58,13 @@ fontmake --mm-designspace $(2)                                                 \
          ;
 endef
 
-all: ttf doc
+.SECONDARY:
+.ONESHELL:
+.PHONY: all clean dist ttf doc
 
+all: ttf doc
 ttf: ${TTF}
-doc: ${SAMPLE}
+doc: ${SVG}
 
 SHELL=/usr/bin/env bash
 MAKEFLAGS := -s -r
@@ -69,11 +92,11 @@ ${COLRDIR}/%/colr.toml: colr.toml
 
 %/glyphmap.csv: ${SOURCEDIR}/${NAME}.glyphspackage
 	mkdir -p $(@D)
-	${PY} ${SCRIPTDIR}/mkglyphmap.py $< $(@D)
+	${PYTHON} ${SCRIPTDIR}/mkglyphmap.py $< $(@D)
 
 %/colr.ttf: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
 	echo "   MAKE	$(@F)"
-	${PY} -m nanoemoji.write_font -v -1 \
+	${PYTHON} -m nanoemoji.write_font -v -1 \
 		      --config_file $< \
 		      --glyphmap_file $*/glyphmap.csv \
 		      --color_format glyf_colr_1 \
@@ -82,7 +105,7 @@ ${COLRDIR}/%/colr.toml: colr.toml
 
 %/svg.ttf: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
 	echo "   MAKE	$(@F)"
-	${PY} -m nanoemoji.write_font -v -1 \
+	${PYTHON} -m nanoemoji.write_font -v -1 \
 		      --config_file $< \
 		      --glyphmap_file $*/glyphmap.csv \
 		      --color_format untouchedsvg \
@@ -91,7 +114,7 @@ ${COLRDIR}/%/colr.toml: colr.toml
 
 %/colr.ufo: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
 	echo "   MAKE	$(@F)"
-	${PY} -m nanoemoji.write_font -v -1 \
+	${PYTHON} -m nanoemoji.write_font -v -1 \
 		      --config_file $< \
 		      --glyphmap_file $*/glyphmap.csv \
 		      --fea_file $*/colr.fea \
@@ -100,13 +123,13 @@ ${COLRDIR}/%/colr.toml: colr.toml
 ${FONTDIR}/${NAME}${COLRv1}-%.ttf: ${BUILDDIR}/${NAME}.designspace ${COLRDIR}/%/colr.ttf ${COLRDIR}/%/svg.ttf
 	echo "   MAKE	$(@F)"
 	$(call generate_fonts,ttf,$<,$@,$(*F))
-	${PY} ${SCRIPTDIR}/mknocolr.py $@ $@
-	${PY} ${SCRIPTDIR}/mkcolrv1.py $@ ${COLRDIR}/$*/colr.ttf ${COLRDIR}/$*/svg.ttf $@
+	${PYTHON} ${SCRIPTDIR}/mknocolr.py $@ $@
+	${PYTHON} ${SCRIPTDIR}/mkcolrv1.py $@ ${COLRDIR}/$*/colr.ttf ${COLRDIR}/$*/svg.ttf $@
 
 ${FONTDIR}/${NAME}${COLRv0}.ttf: ${BUILDDIR}/${NAME}.ttf
 	echo "   MAKE	$(@F)"
 	mkdir -p $(@D)
-	${PY} ${SCRIPTDIR}/mkcolrv0.py $< $@ ${COLRv0}
+	${PYTHON} ${SCRIPTDIR}/mkcolrv0.py $< $@ ${COLRv0}
 
 ${BUILDDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.designspace
 	echo "   MAKE	$(@F)"
@@ -114,12 +137,12 @@ ${BUILDDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.designspace
 
 ${FONTDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.ttf
 	mkdir -p $(@D)
-	${PY} ${SCRIPTDIR}/mknocolr.py $< $@
+	${PYTHON} ${SCRIPTDIR}/mknocolr.py $< $@
 
 ${BUILDDIR}/${NAME}.glyphs: ${SOURCEDIR}/${NAME}.glyphspackage ${SOURCEDIR}/${LATIN}.glyphspackage
 	echo "   GEN	$(@F)"
 	mkdir -p ${BUILDDIR}
-	${PY} ${SCRIPTDIR}/prepare.py --out-file=$@ $< $(word 2,$+)
+	${PYTHON} ${SCRIPTDIR}/prepare.py --out-file=$@ $< $(word 2,$+)
 
 ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
 	echo "   GEN	$(@F)"
@@ -133,15 +156,15 @@ ${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
 
 ${BUILDDIR}/dist/${FONTDIR}/%: ${FONTDIR}/%
 	mkdir -p $(@D)
-	${PY} ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
+	${PYTHON} ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
 
 ${BUILDDIR}/dist/${FONTDIR}/%: ${FONTDIR}/%
 	mkdir -p $(@D)
-	${PY} ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
+	${PYTHON} ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
 
-${SAMPLE}: ${FONTDIR}/${NAME}.ttf
-	echo "   SAMPLE    $(@F)"
-	${PY} ${SCRIPTDIR}/mksample.py $< \
+${SVG}: ${FONTDIR}/${NAME}.ttf
+	echo "   SVG    $(@F)"
+	${PYTHON} ${SCRIPTDIR}/mksample.py $< \
 	  --output=$@ \
 	  --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
           --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]"
@@ -155,4 +178,4 @@ dist: ${DTTF}
 	zip -q -r ${DIST}.zip ${DIST}
 
 clean:
-	rm -rf ${TTF} ${SAMPLE} ${BUILDDIR} ${NAME}-${VERSION} ${NAME}-${VERSION}.zip
+	rm -rf ${TTF} ${SVG} ${BUILDDIR} ${NAME}-${VERSION} ${NAME}-${VERSION}.zip
