@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "yehFarsi-ar";
 layers = (
 {
@@ -21,7 +21,5 @@ ref = "alefMaksura-ar";
 width = 725;
 }
 );
-sortName = arpl1706;
-sortNameKeep = ar1213;
 unicode = 1740;
 }

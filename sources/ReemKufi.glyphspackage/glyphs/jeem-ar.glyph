@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "jeem-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "dotcenter-ar";
 width = 515;
 }
 );
-sortName = arpl0200;
-sortNameKeep = ar0267;
 unicode = 1580;
 }

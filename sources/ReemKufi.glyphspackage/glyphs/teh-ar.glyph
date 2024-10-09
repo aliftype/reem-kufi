@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "teh-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "twodotshorizontalabove-ar";
 width = 850;
 }
 );
-sortName = arpl0101;
-sortNameKeep = ar0153;
 unicode = 1578;
 }

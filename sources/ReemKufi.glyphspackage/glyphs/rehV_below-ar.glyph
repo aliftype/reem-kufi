@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "rehVbelow-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "vbelow-ar";
 width = 225;
 }
 );
-sortName = arpl0405;
-sortNameKeep = ar0489;
 unicode = 1685;
 }

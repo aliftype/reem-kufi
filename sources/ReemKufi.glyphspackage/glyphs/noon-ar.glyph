@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "noon-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "dotabove-ar";
 width = 460;
 }
 );
-sortName = arpl1400;
-sortNameKeep = ar0942;
 unicode = 1606;
 }

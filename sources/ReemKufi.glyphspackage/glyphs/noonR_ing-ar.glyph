@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "noonRing-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "ringbelow-ar";
 width = 460;
 }
 );
-sortName = arpl1403;
-sortNameKeep = ar0978;
 unicode = 1724;
 }

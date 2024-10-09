@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "tcheh-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "threedotsdownbelow-ar";
 width = 515;
 }
 );
-sortName = arpl0207;
-sortNameKeep = ar0270;
 unicode = 1670;
 }

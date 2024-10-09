@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "rnoon-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "tahabove-ar";
 width = 460;
 }
 );
-sortName = arpl1402;
-sortNameKeep = ar0963;
 unicode = 1723;
 }

@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "yehbarreeHamzaabove-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "hamzaabove-ar";
 width = 1045;
 }
 );
-sortName = arpl1800;
-sortNameKeep = ar1270;
 unicode = 1747;
 }

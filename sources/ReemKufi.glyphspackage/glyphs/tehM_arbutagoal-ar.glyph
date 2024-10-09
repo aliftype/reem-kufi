@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "tehMarbutagoal-ar";
 layers = (
 {
@@ -21,7 +21,5 @@ ref = "tehMarbuta-ar";
 width = 390;
 }
 );
-sortName = arpl1504;
-sortNameKeep = ar1059;
 unicode = 1731;
 }

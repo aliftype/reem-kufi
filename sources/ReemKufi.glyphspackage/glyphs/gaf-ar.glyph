@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "gaf-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "gafsarkashabove-ar";
 width = 1010;
 }
 );
-sortName = arpl1106;
-sortNameKeep = ar0816;
 unicode = 1711;
 }

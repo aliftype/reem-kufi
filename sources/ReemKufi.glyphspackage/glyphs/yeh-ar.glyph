@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "yeh-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "twodotshorizontalbelow-ar";
 width = 725;
 }
 );
-sortName = arpl1705;
-sortNameKeep = ar1168;
 unicode = 1610;
 }

@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "kafThreedotsbelow-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "threedotsdownbelow-ar";
 width = 1010;
 }
 );
-sortName = arpl1105a;
-sortNameKeep = ar0849;
 unicode = 1710;
 }

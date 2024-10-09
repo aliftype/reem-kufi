@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "beh-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "dotbelow-ar";
 width = 850;
 }
 );
-sortName = arpl0100;
-sortNameKeep = ar0087;
 unicode = 1576;
 }

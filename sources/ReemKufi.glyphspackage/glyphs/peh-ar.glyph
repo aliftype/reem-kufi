@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "peh-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "threedotsdownbelow-ar";
 width = 850;
 }
 );
-sortName = arpl0108;
-sortNameKeep = ar0102;
 unicode = 1662;
 }

@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "ve-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "threedotsupabove-ar";
 width = 390;
 }
 );
-sortName = arpl1609;
-sortNameKeep = ar1143;
 unicode = 1739;
 }

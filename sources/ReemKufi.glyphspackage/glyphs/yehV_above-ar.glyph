@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "yehVabove-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "vabove-ar";
 width = 725;
 }
 );
-sortName = arpl1708;
-sortNameKeep = ar1191;
 unicode = 1742;
 }

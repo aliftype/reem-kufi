@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "kehehDotabove-ar";
 layers = (
 {
@@ -29,7 +29,5 @@ ref = "dotabove-ar";
 width = 1010;
 }
 );
-sortName = arpl1107;
-sortNameKeep = ar0807;
 unicode = 1890;
 }

@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "hehgoal-ar";
 layers = (
 {
@@ -21,7 +21,5 @@ ref = "heh-ar";
 width = 390;
 }
 );
-sortName = arpl1502;
-sortNameKeep = ar1014;
 unicode = 1729;
 }

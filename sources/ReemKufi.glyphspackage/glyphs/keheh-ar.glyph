@@ -1,5 +1,5 @@
 {
-color = 0;
+category = Placeholder;
 glyphname = "keheh-ar";
 layers = (
 {
@@ -21,7 +21,5 @@ ref = "kaf-ar";
 width = 1010;
 }
 );
-sortName = arpl1104;
-sortNameKeep = ar0786;
 unicode = 1705;
 }
