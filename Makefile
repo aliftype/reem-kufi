@@ -38,6 +38,10 @@ SVG = Sample.svg
 
 GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
 
+define SAMPLE
+ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم
+endef
+
 export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
 
 TAG = $(shell git describe --tags --abbrev=0)
@@ -163,11 +167,13 @@ ${BUILDDIR}/dist/${FONTDIR}/%: ${FONTDIR}/%
 	${PYTHON} ${SCRIPTDIR}/dist.py $< $@ ${VERSION}
 
 ${SVG}: ${FONTDIR}/${NAME}.ttf
-	echo "   SVG    $(@F)"
-	${PYTHON} ${SCRIPTDIR}/mksample.py $< \
-	  --output=$@ \
-	  --text="ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم" \
-          --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]"
+	$(info   SVG    $(@F))
+	${PYTHON} -m alifTools.sample $< \
+				      -t "${SAMPLE}" \
+                                      --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]" \
+				      --foreground=1F2328 \
+				      --dark-foreground=D1D7E0 \
+				      -o $@
 
 dist: ${DTTF}
 	echo "   DIST   ${DIST}"
