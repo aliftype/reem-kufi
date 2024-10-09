@@ -1,0 +1,36 @@
+{
+glyphname = grave;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(162,489,l),
+(247,489,l),
+(185,624,l),
+(30,624,l)
+);
+}
+);
+width = 317;
+},
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(136,486,l),
+(199,486,l),
+(128,620,l),
+(17,620,l)
+);
+}
+);
+width = 281;
+}
+);
+unicode = 96;
+}

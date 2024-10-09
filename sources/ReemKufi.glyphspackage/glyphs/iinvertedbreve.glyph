@@ -1,0 +1,34 @@
+{
+glyphname = iinvertedbreve;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-69,-30);
+ref = breveinvertedcomb;
+}
+);
+width = 284;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = idotless;
+},
+{
+alignment = -1;
+pos = (-68,-39);
+ref = breveinvertedcomb;
+}
+);
+width = 259;
+}
+);
+unicode = 523;
+}

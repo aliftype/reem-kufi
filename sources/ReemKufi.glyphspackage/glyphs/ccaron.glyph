@@ -1,0 +1,35 @@
+{
+glyphname = ccaron;
+kernLeft = o;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = c;
+},
+{
+pos = (103,10);
+ref = caroncomb;
+}
+);
+width = 479;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = c;
+},
+{
+alignment = -1;
+pos = (77,-10);
+ref = caroncomb;
+}
+);
+width = 460;
+}
+);
+unicode = 269;
+}

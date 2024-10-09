@@ -1,0 +1,43 @@
+{
+glyphname = Ecircumflexdotbelow;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (224,0);
+ref = dotbelowcomb.case;
+},
+{
+pos = (140,307);
+ref = circumflexcomb.case;
+}
+);
+width = 666;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+alignment = -1;
+pos = (225,0);
+ref = dotbelowcomb.case;
+},
+{
+alignment = -1;
+pos = (122,291);
+ref = circumflexcomb.case;
+}
+);
+width = 655;
+}
+);
+unicode = 7878;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = franc;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = F;
+},
+{
+pos = (600,0);
+ref = macron;
+}
+);
+width = 955;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = F;
+},
+{
+alignment = -1;
+pos = (-24,-349);
+ref = macron;
+}
+);
+width = 585;
+}
+);
+unicode = 8355;
+}

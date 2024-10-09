@@ -1,0 +1,44 @@
+{
+glyphname = hookabovecomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (174,531);
+},
+{
+name = top;
+pos = (174,747);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = hookabovecomb;
+}
+);
+width = 347;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (160,520);
+},
+{
+name = top;
+pos = (168,747);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = hookabovecomb;
+}
+);
+width = 336;
+}
+);
+}

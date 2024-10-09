@@ -1,0 +1,35 @@
+{
+glyphname = Lcaron;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+alignment = -1;
+ref = L;
+},
+{
+pos = (409,0);
+ref = quoteright;
+}
+);
+width = 640;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = L;
+},
+{
+alignment = -1;
+pos = (343,0);
+ref = quoteright;
+}
+);
+width = 619;
+}
+);
+unicode = 317;
+}

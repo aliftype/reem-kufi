@@ -6,6 +6,7 @@ layers = (
 layerId = master01;
 shapes = (
 {
+alignment = -1;
 ref = "yehbarree-ar.isol";
 },
 {
@@ -13,12 +14,13 @@ pos = (49,630);
 ref = "hamzaabove-ar";
 }
 );
-width = 1045;
+width = 1000;
 },
 {
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
+alignment = -1;
 ref = "yehbarree-ar.isol";
 },
 {
@@ -26,9 +28,10 @@ pos = (49,630);
 ref = "hamzaabove-ar";
 }
 );
-width = 1045;
+width = 1000;
 }
 );
+metricWidth = "=1000";
 script = "";
 unicode = 1747;
 }

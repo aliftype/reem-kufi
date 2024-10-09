@@ -1,0 +1,45 @@
+{
+glyphname = cedillacomb.case;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (122,0);
+},
+{
+name = bottom;
+pos = (124,-231);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = cedilla;
+}
+);
+width = 373;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (153,0);
+},
+{
+name = bottom;
+pos = (155,-228);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (-37,0);
+ref = cedilla;
+}
+);
+width = 361;
+}
+);
+}

@@ -1,0 +1,43 @@
+{
+glyphname = Ecircumflextilde;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (147,319);
+ref = circumflexcomb;
+},
+{
+pos = (106,555);
+ref = tildecomb;
+}
+);
+width = 666;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+alignment = -1;
+pos = (122,302);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (106,536);
+ref = tildecomb;
+}
+);
+width = 655;
+}
+);
+unicode = 7876;
+}

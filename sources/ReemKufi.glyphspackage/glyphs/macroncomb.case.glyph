@@ -1,0 +1,46 @@
+{
+glyphname = macroncomb.case;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (182,551);
+},
+{
+name = top;
+pos = (182,736);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,126);
+ref = macroncomb;
+}
+);
+width = 355;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (187,516);
+},
+{
+name = top;
+pos = (187,665);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (19,87);
+ref = macroncomb;
+}
+);
+width = 368;
+}
+);
+}

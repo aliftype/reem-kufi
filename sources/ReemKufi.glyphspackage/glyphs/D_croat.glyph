@@ -1,0 +1,30 @@
+{
+glyphname = Dcroat;
+kernRight = O;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+alignment = -1;
+pos = (14,0);
+ref = Eth;
+}
+);
+width = 785;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (8,0);
+ref = Eth;
+}
+);
+width = 765;
+}
+);
+metricRight = D;
+unicode = 272;
+}

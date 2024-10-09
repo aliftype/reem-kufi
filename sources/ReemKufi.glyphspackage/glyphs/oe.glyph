@@ -1,0 +1,58 @@
+{
+glyphname = oe;
+kernLeft = o;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (430,0);
+},
+{
+name = top;
+pos = (430,437);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = c;
+},
+{
+alignment = -1;
+pos = (302,0);
+ref = e;
+}
+);
+width = 855;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (404,0);
+},
+{
+name = top;
+pos = (404,418);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = c;
+},
+{
+alignment = -1;
+pos = (283,0);
+ref = e;
+}
+);
+width = 808;
+}
+);
+metricLeft = o;
+metricRight = e;
+unicode = 339;
+}

@@ -1,0 +1,36 @@
+{
+glyphname = otilde;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = o;
+},
+{
+pos = (46,20);
+ref = tildecomb;
+}
+);
+width = 571;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = o;
+},
+{
+alignment = -1;
+pos = (50,14);
+ref = tildecomb;
+}
+);
+width = 549;
+}
+);
+unicode = 245;
+}

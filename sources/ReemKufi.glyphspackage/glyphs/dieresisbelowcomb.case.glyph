@@ -1,0 +1,46 @@
+{
+glyphname = dieresisbelowcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (221,0);
+},
+{
+name = bottom;
+pos = (221,-173);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-643);
+ref = dieresis;
+}
+);
+width = 442;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (210,0);
+},
+{
+name = bottom;
+pos = (210,-152);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (13,-626);
+ref = dieresis;
+}
+);
+width = 433;
+}
+);
+}

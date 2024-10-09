@@ -1,0 +1,58 @@
+{
+glyphname = ocircumflexgrave;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (197,704);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = o;
+},
+{
+pos = (87,20);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (-99,131);
+ref = gravecomb;
+}
+);
+width = 571;
+},
+{
+anchors = (
+{
+name = top;
+pos = (197,698);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = o;
+},
+{
+alignment = -1;
+pos = (61,-2);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (-55,115);
+ref = gravecomb;
+}
+);
+width = 549;
+}
+);
+unicode = 7891;
+}

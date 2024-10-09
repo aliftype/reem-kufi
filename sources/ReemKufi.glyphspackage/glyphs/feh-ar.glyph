@@ -6,6 +6,7 @@ layers = (
 layerId = master01;
 shapes = (
 {
+alignment = -1;
 ref = "fehDotless-ar.isol";
 },
 {
@@ -13,12 +14,13 @@ pos = (617,600);
 ref = "dotabove-ar";
 }
 );
-width = 850;
+width = 1000;
 },
 {
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
+alignment = -1;
 ref = "fehDotless-ar.isol";
 },
 {
@@ -26,9 +28,10 @@ pos = (597,600);
 ref = "dotabove-ar";
 }
 );
-width = 850;
+width = 1000;
 }
 );
+metricWidth = "=1000";
 script = "";
 unicode = 1601;
 }

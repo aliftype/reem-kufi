@@ -1,0 +1,36 @@
+{
+glyphname = Ohornacute;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = Ohorn;
+},
+{
+pos = (389,190);
+ref = acutecomb.case;
+}
+);
+width = 852;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = Ohorn;
+},
+{
+alignment = -1;
+pos = (385,211);
+ref = acutecomb.case;
+}
+);
+width = 856;
+}
+);
+unicode = 7898;
+}

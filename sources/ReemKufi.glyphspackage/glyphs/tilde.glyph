@@ -1,0 +1,27 @@
+{
+glyphname = tilde;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (19,38);
+ref = asciitilde;
+}
+);
+width = 485;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (13,22);
+ref = asciitilde;
+}
+);
+width = 454;
+}
+);
+unicode = 732;
+}

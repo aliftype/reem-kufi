@@ -1,0 +1,47 @@
+{
+glyphname = brevebelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (262,0);
+},
+{
+name = bottom;
+pos = (262,-206);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-706);
+ref = brevecomb;
+}
+);
+width = 435;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (262,0);
+},
+{
+name = bottom;
+pos = (262,-201);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-701);
+ref = brevecomb;
+}
+);
+width = 458;
+}
+);
+unicode = 814;
+}

@@ -1,0 +1,36 @@
+{
+glyphname = yacute;
+kernLeft = v;
+kernRight = v;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (108,0);
+ref = acutecomb;
+}
+);
+width = 534;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+alignment = -1;
+pos = (90,-6);
+ref = acutecomb;
+}
+);
+width = 500;
+}
+);
+unicode = 253;
+}

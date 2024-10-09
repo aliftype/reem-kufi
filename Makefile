@@ -14,7 +14,6 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 NAME = ReemKufi
-LATIN = JosefinSans
 COLRv0 = Fun
 COLRv1 = Ink
 
@@ -94,7 +93,7 @@ ${COLRDIR}/%/colr.toml: colr.toml
 	mkdir -p ${@D}
 	touch $@
 
-%/glyphmap.csv: ${SOURCEDIR}/${NAME}.glyphspackage
+%/glyphmap.csv: ${GLYPHSFILE}
 	mkdir -p ${@D}
 	${PYTHON} ${SCRIPTDIR}/mkglyphmap.py $< ${@D}
 
@@ -143,12 +142,7 @@ ${FONTDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.ttf
 	mkdir -p ${@D}
 	${PYTHON} ${SCRIPTDIR}/mknocolr.py $< $@
 
-${BUILDDIR}/${NAME}.glyphs: ${SOURCEDIR}/${NAME}.glyphspackage ${SOURCEDIR}/${LATIN}.glyphspackage
-	$(info   GEN    ${@F})
-	mkdir -p ${BUILDDIR}
-	${PYTHON} ${SCRIPTDIR}/prepare.py --out-file=$@ $< $(word 2,$+)
-
-${BUILDDIR}/${NAME}.designspace: ${BUILDDIR}/${NAME}.glyphs
+${BUILDDIR}/${NAME}.designspace: ${GLYPHSFILE}
 	$(info   GEN    ${@F})
 	${PYTHON} -m glyphsLib glyphs2ufo \
 		    -m ${BUILDDIR} \

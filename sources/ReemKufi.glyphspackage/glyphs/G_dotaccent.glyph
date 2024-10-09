@@ -1,0 +1,35 @@
+{
+glyphname = Gdotaccent;
+kernLeft = O;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = G;
+},
+{
+pos = (312,201);
+ref = dotaccentcomb.case;
+}
+);
+width = 762;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = G;
+},
+{
+alignment = -1;
+pos = (312,177);
+ref = dotaccentcomb.case;
+}
+);
+width = 753;
+}
+);
+unicode = 288;
+}

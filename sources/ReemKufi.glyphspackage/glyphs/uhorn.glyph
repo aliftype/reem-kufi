@@ -1,0 +1,35 @@
+{
+glyphname = uhorn;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (377,-299);
+ref = horncomb;
+}
+);
+width = 584;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = u;
+},
+{
+alignment = -1;
+pos = (349,-307);
+ref = horncomb;
+}
+);
+width = 563;
+}
+);
+metricLeft = n;
+unicode = 432;
+}
