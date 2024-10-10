@@ -8,7 +8,7 @@ absl-py==2.1.0
     # via
     #   nanoemoji
     #   picosvg
-aliftools @ git+https://github.com/aliftype/tools.git@2822702e737f23cb8d8ae653108783f138d3a762
+aliftools @ git+https://github.com/aliftype/tools.git@d0e8c6099e013b72ad01f1f74d919148f4b84c08
     # via
     #   -r requirements.in
     #   aliftools

@@ -59,6 +59,7 @@ ${PYTHON} -m fontmake                                                          \
     --optimize-cff 1                                                           \
     --flatten-components                                                       \
     --filter ...                                                               \
+    --filter "alifTools.filters::ClearPlaceholdersFilter()"                    \
     --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"    \
     ;
 endef

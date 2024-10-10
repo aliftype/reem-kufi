@@ -6,24 +6,21 @@ layers = (
 layerId = master01;
 shapes = (
 {
-alignment = -1;
 ref = "qafDotless-ar.isol";
 }
 );
-width = 1000;
+width = 515;
 },
 {
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-alignment = -1;
 ref = "qafDotless-ar.isol";
 }
 );
-width = 1000;
+width = 536;
 }
 );
-metricWidth = "=1000";
 script = "";
 unicode = 1647;
 }
