@@ -1,5 +1,4 @@
 (
-space,
 A,
 Aacute,
 Abreve,
@@ -503,6 +502,7 @@ ordmasculine,
 "yehbarree-ar.fina",
 "ae-ar.isol",
 "kashida-ar",
+space,
 "fullstop-ar",
 "comma-ar",
 "semicolon-ar",

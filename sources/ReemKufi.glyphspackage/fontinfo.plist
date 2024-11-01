@@ -60,13 +60,6 @@ value = (
 (117,188,234,255)
 )
 );
-},
-{
-name = glyphOrder;
-value = (
-.notdef,
-space
-);
 }
 );
 date = "2015-11-13 18:42:21 +0000";
