@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
-   viewBox="0 0 350.0 1500.0"
-   width="350.0"
+   viewBox="0 0 460.0 1500.0"
+   width="460.0"
    height="1500.0"
-   id="svg1790"
-   sodipodi:docname="ain-ar.medi.svg"
+   id="svg1778"
+   sodipodi:docname="ain-ar.medi.1.svg"
    inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -13,64 +13,43 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs1792">
+     id="defs1780">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient3435">
+       id="linearGradient4137">
       <stop
          style="stop-color:#000000;stop-opacity:1;"
          offset="0"
-         id="stop3431" />
+         id="stop4133" />
       <stop
          style="stop-color:#000000;stop-opacity:0;"
          offset="1"
-         id="stop3433" />
+         id="stop4135" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient2940">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop2936" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="1"
-         id="stop2938" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2940"
-       id="linearGradient2942"
-       x1="200.61073"
-       y1="437.58389"
-       x2="206.91275"
-       y2="276.51007"
+       xlink:href="#linearGradient4137"
+       id="linearGradient4139"
+       x1="0"
+       y1="699.75165"
+       x2="92.557045"
+       y2="762.16779"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3435"
-       id="linearGradient3437"
-       x1="201.30873"
-       y1="721.97986"
-       x2="214.73154"
-       y2="828.69128"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3435"
-       id="linearGradient3439"
-       x1="-10.798657"
-       y1="782.24835"
-       x2="54.711411"
-       y2="858.75836"
-       gradientUnits="userSpaceOnUse" />
+       xlink:href="#linearGradient4137"
+       id="linearGradient4289"
+       gradientUnits="userSpaceOnUse"
+       x1="455.03357"
+       y1="701.76508"
+       x2="390.54361"
+       y2="729.953" />
   </defs>
   <sodipodi:namedview
      objecttolerance="1"
      gridtolerance="1"
      guidetolerance="1"
-     id="namedview1784"
+     id="namedview1772"
      pagecolor="#ffffff"
      bordercolor="#cccccc"
      borderopacity="1"
@@ -78,33 +57,26 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:current-layer="svg1790">
+     inkscape:current-layer="svg1778">
     <sodipodi:guide
        position="0,400"
        orientation="0,-1"
-       id="guide1782" />
+       id="guide1770" />
   </sodipodi:namedview>
   <g
      transform="matrix(1 0 0 -1 0 1100.0)"
-     id="g1788">
+     id="g1776">
     <path
        fill="#404040"
-       d="M-20.0 0.0H370.0V100.0H-20.0V0.0ZM168.0 46.0 248.0 121.0 25.0 364.0 -41.0 273.0 168.0 46.0ZM155.0 50.0H255.0V400.0L155.0 378.0V50.0Z"
-       id="path1786" />
+       d="M-20.0 100.0V0.0H480.0V100.0H-20.0ZM309.0 339.0 160.0 76.0 246.0 26.0 459.0 400.0H0.0L212.0 26.0L299.0 76.0L149.0 339.0L126.0 300.0H332.0L309.0 339.0Z"
+       id="path1774" />
   </g>
-  <g
-     transform="matrix(1 0 0 -1 0 1100.0)"
-     id="g3026"
-     style="fill:url(#linearGradient2942);fill-opacity:1" />
-  <g
-     id="g3580">
-    <path
-       style="fill:url(#linearGradient3437);fill-opacity:1"
-       d="M 155,1050 H 255 V 700 l -100,22 z"
-       id="path3331" />
-    <path
-       style="fill:url(#linearGradient3439);fill-opacity:1"
-       d="M 168,1054 248,979 25,736 -41,827 Z"
-       id="path3329" />
-  </g>
+  <path
+     style="fill:url(#linearGradient4139);fill-opacity:1"
+     d="m 309,761 -149,263 86,50 213,-374 H 0 l 212,374 87,-50 -150,-263 -23,39 h 206 z"
+     id="path4033" />
+  <path
+     style="fill:url(#linearGradient4289);fill-opacity:1"
+     d="m 309,761 -149,263 86,50 213,-374 H 0 l 212,374 87,-50 -150,-263 -23,39 h 206 z"
+     id="path4033-5" />
 </svg>

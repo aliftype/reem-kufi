@@ -5,7 +5,7 @@ layers = (
 anchors = (
 {
 name = markBelow;
-pos = (175,-150);
+pos = (230,-150);
 }
 );
 layerId = master01;
@@ -13,23 +13,24 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(370,0,l),
-(370,100,l),
-(-20,100,l),
-(-20,0,l)
+(-20,0,l),
+(480,0,l),
+(480,100,l),
+(-20,100,l)
 );
 },
 {
-ref = _ain.head;
+pos = (-31,0);
+ref = _ain.head.1;
 }
 );
-width = 350;
+width = 460;
 },
 {
 anchors = (
 {
 name = markBelow;
-pos = (194,-150);
+pos = (230,-150);
 }
 );
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
@@ -37,17 +38,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(389,0,l),
-(389,140,l),
-(-20,140,l),
-(-20,0,l)
+(-20,0,l),
+(545,0,l),
+(545,140,l),
+(-20,140,l)
 );
 },
 {
-ref = _ain.head;
+ref = _ain.head.1;
 }
 );
-width = 369;
+width = 525;
 }
 );
 }
