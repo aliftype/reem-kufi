@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   viewBox="0 0 965.0 1500.0"
+   width="965.0"
+   height="1500.0"
+   id="svg1"
+   sodipodi:docname="kaf-ar.isol.1.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     objecttolerance="1"
+     gridtolerance="1"
+     guidetolerance="1"
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:current-layer="svg1">
+    <sodipodi:guide
+       position="0,400"
+       orientation="0,-1"
+       id="guide1"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     transform="matrix(1 0 0 -1 0 1100.0)"
+     id="g1"
+     style="fill:#404040;fill-opacity:1">
+    <path
+       id="path1"
+       d="M 109,200 H 249 V 800 L 109,769 Z M 25,0 h 800 c 0,0 40,-2 40,23 0,120 17,317 -230,317 H 110 V 200 h 525 c 75,0 91,-24 90,-60 H 109 Z"
+       style="fill:#404040;fill-opacity:1" />
+  </g>
+</svg>
