@@ -199,7 +199,7 @@ feature init {
     sub behDotless-ar.isol by behDotless-ar.init;
     sub qafDotless-ar.isol by fehDotless-ar.init;
     sub fehDotless-ar.isol by fehDotless-ar.init;
-    sub keheh-ar by kaf-ar.init.1;
+    sub keheh-ar by kaf-ar.init;
     sub noonghunna-ar.isol by behDotless-ar.init;
     sub hehDoachashmee-ar.isol by heh-ar.init.2;
     sub hehgoal-ar by heh-ar.init.2;
@@ -222,7 +222,7 @@ feature medi {
     sub behDotless-ar.isol by behDotless-ar.medi;
     sub qafDotless-ar.isol by fehDotless-ar.medi;
     sub fehDotless-ar.isol by fehDotless-ar.medi;
-    sub keheh-ar by kaf-ar.medi.1;
+    sub keheh-ar by kaf-ar.medi;
     sub noonghunna-ar.isol by behDotless-ar.medi;
     sub hehDoachashmee-ar.isol by heh-ar.medi.2;
     sub hehgoal-ar by heh-ar.medi.2;
@@ -258,7 +258,7 @@ feature fina {
     
     sub hehDoachashmee-ar.isol by hehDoachashmee-ar.fina;
     sub yehFarsi-ar by alefMaksura-ar.fina;
-    sub keheh-ar by kaf-ar.fina.1;
+    sub keheh-ar by kaf-ar.fina;
     sub noonThreedotsabove-ar by noonghunna-ar.fina threedotsupabove-ar;
 } fina;
 

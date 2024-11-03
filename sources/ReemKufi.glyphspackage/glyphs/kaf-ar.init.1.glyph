@@ -2,26 +2,110 @@
 glyphname = "kaf-ar.init.1";
 layers = (
 {
+anchors = (
+{
+name = dotAbove;
+pos = (500,500);
+},
+{
+name = dotBelow;
+pos = (440,-150);
+},
+{
+name = markAbove;
+pos = (500,550);
+},
+{
+name = markBelow;
+pos = (440,-150);
+}
+);
 layerId = master01;
 shapes = (
 {
-alignment = -1;
-pos = (-85,0);
-ref = "kaf-ar.isol";
-}
+closed = 1;
+nodes = (
+(875,0,l),
+(875,0,o),
+(915,-2,o),
+(915,23,cs),
+(915,143,o),
+(932,300,o),
+(725,300,cs),
+(160,300,l),
+(160,200,l),
+(725,200,ls),
+(800,200,o),
+(816,156,o),
+(815,100,c),
+(-20,100,l),
+(-20,0,l)
 );
-width = 925;
 },
 {
+closed = 1;
+nodes = (
+(215,200,l),
+(215,800,l),
+(115,778,l),
+(115,200,l)
+);
+}
+);
+width = 940;
+},
+{
+anchors = (
+{
+name = dotAbove;
+pos = (500,500);
+},
+{
+name = dotBelow;
+pos = (440,-150);
+},
+{
+name = markAbove;
+pos = (500,550);
+},
+{
+name = markBelow;
+pos = (440,-150);
+}
+);
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-alignment = -1;
-pos = (-85,0);
-ref = "kaf-ar.isol";
+closed = 1;
+nodes = (
+(875,0,l),
+(875,0,o),
+(915,-2,o),
+(915,23,cs),
+(915,143,o),
+(932,340,o),
+(685,340,cs),
+(160,340,l),
+(160,200,l),
+(685,200,ls),
+(760,200,o),
+(776,176,o),
+(775,140,c),
+(-20,140,l),
+(-20,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(255,200,l),
+(255,800,l),
+(115,769,l),
+(115,200,l)
+);
 }
 );
-width = 925;
+width = 940;
 }
 );
 }
