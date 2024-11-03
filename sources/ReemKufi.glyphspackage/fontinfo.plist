@@ -10,7 +10,7 @@ tag = wght;
 classes = (
 {
 automatic = 1;
-code = "hamza-ar highhamza-ar alef-ar.isol alef-ar.isol.1 alef-ar.isol.2 alef-ar.isol.3 alef-ar.fina alef-ar.fina.Lam alef-ar.fina.Lam.1 behDotless-ar.isol behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.medi.high.wide behDotless-ar.medi.high.wider behDotless-ar.medi.wide behDotless-ar.medi.wider behDotless-ar.init behDotless-ar.init.Hah behDotless-ar.init.wide hah-ar.isol hah-ar.isol.alt hah-ar.fina hah-ar.fina.1 hah-ar.fina.alt hah-ar.fina.alt.1 hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.init hah-ar.init.2 dal-ar.isol dal-ar.fina reh-ar.isol reh-ar.fina seen-ar.isol seen-ar.fina seen-ar.medi seen-ar.init sad-ar.isol sad-ar.fina sad-ar.medi sad-ar.init tah-ar.isol tah-ar.fina tah-ar.medi tah-ar.init ain-ar.isol ain-ar.fina ain-ar.fina.1 ain-ar.medi ain-ar.medi.1 ain-ar.init fehDotless-ar.isol fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar.isol qafDotless-ar.fina kaf-ar.isol kaf-ar.isol.1 kaf-ar.fina kaf-ar.fina.1 kaf-ar.medi kaf-ar.medi.2 kaf-ar.init kaf-ar.init.1 lam-ar.isol lam-ar.fina lam-ar.medi lam-ar.medi.Alef lam-ar.init lam-ar.init.Alef lam-ar.init.Alef.1 lam-ar.init.Hah meem-ar.isol meem-ar.isol.1 meem-ar.isol.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi meem-ar.medi.1 meem-ar.init noonghunna-ar.isol noonghunna-ar.fina heh-ar.isol2 heh-ar.isol heh-ar.isol.1 heh-ar.fina heh-ar.fina.1 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 hehDoachashmee-ar.isol hehDoachashmee-ar.fina waw-ar.isol waw-ar.fina waw-ar.fina.1 alefMaksura-ar.isol alefMaksura-ar.isol.1 alefMaksura-ar.fina alefMaksura-ar.fina.1 yehbarree-ar.isol yehbarree-ar.fina ae-ar.isol kashida-ar";
+code = "hamza-ar highhamza-ar alef-ar.isol alef-ar.isol.1 alef-ar.isol.2 alef-ar.isol.3 alef-ar.fina alef-ar.fina.Lam alef-ar.fina.Lam.1 behDotless-ar.isol behDotless-ar.fina behDotless-ar.medi behDotless-ar.medi.high behDotless-ar.medi.high.wide behDotless-ar.medi.high.wider behDotless-ar.medi.wide behDotless-ar.medi.wider behDotless-ar.init behDotless-ar.init.Hah behDotless-ar.init.wide hah-ar.isol hah-ar.isol.alt hah-ar.fina hah-ar.fina.1 hah-ar.fina.alt hah-ar.fina.alt.1 hah-ar.medi hah-ar.medi.1 hah-ar.medi.2 hah-ar.init hah-ar.init.2 dal-ar.isol dal-ar.fina reh-ar.isol reh-ar.fina seen-ar.isol seen-ar.fina seen-ar.medi seen-ar.init sad-ar.isol sad-ar.fina sad-ar.medi sad-ar.init tah-ar.isol tah-ar.fina tah-ar.medi tah-ar.init ain-ar.isol ain-ar.fina ain-ar.fina.1 ain-ar.medi ain-ar.medi.1 ain-ar.init fehDotless-ar.isol fehDotless-ar.fina fehDotless-ar.medi fehDotless-ar.init qafDotless-ar.isol qafDotless-ar.fina kaf-ar.isol kaf-ar.isol.1 kaf-ar.isol.2 kaf-ar.fina kaf-ar.fina.1 kaf-ar.fina.2 kaf-ar.medi kaf-ar.medi.2 kaf-ar.init kaf-ar.init.1 kaf-ar.init.2 lam-ar.isol lam-ar.fina lam-ar.medi lam-ar.medi.Alef lam-ar.init lam-ar.init.Alef lam-ar.init.Alef.1 lam-ar.init.Hah meem-ar.isol meem-ar.isol.1 meem-ar.isol.2 meem-ar.fina meem-ar.fina.1 meem-ar.fina.2 meem-ar.medi meem-ar.medi.1 meem-ar.init noonghunna-ar.isol noonghunna-ar.fina heh-ar.isol2 heh-ar.isol heh-ar.isol.1 heh-ar.fina heh-ar.fina.1 heh-ar.medi heh-ar.medi.1 heh-ar.medi.2 heh-ar.medi.3 heh-ar.init heh-ar.init.1 heh-ar.init.2 heh-ar.init.3 hehDoachashmee-ar.isol hehDoachashmee-ar.fina waw-ar.isol waw-ar.fina waw-ar.fina.1 alefMaksura-ar.isol alefMaksura-ar.isol.1 alefMaksura-ar.fina alefMaksura-ar.fina.1 yehbarree-ar.isol yehbarree-ar.fina ae-ar.isol kashida-ar";
 name = ArabicLetters;
 },
 {
@@ -349,7 +349,10 @@ feature cv02 {
   sub hah-ar.init by hah-ar.init.2;
   sub hah-ar.medi by hah-ar.medi.2;
 
+  sub kaf-ar.isol  by kaf-ar.isol.2;
+  sub kaf-ar.init  by kaf-ar.init.2;
   sub kaf-ar.medi  by kaf-ar.medi.2;
+  sub kaf-ar.fina  by kaf-ar.fina.2;
 
   sub meem-ar.isol by meem-ar.isol.2;
   sub meem-ar.fina by meem-ar.fina.2;
@@ -625,42 +628,53 @@ value = -300;
 );
 guides = (
 {
+locked = 1;
 name = "800";
 pos = (0,800);
 },
 {
+locked = 1;
 name = "700";
 pos = (0,700);
 },
 {
+locked = 1;
 name = "600";
 pos = (0,600);
 },
 {
+locked = 1;
 name = "500";
 pos = (0,500);
 },
 {
+locked = 1;
 name = "400";
 pos = (0,400);
 },
 {
+locked = 1;
 name = "300";
 pos = (0,300);
 },
 {
+locked = 1;
 name = "200";
 pos = (0,200);
 },
 {
+angle = 90;
+locked = 1;
 name = "100";
 pos = (0,100);
 },
 {
+locked = 1;
 name = "-100";
 pos = (0,-100);
 },
 {
+locked = 1;
 name = "-200";
 pos = (0,-200);
 }

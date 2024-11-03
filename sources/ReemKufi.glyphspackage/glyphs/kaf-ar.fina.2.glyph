@@ -1,0 +1,54 @@
+{
+glyphname = "kaf-ar.fina.2";
+layers = (
+{
+anchors = (
+{
+name = markBelow;
+pos = (440,-150);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1075,0,l),
+(1075,100,l),
+(875,100,l),
+(875,0,l)
+);
+},
+{
+ref = "kaf-ar.isol.2";
+}
+);
+width = 1055;
+},
+{
+anchors = (
+{
+name = markBelow;
+pos = (440,-150);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1077,0,l),
+(1077,140,l),
+(881,140,l),
+(881,0,l)
+);
+},
+{
+ref = "kaf-ar.isol.2";
+}
+);
+width = 1057;
+}
+);
+metricRight = "=-20";
+}

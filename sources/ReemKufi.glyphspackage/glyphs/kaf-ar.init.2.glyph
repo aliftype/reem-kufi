@@ -1,0 +1,28 @@
+{
+glyphname = "kaf-ar.init.2";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (-95,0);
+ref = "kaf-ar.isol.2";
+}
+);
+width = 865;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+alignment = -1;
+pos = (-124,0);
+ref = "kaf-ar.isol.2";
+}
+);
+width = 838;
+}
+);
+metricRight = "kaf-ar.init";
+}
