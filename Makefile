@@ -158,7 +158,7 @@ ${SVG}: ${FONTDIR}/${NAME}.ttf
 	$(info   SVG    ${@F})
 	${PYTHON} -m alifTools.sample $< \
 				      -t "${SAMPLE}" \
-				      --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45]" \
+				      --features="+cv01,-cv01[6],-cv01[32:36],+cv02[40],-cv01[45:]" \
 				      --foreground=1F2328 \
 				      --dark-foreground=D1D7E0 \
 				      -o $@
