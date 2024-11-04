@@ -51,6 +51,45 @@ ref = grave;
 }
 );
 width = 484;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "93FA1FB1-CD6A-488F-B440-869CC1F2751A";
+shapes = (
+{
+alignment = -1;
+pos = (85,0);
+ref = grave;
+},
+{
+alignment = -1;
+pos = (232,0);
+ref = grave;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "E4BDD510-0666-44E4-8749-EEE195F89AA9";
+shapes = (
+{
+alignment = -1;
+pos = (90,0);
+ref = grave;
+},
+{
+pos = (297,0);
+ref = grave;
+}
+);
+width = 600;
 }
 );
 unicode = 783;

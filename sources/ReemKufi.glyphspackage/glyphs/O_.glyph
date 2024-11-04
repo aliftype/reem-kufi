@@ -30,12 +30,6 @@ name = topright;
 pos = (503,840);
 }
 );
-annotations = (
-{
-pos = (300.18,381.51);
-type = Text;
-}
-);
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {

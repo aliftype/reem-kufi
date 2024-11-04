@@ -28,6 +28,66 @@ ref = dotaccentcomb;
 }
 );
 width = 259;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "D928692E-9E2F-456D-A295-EF1DF2CC8FD0";
+name = "4 Nov 24 at 00:00";
+shapes = (
+{
+alignment = -1;
+pos = (23,-10);
+ref = dotaccentcomb;
+}
+);
+width = 259;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "EC68E3AB-1579-402C-A3D2-32BA599AA52C";
+name = "4 Nov 24 at 00:00";
+shapes = (
+{
+pos = (26,-20);
+ref = dotaccentcomb;
+}
+);
+width = 284;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = "*";
+};
+layerId = "CEDD0F9B-0FEE-45E4-B330-68ADD438E0CD";
+name = "Color 0 4 Nov 24 at 00:01";
+shapes = (
+{
+alignment = -1;
+ref = idotless;
+}
+);
+width = 259;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = "*";
+};
+layerId = "065A8ADB-711F-40DC-AD6D-191CBCB1EF55";
+name = "4 Nov 24 at 00:01";
+shapes = (
+{
+ref = idotless;
+}
+);
+width = 284;
 }
 );
 }

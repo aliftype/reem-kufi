@@ -35,10 +35,12 @@ nodes = (
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
+alignment = -1;
 ref = acute;
 },
 {
-pos = (317,0);
+alignment = -1;
+pos = (194,0);
 ref = acute;
 }
 );

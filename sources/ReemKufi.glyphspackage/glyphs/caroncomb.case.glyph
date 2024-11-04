@@ -39,6 +39,33 @@ ref = caron;
 }
 );
 width = 417;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "19995A6D-D262-40BA-8EBE-78451963B2DF";
+shapes = (
+{
+alignment = -1;
+ref = caron;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "CA448A6F-A546-4148-A059-C313DA9A6FCC";
+shapes = (
+{
+ref = caron;
+}
+);
+width = 405;
 }
 );
 }

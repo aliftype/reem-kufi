@@ -58,6 +58,52 @@ nodes = (
 }
 );
 width = 240;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "7488E53E-6375-4920-8CC1-88F3B8D49A4F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(72,628,o),
+(45,550,o),
+(54,495,c),
+(144,494,l),
+(136,544,o),
+(150,600,o),
+(182,628,c),
+(130,663,l)
+);
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "CC0A757F-1025-45FD-8BD3-BEB880277AE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(77,640,o),
+(41,552,o),
+(52,495,c),
+(174,494,l),
+(165,541,o),
+(179,603,o),
+(208,631,c),
+(136,679,l)
+);
+}
+);
+width = 600;
 }
 );
 unicode = 786;

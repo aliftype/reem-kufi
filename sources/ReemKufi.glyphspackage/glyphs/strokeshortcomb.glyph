@@ -42,6 +42,44 @@ nodes = (
 }
 );
 width = 368;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "B5C9CBB0-3758-451E-9ABF-3A6A310D1320";
+shapes = (
+{
+closed = 1;
+nodes = (
+(43,282,l),
+(327,282,l),
+(327,376,l),
+(43,376,l)
+);
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "4E5C8457-BA8F-4E1F-B25D-A836D4E5370C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(20,302,l),
+(335,302,l),
+(335,432,l),
+(20,432,l)
+);
+}
+);
+width = 600;
 }
 );
 unicode = 821;

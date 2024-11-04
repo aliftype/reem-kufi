@@ -41,6 +41,37 @@ ref = macroncomb;
 }
 );
 width = 368;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "C145DD3A-D912-48E0-9747-73C008733956";
+name = "4 Nov 24 at 10:39";
+shapes = (
+{
+alignment = -1;
+pos = (19,87);
+ref = macroncomb;
+}
+);
+width = 368;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "70CDBF28-B48C-44AD-A156-A6DE734742E3";
+name = "4 Nov 24 at 10:39";
+shapes = (
+{
+pos = (0,126);
+ref = macroncomb;
+}
+);
+width = 355;
 }
 );
 }

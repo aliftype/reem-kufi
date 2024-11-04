@@ -39,6 +39,33 @@ ref = hookabovecomb;
 }
 );
 width = 336;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "1FDA527B-8676-4D31-86E9-649559A78B1F";
+shapes = (
+{
+alignment = -1;
+ref = hookabovecomb;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "073FB20A-1BC1-4161-B402-D45ABDC94EFF";
+shapes = (
+{
+ref = hookabovecomb;
+}
+);
+width = 600;
 }
 );
 }

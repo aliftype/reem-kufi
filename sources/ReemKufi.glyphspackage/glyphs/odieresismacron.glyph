@@ -10,11 +10,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (44,20);
+pos = (64,20);
 ref = dieresiscomb;
 },
 {
-pos = (136,208);
+pos = (108,208);
 ref = macroncomb;
 }
 );
@@ -36,6 +36,78 @@ ref = dieresiscomb;
 alignment = -1;
 pos = (110,189);
 ref = macroncomb;
+}
+);
+width = 549;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "C508C212-93E3-4C7B-9F63-7AF5D2BB99AE";
+name = "4 Nov 24 at 00:14";
+shapes = (
+{
+alignment = -1;
+pos = (64,20);
+ref = dieresiscomb;
+},
+{
+alignment = -1;
+pos = (108,208);
+ref = macroncomb;
+}
+);
+width = 571;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "EF761994-A017-4CA5-ACE3-DA04F7016F00";
+name = "4 Nov 24 at 00:14";
+shapes = (
+{
+alignment = -1;
+pos = (51,14);
+ref = dieresiscomb;
+},
+{
+alignment = -1;
+pos = (110,189);
+ref = macroncomb;
+}
+);
+width = 549;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = "*";
+};
+layerId = "689C6630-F93F-46F1-80A7-A4056B98C487";
+name = "Color 0 4 Nov 24 at 10:40";
+shapes = (
+{
+alignment = -1;
+ref = o;
+}
+);
+width = 571;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = "*";
+};
+layerId = "A02DE9A9-6DAC-45C6-AAB4-37F7FF3FAFB4";
+name = "Color 0 4 Nov 24 at 10:40";
+shapes = (
+{
+alignment = -1;
+ref = o;
 }
 );
 width = 549;

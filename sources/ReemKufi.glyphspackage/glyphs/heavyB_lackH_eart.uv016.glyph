@@ -1,0 +1,57 @@
+{
+glyphname = heavyBlackHeart.uv016;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = heavyBlackHeart;
+}
+);
+width = 888;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+alignment = 1;
+ref = heavyBlackHeart;
+}
+);
+width = 888;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "41F91FA1-40B3-4541-BE47-00D26ED70828";
+name = "4 Nov 24 at 00:25";
+shapes = (
+{
+alignment = 1;
+ref = heavyBlackHeart;
+}
+);
+width = 888;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "8D00B638-BC7C-45CC-89B1-4F06D479CAE2";
+name = "4 Nov 24 at 00:25";
+shapes = (
+{
+alignment = 1;
+ref = heavyBlackHeart;
+}
+);
+width = 888;
+}
+);
+metricLeft = "=28";
+metricRight = "=28";
+}

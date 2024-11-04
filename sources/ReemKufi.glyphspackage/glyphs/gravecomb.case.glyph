@@ -41,6 +41,35 @@ ref = grave;
 }
 );
 width = 281;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "C29DA0F8-B279-48FD-BBFE-F4EB237F444D";
+shapes = (
+{
+alignment = -1;
+pos = (0,87);
+ref = grave;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "F2639DF5-6450-42AB-93AD-BCE23904F53F";
+shapes = (
+{
+pos = (0,93);
+ref = grave;
+}
+);
+width = 317;
 }
 );
 }

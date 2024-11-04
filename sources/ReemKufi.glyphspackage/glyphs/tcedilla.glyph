@@ -8,7 +8,6 @@ shapes = (
 ref = t;
 },
 {
-pos = (55,0);
 ref = cedillacomb;
 }
 );

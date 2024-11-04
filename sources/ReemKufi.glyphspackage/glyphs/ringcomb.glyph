@@ -40,6 +40,34 @@ ref = ring;
 }
 );
 width = 354;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "9D26E8DB-A5D1-4B95-9F71-4037C2BD6C88";
+shapes = (
+{
+alignment = -1;
+pos = (19,0);
+ref = ring;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "241F4986-CC4A-482E-8C3C-8C0FD695DAB1";
+shapes = (
+{
+ref = ring;
+}
+);
+width = 289;
 }
 );
 unicode = 778;

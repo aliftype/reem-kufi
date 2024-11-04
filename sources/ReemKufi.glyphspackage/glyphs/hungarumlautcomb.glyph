@@ -40,6 +40,34 @@ ref = hungarumlaut;
 }
 );
 width = 478;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "4F0995B6-97B1-4846-823A-F05E840C7FEA";
+shapes = (
+{
+alignment = -1;
+pos = (-2,0);
+ref = hungarumlaut;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "1E6B4CCE-64BA-4302-83BF-13CE079FFB18";
+shapes = (
+{
+ref = hungarumlaut;
+}
+);
+width = 634;
 }
 );
 unicode = 779;

@@ -39,6 +39,33 @@ ref = breve;
 }
 );
 width = 407;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "06680C45-8CF0-4B0B-B704-AD09AF3CDEE7";
+shapes = (
+{
+alignment = -1;
+ref = breve;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "AB3ABE4B-C6EE-46A1-8295-0F4E081B2B0F";
+shapes = (
+{
+ref = breve;
+}
+);
+width = 435;
 }
 );
 }

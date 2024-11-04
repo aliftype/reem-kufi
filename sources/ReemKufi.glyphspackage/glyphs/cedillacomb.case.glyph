@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = _bottom;
-pos = (122,0);
+pos = (185,0);
 },
 {
 name = bottom;
-pos = (124,-231);
+pos = (187,-231);
 }
 );
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";

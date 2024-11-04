@@ -39,6 +39,55 @@ ref = grave;
 }
 );
 width = 281;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (167,418);
+},
+{
+name = top;
+pos = (120,620);
+}
+);
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "485A9C07-5EB7-449E-8383-36F854099BED";
+name = "4 Nov 24 at 10:36";
+shapes = (
+{
+alignment = -1;
+ref = grave;
+}
+);
+width = 281;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (206,437);
+},
+{
+name = top;
+pos = (157,624);
+}
+);
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "DF943EDD-59D6-4759-BBB3-CF49C1D043DE";
+name = "4 Nov 24 at 10:36";
+shapes = (
+{
+ref = grave;
+}
+);
+width = 317;
 }
 );
 unicode = 768;

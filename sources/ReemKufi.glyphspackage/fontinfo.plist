@@ -756,42 +756,52 @@ value = -300;
 );
 guides = (
 {
+locked = 1;
 name = "800";
 pos = (0,800);
 },
 {
+locked = 1;
 name = "700";
 pos = (0,700);
 },
 {
+locked = 1;
 name = "600";
 pos = (0,600);
 },
 {
+locked = 1;
 name = "500";
 pos = (0,500);
 },
 {
+locked = 1;
 name = "400";
 pos = (0,400);
 },
 {
+locked = 1;
 name = "300";
 pos = (0,340);
 },
 {
+locked = 1;
 name = "200";
 pos = (0,200);
 },
 {
+locked = 1;
 name = "100";
 pos = (0,140);
 },
 {
+locked = 1;
 name = "-100";
 pos = (0,-100);
 },
 {
+locked = 1;
 name = "-200";
 pos = (0,-200);
 }

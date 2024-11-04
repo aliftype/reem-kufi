@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (99,535);
+pos = (119,535);
 },
 {
 name = top;
-pos = (100,701);
+pos = (119,701);
 }
 );
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
@@ -41,6 +41,37 @@ ref = dotaccent;
 }
 );
 width = 208;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "48C8AD5A-4D58-41F5-AF0B-BAA2E54B38C2";
+name = "4 Nov 24 at 10:33";
+shapes = (
+{
+alignment = -1;
+pos = (-14,61);
+ref = dotaccentcomb;
+}
+);
+width = 208;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "BDE391DF-CDB6-4D7F-8132-84498AE60631";
+name = "4 Nov 24 at 10:34";
+shapes = (
+{
+pos = (0,18);
+ref = dotaccentcomb;
+}
+);
+width = 238;
 }
 );
 }

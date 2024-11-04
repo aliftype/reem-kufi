@@ -30,6 +30,63 @@ ref = hungarumlautcomb;
 }
 );
 width = 549;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "B5B7A3A9-9790-47D0-A83F-5DCEF4BBD0DD";
+shapes = (
+{
+alignment = -1;
+pos = (106,14);
+ref = hungarumlautcomb;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = "*";
+};
+layerId = "A67D5F9E-143E-42EC-8ACB-1E576E65C49F";
+shapes = (
+{
+alignment = -1;
+ref = o;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "73EC232D-DC6B-45B5-A2F0-4B1F87EA8F2D";
+shapes = (
+{
+alignment = -1;
+pos = (86,20);
+ref = hungarumlautcomb;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = "*";
+};
+layerId = "A380737F-FABB-4117-BA58-966AE397C4C5";
+shapes = (
+{
+ref = o;
+}
+);
+width = 571;
 }
 );
 unicode = 337;

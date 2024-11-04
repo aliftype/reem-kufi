@@ -28,6 +28,63 @@ ref = gravecomb;
 }
 );
 width = 259;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "229E3667-E749-4674-949F-B49482845ADD";
+shapes = (
+{
+alignment = -1;
+pos = (-36,0);
+ref = gravecomb;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = "*";
+};
+layerId = "AA8FF7A5-99C3-4FAD-9F84-5E086A64A069";
+shapes = (
+{
+alignment = -1;
+ref = idotless;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "EA8EB32D-8507-4CDB-AC50-7FD7606976D2";
+shapes = (
+{
+alignment = -1;
+pos = (-62,0);
+ref = gravecomb;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = "*";
+};
+layerId = "2312AC06-75CF-42B2-8315-D3D5B3447417";
+shapes = (
+{
+ref = idotless;
+}
+);
+width = 284;
 }
 );
 unicode = 236;

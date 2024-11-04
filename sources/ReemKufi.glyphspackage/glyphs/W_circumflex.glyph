@@ -30,6 +30,63 @@ ref = circumflexcomb.case;
 }
 );
 width = 1010;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = 0;
+};
+layerId = "86DCE446-28C6-4C66-8564-621103967043";
+shapes = (
+{
+alignment = -1;
+pos = (292,284);
+ref = circumflexcomb.case;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = master01;
+attr = {
+colorPalette = "*";
+};
+layerId = "4993F269-2623-4E30-9698-3C8036C7AA8B";
+shapes = (
+{
+alignment = -1;
+ref = W;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = 0;
+};
+layerId = "4846F3FC-C523-4F53-8D65-40EB9646E16D";
+shapes = (
+{
+alignment = -1;
+pos = (306,297);
+ref = circumflexcomb.case;
+}
+);
+width = 600;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+colorPalette = "*";
+};
+layerId = "E6134BF0-7419-4AD7-8B3C-7FE112BCE2D5";
+shapes = (
+{
+ref = W;
+}
+);
+width = 1023;
 }
 );
 unicode = 372;
