@@ -3,4 +3,4 @@ fontmake[pathops]
 glyphsLib>=v6.0.0
 nanoemoji>=0.9.11
 picosvg
-alifTools[sample,filters] @ git+https://github.com/aliftype/tools.git@79141df976ecefbcbb2b4018f076eada289c5e82
+alifTools[sample,filters] @ git+https://github.com/aliftype/tools.git@c80341be4cc707bd88803820cf946f0e43a03fc6

@@ -8,7 +8,7 @@ absl-py==2.1.0
     # via
     #   nanoemoji
     #   picosvg
-aliftools @ git+https://github.com/aliftype/tools.git@79141df976ecefbcbb2b4018f076eada289c5e82
+aliftools @ git+https://github.com/aliftype/tools.git@c80341be4cc707bd88803820cf946f0e43a03fc6
     # via
     #   -r requirements.in
     #   aliftools
@@ -92,7 +92,7 @@ ufolib2==0.16.1
     #   fontmake
     #   glyphslib
     #   nanoemoji
-uharfbuzz==0.41.1
+uharfbuzz==0.44.0
     # via
     #   aliftools
     #   blackrenderer
