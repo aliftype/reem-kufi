@@ -55,7 +55,7 @@ pos = (307,457);
 ref = acutecomb.case;
 }
 );
-width = 600;
+width = 700;
 },
 {
 associatedMasterId = master01;
@@ -88,7 +88,7 @@ pos = (268,458);
 ref = acutecomb.case;
 }
 );
-width = 600;
+width = 696;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";

@@ -44,7 +44,7 @@ pos = (102,-10);
 ref = caroncomb;
 }
 );
-width = 600;
+width = 560;
 },
 {
 associatedMasterId = master01;
@@ -58,7 +58,7 @@ alignment = -1;
 ref = n;
 }
 );
-width = 600;
+width = 560;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";

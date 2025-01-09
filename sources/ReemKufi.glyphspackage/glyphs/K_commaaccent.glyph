@@ -42,7 +42,7 @@ pos = (186,-14);
 ref = commaaccentcomb.case;
 }
 );
-width = 600;
+width = 683;
 },
 {
 associatedMasterId = master01;
@@ -56,7 +56,7 @@ alignment = -1;
 ref = K;
 }
 );
-width = 600;
+width = 683;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
@@ -71,7 +71,7 @@ pos = (183,-20);
 ref = commaaccentcomb.case;
 }
 );
-width = 600;
+width = 704;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";

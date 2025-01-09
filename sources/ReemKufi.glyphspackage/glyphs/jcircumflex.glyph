@@ -42,7 +42,7 @@ pos = (-69,-9);
 ref = circumflexcomb;
 }
 );
-width = 600;
+width = 265;
 },
 {
 associatedMasterId = master01;
@@ -56,7 +56,7 @@ alignment = -1;
 ref = jdotless;
 }
 );
-width = 600;
+width = 265;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
@@ -71,7 +71,7 @@ pos = (-46,0);
 ref = circumflexcomb;
 }
 );
-width = 600;
+width = 295;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";

@@ -52,7 +52,7 @@ alignment = -1;
 ref = dblgravecomb;
 }
 );
-width = 600;
+width = 484;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
@@ -62,10 +62,11 @@ colorPalette = 0;
 layerId = "B3026406-0395-478B-8CED-0A6FF1CB9F40";
 shapes = (
 {
+alignment = -1;
 ref = dblgravecomb;
 }
 );
-width = 600;
+width = 634;
 }
 );
 }

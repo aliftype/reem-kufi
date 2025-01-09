@@ -44,7 +44,7 @@ pos = (92,7);
 ref = macroncomb;
 }
 );
-width = 600;
+width = 500;
 },
 {
 associatedMasterId = master01;
@@ -58,7 +58,7 @@ alignment = -1;
 ref = y;
 }
 );
-width = 600;
+width = 500;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
@@ -73,7 +73,7 @@ pos = (99,10);
 ref = macroncomb;
 }
 );
-width = 600;
+width = 534;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";

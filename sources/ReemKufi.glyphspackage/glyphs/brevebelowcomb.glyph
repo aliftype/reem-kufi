@@ -55,7 +55,7 @@ pos = (0,-701);
 ref = brevecomb;
 }
 );
-width = 600;
+width = 458;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
@@ -65,11 +65,12 @@ colorPalette = 0;
 layerId = "8CF32DD8-D403-4060-B774-E6F9CBFF9C37";
 shapes = (
 {
+alignment = -1;
 pos = (0,-706);
 ref = brevecomb;
 }
 );
-width = 600;
+width = 435;
 }
 );
 unicode = 814;

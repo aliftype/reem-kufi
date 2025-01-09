@@ -55,7 +55,7 @@ pos = (-19,-629);
 ref = macron;
 }
 );
-width = 600;
+width = 350;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";

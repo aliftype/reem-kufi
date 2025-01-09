@@ -1,6 +1,6 @@
 fonttools
-fontmake[pathops]
-glyphsLib>=v6.0.0
-nanoemoji>=0.9.11
+fontmake
+glyphsLib
+nanoemoji
 picosvg
-alifTools[sample,filters] @ git+https://github.com/aliftype/tools.git@c80341be4cc707bd88803820cf946f0e43a03fc6
+alifTools[sample,filters]

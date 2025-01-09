@@ -70,7 +70,7 @@ pos = (232,0);
 ref = grave;
 }
 );
-width = 600;
+width = 484;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
@@ -85,11 +85,12 @@ pos = (90,0);
 ref = grave;
 },
 {
+alignment = -1;
 pos = (297,0);
 ref = grave;
 }
 );
-width = 600;
+width = 634;
 }
 );
 unicode = 783;

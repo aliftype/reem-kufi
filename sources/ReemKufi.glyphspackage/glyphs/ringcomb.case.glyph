@@ -54,7 +54,7 @@ pos = (0,25);
 ref = ring;
 }
 );
-width = 600;
+width = 331;
 },
 {
 associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
