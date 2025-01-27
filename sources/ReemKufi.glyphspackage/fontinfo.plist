@@ -1,5 +1,5 @@
 {
-.appVersion = "3340";
+.appVersion = "3341";
 .formatVersion = 3;
 axes = (
 {
@@ -2409,7 +2409,7 @@ key = sampleTexts;
 values = (
 {
 language = dflt;
-value = "ريم على القاع بين البان و العلم   أحل سفك دمي في الأشهر الحرم";
+value = "ريم على القــاع بين البــان و العـلم   أحل سفك دمي في الأشهر الحرم";
 }
 );
 },
