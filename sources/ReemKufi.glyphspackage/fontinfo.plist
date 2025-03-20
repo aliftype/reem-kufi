@@ -1,5 +1,5 @@
 {
-.appVersion = "3341";
+.appVersion = "3343";
 .formatVersion = 3;
 axes = (
 {
@@ -44,12 +44,6 @@ value = 0;
 {
 name = "Write DisplayStrings";
 value = 0;
-},
-{
-name = "gasp Table";
-value = {
-"65535" = 15;
-};
 },
 {
 name = "Color Palettes";
