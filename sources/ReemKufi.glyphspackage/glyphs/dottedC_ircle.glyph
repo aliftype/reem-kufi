@@ -12,6 +12,10 @@ name = center;
 pos = (293,244);
 },
 {
+name = dotAbove;
+pos = (293,609);
+},
+{
 name = hamzaAbove;
 pos = (293,609);
 },
@@ -258,6 +262,10 @@ pos = (293,-22);
 {
 name = center;
 pos = (293,244);
+},
+{
+name = dotAbove;
+pos = (293,609);
 },
 {
 name = hamzaAbove;
