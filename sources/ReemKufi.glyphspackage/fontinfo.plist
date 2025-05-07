@@ -141,6 +141,7 @@ feature ccmp {
 	sub noonghunna-ar by noonghunna-ar.isol;
     sub noon-ar by noonghunna-ar.isol dotabove-ar;
 	sub heh-ar by heh-ar.isol;
+	sub hehDoachashmee-ar by hehDoachashmee-ar.isol;
     sub hehHamzaabove-ar by heh-ar.isol hamzaabove-ar;
     sub hehgoalHamzaabove-ar by heh-ar.isol hamzaabove-ar;
 	sub ae-ar by ae-ar.isol;
