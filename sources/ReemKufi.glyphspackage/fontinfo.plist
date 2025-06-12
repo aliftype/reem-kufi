@@ -1,5 +1,5 @@
 {
-.appVersion = "3402";
+.appVersion = "3414";
 .formatVersion = 3;
 axes = (
 {
@@ -840,6 +840,31 @@ visible = 1;
 }
 );
 instances = (
+{
+customParameters = (
+{
+name = "Name Table Entry";
+value = "4; Reem Kufi";
+}
+);
+name = Variable;
+properties = (
+{
+key = postscriptFontName;
+value = ReemKufi;
+},
+{
+key = postscriptFullNames;
+values = (
+{
+language = ENG;
+value = "Reem Kufi";
+}
+);
+}
+);
+type = variable;
+},
 {
 axesValues = (
 108

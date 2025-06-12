@@ -7,14 +7,11 @@ def process(args):
     font = TTFont(args.input)
     name = font["name"]
     for rec in name.names:
-        if rec.nameID == 1:
+        if rec.nameID in (1, 4):
             rec.string = str(rec) + " " + args.suffix
-        elif rec.nameID == 4:
-            base, style = str(rec).rsplit(" ", 1)
-            rec.string = f"{base} {args.suffix} {style}"
         elif rec.nameID in (3, 6):
-            base, style = str(rec).split("-")
-            rec.string = f"{base}{args.suffix}-{style}"
+            name = str(rec)
+            rec.string = str(rec) + args.suffix
         elif rec.nameID == 0:
             rec.string = str(rec).replace("Kufi", f"Kufi {args.suffix}")
         elif "-" in str(rec):
