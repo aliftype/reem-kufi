@@ -37,6 +37,7 @@ SVG = FontSample.svg
 GLYPHSFILE = ${SOURCEDIR}/${NAME}.glyphspackage
 
 export SOURCE_DATE_EPOCH ?= $(shell stat -c "%Y" ${GLYPHSFILE})
+export PYTHONWARNINGS ?= ignore
 
 TAG = $(shell git describe --tags --abbrev=0)
 VERSION = ${TAG:v%=%}
