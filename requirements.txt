@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-absl-py==2.3.0
+absl-py==2.3.1
     # via
     #   nanoemoji
     #   picosvg
@@ -28,7 +28,7 @@ fontmath==0.9.4
     # via
     #   fontmake
     #   ufo2ft
-fonttools[lxml,ufo,unicode]==4.58.4
+fonttools[lxml,ufo,unicode]==4.58.5
     # via
     #   -r requirements.in
     #   aliftools
@@ -44,7 +44,7 @@ fonttools[lxml,ufo,unicode]==4.58.4
     #   ufolib2
 fs==2.4.16
     # via fonttools
-glyphslib==6.11.0
+glyphslib==6.11.1
     # via
     #   -r requirements.in
     #   fontmake
@@ -79,12 +79,12 @@ skia-pathops==0.8.0.post2
     # via picosvg
 toml==0.10.2
     # via nanoemoji
-ufo2ft[cffsubr,compreffor]==3.5.0
+ufo2ft[cffsubr,compreffor]==3.5.1
     # via
     #   aliftools
     #   fontmake
     #   nanoemoji
-ufolib2==0.17.1
+ufolib2==0.18.1
     # via
     #   fontmake
     #   glyphslib
