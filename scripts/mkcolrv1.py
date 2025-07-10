@@ -50,7 +50,6 @@ def copy_glyf_glyphs(colr_font, base_font):
 def make(args):
     base_font = TTFont(args.base)
     colr_font = TTFont(args.colr)
-    svg_font = TTFont(args.svg)
 
     base_go = base_font.getGlyphOrder()
     colr_go = colr_font.getGlyphOrder()
@@ -64,8 +63,6 @@ def make(args):
     # Copy color tables
     for tag in {"COLR", "CPAL"}:
         base_font[tag] = copy.deepcopy(colr_font[tag])
-    for tag in {"SVG "}:
-        base_font[tag] = copy.deepcopy(svg_font[tag])
 
     color_map = {
         "#404040FF": "#8E0B14FF", # reddish ink
@@ -81,10 +78,6 @@ def make(args):
         else:
             palettes[-1].append(color)
     base_font["CPAL"].palettes = [palettes[1], palettes[0]]
-
-    for doc in base_font["SVG "].docList:
-        for old, new in color_map.items():
-            doc.data = doc.data.replace(old[:-2], new[:-2])
 
     name = base_font["name"]
     psname = args.output.stem
@@ -106,7 +99,6 @@ def main():
     parser = argparse.ArgumentParser(description="Rename Reem Kufi color fonts.")
     parser.add_argument("base", metavar="FILE", help="input font to process")
     parser.add_argument("colr", metavar="FILE", help="COLRv1 font to copy tables from")
-    parser.add_argument("svg", metavar="FILE", help="SVG font to copy tables from")
     parser.add_argument("output", type=Path, help="output font to write")
 
     args = parser.parse_args()
