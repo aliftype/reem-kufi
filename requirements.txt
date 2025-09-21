@@ -8,10 +8,8 @@ absl-py==2.3.1
     # via
     #   nanoemoji
     #   picosvg
-aliftools[filters,sample]==0.1.3
+aliftools[filters,sample]==0.1.4
     # via -r requirements.in
-appdirs==1.4.4
-    # via fs
 attrs==25.3.0
     # via ufolib2
 blackrenderer==0.6.0
@@ -22,13 +20,13 @@ cffsubr==0.3.0
     # via ufo2ft
 compreffor==0.5.6
     # via ufo2ft
-fontmake==3.10.1
+fontmake==3.11.0
     # via -r requirements.in
 fontmath==0.9.4
     # via
     #   fontmake
     #   ufo2ft
-fonttools[lxml,ufo,unicode]==4.58.5
+fonttools[lxml,ufo,unicode]==4.60.0
     # via
     #   -r requirements.in
     #   aliftools
@@ -42,20 +40,18 @@ fonttools[lxml,ufo,unicode]==4.58.5
     #   nanoemoji
     #   ufo2ft
     #   ufolib2
-fs==2.4.16
-    # via fonttools
-glyphslib==6.11.1
+glyphslib==6.11.6
     # via
     #   -r requirements.in
     #   fontmake
-lxml==6.0.0
+lxml==6.0.1
     # via
     #   fonttools
     #   nanoemoji
     #   picosvg
 nanoemoji==0.15.8
     # via -r requirements.in
-ninja==1.11.1.4
+ninja==1.13.0
     # via nanoemoji
 openstep-plist==0.5.0
     # via glyphslib
@@ -69,17 +65,15 @@ pngquant-cli==3.0.3
     # via nanoemoji
 pyclipper==1.3.0.post6
     # via booleanoperations
-regex==2024.11.6
+regex==2025.9.18
     # via nanoemoji
 resvg-cli==0.44.0
     # via nanoemoji
-six==1.17.0
-    # via fs
 skia-pathops==0.8.0.post2
     # via picosvg
 toml==0.10.2
     # via nanoemoji
-ufo2ft[cffsubr,compreffor]==3.5.1
+ufo2ft[cffsubr,compreffor]==3.6.5
     # via
     #   aliftools
     #   fontmake
@@ -89,12 +83,9 @@ ufolib2==0.18.1
     #   fontmake
     #   glyphslib
     #   nanoemoji
-uharfbuzz==0.50.2
+uharfbuzz==0.51.5
     # via
     #   aliftools
     #   blackrenderer
 zopfli==0.2.3.post1
     # via nanoemoji
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools
