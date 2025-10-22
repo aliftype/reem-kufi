@@ -8,9 +8,9 @@ absl-py==2.3.1
     # via
     #   nanoemoji
     #   picosvg
-aliftools[filters,sample]==0.1.4
+aliftools[filters,sample]==0.1.6
     # via -r requirements.in
-attrs==25.3.0
+attrs==25.4.0
     # via ufolib2
 blackrenderer==0.6.0
     # via aliftools
@@ -26,7 +26,7 @@ fontmath==0.9.4
     # via
     #   fontmake
     #   ufo2ft
-fonttools[lxml,ufo,unicode]==4.60.0
+fonttools[lxml,ufo,unicode]==4.60.1
     # via
     #   -r requirements.in
     #   aliftools
@@ -40,32 +40,32 @@ fonttools[lxml,ufo,unicode]==4.60.0
     #   nanoemoji
     #   ufo2ft
     #   ufolib2
-glyphslib==6.11.6
+glyphslib==6.12.1
     # via
     #   -r requirements.in
     #   fontmake
-lxml==6.0.1
+lxml==6.0.2
     # via
     #   fonttools
     #   nanoemoji
     #   picosvg
-nanoemoji==0.15.8
+nanoemoji==0.15.9
     # via -r requirements.in
 ninja==1.13.0
     # via nanoemoji
-openstep-plist==0.5.0
+openstep-plist==0.5.1
     # via glyphslib
 picosvg==0.22.3
     # via
     #   -r requirements.in
     #   nanoemoji
-pillow==11.3.0
+pillow==12.0.0
     # via nanoemoji
 pngquant-cli==3.0.3
     # via nanoemoji
 pyclipper==1.3.0.post6
     # via booleanoperations
-regex==2025.9.18
+regex==2025.10.23
     # via nanoemoji
 resvg-cli==0.44.0
     # via nanoemoji
@@ -73,7 +73,7 @@ skia-pathops==0.8.0.post2
     # via picosvg
 toml==0.10.2
     # via nanoemoji
-ufo2ft[cffsubr,compreffor]==3.6.5
+ufo2ft[cffsubr,compreffor]==3.6.8
     # via
     #   aliftools
     #   fontmake
@@ -83,7 +83,7 @@ ufolib2==0.18.1
     #   fontmake
     #   glyphslib
     #   nanoemoji
-uharfbuzz==0.51.5
+uharfbuzz==0.52.0
     # via
     #   aliftools
     #   blackrenderer
