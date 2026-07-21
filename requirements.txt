@@ -59,7 +59,7 @@ picosvg==0.22.3
     # via
     #   -r requirements.in
     #   nanoemoji
-pillow==12.2.0
+pillow==12.3.0
     # via nanoemoji
 pngquant-cli==3.0.3
     # via nanoemoji
