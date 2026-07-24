@@ -1,0 +1,33 @@
+{
+glyphname = zero.zero;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = zero;
+},
+{
+pos = (227,46);
+ref = periodcentered;
+}
+);
+width = 628;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = zero;
+},
+{
+alignment = -1;
+pos = (225,45);
+ref = periodcentered;
+}
+);
+width = 624;
+}
+);
+}

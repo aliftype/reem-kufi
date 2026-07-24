@@ -1,0 +1,56 @@
+{
+glyphname = Ecircumflexgrave;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (257,1003);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (147,319);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (-39,430);
+ref = gravecomb;
+}
+);
+width = 666;
+},
+{
+anchors = (
+{
+name = top;
+pos = (259,1005);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+alignment = -1;
+pos = (123,305);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (7,422);
+ref = gravecomb;
+}
+);
+width = 655;
+}
+);
+unicode = 7872;
+}

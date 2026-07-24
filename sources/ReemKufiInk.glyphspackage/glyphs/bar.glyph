@@ -1,0 +1,36 @@
+{
+glyphname = bar;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,-237,l),
+(214,-237,l),
+(214,714,l),
+(88,714,l)
+);
+}
+);
+width = 306;
+},
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(91,-235,l),
+(183,-235,l),
+(183,710,l),
+(91,710,l)
+);
+}
+);
+width = 279;
+}
+);
+unicode = 124;
+}

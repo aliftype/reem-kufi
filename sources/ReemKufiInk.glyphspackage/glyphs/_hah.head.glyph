@@ -1,0 +1,60 @@
+{
+export = 0;
+glyphname = _hah.head;
+layers = (
+{
+anchors = (
+{
+name = dotAbove;
+pos = (142,500);
+},
+{
+name = markAbove;
+pos = (142,500);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(411,-123,l),
+(142,359,l),
+(-25,359,l),
+(25,259,l),
+(70,259,l),
+(328,-200,l)
+);
+}
+);
+width = 378;
+},
+{
+anchors = (
+{
+name = dotAbove;
+pos = (180,500);
+},
+{
+name = markAbove;
+pos = (180,500);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(431,-110,l),
+(169,359,l),
+(-25,359,l),
+(45,219,l),
+(99,219,l),
+(335,-201,l)
+);
+}
+);
+width = 418;
+}
+);
+}

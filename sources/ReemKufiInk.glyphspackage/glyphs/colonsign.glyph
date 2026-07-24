@@ -1,0 +1,61 @@
+{
+glyphname = colonsign;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(426,818,l),
+(96,-75,l),
+(222,-75,l),
+(552,818,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(606,818,l),
+(276,-75,l),
+(402,-75,l),
+(732,818,l)
+);
+},
+{
+ref = C;
+}
+);
+width = 697;
+},
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(444,792,l),
+(130,-58,l),
+(222,-58,l),
+(536,792,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(605,793,l),
+(291,-58,l),
+(383,-58,l),
+(696,793,l)
+);
+},
+{
+alignment = -1;
+ref = C;
+}
+);
+width = 695;
+}
+);
+unicode = 8353;
+}

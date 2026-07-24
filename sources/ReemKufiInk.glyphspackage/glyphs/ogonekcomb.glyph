@@ -1,0 +1,38 @@
+{
+glyphname = ogonekcomb;
+layers = (
+{
+anchors = (
+{
+name = _ogonek;
+pos = (358,10);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = ogonek;
+}
+);
+width = 384;
+},
+{
+anchors = (
+{
+name = _ogonek;
+pos = (314,10);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (15,0);
+ref = ogonek;
+}
+);
+width = 362;
+}
+);
+unicode = 808;
+}

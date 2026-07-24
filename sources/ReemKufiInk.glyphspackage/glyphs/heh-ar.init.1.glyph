@@ -1,0 +1,119 @@
+{
+glyphname = "heh-ar.init.1";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(394,400,l),
+(295,378,l),
+(295,272,l),
+(394,240,l)
+);
+},
+{
+ref = "heh-ar.init";
+}
+);
+width = 419;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(394,440,l),
+(255,409,l),
+(255,303,l),
+(394,280,l)
+);
+},
+{
+ref = "heh-ar.init";
+}
+);
+width = 419;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "33ADAEB1-4963-4994-BBCC-F5B79CA6D747";
+name = Color;
+shapes = (
+{
+ref = "heh-ar.init";
+},
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.2278,0.6556);
+start = (0.6051,1.1497);
+};
+};
+closed = 1;
+nodes = (
+(394,400,l),
+(295,378,l),
+(295,172,l),
+(394,140,l)
+);
+}
+);
+width = 419;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "4C4FAAAB-F9E4-414B-B6C8-56A33B3600F3";
+name = Color;
+shapes = (
+{
+ref = "heh-ar.init";
+},
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.2425,0.5407);
+start = (0.6051,1.1497);
+};
+};
+closed = 1;
+nodes = (
+(394,440,l),
+(255,409,l),
+(255,263,l),
+(394,240,l)
+);
+}
+);
+width = 419;
+}
+);
+}

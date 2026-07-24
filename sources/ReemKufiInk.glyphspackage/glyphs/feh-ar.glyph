@@ -1,0 +1,34 @@
+{
+category = Placeholder;
+glyphname = "feh-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "fehDotless-ar.isol";
+},
+{
+pos = (617,600);
+ref = "dotabove-ar";
+}
+);
+width = 850;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "fehDotless-ar.isol";
+},
+{
+pos = (597,600);
+ref = "dotabove-ar";
+}
+);
+width = 850;
+}
+);
+script = "";
+unicode = 1601;
+}

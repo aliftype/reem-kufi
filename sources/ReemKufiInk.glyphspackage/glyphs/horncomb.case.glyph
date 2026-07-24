@@ -1,0 +1,63 @@
+{
+glyphname = horncomb.case;
+layers = (
+{
+anchors = (
+{
+name = _topright;
+pos = (56,656);
+},
+{
+name = topright;
+pos = (50,470);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,470,l),
+(143,470,o),
+(200,497,o),
+(222,627,c),
+(119,627,l),
+(107,570,o),
+(97,553,o),
+(50,553,c)
+);
+}
+);
+width = 267;
+},
+{
+anchors = (
+{
+name = _topright;
+pos = (62,641);
+},
+{
+name = topright;
+pos = (76,441);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,470,l),
+(136,470,o),
+(190,493,o),
+(205,619,c),
+(130,619,l),
+(122,552,o),
+(104,532,o),
+(50,532,c)
+);
+}
+);
+width = 267;
+}
+);
+}

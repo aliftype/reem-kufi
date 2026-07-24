@@ -15,7 +15,7 @@
 
 NAME = ReemKufi
 COLRv0 = Fun
-COLRv1 = Ink
+COLRv1 = ${NAME}Ink
 
 SHELL = bash
 MAKEFLAGS := -srj
@@ -29,7 +29,7 @@ BUILDDIR = build
 FONTS = \
 	${NAME} \
 	${NAME}${COLRv0} \
-	${NAME}${COLRv1}-Regular # ${NAME}${COLRv1}-Bold
+	${COLRv1}
 
 TTF = $(FONTS:%=${FONTDIR}/%.ttf)
 SVG = FontSample.svg
@@ -46,17 +46,15 @@ DIST = ${NAME}-${VERSION}
 define generate_fonts
 mkdir -p $(dir $(3));
 ${PYTHON} -m fontmake                                                          \
-    --mm-designspace $(2)                                                      \
     --output $(1)                                                              \
     --output-path $(3)                                                         \
-    $(if $(4),--interpolate '.* $(4)',)                                        \
     --verbose WARNING                                                          \
     --overlaps-backend pathops                                                 \
-    --optimize-cff 1                                                           \
     --flatten-components                                                       \
     --filter ...                                                               \
     --filter "alifTools.filters::ClearPlaceholdersFilter()"                    \
     --filter "alifTools.filters::FontVersionFilter(fontVersion=${VERSION})"    \
+    $(2)                                                                       \
     ;
 endef
 
@@ -71,58 +69,11 @@ doc: ${SVG}
 
 .SECONDARY:
 
-SVGS_ = $(notdir $(wildcard $(SOURCEDIR)/svg/Regular/*.svg))
-SVGS = ${SVGS_:%=\%/%}
-
-COLRDIR = ${BUILDDIR}/colr
-
-
-${COLRDIR}/%.svg: ${SOURCEDIR}/svg/%.svg
-	$(info   PICO   ${@F})
-	mkdir -p ${@D}
-	picosvg --output_file $@ $<
-
-${COLRDIR}/%/colr.toml: colr.toml
-	mkdir -p ${@D}
-	cp $< $@
-
-%/colr.fea:
-	mkdir -p ${@D}
-	touch $@
-
-%/glyphmap.csv: ${GLYPHSFILE}
-	mkdir -p ${@D}
-	${PYTHON} ${SCRIPTDIR}/mkglyphmap.py $< ${@D}
-
-%/colr.ttf: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
+${FONTDIR}/${COLRv1}.ttf: ${SOURCEDIR}/${COLRv1}.glyphspackage
 	$(info   MAKE   ${@F})
-	${PYTHON} -m nanoemoji.write_font -v -1 \
-		      --config_file $< \
-		      --glyphmap_file $*/glyphmap.csv \
-		      --color_format glyf_colr_1 \
-		      --fea_file $*/colr.fea \
-		      --output_file $@
+	$(call generate_fonts,variable,$<,$@)
 
-%/colr.ufo: %/colr.toml %/glyphmap.csv %/colr.fea ${SVGS}
-	$(info   MAKE   ${@F})
-	${PYTHON} -m nanoemoji.write_font -v -1 \
-		      --config_file $< \
-		      --glyphmap_file $*/glyphmap.csv \
-		      --fea_file $*/colr.fea \
-		      --output_file $@
-
-${FONTDIR}/${NAME}${COLRv1}-%.ttf: ${BUILDDIR}/${NAME}.designspace ${COLRDIR}/%/colr.ttf
-	$(info   MAKE   ${@F})
-	$(call generate_fonts,ttf,$<,$@,$(*F))
-	${PYTHON} ${SCRIPTDIR}/mknocolr.py $@ $@
-	${PYTHON} ${SCRIPTDIR}/mkcolrv1.py $@ ${COLRDIR}/$*/colr.ttf $@
-
-${FONTDIR}/${NAME}${COLRv0}.ttf: ${BUILDDIR}/${NAME}.ttf
-	$(info   MAKE   ${@F})
-	mkdir -p ${@D}
-	${PYTHON} ${SCRIPTDIR}/mkcolrv0.py $< $@ ${COLRv0}
-
-${BUILDDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.designspace
+${BUILDDIR}/${NAME}.ttf: ${SOURCEDIR}/${NAME}.glyphspackage
 	$(info   MAKE   ${@F})
 	$(call generate_fonts,variable,$<,$@)
 
@@ -130,16 +81,10 @@ ${FONTDIR}/${NAME}.ttf: ${BUILDDIR}/${NAME}.ttf
 	mkdir -p ${@D}
 	${PYTHON} ${SCRIPTDIR}/mknocolr.py $< $@
 
-${BUILDDIR}/${NAME}.designspace: ${GLYPHSFILE}
-	$(info   GEN    ${@F})
-	${PYTHON} -m glyphsLib glyphs2ufo \
-		    -m ${BUILDDIR} \
-		    --minimal \
-		    --generate-GDEF \
-		    --write-public-skip-export-glyphs \
-		    --no-preserve-glyphsapp-metadata \
-		    --no-store-editor-state \
-		    $<
+${FONTDIR}/${NAME}${COLRv0}.ttf: ${BUILDDIR}/${NAME}.ttf
+	$(info   MAKE   ${@F})
+	mkdir -p ${@D}
+	${PYTHON} ${SCRIPTDIR}/mkcolrv0.py $< $@ ${COLRv0}
 
 ${SVG}: ${FONTDIR}/${NAME}.ttf
 	$(info   SVG    ${@F})

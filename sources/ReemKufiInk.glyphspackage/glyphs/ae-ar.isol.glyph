@@ -1,0 +1,51 @@
+{
+glyphname = "ae-ar.isol";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "heh-ar.isol.1";
+}
+);
+width = 349;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "heh-ar.isol.1";
+}
+);
+width = 390;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "2ED9CB90-883B-4740-AFFA-747B2CDE1182";
+name = Color;
+shapes = (
+{
+ref = "heh-ar.isol.1";
+}
+);
+width = 349;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "B1B7BF17-A583-47E0-A08F-7CCC8237BEF9";
+name = Color;
+shapes = (
+{
+ref = "heh-ar.isol.1";
+}
+);
+width = 390;
+}
+);
+}

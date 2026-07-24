@@ -1,0 +1,26 @@
+{
+category = Placeholder;
+glyphname = "yehbarree-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "yehbarree-ar.isol";
+}
+);
+width = 1045;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "yehbarree-ar.isol";
+}
+);
+width = 1045;
+}
+);
+script = "";
+unicode = 1746;
+}

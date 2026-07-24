@@ -1,0 +1,36 @@
+{
+glyphname = acute;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(120,624,l),
+(42,489,l),
+(127,489,l),
+(275,624,l)
+);
+}
+);
+width = 317;
+},
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(126,620,l),
+(45,486,l),
+(108,486,l),
+(238,620,l)
+);
+}
+);
+width = 283;
+}
+);
+unicode = 180;
+}

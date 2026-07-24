@@ -1,0 +1,92 @@
+{
+category = Mark;
+glyphname = "alefbelow-ar";
+layers = (
+{
+anchors = (
+{
+name = _markBelow;
+pos = (44,0);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,-230);
+ref = "alefabove-ar";
+}
+);
+width = 69;
+},
+{
+anchors = (
+{
+name = _markBelow;
+pos = (44,0);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-230);
+ref = "alefabove-ar";
+}
+);
+width = 69;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "1D8256FC-F203-4290-AA2A-90C3F0839CEE";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(69,-230,l),
+(69,3,l),
+(0,-65,l),
+(13,-59,o),
+(21,-66,o),
+(21,-75,cs),
+(21,-230,l)
+);
+}
+);
+width = 69;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "F0DB5617-CA34-402A-8BE1-C6D6FA849AE5";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(69,-230,l),
+(69,3,l),
+(0,-65,l),
+(13,-59,o),
+(21,-66,o),
+(21,-75,cs),
+(21,-230,l)
+);
+}
+);
+width = 69;
+}
+);
+subCategory = Nonspacing;
+unicode = 1622;
+}

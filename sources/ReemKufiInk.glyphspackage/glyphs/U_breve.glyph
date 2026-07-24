@@ -1,0 +1,36 @@
+{
+glyphname = Ubreve;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (160,314);
+ref = brevecomb.case;
+}
+);
+width = 756;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = U;
+},
+{
+alignment = -1;
+pos = (165,296);
+ref = brevecomb.case;
+}
+);
+width = 735;
+}
+);
+unicode = 364;
+}

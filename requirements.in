@@ -1,6 +1,3 @@
 fonttools
 fontmake
-glyphsLib
-nanoemoji
-picosvg
 alifTools[sample,filters]

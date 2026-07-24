@@ -1,0 +1,36 @@
+{
+glyphname = ycircumflex;
+kernLeft = v;
+kernRight = v;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = y;
+},
+{
+pos = (78,0);
+ref = circumflexcomb;
+}
+);
+width = 534;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = y;
+},
+{
+alignment = -1;
+pos = (48,-9);
+ref = circumflexcomb;
+}
+);
+width = 500;
+}
+);
+unicode = 375;
+}
