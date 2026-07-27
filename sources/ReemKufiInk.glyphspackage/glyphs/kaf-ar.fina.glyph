@@ -1,0 +1,93 @@
+{
+glyphname = "kaf-ar.fina";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1105,0,l),
+(1105,100,l),
+(909,100,l),
+(909,0,l)
+);
+},
+{
+ref = "kaf-ar.isol";
+}
+);
+width = 1085;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(1105,0,l),
+(1105,140,l),
+(909,140,l),
+(909,0,l)
+);
+},
+{
+ref = "kaf-ar.isol";
+}
+);
+width = 1085;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "57660B87-4362-43AF-92E7-454A054C0137";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(1105,0,l),
+(1105,100,l),
+(909,100,l),
+(909,0,l)
+);
+},
+{
+ref = "kaf-ar.isol";
+}
+);
+width = 1085;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "D79ACC98-147F-4521-930F-21E1836A7463";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(1105,0,l),
+(1105,140,l),
+(909,140,l),
+(909,0,l)
+);
+},
+{
+ref = "kaf-ar.isol";
+}
+);
+width = 1085;
+}
+);
+}

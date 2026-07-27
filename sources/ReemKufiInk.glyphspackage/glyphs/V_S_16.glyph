@@ -1,0 +1,14 @@
+{
+glyphname = VS16;
+layers = (
+{
+layerId = master01;
+width = 300;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+width = 300;
+}
+);
+unicode = 65039;
+}

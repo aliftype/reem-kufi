@@ -1,0 +1,45 @@
+{
+glyphname = onehalf;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+alignment = -1;
+ref = onesuperior;
+},
+{
+pos = (500,-275);
+ref = twosuperior;
+},
+{
+pos = (130,0);
+ref = fraction;
+}
+);
+width = 928;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (3,3);
+ref = onesuperior;
+},
+{
+alignment = -1;
+pos = (466,-306);
+ref = twosuperior;
+},
+{
+alignment = -1;
+pos = (125,0);
+ref = fraction;
+}
+);
+width = 884;
+}
+);
+unicode = 189;
+}

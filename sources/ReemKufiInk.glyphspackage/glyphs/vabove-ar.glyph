@@ -1,0 +1,116 @@
+{
+category = Mark;
+glyphname = "vabove-ar";
+layers = (
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (124,0);
+},
+{
+name = markAbove;
+pos = (124,200);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(125,-50,l),
+(248,76,l),
+(201,124,l),
+(109,22,l),
+(138,29,l),
+(47,124,l),
+(0,77,l)
+);
+}
+);
+width = 248;
+},
+{
+anchors = (
+{
+name = _dotAbove;
+pos = (124,0);
+},
+{
+name = markAbove;
+pos = (124,200);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(125,-50,l),
+(248,76,l),
+(201,124,l),
+(109,22,l),
+(138,29,l),
+(47,124,l),
+(0,77,l)
+);
+}
+);
+width = 248;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "3C4B021D-B06A-4D60-9FEE-31804F681888";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(125,-50,l),
+(248,76,l),
+(201,124,l),
+(109,22,l),
+(138,29,l),
+(47,124,l),
+(0,77,l)
+);
+}
+);
+width = 248;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "0E98DB7B-4531-4E74-8C25-E6448BCEB0AA";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(125,-50,l),
+(248,76,l),
+(201,124,l),
+(109,22,l),
+(138,29,l),
+(47,124,l),
+(0,77,l)
+);
+}
+);
+width = 248;
+}
+);
+subCategory = Nonspacing;
+unicode = 1626;
+}

@@ -1,0 +1,46 @@
+{
+glyphname = Eogonek;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (331,736);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (296,0);
+ref = ogonekcomb.case;
+}
+);
+width = 666;
+},
+{
+anchors = (
+{
+name = top;
+pos = (317,725);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = E;
+},
+{
+alignment = -1;
+pos = (319,0);
+ref = ogonekcomb.case;
+}
+);
+width = 655;
+}
+);
+unicode = 280;
+}

@@ -1,0 +1,26 @@
+{
+category = Placeholder;
+glyphname = "heh-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "heh-ar.isol";
+}
+);
+width = 349;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "heh-ar.isol";
+}
+);
+width = 390;
+}
+);
+script = "";
+unicode = 1607;
+}

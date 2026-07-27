@@ -1,0 +1,46 @@
+{
+glyphname = threequarters;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+alignment = -1;
+pos = (10,0);
+ref = threesuperior;
+},
+{
+pos = (186,0);
+ref = fraction;
+},
+{
+pos = (476,-264);
+ref = foursuperior;
+}
+);
+width = 905;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (-2,0);
+ref = threesuperior;
+},
+{
+alignment = -1;
+pos = (158,0);
+ref = fraction;
+},
+{
+alignment = -1;
+pos = (442,-291);
+ref = foursuperior;
+}
+);
+width = 837;
+}
+);
+unicode = 190;
+}

@@ -1,0 +1,36 @@
+{
+category = Placeholder;
+glyphname = "noonRing-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = "noon-ar";
+},
+{
+pos = (124,-226);
+ref = "ringbelow-ar";
+}
+);
+width = 460;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+alignment = 1;
+ref = "noon-ar";
+},
+{
+pos = (124,-226);
+ref = "ringbelow-ar";
+}
+);
+width = 460;
+}
+);
+script = "";
+unicode = 1724;
+}

@@ -1,0 +1,93 @@
+{
+glyphname = "noonghunna-ar.fina";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(510,0,l),
+(510,100,l),
+(364,100,l),
+(364,0,l)
+);
+},
+{
+ref = "noonghunna-ar.isol";
+}
+);
+width = 490;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(510,0,l),
+(510,140,l),
+(364,140,l),
+(364,0,l)
+);
+},
+{
+ref = "noonghunna-ar.isol";
+}
+);
+width = 490;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "908378B1-2565-4B30-92D3-69C3EA7AD6E6";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(510,0,l),
+(510,100,l),
+(364,100,l),
+(364,0,l)
+);
+},
+{
+ref = "noonghunna-ar.isol";
+}
+);
+width = 490;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "91F5F299-F62D-4269-A5AC-8370DB4641FE";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(510,0,l),
+(510,140,l),
+(364,140,l),
+(364,0,l)
+);
+},
+{
+ref = "noonghunna-ar.isol";
+}
+);
+width = 490;
+}
+);
+}

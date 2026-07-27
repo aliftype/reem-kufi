@@ -1,0 +1,80 @@
+{
+glyphname = "highhamza-ar";
+layers = (
+{
+anchors = (
+{
+name = markAbove;
+pos = (255,750);
+},
+{
+name = markBelow;
+pos = (245,250);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (0,400);
+ref = "hamza-ar";
+}
+);
+width = 520;
+},
+{
+anchors = (
+{
+name = markAbove;
+pos = (255,750);
+},
+{
+name = markBelow;
+pos = (245,250);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+alignment = -1;
+pos = (0,400);
+ref = "hamza-ar";
+}
+);
+width = 520;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "2C3190AD-67A8-412F-8F0E-AA576A327964";
+name = Color;
+shapes = (
+{
+alignment = -1;
+pos = (0,400);
+ref = "hamza-ar";
+}
+);
+width = 520;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "218C3573-BD0F-4B91-B0E9-9C5A2D9137D4";
+name = Color;
+shapes = (
+{
+alignment = -1;
+pos = (0,400);
+ref = "hamza-ar";
+}
+);
+width = 520;
+}
+);
+unicode = 1652;
+}

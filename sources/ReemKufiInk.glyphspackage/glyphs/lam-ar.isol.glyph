@@ -1,0 +1,171 @@
+{
+glyphname = "lam-ar.isol";
+layers = (
+{
+anchors = (
+{
+name = dotAbove;
+pos = (393,861);
+},
+{
+name = markAbove;
+pos = (100,550);
+},
+{
+name = markBelow;
+pos = (215,-270);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(445,0,l),
+(445,800,l),
+(345,778,l),
+(345,40,l)
+);
+},
+{
+ref = _seen.bowel;
+}
+);
+width = 470;
+},
+{
+anchors = (
+{
+name = dotAbove;
+pos = (373,861);
+},
+{
+name = markAbove;
+pos = (100,550);
+},
+{
+name = markBelow;
+pos = (215,-270);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(445,0,l),
+(445,800,l),
+(305,769,l),
+(305,40,l)
+);
+},
+{
+ref = _seen.bowel;
+}
+);
+width = 470;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "8D7CB71F-2CA9-41A6-9026-7F5BDD97EDD3";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(445,0,l),
+(445,800,l),
+(345,778,l),
+(345,40,l)
+);
+},
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(0,0,0,0),
+1
+)
+);
+end = (0.5369,0.6091);
+start = (0.4644,0.979);
+};
+};
+closed = 1;
+nodes = (
+(445,0,l),
+(445,800,l),
+(345,778,l),
+(345,40,l)
+);
+},
+{
+ref = _seen.bowel;
+}
+);
+width = 470;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "9DCD90C3-F305-4BB8-BC58-62A1D2AADE97";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(445,0,l),
+(445,800,l),
+(305,769,l),
+(305,40,l)
+);
+},
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(0,0,0,0),
+1
+)
+);
+end = (0.6692,0.6091);
+start = (0.6174,0.979);
+};
+};
+closed = 1;
+nodes = (
+(445,0,l),
+(445,800,l),
+(305,769,l),
+(305,40,l)
+);
+},
+{
+ref = _seen.bowel;
+}
+);
+width = 470;
+}
+);
+}

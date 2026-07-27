@@ -1,0 +1,82 @@
+{
+glyphname = "one-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,0,l),
+(300,600,l),
+(200,578,l),
+(200,0,l)
+);
+}
+);
+width = 500;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(320,0,l),
+(320,600,l),
+(180,569,l),
+(180,0,l)
+);
+}
+);
+width = 500;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "D94D2CF7-5D37-4E2C-BCBE-FF53F8CEE20A";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(300,0,l),
+(300,600,l),
+(200,578,l),
+(200,0,l)
+);
+}
+);
+width = 500;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "A9924E55-A9F2-4673-A76E-B8D0934E2042";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(320,0,l),
+(320,600,l),
+(180,569,l),
+(180,0,l)
+);
+}
+);
+width = 500;
+}
+);
+unicode = (1633,1777);
+}

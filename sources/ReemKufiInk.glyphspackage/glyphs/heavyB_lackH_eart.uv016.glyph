@@ -1,0 +1,27 @@
+{
+glyphname = heavyBlackHeart.uv016;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = heavyBlackHeart;
+}
+);
+width = 888;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+alignment = 1;
+ref = heavyBlackHeart;
+}
+);
+width = 888;
+}
+);
+metricLeft = "=28";
+metricRight = "=28";
+}

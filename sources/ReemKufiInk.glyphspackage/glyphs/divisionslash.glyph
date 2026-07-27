@@ -1,0 +1,25 @@
+{
+glyphname = divisionslash;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = slash;
+}
+);
+width = 421;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = slash;
+}
+);
+width = 390;
+}
+);
+unicode = 8725;
+}

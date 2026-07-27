@@ -1,0 +1,86 @@
+{
+category = Mark;
+glyphname = "kasra-ar";
+layers = (
+{
+anchors = (
+{
+name = _markBelow;
+pos = (121,200);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,-24);
+ref = "fatha-ar";
+}
+);
+width = 242;
+},
+{
+anchors = (
+{
+name = _markBelow;
+pos = (121,200);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-24);
+ref = "fatha-ar";
+}
+);
+width = 242;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "4EA3FB29-C3E6-4237-9065-F2141B5BD80E";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(242,170,l),
+(225,200,l),
+(0,70,l),
+(17,40,l)
+);
+}
+);
+width = 242;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "C5F42837-E9E7-47E4-BA1A-9E8C84C3104E";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(242,170,l),
+(225,200,l),
+(0,70,l),
+(17,40,l)
+);
+}
+);
+width = 242;
+}
+);
+subCategory = Nonspacing;
+unicode = 1616;
+}

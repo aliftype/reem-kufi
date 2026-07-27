@@ -1,0 +1,110 @@
+{
+category = Mark;
+glyphname = "kasratan-ar";
+layers = (
+{
+anchors = (
+{
+name = _markBelow;
+pos = (138,200);
+}
+);
+layerId = master01;
+shapes = (
+{
+pos = (0,-81);
+ref = "fathatan-ar";
+}
+);
+width = 276;
+},
+{
+anchors = (
+{
+name = _markBelow;
+pos = (138,200);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-81);
+ref = "fathatan-ar";
+}
+);
+width = 276;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "3A05488B-9DD8-4CA7-97B3-BD252917DC79";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(276,113,l),
+(259,143,l),
+(34,13,l),
+(51,-17,l)
+);
+},
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(242,170,l),
+(225,200,l),
+(0,70,l),
+(17,40,l)
+);
+}
+);
+width = 276;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "F5D96C54-2852-4EB4-B1C0-86CFD0F4F8A5";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(276,113,l),
+(259,143,l),
+(34,13,l),
+(51,-17,l)
+);
+},
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(242,170,l),
+(225,200,l),
+(0,70,l),
+(17,40,l)
+);
+}
+);
+width = 276;
+}
+);
+subCategory = Nonspacing;
+unicode = 1613;
+}

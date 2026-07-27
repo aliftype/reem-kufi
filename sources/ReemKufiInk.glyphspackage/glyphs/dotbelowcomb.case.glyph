@@ -1,0 +1,46 @@
+{
+glyphname = dotbelowcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (122,0);
+},
+{
+name = bottom;
+pos = (122,-187);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (0,-729);
+ref = dotaccent;
+}
+);
+width = 238;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (111,0);
+},
+{
+name = bottom;
+pos = (111,-159);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+pos = (0,-682);
+ref = dotaccent;
+}
+);
+width = 222;
+}
+);
+}

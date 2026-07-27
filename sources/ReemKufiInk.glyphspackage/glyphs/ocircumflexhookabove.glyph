@@ -1,0 +1,58 @@
+{
+glyphname = ocircumflexhookabove;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (374,754);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = o;
+},
+{
+pos = (87,20);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (311,7);
+ref = hookabovecomb;
+}
+);
+width = 571;
+},
+{
+anchors = (
+{
+name = top;
+pos = (336,752);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = o;
+},
+{
+alignment = -1;
+pos = (65,1);
+ref = circumflexcomb;
+},
+{
+alignment = -1;
+pos = (280,12);
+ref = hookabovecomb;
+}
+);
+width = 549;
+}
+);
+unicode = 7893;
+}

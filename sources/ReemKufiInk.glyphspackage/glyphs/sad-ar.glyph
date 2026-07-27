@@ -1,0 +1,26 @@
+{
+category = Placeholder;
+glyphname = "sad-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = "sad-ar.isol";
+}
+);
+width = 1170;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = "sad-ar.isol";
+}
+);
+width = 1170;
+}
+);
+script = "";
+unicode = 1589;
+}

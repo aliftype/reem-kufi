@@ -1,0 +1,63 @@
+{
+glyphname = Oslash;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (429,0);
+},
+{
+name = top;
+pos = (429,736);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(681,759,l),
+(76,60,l),
+(168,-23,l),
+(771,675,l)
+);
+},
+{
+ref = O;
+}
+);
+width = 858;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (429,0);
+},
+{
+name = top;
+pos = (429,725);
+}
+);
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(691,746,l),
+(90,44,l),
+(156,-16,l),
+(756,685,l)
+);
+},
+{
+alignment = -1;
+ref = O;
+}
+);
+width = 858;
+}
+);
+unicode = 216;
+}

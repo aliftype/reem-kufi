@@ -1,0 +1,36 @@
+{
+glyphname = Udotbelow;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (256,0);
+ref = dotbelowcomb.case;
+}
+);
+width = 756;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = U;
+},
+{
+alignment = -1;
+pos = (257,0);
+ref = dotbelowcomb.case;
+}
+);
+width = 735;
+}
+);
+unicode = 7908;
+}

@@ -1,0 +1,181 @@
+{
+glyphname = "four-persian.urdu";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(330,576,ls),
+(330,601,o),
+(290,600,o),
+(290,600,c),
+(170,600,l),
+(140,499,l),
+(230,499,l),
+(230,371,l),
+(330,349,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(462,426,l),
+(467,527,l),
+(313,446,l),
+(330,349,l)
+);
+},
+{
+pos = (-130,0);
+ref = "one-ar";
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2017-10-25 19:19:38 +0000";
+};
+width = 500;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(350,576,ls),
+(350,601,o),
+(310,600,o),
+(310,600,c),
+(190,600,l),
+(160,459,l),
+(210,459,l),
+(210,380,l),
+(350,349,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(461,414,l),
+(467,556,l),
+(333,486,l),
+(350,349,l)
+);
+},
+{
+pos = (-130,0);
+ref = "one-ar";
+}
+);
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2017-10-25 19:19:38 +0000";
+};
+width = 500;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "4F6DC5B6-B61F-4B06-A85B-72C1E59796F6";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(330,576,ls),
+(330,601,o),
+(290,600,o),
+(290,600,c),
+(170,600,l),
+(140,499,l),
+(230,499,l),
+(230,371,l),
+(330,349,l)
+);
+},
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(462,426,l),
+(467,527,l),
+(313,446,l),
+(330,349,l)
+);
+},
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(170,0,l),
+(170,600,l),
+(70,578,l),
+(70,0,l)
+);
+}
+);
+width = 500;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "BEF02DD8-5A9A-48E2-8952-750E4F08AB01";
+name = Color;
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(350,576,ls),
+(350,601,o),
+(310,600,o),
+(310,600,c),
+(190,600,l),
+(160,459,l),
+(210,459,l),
+(210,380,l),
+(350,349,l)
+);
+},
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(461,414,l),
+(467,556,l),
+(333,486,l),
+(350,349,l)
+);
+},
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(190,0,l),
+(190,600,l),
+(50,569,l),
+(50,0,l)
+);
+}
+);
+width = 500;
+}
+);
+}

@@ -1,0 +1,36 @@
+{
+category = Placeholder;
+glyphname = "gaf-ar";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = 1;
+ref = "keheh-ar";
+},
+{
+pos = (163,467);
+ref = "gafsarkashabove-ar";
+}
+);
+width = 1010;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+alignment = 1;
+ref = "keheh-ar";
+},
+{
+pos = (163,467);
+ref = "gafsarkashabove-ar";
+}
+);
+width = 1010;
+}
+);
+script = "";
+unicode = 1711;
+}

@@ -1,0 +1,195 @@
+{
+glyphname = "heh-ar.fina";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(435,0,l),
+(435,100,l),
+(238,100,l),
+(173,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(324,0,l),
+(324,200,l),
+(280,200,l),
+(280,0,l)
+);
+},
+{
+ref = "heh-ar.isol";
+}
+);
+width = 415;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(435,0,l),
+(435,140,l),
+(238,140,l),
+(173,0,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(365,0,l),
+(365,200,l),
+(321,200,l),
+(321,0,l)
+);
+},
+{
+ref = "heh-ar.isol";
+}
+);
+width = 415;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "5FCE8D5E-D4EF-4A2D-AEC9-99BD0094F040";
+name = Color;
+shapes = (
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.6309,0.4554);
+start = (0.4401,1.1247);
+};
+identifier = ID0x7fb09d77cc30;
+};
+closed = 1;
+nodes = (
+(262,322,o),
+(306,340,o),
+(324,374,c),
+(324,495,l),
+(224,447,l),
+(224,320,l)
+);
+},
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.6167,0.5661);
+start = (0.3904,1.148);
+};
+identifier = ID0x7fb09d77cc30;
+};
+closed = 1;
+nodes = (
+(324,515,l),
+(324,800,l),
+(224,778,l),
+(224,467,l)
+);
+},
+{
+ref = "heh-ar.fina.1";
+}
+);
+width = 415;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "DD1BD588-97FE-401A-9577-144CC03601F3";
+name = Color;
+shapes = (
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.6309,0.4554);
+start = (0.4401,1.1247);
+};
+identifier = ID0x7fb09c3a0900;
+};
+closed = 1;
+nodes = (
+(280,365,o),
+(348,394,o),
+(365,426,c),
+(365,520,l),
+(225,463,l),
+(225,365,l)
+);
+},
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.4333,0.5293);
+start = (0.2717,1.1606);
+};
+identifier = ID0x7fb09c3a0900;
+};
+closed = 1;
+nodes = (
+(365,550,l),
+(365,800,l),
+(225,769,l),
+(225,493,l)
+);
+},
+{
+ref = "heh-ar.fina.1";
+}
+);
+width = 415;
+}
+);
+}

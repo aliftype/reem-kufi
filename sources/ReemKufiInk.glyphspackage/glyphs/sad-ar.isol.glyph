@@ -1,0 +1,135 @@
+{
+glyphname = "sad-ar.isol";
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+pos = (160,0);
+ref = _sad.body;
+},
+{
+ref = _seen.bowel;
+},
+{
+closed = 1;
+nodes = (
+(445,240,l),
+(445,400,l),
+(345,378,l),
+(345,240,l)
+);
+}
+);
+width = 1170;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+pos = (160,0);
+ref = _sad.body;
+},
+{
+ref = _seen.bowel;
+},
+{
+closed = 1;
+nodes = (
+(445,240,l),
+(445,440,l),
+(305,409,l),
+(305,240,l)
+);
+}
+);
+width = 1170;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "3D87700E-EE63-4DF3-A143-B18FDD6FCAEF";
+name = Color;
+shapes = (
+{
+pos = (160,0);
+ref = _sad.body;
+},
+{
+ref = _seen.bowel;
+},
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.4933,0.3792);
+start = (0.4017,0.8951);
+};
+};
+closed = 1;
+nodes = (
+(445,240,l),
+(445,400,l),
+(345,378,l),
+(345,240,l)
+);
+}
+);
+width = 1170;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "1C603694-D9CF-42D3-93D6-A47839288B47";
+name = Color;
+shapes = (
+{
+pos = (160,0);
+ref = _sad.body;
+},
+{
+ref = _seen.bowel;
+},
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.6576,0.4602);
+start = (0.5726,0.7161);
+};
+};
+closed = 1;
+nodes = (
+(445,240,l),
+(445,440,l),
+(305,409,l),
+(305,240,l)
+);
+}
+);
+width = 1170;
+}
+);
+}

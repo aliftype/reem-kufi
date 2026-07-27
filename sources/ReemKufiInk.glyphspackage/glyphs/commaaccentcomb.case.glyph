@@ -1,0 +1,44 @@
+{
+glyphname = commaaccentcomb.case;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (147,20);
+},
+{
+name = bottom;
+pos = (97,-174);
+}
+);
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = commaaccentcomb;
+}
+);
+width = 258;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (136,14);
+},
+{
+name = bottom;
+pos = (91,-198);
+}
+);
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = commaaccentcomb;
+}
+);
+width = 240;
+}
+);
+}

@@ -1,0 +1,35 @@
+{
+glyphname = edotaccent;
+kernLeft = o;
+layers = (
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (172,1);
+ref = dotaccentcomb;
+}
+);
+width = 553;
+},
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = e;
+},
+{
+alignment = -1;
+pos = (164,5);
+ref = dotaccentcomb;
+}
+);
+width = 525;
+}
+);
+unicode = 279;
+}
