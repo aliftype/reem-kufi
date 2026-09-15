@@ -1,5 +1,4 @@
 {
-export = 0;
 glyphname = _hah.head.1;
 layers = (
 {
@@ -41,6 +40,78 @@ pos = (140,540);
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
+closed = 1;
+nodes = (
+(411,-110,l),
+(150,357,l),
+(53,266,l),
+(315,-201,l)
+);
+}
+);
+width = 378;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "8E1E86A4-E41B-4A92-9E93-0B3E4EAB92FC";
+name = "16 Sep 26 at 01:23";
+shapes = (
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.7441,0.275);
+start = (0.8885,0.0652);
+};
+};
+closed = 1;
+nodes = (
+(411,-123,l),
+(168,313,l),
+(84,235,l),
+(328,-200,l)
+);
+}
+);
+width = 378;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "3C60CED2-444A-4DED-9EDB-D3516FD370FB";
+name = "16 Sep 26 at 01:23";
+shapes = (
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.7441,0.275);
+start = (0.8885,0.0652);
+};
+};
 closed = 1;
 nodes = (
 (411,-110,l),

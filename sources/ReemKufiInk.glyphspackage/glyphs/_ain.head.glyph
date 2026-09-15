@@ -1,5 +1,4 @@
 {
-export = 0;
 glyphname = _ain.head;
 layers = (
 {
@@ -71,30 +70,30 @@ nodes = (
 width = 369;
 },
 {
-anchors = (
-{
-name = dotAbove;
-pos = (85,550);
-},
-{
-name = markAbove;
-pos = (85,550);
-}
-);
 associatedMasterId = master01;
-layerId = "0E02E8D5-590C-4984-BBA3-36394FA7EB74";
-name = "Nov 5 20, 23:09";
+attr = {
+color = 1;
+};
+layerId = "7ABF42ED-80CD-48BD-B407-18797F658966";
+name = "16 Sep 26 at 01:46";
 shapes = (
 {
-closed = 1;
-nodes = (
-(262,106,l),
-(25,364,l),
-(-41,273,l),
-(181,31,l)
+attr = {
+gradient = {
+colors = (
+(
+(0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
 );
-},
-{
+end = (0.5973,0.6323);
+start = (0.4631,0.9372);
+};
+};
 closed = 1;
 nodes = (
 (255,50,l),
@@ -102,10 +101,95 @@ nodes = (
 (155,378,l),
 (155,50,l)
 );
+},
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.3312,0.614);
+start = (0.1045,0.8546);
+};
+};
+closed = 1;
+nodes = (
+(248,121,l),
+(25,364,l),
+(-41,273,l),
+(168,46,l)
+);
 }
 );
-visible = 1;
 width = 350;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "6D34E1A6-AC46-48E1-A18F-D8AECA9C2DA4";
+name = "16 Sep 26 at 01:46";
+shapes = (
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.5052,0.6323);
+start = (0.4094,0.9372);
+};
+};
+closed = 1;
+nodes = (
+(284,50,l),
+(284,400,l),
+(144,369,l),
+(144,50,l)
+);
+},
+{
+attr = {
+gradient = {
+colors = (
+(
+(0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.2972,0.6522);
+start = (0.0938,0.869);
+};
+};
+closed = 1;
+nodes = (
+(281,106,l),
+(44,364,l),
+(-41,247,l),
+(178,11,l)
+);
+}
+);
+width = 369;
 }
 );
 }
