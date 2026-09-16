@@ -27,17 +27,14 @@ pos = (213,-150);
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(189,0,l),
-(189,100,l),
-(-20,100,l),
-(-20,0,l)
-);
+alignment = -1;
+pos = (80,0);
+ref = "behDotless-ar.medi.high.wide";
 },
 {
-pos = (180,0);
-ref = "behDotless-ar.medi.high";
+alignment = -1;
+pos = (-20,0);
+ref = _ext.h;
 }
 );
 width = 480;
@@ -68,17 +65,14 @@ pos = (213,-150);
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-closed = 1;
-nodes = (
-(189,0,l),
-(189,140,l),
-(-20,140,l),
-(-20,0,l)
-);
+alignment = -1;
+pos = (80,0);
+ref = "behDotless-ar.medi.high.wide";
 },
 {
-pos = (180,0);
-ref = "behDotless-ar.medi.high";
+alignment = -1;
+pos = (-20,0);
+ref = _ext.h;
 }
 );
 width = 480;
@@ -92,20 +86,14 @@ layerId = "9CA64598-051E-4EA0-9896-2519C2C43B15";
 name = Color;
 shapes = (
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(189,0,l),
-(189,100,l),
-(-20,100,l),
-(-20,0,l)
-);
+alignment = -1;
+pos = (80,0);
+ref = "behDotless-ar.medi.high.wide";
 },
 {
-pos = (180,0);
-ref = "behDotless-ar.medi.high";
+alignment = -1;
+pos = (-20,0);
+ref = _ext.h;
 }
 );
 width = 480;
@@ -119,20 +107,14 @@ layerId = "29B92080-C5A9-4F8F-AB7D-5D22507CD90A";
 name = Color;
 shapes = (
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(189,0,l),
-(189,140,l),
-(-20,140,l),
-(-20,0,l)
-);
+alignment = -1;
+pos = (80,0);
+ref = "behDotless-ar.medi.high.wide";
 },
 {
-pos = (180,0);
-ref = "behDotless-ar.medi.high";
+alignment = -1;
+pos = (-20,0);
+ref = _ext.h;
 }
 );
 width = 480;

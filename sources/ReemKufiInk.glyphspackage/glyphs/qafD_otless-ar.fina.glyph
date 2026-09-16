@@ -5,15 +5,12 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(620,0,l),
-(620,100,l),
-(342,100,l),
-(342,0,l)
-);
+alignment = -1;
+pos = (340,0);
+ref = _ext.h;
 },
 {
+alignment = -1;
 ref = "qafDotless-ar.isol";
 }
 );
@@ -23,15 +20,12 @@ width = 600;
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-closed = 1;
-nodes = (
-(620,0,l),
-(620,140,l),
-(342,140,l),
-(342,0,l)
-);
+alignment = -1;
+pos = (340,0);
+ref = _ext.h;
 },
 {
+alignment = -1;
 ref = "qafDotless-ar.isol";
 }
 );
@@ -46,18 +40,12 @@ layerId = "46AC90C3-A1E3-4EFB-940A-DF8AA1E8C09C";
 name = Color;
 shapes = (
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(620,0,l),
-(620,100,l),
-(342,100,l),
-(342,0,l)
-);
+alignment = -1;
+pos = (340,0);
+ref = _ext.h;
 },
 {
+alignment = -1;
 ref = "qafDotless-ar.isol";
 }
 );
@@ -72,22 +60,17 @@ layerId = "CC185030-E234-46AB-A70E-D94DB8A565E6";
 name = Color;
 shapes = (
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(620,0,l),
-(620,140,l),
-(342,140,l),
-(342,0,l)
-);
+alignment = -1;
+pos = (340,0);
+ref = _ext.h;
 },
 {
+alignment = -1;
 ref = "qafDotless-ar.isol";
 }
 );
 width = 600;
 }
 );
+metricRight = "=-20";
 }

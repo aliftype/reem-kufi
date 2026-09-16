@@ -5,17 +5,14 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(35,0,l),
-(35,100,l),
-(-60,100,l),
-(-60,0,l)
-);
-},
-{
+alignment = -1;
 pos = (-70,0);
 ref = "tah-ar.isol";
+},
+{
+alignment = -1;
+pos = (-60,0);
+ref = _ext.h;
 }
 );
 width = 940;
@@ -24,17 +21,14 @@ width = 940;
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-closed = 1;
-nodes = (
-(45,0,l),
-(45,140,l),
-(-60,140,l),
-(-60,0,l)
-);
-},
-{
+alignment = -1;
 pos = (-70,0);
 ref = "tah-ar.isol";
+},
+{
+alignment = -1;
+pos = (-60,0);
+ref = _ext.h;
 }
 );
 width = 940;
@@ -48,20 +42,14 @@ layerId = "C606CAE8-9BBD-473C-8DD6-DADF0AA4E2FF";
 name = Color;
 shapes = (
 {
+alignment = -1;
 pos = (-70,0);
 ref = "tah-ar.isol";
 },
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(135,0,l),
-(135,100,l),
-(-60,100,l),
-(-60,0,l)
-);
+alignment = -1;
+pos = (-60,0);
+ref = _ext.h;
 }
 );
 width = 940;
@@ -75,20 +63,14 @@ layerId = "44FDDBC2-1B01-4081-B4A4-74FA3624D2D0";
 name = Color;
 shapes = (
 {
+alignment = -1;
 pos = (-70,0);
 ref = "tah-ar.isol";
 },
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(245,0,l),
-(245,140,l),
-(-60,140,l),
-(-60,0,l)
-);
+alignment = -1;
+pos = (-60,0);
+ref = _ext.h;
 }
 );
 width = 940;

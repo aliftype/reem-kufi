@@ -8,6 +8,10 @@ shapes = (
 alignment = -1;
 pos = (-85,0);
 ref = "kaf-ar.isol";
+},
+{
+pos = (-60,0);
+ref = _ext.h;
 }
 );
 width = 925;
@@ -19,6 +23,10 @@ shapes = (
 alignment = -1;
 pos = (-85,0);
 ref = "kaf-ar.isol";
+},
+{
+pos = (-60,0);
+ref = _ext.h;
 }
 );
 width = 925;
@@ -37,16 +45,8 @@ pos = (-85,0);
 ref = "kaf-ar.isol";
 },
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(136,0,l),
-(136,100,l),
-(-60,100,l),
-(-60,0,l)
-);
+pos = (-60,0);
+ref = _ext.h;
 }
 );
 width = 925;
@@ -65,16 +65,8 @@ pos = (-85,0);
 ref = "kaf-ar.isol";
 },
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(136,0,l),
-(136,140,l),
-(-60,140,l),
-(-60,0,l)
-);
+pos = (-60,0);
+ref = _ext.h;
 }
 );
 width = 925;

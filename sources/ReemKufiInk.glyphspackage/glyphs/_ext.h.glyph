@@ -1,0 +1,81 @@
+{
+glyphname = _ext.h;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(280,0,l),
+(280,100,l),
+(0,100,l),
+(0,0,l)
+);
+}
+);
+width = 160;
+},
+{
+layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(280,0,l),
+(280,140,l),
+(0,140,l),
+(0,0,l)
+);
+}
+);
+width = 160;
+},
+{
+associatedMasterId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
+attr = {
+color = 1;
+};
+layerId = "EBF4E75C-3258-4FEC-B824-5A8F914F47DC";
+name = "16 Sep 26 at 12:10";
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(280,0,l),
+(280,140,l),
+(0,140,l),
+(0,0,l)
+);
+}
+);
+width = 160;
+},
+{
+associatedMasterId = master01;
+attr = {
+color = 1;
+};
+layerId = "67380E7B-D722-4EC8-B7B6-09E88900829B";
+name = "16 Sep 26 at 12:10";
+shapes = (
+{
+attr = {
+fillColor = (142,11,20,255);
+};
+closed = 1;
+nodes = (
+(280,0,l),
+(280,100,l),
+(0,100,l),
+(0,0,l)
+);
+}
+);
+width = 160;
+}
+);
+}

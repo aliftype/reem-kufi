@@ -5,15 +5,12 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(1005,0,l),
-(1005,100,l),
-(809,100,l),
-(809,0,l)
-);
+alignment = -1;
+pos = (725,0);
+ref = _ext.h;
 },
 {
+alignment = -1;
 ref = "kaf-ar.init";
 }
 );
@@ -23,15 +20,12 @@ width = 985;
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-closed = 1;
-nodes = (
-(1005,0,l),
-(1005,140,l),
-(809,140,l),
-(809,0,l)
-);
+alignment = -1;
+pos = (725,0);
+ref = _ext.h;
 },
 {
+alignment = -1;
 ref = "kaf-ar.init";
 }
 );
@@ -46,18 +40,12 @@ layerId = "432DE5B5-8CAC-493D-A105-EBEA67DE5DDD";
 name = Color;
 shapes = (
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(1005,0,l),
-(1005,100,l),
-(809,100,l),
-(809,0,l)
-);
+alignment = -1;
+pos = (725,0);
+ref = _ext.h;
 },
 {
+alignment = -1;
 ref = "kaf-ar.init";
 }
 );
@@ -72,22 +60,17 @@ layerId = "4190CE17-B0FD-4CFD-BE4C-BD77718369AD";
 name = Color;
 shapes = (
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(1005,0,l),
-(1005,140,l),
-(809,140,l),
-(809,0,l)
-);
+alignment = -1;
+pos = (725,0);
+ref = _ext.h;
 },
 {
+alignment = -1;
 ref = "kaf-ar.init";
 }
 );
 width = 985;
 }
 );
+metricRight = "=-20";
 }

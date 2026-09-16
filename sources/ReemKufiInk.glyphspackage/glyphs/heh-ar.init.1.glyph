@@ -5,16 +5,13 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(394,400,l),
-(295,378,l),
-(295,272,l),
-(394,240,l)
-);
+alignment = -1;
+ref = "heh-ar.init";
 },
 {
-ref = "heh-ar.init";
+alignment = -1;
+pos = (294,0);
+ref = _ext.v;
 }
 );
 width = 419;
@@ -23,16 +20,13 @@ width = 419;
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-closed = 1;
-nodes = (
-(394,440,l),
-(255,409,l),
-(255,303,l),
-(394,280,l)
-);
+alignment = -1;
+ref = "heh-ar.init";
 },
 {
-ref = "heh-ar.init";
+alignment = -1;
+pos = (254,0);
+ref = _ext.v;
 }
 );
 width = 419;

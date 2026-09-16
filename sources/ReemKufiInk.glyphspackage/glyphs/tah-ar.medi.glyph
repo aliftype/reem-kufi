@@ -5,15 +5,12 @@ layers = (
 layerId = master01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(1035,0,l),
-(1035,100,l),
-(860,100,l),
-(860,0,l)
-);
+alignment = -1;
+pos = (755,0);
+ref = _ext.h;
 },
 {
+alignment = -1;
 ref = "tah-ar.init";
 }
 );
@@ -23,15 +20,12 @@ width = 1015;
 layerId = "A6CBEFC3-C9E0-479E-A224-60A030287C4A";
 shapes = (
 {
-closed = 1;
-nodes = (
-(1035,0,l),
-(1035,140,l),
-(860,140,l),
-(860,0,l)
-);
+alignment = -1;
+pos = (755,0);
+ref = _ext.h;
 },
 {
+alignment = -1;
 ref = "tah-ar.init";
 }
 );
@@ -46,18 +40,12 @@ layerId = "0F815F25-97E8-4AE0-998F-4A6214041EAC";
 name = Color;
 shapes = (
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(1035,0,l),
-(1035,100,l),
-(860,100,l),
-(860,0,l)
-);
+alignment = -1;
+pos = (755,0);
+ref = _ext.h;
 },
 {
+alignment = -1;
 ref = "tah-ar.init";
 }
 );
@@ -72,18 +60,12 @@ layerId = "56E2BD23-39EE-4039-8C9B-C6B909DC020A";
 name = Color;
 shapes = (
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(1035,0,l),
-(1035,140,l),
-(860,140,l),
-(860,0,l)
-);
+alignment = -1;
+pos = (755,0);
+ref = _ext.h;
 },
 {
+alignment = -1;
 ref = "tah-ar.init";
 }
 );
