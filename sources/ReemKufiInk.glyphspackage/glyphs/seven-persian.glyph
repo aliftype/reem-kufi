@@ -28,40 +28,7 @@ layerId = "E2167726-34A4-4411-BA83-179964BE7292";
 name = Color;
 shapes = (
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(447,565,l),
-(357,612,l),
-(199,26,l),
-(295,0,l)
-);
-},
-{
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(295,0,l),
-(295,19,l),
-(205,19,l),
-(205,0,l)
-);
-},
-{
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(301,26,l),
-(143,612,l),
-(53,565,l),
-(205,0,l)
-);
+ref = "seven-ar";
 }
 );
 width = 500;
@@ -75,40 +42,7 @@ layerId = "BD618FC7-AAC9-43C2-85AC-2261E8BDA852";
 name = Color;
 shapes = (
 {
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(460,546,l),
-(335,611,l),
-(179,37,l),
-(314,0,l)
-);
-},
-{
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(314,0,l),
-(314,19,l),
-(187,19,l),
-(187,0,l)
-);
-},
-{
-attr = {
-fillColor = (142,11,20,255);
-};
-closed = 1;
-nodes = (
-(322,37,l),
-(167,611,l),
-(40,545,l),
-(187,0,l)
-);
+ref = "seven-ar";
 }
 );
 width = 500;

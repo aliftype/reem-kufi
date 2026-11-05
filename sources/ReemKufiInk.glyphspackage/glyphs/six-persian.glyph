@@ -79,7 +79,20 @@ name = Color;
 shapes = (
 {
 attr = {
-fillColor = (142,11,20,255);
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.7674,0.7552);
+start = (0.9493,0.9066);
+};
 };
 closed = 1;
 nodes = (
@@ -121,7 +134,20 @@ name = Color;
 shapes = (
 {
 attr = {
-fillColor = (142,11,20,255);
+gradient = {
+colors = (
+(
+(0,0,0,255),
+0
+),
+(
+(142,11,20,255),
+1
+)
+);
+end = (0.7674,0.7552);
+start = (0.9493,0.9066);
+};
 };
 closed = 1;
 nodes = (
